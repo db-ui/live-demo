@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Tags</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<main>
+			<div class="component">
+				<header>
+					<component-navigation
+						:components="components"
+						@set-active="active = $event"
+					></component-navigation>
+				</header>
+				<section>
+					<div class="component_example">
+						<span
+							class="elm-tag"
+							data-size="small"
+							:data-variant="components[active].variant"
+							v-if="tagConfiguration == 'small'"
+							>{{components[active].displayLabel}}</span
+						>
+						<span
+							class="elm-tag"
+							:data-variant="components[active].variant"
+							v-if="tagConfiguration == 'regular'"
+							>{{components[active].displayLabel}}</span
+						>
+						<span
+							class="elm-tag"
+							:data-variant="components[active].variant"
+							data-icon="account"
+							v-if="tagConfiguration == 'icon'"
+							>{{components[active].displayLabel}}</span
+						>
+					</div>
+				</section>
+			</div>
+			<div class="options">
+				<details
+					class="cmp-accordion"
+					data-emphasis="high"
+					:open="optionsClosed ? false : true"
+				>
+					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<fieldset class="row">
+						<legend>Größe & Icon</legend>
+						<fieldset>
+							<input
+								name="tagConfiguration"
+								type="radio"
+								class="elm-radio"
+								id="tagConfiguration01"
+								v-model="tagConfiguration"
+								value="small"
+							/>
+							<label class="elm-label" for="tagConfiguration01"
+								>Small: Text only</label
+							>
+						</fieldset>
+						<fieldset>
+							<input
+								name="tagConfiguration"
+								type="radio"
+								class="elm-radio"
+								id="tagConfiguration02"
+								v-model="tagConfiguration"
+								value="regular"
+							/>
+							<label class="elm-label" for="tagConfiguration02"
+								>Large: Text only</label
+							>
+						</fieldset>
+						<fieldset>
+							<input
+								name="tagConfiguration"
+								type="radio"
+								class="elm-radio"
+								id="tagConfiguration03"
+								v-model="tagConfiguration"
+								value="icon"
+							/>
+							<label class="elm-label" for="tagConfiguration03"
+								>Large: Leading Icon</label
+							>
+						</fieldset>
+					</fieldset>
+
+					<h4 v-if="computedLink != ''">Design Preview</h4>
+					<fieldset class="row" v-if="computedLink != ''">
+						<a
+							:href="computedLink"
+							title="Sketchlink"
+							target="_blank"
+							class="sketchlink"
+						>
+							Open in Sketch
+						</a>
+					</fieldset>
+				</details>
+			</div>
+		</main>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/tags.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="./js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Notifications</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<main>
+			<div class="component">
+				<header>
+					<component-navigation
+						:components="components"
+						@set-active="active = $event"
+					></component-navigation>
+				</header>
+				<section>
+					<div class="component_example">
+						<section aria-live="" :data-variant="components[active].variant">
+							<div
+								class="cmp-notification"
+								:data-type="[state]"
+								role="status"
+								:data-icon="iconBefore ? 'alarm' : null"
+								:data-icon-after="iconAfter ? 'close' : null"
+							>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit
+							</div>
+						</section>
+					</div>
+				</section>
+			</div>
+			<div class="options">
+				<details
+					class="cmp-accordion"
+					data-emphasis="high"
+					:open="optionsClosed ? false : true"
+				>
+					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<fieldset class="row">
+						<legend>State</legend>
+						<fieldset>
+							<input
+								name="state"
+								type="radio"
+								class="elm-radio"
+								id="state01"
+								v-model="state"
+								value=""
+							/>
+							<label class="elm-label" for="state01">Default</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="state"
+								type="radio"
+								class="elm-radio"
+								id="state02"
+								v-model="state"
+								value="error"
+							/>
+							<label class="elm-label" for="state02">Error</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="state"
+								type="radio"
+								class="elm-radio"
+								id="state03"
+								v-model="state"
+								value="informative"
+							/>
+							<label class="elm-label" for="state03">Informative</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="state"
+								type="radio"
+								class="elm-radio"
+								id="state04"
+								v-model="state"
+								value="success"
+							/>
+							<label class="elm-label" for="state04">Success</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="state"
+								type="radio"
+								class="elm-radio"
+								id="state05"
+								v-model="state"
+								value="warning"
+							/>
+							<label class="elm-label" for="state05">Warning</label>
+						</fieldset>
+					</fieldset>
+
+					<fieldset class="row">
+						<legend>Icons</legend>
+						<fieldset>
+							<input
+								type="checkbox"
+								class="elm-checkbox"
+								id="checkbox02"
+								v-model="iconBefore"
+							/>
+							<label class="elm-label" for="checkbox02">Leading Icon</label>
+						</fieldset>
+						<fieldset>
+							<input
+								type="checkbox"
+								class="elm-checkbox"
+								id="checkbox03"
+								v-model="iconAfter"
+							/>
+							<label class="elm-label" for="checkbox03">Trailing Icon</label>
+						</fieldset>
+					</fieldset>
+
+					<h4 v-if="computedLink != ''">Design Preview</h4>
+					<fieldset class="row" v-if="computedLink != ''">
+						<a
+							:href="computedLink"
+							title="Sketchlink"
+							target="_blank"
+							class="sketchlink"
+						>
+							Open in Sketch
+						</a>
+					</fieldset>
+				</details>
+			</div>
+		</main>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/notifications.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>

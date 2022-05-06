@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Link</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<main>
+			<div class="component">
+				<header>
+					<component-navigation
+						:components="components"
+						@set-active="active = $event"
+					></component-navigation>
+				</header>
+				<section>
+					<div class="component_example">
+						<p>
+							<a
+								href="#"
+								class="elm-link"
+								title="Title text"
+								:data-icon="iconBefore ? 'link-external' : null"
+								:aria-disabled="disabled"
+								>Link</a
+							>
+						</p>
+					</div>
+				</section>
+			</div>
+			<div class="options">
+				<details
+					class="cmp-accordion"
+					data-emphasis="high"
+					:open="optionsClosed ? false : true"
+				>
+					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<fieldset class="row">
+						<legend>Icon</legend>
+						<fieldset>
+							<input
+								type="checkbox"
+								class="elm-checkbox"
+								id="checkbox02"
+								v-model="iconBefore"
+							/>
+							<label class="elm-label" for="checkbox02">Leading Icon</label>
+						</fieldset>
+					</fieldset>
+
+					<fieldset class="row">
+						<legend>State</legend>
+						<input
+							type="checkbox"
+							class="elm-checkbox"
+							id="checkbox01"
+							v-model="disabled"
+						/>
+						<label class="elm-label" for="checkbox01">Disabled</label>
+					</fieldset>
+
+					<h4 v-if="computedLink != ''">Design Preview</h4>
+					<fieldset class="row" v-if="computedLink != ''">
+						<a
+							:href="computedLink"
+							title="Sketchlink"
+							target="_blank"
+							class="sketchlink"
+						>
+							Open in Sketch
+						</a>
+					</fieldset>
+				</details>
+			</div>
+		</main>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/link.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="./js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>

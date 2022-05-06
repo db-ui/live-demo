@@ -1,0 +1,5 @@
+package-lock.json
+.vscode
+.idea
+*.min.js
+public/js/vue/

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Select</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<main>
+			<div class="component">
+				<header>
+					<component-navigation
+						:components="components"
+						@set-active="active = $event"
+					></component-navigation>
+				</header>
+				<section>
+					<div class="component_example">
+						<select
+							class="elm-select"
+							name="select04"
+							id="select04"
+							required
+							:data-variant="components[active].variant"
+							:aria-invalid="showError ? 'true' : null"
+							:disabled="isDisabled ? 'true' : null"
+						>
+							<optgroup label="Devices">
+								<option value="Row 1">Smartphone</option>
+								<option>Softphone</option>
+								<option>Headphone</option>
+								<option disabled>Row 4 / disabled</option>
+							</optgroup>
+							<optgroup label="Roles">
+								<option>User</option>
+								<option>Tester</option>
+								<option>Developer</option>
+							</optgroup>
+						</select>
+						<label class="elm-label" for="select04">Select label</label>
+					</div>
+				</section>
+			</div>
+			<div class="options">
+				<details
+					class="cmp-accordion"
+					data-emphasis="high"
+					:open="optionsClosed ? false : true"
+				>
+					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<!--<fieldset class="row">
+						<legend>Label</legend>
+						<fieldset>
+							<input
+								name="displayLabel"
+								type="radio"
+								class="elm-radio"
+								id="displaylabel01"
+								v-model="displayLabel"
+								value="true"
+							/>
+							<label class="elm-label" for="displaylabel01">Mit Label</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="displayLabel"
+								type="radio"
+								class="elm-radio"
+								id="displaylabel02"
+								v-model="displayLabel"
+								value="false"
+							/>
+							<label class="elm-label" for="displaylabel02">Ohne Label</label>
+						</fieldset>
+					</fieldset>-->
+
+					<fieldset class="row">
+						<legend>State</legend>
+						<fieldset>
+							<input
+								name="state"
+								type="radio"
+								class="elm-radio"
+								id="radio01"
+								v-model="state"
+								value="default"
+							/>
+							<label class="elm-label" for="radio01">Enabled</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="state"
+								type="radio"
+								class="elm-radio"
+								id="radio02"
+								v-model="state"
+								value="disabled"
+							/>
+							<label class="elm-label" for="radio02">Disabled</label>
+						</fieldset>
+						<!--<fieldset>
+							<input name="state" type="radio" class="elm-radio " id="radio03" v-model="state" value="readonly">
+							<label class="elm-label" for="radio03">Readonly</label>
+						</fieldset>-->
+						<!--<fieldset>
+							<input
+								name="state"
+								type="radio"
+								class="elm-radio"
+								id="radio04"
+								v-model="state"
+								value="error"
+							/>
+							<label class="elm-label" for="radio04">Error</label>
+						</fieldset>-->
+					</fieldset>
+
+					<h4 v-if="computedLink != ''">Design Preview</h4>
+					<fieldset class="row" v-if="computedLink != ''">
+						<a
+							:href="computedLink"
+							title="Sketchlink"
+							target="_blank"
+							class="sketchlink"
+						>
+							Open in Sketch
+						</a>
+					</fieldset>
+				</details>
+			</div>
+		</main>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/select.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>

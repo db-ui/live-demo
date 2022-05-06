@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Overflow Menu</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<main>
+			<div class="component">
+				<header>
+					<component-navigation
+						:components="components"
+						@set-active="active = $event"
+					></component-navigation>
+				</header>
+				<section>
+					<div class="component_example" style="min-height: 250px">
+						<details
+							class="cmp-overflow-menu"
+							role="navigation"
+							:data-horizontal-position="alignment"
+						>
+							<summary>Toggle Overflow menu</summary>
+							<ul role="group">
+								<li>
+									<a href="#" class="elm-link" title="Title text">Modify</a>
+								</li>
+								<li>
+									<a href="#" class="elm-link" title="Title text">Delete</a>
+								</li>
+							</ul>
+						</details>
+					</div>
+				</section>
+			</div>
+			<div class="options">
+				<details
+					class="cmp-accordion"
+					data-emphasis="high"
+					:open="optionsClosed ? false : true"
+				>
+					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<fieldset class="row">
+						<legend>Tooltip Ausrichtung</legend>
+						<fieldset>
+							<input
+								name="alignment"
+								type="radio"
+								class="elm-radio"
+								id="alignment01"
+								v-model="alignment"
+								value="default"
+							/>
+							<label class="elm-label" for="alignment01">Default</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="alignment"
+								type="radio"
+								class="elm-radio"
+								id="alignment02"
+								v-model="alignment"
+								value="opposite"
+							/>
+							<label class="elm-label" for="alignment02"
+								>Rechts ausgerichtet</label
+							>
+						</fieldset>
+					</fieldset>
+				</details>
+			</div>
+		</main>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/overflowmenu.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>

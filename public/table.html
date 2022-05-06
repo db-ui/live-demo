@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Table</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<main>
+			<div class="component">
+				<header>
+					<component-navigation
+						:components="components"
+						@set-active="active = $event"
+					></component-navigation>
+				</header>
+				<section>
+					<div class="component_example">
+						<table
+							class="cmp-table"
+							:data-density="density"
+							:data-rows="rowStyleComputed"
+							:data-border="borderStyle"
+							:data-sticky="fixedHeader"
+						>
+							<caption>
+								Table title
+							</caption>
+							<thead>
+								<tr>
+									<th scope="col" :data-icon="iconBefore ? 'account' : null">
+										The table header 01
+									</th>
+									<th scope="col">The table header 02</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 01 - 01
+									</td>
+									<td>Value 01 - 02</td>
+								</tr>
+								<tr>
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 02 - 01
+									</td>
+									<td>Value 02 - 02</td>
+								</tr>
+								<tr>
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 03 - 01
+									</td>
+									<td>Value 03 - 02</td>
+								</tr>
+								<tr>
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 04 - 01
+									</td>
+									<td>Value 04 - 02</td>
+								</tr>
+								<tr>
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 05 - 01
+									</td>
+									<td>Value 05 - 02</td>
+								</tr>
+								<tr v-if="fixedHeader != ''">
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 05 - 01 fix
+									</td>
+									<td>Value 05 - 02</td>
+								</tr>
+								<tr v-if="fixedHeader != ''">
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 05 - 01 fix
+									</td>
+									<td>Value 05 - 02</td>
+								</tr>
+								<tr v-if="fixedHeader != ''">
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 05 - 01 fix
+									</td>
+									<td>Value 05 - 02</td>
+								</tr>
+								<tr v-if="fixedHeader != ''">
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 05 - 01 fix
+									</td>
+									<td>Value 05 - 02</td>
+								</tr>
+								<tr v-if="fixedHeader != ''">
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 05 - 01 fix
+									</td>
+									<td>Value 05 - 02</td>
+								</tr>
+								<tr v-if="fixedHeader != ''">
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 05 - 01 fix
+									</td>
+									<td>Value 05 - 02</td>
+								</tr>
+								<tr v-if="fixedHeader != ''">
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 05 - 01 fix
+									</td>
+									<td>Value 05 - 02</td>
+								</tr>
+								<tr v-if="fixedHeader != ''">
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 05 - 01 fix
+									</td>
+									<td>Value 05 - 02</td>
+								</tr>
+								<tr v-if="fixedHeader != ''">
+									<td :data-icon="iconBefore ? 'account' : null">
+										Value 05 - 01 fix
+									</td>
+									<td>Value 05 - 02</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
+			</div>
+			<div class="options">
+				<details
+					class="cmp-accordion"
+					data-emphasis="high"
+					:open="optionsClosed ? false : true"
+				>
+					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<fieldset class="row">
+						<legend>Density</legend>
+						<fieldset>
+							<input
+								name="density"
+								type="radio"
+								class="elm-radio"
+								id="radio01"
+								v-model="density"
+								value="small"
+							/>
+							<label class="elm-label" for="radio01">Small</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="density"
+								type="radio"
+								class="elm-radio"
+								id="radio02"
+								v-model="density"
+								value="regular"
+							/>
+							<label class="elm-label" for="radio02">Regular</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="density"
+								type="radio"
+								class="elm-radio"
+								id="radio03"
+								v-model="density"
+								value="large"
+							/>
+							<label class="elm-label" for="radio03">Large</label>
+						</fieldset>
+					</fieldset>
+
+					<fieldset class="row">
+						<legend>Zeilen Stil</legend>
+						<fieldset>
+							<input
+								name="rowStyle"
+								type="checkbox"
+								class="elm-checkbox"
+								id="rowStyle2"
+								v-model="rowStyle"
+							/>
+							<label class="elm-label" for="rowStyle2" @click="borderStyle=''"
+								>Zebra</label
+							>
+						</fieldset>
+					</fieldset>
+
+					<fieldset class="row">
+						<legend>Zellenrahmen</legend>
+						<fieldset>
+							<input
+								name="borderStyle"
+								type="radio"
+								class="elm-radio"
+								id="borderStyle1"
+								v-model="borderStyle"
+								value=""
+							/>
+							<label class="elm-label" for="borderStyle1">Keine Rahmen</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="borderStyle"
+								type="radio"
+								class="elm-radio"
+								id="borderStyle2"
+								v-model="borderStyle"
+								value="around"
+							/>
+							<label
+								class="elm-label"
+								for="borderStyle2"
+								@click="rowStyle = false"
+								>Horizontal & Vertikal</label
+							>
+						</fieldset>
+						<fieldset>
+							<input
+								name="borderStyle"
+								type="radio"
+								class="elm-radio"
+								id="borderStyle3"
+								v-model="borderStyle"
+								value="horizontal"
+							/>
+							<label
+								class="elm-label"
+								for="borderStyle3"
+								@click="rowStyle = false"
+								>Horizontal</label
+							>
+						</fieldset>
+					</fieldset>
+
+					<fieldset class="row">
+						<legend>Zelleninhalte</legend>
+						<fieldset>
+							<input
+								type="checkbox"
+								class="elm-checkbox"
+								id="iconBefore2"
+								v-model="iconBefore"
+							/>
+							<label class="elm-label" for="iconBefore2">Leading Icon</label>
+						</fieldset>
+					</fieldset>
+
+					<!--<fieldset class="row">
+						<legend>Header fixieren</legend>
+						<fieldset>
+							<input
+								name="fixedHeader"
+								type="radio"
+								class="elm-radio"
+								id="fixedHeader1"
+								v-model="fixedHeader"
+								value=""
+							/>
+							<label class="elm-label" for="fixedHeader1">Default</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="fixedHeader"
+								type="radio"
+								class="elm-radio"
+								id="fixedHeader2"
+								v-model="fixedHeader"
+								value="header"
+							/>
+							<label class="elm-label" for="fixedHeader2">Fixiert</label>
+						</fieldset>
+					</fieldset>-->
+
+					<h4 v-if="computedLink != ''">Design Preview</h4>
+					<fieldset class="row" v-if="computedLink != ''">
+						<a
+							:href="computedLink"
+							title="Sketchlink"
+							target="_blank"
+							class="sketchlink"
+						>
+							Open in Sketch
+						</a>
+					</fieldset>
+				</details>
+			</div>
+		</main>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/table.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="./js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>

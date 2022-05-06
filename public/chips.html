@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Chips</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<main>
+			<div class="component">
+				<header>
+					<component-navigation
+						:components="components"
+						@set-active="active = $event"
+					></component-navigation>
+				</header>
+				<section>
+					<div class="component_example">
+						<input
+							class="elm-chip"
+							type="radio"
+							id="chip-single-chip01-val"
+							name="selection"
+							data-type="selection"
+							:disabled="disabled"
+						/>
+						<label
+							for="chip-single-chip01-val"
+							role="button"
+							:data-variant="components[active].variant"
+							tabindex="0"
+							aria-hidden="true"
+							:data-icon="iconBefore ? 'account' : null"
+							:data-icon-after="iconAfter ? 'close' : null"
+							>Lorem ipsum</label
+						>
+						<input
+							class="elm-chip"
+							type="radio"
+							id="chip-single-chip02-val"
+							name="selection"
+							data-type="selection"
+							:disabled="disabled"
+						/>
+						<label
+							for="chip-single-chip02-val"
+							role="button"
+							:data-variant="components[active].variant"
+							tabindex="0"
+							aria-hidden="true"
+							:data-icon="iconBefore ? 'alarm' : null"
+							:data-icon-after="iconAfter ? 'close' : null"
+							>Sit Amet</label
+						>
+						<input
+							class="elm-chip"
+							type="radio"
+							id="chip-single-chip03-val"
+							name="selection"
+							data-type="selection"
+							:disabled="disabled"
+						/>
+						<label
+							for="chip-single-chip03-val"
+							role="button"
+							:data-variant="components[active].variant"
+							tabindex="0"
+							aria-hidden="true"
+							:data-icon="iconBefore ? 'alert' : null"
+							:data-icon-after="iconAfter ? 'close' : null"
+							>Consetuter elit</label
+						>
+					</div>
+				</section>
+			</div>
+			<div class="options">
+				<details
+					class="cmp-accordion"
+					data-emphasis="high"
+					:open="optionsClosed ? false : true"
+				>
+					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+
+					<fieldset class="row">
+						<legend>Icons</legend>
+						<fieldset>
+							<input
+								type="checkbox"
+								class="elm-checkbox"
+								id="checkbox02"
+								v-model="iconBefore"
+							/>
+							<label class="elm-label" for="checkbox02">Leading Icon</label>
+						</fieldset>
+						<fieldset>
+							<input
+								type="checkbox"
+								class="elm-checkbox"
+								id="checkbox03"
+								v-model="iconAfter"
+							/>
+							<label class="elm-label" for="checkbox03">Trailing Icon</label>
+						</fieldset>
+					</fieldset>
+
+					<fieldset class="row">
+						<legend>State</legend>
+						<input
+							type="checkbox"
+							class="elm-checkbox"
+							id="checkbox01"
+							v-model="disabled"
+						/>
+						<label class="elm-label" for="checkbox01">Disabled</label>
+					</fieldset>
+
+					<h4 v-if="computedLink != ''">Design Preview</h4>
+					<fieldset class="row" v-if="computedLink != ''">
+						<a
+							:href="computedLink"
+							title="Sketchlink"
+							target="_blank"
+							class="sketchlink"
+						>
+							Open in Sketch
+						</a>
+					</fieldset>
+				</details>
+			</div>
+		</main>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/chips.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="./js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>

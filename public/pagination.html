@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Pagination</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<main>
+			<div class="component">
+				<header>
+					<component-navigation
+						:components="components"
+						@set-active="active = $event"
+					></component-navigation>
+				</header>
+				<section>
+					<div class="component_example">
+						<nav
+							class="cmp-pagination"
+							role="navigation"
+							aria-label="pagination"
+							aria-labelledby="headline01"
+						>
+							<h2 class="elm-headline" id="headline01">Pagination</h2>
+							<ol>
+								<li>
+									<a
+										href="#"
+										class="elm-link"
+										title="Goto previous page"
+										rel="prev"
+										tabindex="-1"
+										:aria-disabled="activePage == 1 ? true : null"
+										:disabled="activePage == 1 ? true : null"
+										@click="activePage = activePage-1"
+										>Previous</a
+									>
+								</li>
+								<li v-for="(entry, index) in paginationEntries">
+									<a
+										v-if="entry.value != null"
+										href="#"
+										class="elm-link"
+										title="Title text"
+										:aria-current="entry.active ? 'page' : null"
+										@click="activePage = entry.label"
+										>{{entry.label}}</a
+									>
+									<a
+										v-else
+										href="#"
+										class="elm-link"
+										title="Title text not"
+										:aria-current="entry.active ? 'page' : null"
+										>{{entry.label}}</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="elm-link"
+										title="Goto next page"
+										rel="next"
+										:aria-disabled="activePage == pages ? true : null"
+										:disabled="activePage == pages ? true : null"
+										@click="activePage = activePage+1"
+										>Next</a
+									>
+								</li>
+							</ol>
+						</nav>
+					</div>
+				</section>
+			</div>
+			<div class="options">
+				<details
+					class="cmp-accordion"
+					data-emphasis="high"
+					:open="optionsClosed ? false : true"
+				>
+					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+
+					<p>Diese Komponente hat aktuell keine Konfigurationsmöglichkeiten.</p>
+
+					<h4 v-if="computedLink != ''">Design Preview</h4>
+					<fieldset class="row" v-if="computedLink != ''">
+						<a
+							:href="computedLink"
+							title="Sketchlink"
+							target="_blank"
+							class="sketchlink"
+						>
+							Open in Sketch
+						</a>
+					</fieldset>
+				</details>
+			</div>
+		</main>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/pagination.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>

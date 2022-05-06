@@ -1,0 +1,38 @@
+nav.variations {
+	display: block;
+	background: #fff;
+	padding: 0.25rem;
+	ul li {
+		display: inline-block;
+		margin: 0;
+		position: relative;
+		button {
+			background: none;
+			position: relative;
+			padding: 0 1rem;
+			line-height: 52px;
+			border: none;
+			font-size: 1rem;
+		}
+
+		&.active button {
+			font-weight: bold;
+			&::after {
+				content: "";
+				display: block;
+				height: 4px;
+				width: 100%;
+				bottom: 0;
+				/*border-radius: 2px;
+				background-color: #ec0016;*/
+				position: absolute;
+				left: 0;
+			}
+		}
+		&.icontoggle {
+			float: right;
+			line-height: 52px;
+			padding-right: 16px;
+		}
+	}
+}

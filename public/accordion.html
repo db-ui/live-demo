@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Accordion</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<main>
+			<div class="component">
+				<header>
+					<component-navigation
+						:components="components"
+						@set-active="active = $event"
+					></component-navigation>
+				</header>
+				<section>
+					<div class="component_example" style="min-height: 250px; width: 100%">
+						<details
+							class="cmp-accordion"
+							:data-size="size"
+							:data-emphasis="emphasisLevel"
+						>
+							<summary>Summary</summary>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+								in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+								nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+								sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+						</details>
+					</div>
+				</section>
+			</div>
+			<div class="options">
+				<details
+					class="cmp-accordion"
+					data-emphasis="high"
+					:open="optionsClosed ? false : true"
+				>
+					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<fieldset class="row">
+						<legend>Größe</legend>
+						<fieldset>
+							<input
+								name="size"
+								type="radio"
+								class="elm-radio"
+								id="size01"
+								v-model="size"
+								value="small"
+								@change="changeEmphasis('low')"
+							/>
+							<label class="elm-label" for="size01">Small</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="size"
+								type="radio"
+								class="elm-radio"
+								id="size02"
+								v-model="size"
+								value="regular-low"
+								@change="changeEmphasis('low')"
+							/>
+							<label class="elm-label" for="size02">Medium: Low Emphasis</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="size"
+								type="radio"
+								class="elm-radio"
+								id="size03"
+								v-model="size"
+								value="regular-high"
+								@change="changeEmphasis('high')"
+							/>
+							<label class="elm-label" for="size03"
+								>Medium: High Emphasis</label
+							>
+						</fieldset>
+						<fieldset>
+							<input
+								name="size"
+								type="radio"
+								class="elm-radio"
+								id="size04"
+								v-model="size"
+								value="large"
+								@change="changeEmphasis('low')"
+							/>
+							<label class="elm-label" for="size04">Large</label>
+						</fieldset>
+					</fieldset>
+
+					<h4 v-if="computedLink != ''">Design Preview</h4>
+					<fieldset class="row" v-if="computedLink != ''">
+						<a
+							:href="computedLink"
+							title="Sketchlink"
+							target="_blank"
+							class="sketchlink"
+						>
+							Open in Sketch
+						</a>
+					</fieldset>
+				</details>
+			</div>
+		</main>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/accordion.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="./js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>

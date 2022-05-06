@@ -1,0 +1,21 @@
+.icon-delete::before {
+	font-family: "icons-24x24-outline" !important;
+	font-size: 1.375rem;
+	vertical-align: bottom;
+	content: "🗑";
+}
+
+.styleguide-demonstration-button-has-icon::before {
+	font-family: "icons-24x24-outline" !important;
+	font-size: 1.375rem;
+	vertical-align: bottom;
+	margin-right: 0.25em;
+	content: "+";
+}
+
+.icon-edit::before {
+	font-family: "icons-24x24-outline" !important;
+	font-size: 1.375rem;
+	vertical-align: bottom;
+	content: "✎";
+}
