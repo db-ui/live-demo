@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Textfield</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<main>
+			<div class="component">
+				<header>
+					<component-navigation
+						:components="elements"
+						label="Komponente auswählen"
+						@set-active="activeElement = $event"
+					></component-navigation>
+					<component-navigation
+						:components="components"
+						@set-active="active = $event"
+					></component-navigation>
+				</header>
+				<section>
+					<div class="component_example">
+						<label
+							class="elm-label"
+							for="textarea16"
+							v-if="displayLabel === 'true' && activeElement == 0"
+							>Textlabel</label
+						>
+						<textarea
+							class="elm-textarea"
+							placeholder="Projekt Name"
+							id="textarea16"
+							aria-describedby="textarea16hint"
+							:data-variant="components[active].variant"
+							:aria-invalid="showError ? 'true' : null"
+							:disabled="isDisabled ? 'true' : null"
+							v-if="activeElement == 0"
+							minlength="5"
+							required
+						></textarea>
+						<p
+							id="textarea02hint"
+							class="description"
+							v-if="activeElement == 0"
+						>
+							Bitte geben Sie einen Wert mit mehr als 5 Zeichen ein
+						</p>
+
+						<input
+							type="text"
+							class="elm-input"
+							placeholder="Projekt Name"
+							name="input15"
+							id="input15"
+							aria-describedby="input15hint"
+							:data-variant="components[active].variant"
+							:aria-invalid="showError ? 'true' : null"
+							:disabled="isDisabled ? 'true' : null"
+							required
+							aria-labelledby="input15-label"
+							v-if="activeElement == 1"
+							minlength="5"
+							required
+						/>
+						<label
+							class="elm-label"
+							for="input15"
+							aria-hidden="true"
+							id="input15-label"
+							v-if="activeElement == 1"
+							>Textlabel</label
+						>
+						<p id="input15hint" class="description" v-if="activeElement == 1">
+							Bitte geben Sie einen Wert mit mehr als 5 Zeichen ein
+						</p>
+					</div>
+				</section>
+			</div>
+			<div class="options">
+				<details
+					class="cmp-accordion"
+					data-emphasis="high"
+					:open="optionsClosed ? false : true"
+				>
+					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<!--<fieldset class="row">
+						<legend>Label</legend>
+						<fieldset>
+							<input
+								name="displayLabel"
+								type="radio"
+								class="elm-radio"
+								id="displaylabel01"
+								v-model="displayLabel"
+								value="true"
+							/>
+							<label class="elm-label" for="displaylabel01">Mit Label</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="displayLabel"
+								type="radio"
+								class="elm-radio"
+								id="displaylabel02"
+								v-model="displayLabel"
+								value="false"
+							/>
+							<label class="elm-label" for="displaylabel02">Ohne Label</label>
+						</fieldset>
+					</fieldset>-->
+
+					<fieldset class="row">
+						<legend>State</legend>
+						<fieldset>
+							<input
+								name="state"
+								type="radio"
+								class="elm-radio"
+								id="radio01"
+								v-model="state"
+								value="default"
+							/>
+							<label class="elm-label" for="radio01">Enabled</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="state"
+								type="radio"
+								class="elm-radio"
+								id="radio02"
+								v-model="state"
+								value="disabled"
+							/>
+							<label class="elm-label" for="radio02">Disabled</label>
+						</fieldset>
+						<!--<fieldset>
+							<input name="state" type="radio" class="elm-radio " id="radio03" v-model="state" value="readonly">
+							<label class="elm-label" for="radio03">Readonly</label>
+						</fieldset>-->
+						<!--<fieldset>
+							<input
+								name="state"
+								type="radio"
+								class="elm-radio"
+								id="radio04"
+								v-model="state"
+								value="error"
+							/>
+							<label class="elm-label" for="radio04">Error</label>
+						</fieldset>-->
+					</fieldset>
+
+					<h4 v-if="computedLink != ''">Design Preview</h4>
+					<fieldset class="row" v-if="computedLink != ''">
+						<a
+							:href="computedLink"
+							title="Sketchlink"
+							target="_blank"
+							class="sketchlink"
+						>
+							Open in Sketch
+						</a>
+					</fieldset>
+				</details>
+			</div>
+		</main>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/textfield.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>

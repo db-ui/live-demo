@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Progress</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<main>
+			<div class="component">
+				<header>
+					<component-navigation
+						:components="components"
+						@set-active="active = $event"
+					></component-navigation>
+				</header>
+				<section>
+					<div class="component_example">
+						<div class="elm-progress">
+							<progress
+								:value="progressValues.attrVal"
+								:max="progressValues.attrMax"
+								id="progress-label-01"
+								:data-type="progressValues.type"
+							></progress>
+							<output for="progress-label-01" v-if="progressValues.label"
+								>68%</output
+							>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="options">
+				<details
+					class="cmp-accordion"
+					data-emphasis="high"
+					:open="optionsClosed ? false : true"
+				>
+					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<fieldset class="row">
+						<legend>Optionen</legend>
+						<fieldset>
+							<input
+								name="type"
+								type="radio"
+								class="elm-radio"
+								id="radio01"
+								v-model="type"
+								value="0"
+							/>
+							<label class="elm-label" for="radio01">Linear Loader</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="type"
+								type="radio"
+								class="elm-radio"
+								id="radio02"
+								v-model="type"
+								value="1"
+							/>
+							<label class="elm-label" for="radio02">Linear Spinner</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="type"
+								type="radio"
+								class="elm-radio"
+								id="radio03"
+								v-model="type"
+								value="2"
+							/>
+							<label class="elm-label" for="radio03">Infinite Spinner</label>
+						</fieldset>
+					</fieldset>
+
+					<h4 v-if="computedLink != ''">Design Preview</h4>
+					<fieldset class="row" v-if="computedLink != ''">
+						<a
+							:href="computedLink"
+							title="Sketchlink"
+							target="_blank"
+							class="sketchlink"
+						>
+							Open in Sketch
+						</a>
+					</fieldset>
+				</details>
+			</div>
+		</main>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/progress.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>

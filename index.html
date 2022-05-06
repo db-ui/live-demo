@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>DB UI Live Demo</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<header class="rea-header" role="banner">
+			<nav class="cmp-mainnavigation" id="mainnavigation-inheader02">
+				<input type="checkbox" id="toggle_mainnavigation-inheader02" />
+				<label
+					for="toggle_mainnavigation-inheader02"
+					title="Toggle main navigation"
+					class="is-site-name"
+					>DB UI Live Demo</label
+				>
+				<ul>
+					<li aria-haspopup="true" v-for="item in components" key="item.label">
+						<a href="#" class="elm-link" title="" rel="index">{{item.label}}</a>
+						<ul>
+							<li
+								v-for="component in item.groupedComponents"
+								key="component.label"
+							>
+								<a
+									href="#"
+									@click="activeComponent = component"
+									class="elm-link"
+									title=""
+									rel="news"
+									>{{component.label}}</a
+								>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<div class="cmp-brand">
+				<a href="#" title="Home" rel="home">
+					<img
+						src="./images/db_logo.svg"
+						alt="Deutsche Bahn Logo"
+						width=""
+						height=""
+						class="elm-image is-logo"
+						elementtiming="logo"
+					/>
+				</a>
+				<span class="is-site-name">DB UI Live Demo</span>
+			</div>
+		</header>
+
+		<section class="maincontent">
+			<h1>DB UI Design System - Live Demo</h1>
+			<p>
+				Personenverkehr und DB Systel führen ihre Design Systeme für Web in der
+				Version 2.0 der Standard Web Components zusammen. Unser Ziel ist eine
+				einheitliche Basis UX im Sinne der Modernen Ikone für Kunden und
+				Mitarbeiteranwendungen. Um unser Design End 2 End von Konzeption über
+				Design bis zur Implementierung konsistent zu halten, wird das DB Design
+				System auch in Code von DB Systel und Reisendeninformation umgesetzt.
+				Stay Tuned!
+			</p>
+			<p>
+				Die Live Demo zeigt Beispiele basierend auf Komponenten und Varianten
+				des DB UX Design Systems und dessen technischen Abbilds in Form des DB
+				UI Core bzw. DB UI Elements.
+			</p>
+			<h2>Komponente: {{activeComponent.label}}</h2>
+			<iframe
+				title="iframe"
+				:src="computedLink"
+				scrolling="yes"
+				style="width: 100%; min-height: 500px"
+			></iframe>
+		</section>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/wrapper.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="./js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>

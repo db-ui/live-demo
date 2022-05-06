@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Breadcrumb</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body id="app">
+		<main>
+			<div class="component">
+				<header>
+					<component-navigation
+						:components="components"
+						@set-active="active = $event"
+					></component-navigation>
+				</header>
+				<section>
+					<div class="component_example">
+						<nav class="cmp-breadcrumb" aria-label="Breadcrumb">
+							<ol>
+								<li>
+									<a href="#" class="elm-link" title="Title text">Startseite</a>
+								</li>
+								<li v-if="level === 'default'">
+									<a href="#" class="elm-link" title="Title text"
+										>Seite XYZ {{index}}</a
+									>
+								</li>
+								<li v-if="level === 'default'">
+									<a href="#" class="elm-link" title="Title text"
+										>Seite XYZ {{index}}</a
+									>
+								</li>
+
+								<li v-if="level === 'shortened'">
+									<a href="#" class="elm-link" title="Title text"
+										>Seite XYZ {{index}}</a
+									>
+								</li>
+								<li v-if="level === 'shortened'">
+									<a href="#" class="elm-link" title="Title text">...</a>
+								</li>
+								<li v-if="level === 'shortened'">
+									<a href="#" class="elm-link" title="Title text"
+										>Seite XYZ {{index}}</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="elm-link"
+										title="Title text"
+										aria-current="location"
+										>Seite XYZ</a
+									>
+								</li>
+							</ol>
+						</nav>
+					</div>
+				</section>
+			</div>
+			<div class="options">
+				<details
+					class="cmp-accordion"
+					data-emphasis="high"
+					:open="optionsClosed ? false : true"
+				>
+					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<fieldset class="row">
+						<legend>States</legend>
+						<fieldset>
+							<input
+								name="level"
+								type="radio"
+								class="elm-radio"
+								id="radio01"
+								v-model="level"
+								value="default"
+							/>
+							<label class="elm-label" for="radio01">Default</label>
+						</fieldset>
+						<fieldset>
+							<input
+								name="level"
+								type="radio"
+								class="elm-radio"
+								id="radio02"
+								v-model="level"
+								value="shortened"
+							/>
+							<label class="elm-label" for="radio02"
+								>Gekürzte Breadcrumbs</label
+							>
+						</fieldset>
+					</fieldset>
+
+					<h4 v-if="computedLink != ''">Design Preview</h4>
+					<fieldset class="row" v-if="computedLink != ''">
+						<a
+							:href="computedLink"
+							title="Sketchlink"
+							target="_blank"
+							class="sketchlink"
+						>
+							Open in Sketch
+						</a>
+					</fieldset>
+				</details>
+			</div>
+		</main>
+
+		<!-- Import App -->
+		<script src="./js/vue/vue.global.prod.js"></script>
+		<script src="./js/breadcrumb.js"></script>
+		<script src="./js/demo-components.js"></script>
+		<script>
+			const mountedApp = app.mount("#app");
+		</script>
+		<script src="js/iframeresizer.contentwindow.min.js"></script>
+	</body>
+</html>
