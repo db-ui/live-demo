@@ -12,7 +12,9 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v3
-      - name: Build
+      - name: NPM install
+        run: npm ci
+      - name: NPM Build
         run: npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
