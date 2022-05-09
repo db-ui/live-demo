@@ -104,11 +104,7 @@ const app = Vue.createApp({
 	methods: {},
 	computed: {
 		computedLink() {
-			return (
-				'https://db-ui.github.io/live-demo/' +
-				this.activeComponent.name +
-				'.html'
-			);
+			return './' + this.activeComponent.name + '.html';
 		}
 	}
 });
