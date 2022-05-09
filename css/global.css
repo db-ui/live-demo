@@ -5621,4 +5621,8 @@ main dialog main {
   margin-right: 0.5rem;
 }
 
+.elm-radio {
+  box-sizing: border-box;
+}
+
 /*# sourceMappingURL=global.css.map */
