@@ -1,4 +1,4 @@
-# DB UI Standards - PoC for a playground
+# DB UI Standards - playground
 
 We're mainly using this repository and the included application for demo purposes, especially to include playgrounds within the [Deutsche Bahn Marketingportal](https://marketingportal.extranet.deutschebahn.com/de/ui-komponenten).
 
