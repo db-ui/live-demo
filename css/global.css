@@ -5,8 +5,7 @@
  * 1. Correct the line height in all browsers.
  */
 :where(html) {
-  line-height: 1.15;
-  /* 1 */
+  line-height: 1.15; /* 1 */
 }
 
 /* Sections
@@ -36,12 +35,9 @@
  * 2. Correct the inheritance of border color in Firefox.
  */
 :where(hr) {
-  box-sizing: content-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  height: 0;
-  /* 1 */
+  box-sizing: content-box; /* 1 */
+  color: inherit; /* 2 */
+  height: 0; /* 1 */
 }
 
 /**
@@ -49,10 +45,8 @@
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 :where(pre) {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -77,10 +71,8 @@
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 :where(code, kbd, samp) {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -97,10 +89,8 @@
  * 2. Remove text indentation from table contents in Chrome, Edge, and Safari.
  */
 :where(table) {
-  border-color: currentColor;
-  /* 1 */
-  text-indent: 0;
-  /* 2 */
+  border-color: currentColor; /* 1 */
+  text-indent: 0; /* 2 */
 }
 
 /* Forms
@@ -152,10 +142,8 @@
  * 2. Correct the outline style in Safari.
  */
 :where(input[type=search i]) {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -186,10 +174,8 @@
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /**
@@ -3975,9 +3961,7 @@ h3.elm-headline {
   --icon-margin-after: 0;
   margin-left: -0.125rem;
   color: #878c96;
-}
-
-/* cards */
+} /* cards */
 .cmp-cards {
   list-style: none;
   margin: 0;
