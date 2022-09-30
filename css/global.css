@@ -4332,6 +4332,10 @@ h3.elm-headline {
   float: left;
   margin-top: -0.125rem;
 }
+.cmp-brand a {
+  color: inherit;
+  text-decoration: none;
+}
 .rea-header .cmp-brand {
   padding-top: 1.125rem;
 }
