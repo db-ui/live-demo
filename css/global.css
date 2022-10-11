@@ -3289,6 +3289,74 @@ h3.elm-headline {
   margin-left: 1rem;
 }
 
+/* loading */
+.elm-loadingindicator {
+  display: block;
+}
+
+.elm-loadingindicator {
+  color: #ec0016;
+  animation: loadingindicator-rotate 3s linear infinite;
+}
+.elm-loadingindicator[data-size=xl] {
+  --loadingindicator--stroke-width: 2.5384615385px;
+  --loadingindicator--r: 19px;
+  height: 52px;
+  width: 52px;
+}
+.elm-loadingindicator[data-size=l] {
+  --loadingindicator--stroke-width: 3px;
+  --loadingindicator--r: 19px;
+  height: 44px;
+  width: 44px;
+}
+.elm-loadingindicator {
+  --loadingindicator--stroke-width: 3.6666666667px;
+  --loadingindicator--r: 19px;
+  height: 36px;
+  width: 36px;
+}
+.elm-loadingindicator[data-size=s] {
+  --loadingindicator--stroke-width: 3.1428571429px;
+  --loadingindicator--r: 19px;
+  height: 28px;
+  width: 28px;
+}
+.elm-loadingindicator[data-size=xs] {
+  --loadingindicator--stroke-width: 4.4px;
+  --loadingindicator--r: 19px;
+  height: 20px;
+  width: 20px;
+}
+.elm-loadingindicator__circle {
+  r: var(--loadingindicator--r);
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  stroke: currentcolor;
+  stroke-width: var(--loadingindicator--stroke-width);
+  animation: loadingindicator-stroke 1.5s ease-in-out infinite;
+  stroke-linecap: round;
+}
+
+@keyframes loadingindicator-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loadingindicator-stroke {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 96, 200;
+    stroke-dashoffset: -32;
+  }
+  100% {
+    stroke-dasharray: 96, 200;
+    stroke-dashoffset: -124;
+  }
+}
 /* progress */
 .elm-progress progress {
   --progress-value--backgroundColor: #ec0016;
@@ -3959,7 +4027,9 @@ h3.elm-headline {
   --icon-margin-after: 0;
   margin-left: -0.125rem;
   color: #878c96;
-} /* cards */
+}
+
+/* cards */
 .cmp-cards {
   list-style: none;
   margin: 0;
@@ -4030,7 +4100,7 @@ h3.elm-headline {
   --db-accordion---paddingLeft: 2.875rem;
 }
 .cmp-accordion summary {
-  height: 3rem;
+  padding-block: 0.75rem;
   display: flex;
   align-items: center;
   transform: translateX(calc(var(--db-accordion---paddingLeft) * -1));
@@ -4075,7 +4145,7 @@ h3.elm-headline {
   --db-accordion---paddingLeft: 2.125rem;
 }
 .cmp-accordion[data-size=small] summary {
-  height: 2.5rem;
+  padding-block: 0.59375rem;
   font-size: 0.875rem;
 }
 .cmp-accordion[data-size=small] summary::before {
@@ -4087,7 +4157,7 @@ h3.elm-headline {
   --db-accordion---paddingLeft: 3.375rem;
 }
 .cmp-accordion[data-size=large] summary {
-  height: 4rem;
+  padding-block: 1rem;
   font-size: 1.25rem;
 }
 .cmp-accordion[data-size=large] summary::before {
