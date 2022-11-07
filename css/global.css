@@ -231,6 +231,12 @@
   display: list-item;
 }
 
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 html,
 body {
   margin: 0;
@@ -399,6 +405,12 @@ nav ul,
   display: table;
 }
 
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 @font-face {
   font-family: "DB Screen Head";
   font-style: normal;
@@ -423,6 +435,15 @@ nav ul,
   font-weight: 700;
   src: url("../fonts/dbscreensans-bold.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-bold.woff?4r0080") format("woff");
 }
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 [data-icon=account]::before,
 [data-icon-before=account]::before {
   --icon-glyph: "🙂";
@@ -2124,6 +2145,9 @@ nav ul,
   --icon-glyph: "";
 }
 
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 [data-icon-variant="20-outline"][data-icon]::before, [data-icon-variant="20-outline"][data-icon-before]::before,
 [data-icon-variant-before="20-outline"][data-icon]::before,
 [data-icon-variant-before="20-outline"][data-icon-before]::before {
@@ -2264,6 +2288,12 @@ nav ul,
   --icon-font-size: 4rem;
 }
 
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 @font-face {
   font-display: block;
   font-family: "missing-icons";
@@ -2881,6 +2911,12 @@ nav ul,
 }
 
 /* button */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-button {
   align-items: center;
   border: 1px solid transparent;
@@ -3005,6 +3041,12 @@ nav ul,
 }
 
 /* headline */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-headline {
   margin-bottom: 1rem;
   margin-top: 1.5rem;
@@ -3063,6 +3105,15 @@ h4.elm-headline {
 }
 
 /* link */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-link {
   border-radius: 0.25rem;
   display: inline-block;
@@ -3123,6 +3174,9 @@ h4.elm-headline {
 }
 
 /* image */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-image.is-logo {
   height: auto;
   margin: 0.2rem 1rem 0.2rem 0;
@@ -3133,6 +3187,12 @@ h4.elm-headline {
 }
 
 /* checkbox */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-checkbox {
   align-content: center;
   appearance: none;
@@ -3186,6 +3246,15 @@ h4.elm-headline {
 }
 
 /* input */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-select, .elm-textarea, .elm-input {
   --formElement---borderTopColor: var(
   	--formElement---borderColor,
@@ -3323,6 +3392,9 @@ h4.elm-headline {
 }
 
 /* loading */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-loadingindicator {
   display: block;
 }
@@ -3393,6 +3465,15 @@ h4.elm-headline {
   }
 }
 /* progress */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-progress progress {
   --progress-value--backgroundColor: #ec0016;
 }
@@ -3493,6 +3574,9 @@ h4.elm-headline {
   }
 }
 /* radio */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-radio {
   appearance: none;
   background-color: rgba(255, 255, 255, 0.1);
@@ -3532,6 +3616,12 @@ h4.elm-headline {
 }
 
 /* textarea */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-select, .elm-textarea, .elm-input {
   --formElement---borderTopColor: var(
   	--formElement---borderColor,
@@ -3649,6 +3739,12 @@ h4.elm-headline {
   padding: 0.375rem 0.625rem;
 }
 /* select */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-select, .elm-input, .elm-textarea {
   --formElement---borderTopColor: var(
   	--formElement---borderColor,
@@ -3721,6 +3817,9 @@ h4.elm-headline {
   border-top: 1px solid var(--formElement---borderTopColor);
 }
 
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-select {
   appearance: none;
   font-size: 1rem;
@@ -3780,6 +3879,15 @@ h4.elm-headline {
 }
 
 /* chip */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-chip + label {
   align-items: center;
   border: solid 1px #878c96;
@@ -3864,6 +3972,15 @@ h4.elm-headline {
 }
 
 /* tag */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-tag {
   align-items: center;
   background-color: #282d37;
@@ -3948,6 +4065,9 @@ h4.elm-headline {
 }
 
 /* toggle */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .elm-toggle {
   appearance: none;
   background-color: #646973;
@@ -4015,6 +4135,15 @@ h4.elm-headline {
 }
 
 /* breadcrumb */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-breadcrumb {
   color: #646973;
   font-size: 0.75rem;
@@ -4071,6 +4200,12 @@ h4.elm-headline {
 }
 
 /* cards */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-cards {
   list-style: none;
   margin: 0;
@@ -4084,6 +4219,12 @@ h4.elm-headline {
   }
 }
 
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-card {
   background-color: #fff;
   border-radius: 8px;
@@ -4134,6 +4275,18 @@ h4.elm-headline {
 }
 
 /* accordion */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-accordion {
   --db-accordion---paddingLeft: 2.875rem;
   border-bottom: 1px solid #d7dce1;
@@ -4207,6 +4360,21 @@ h4.elm-headline {
 /* overflow-menu */
 /* ### this one is already included through the dropdown component that it extends */
 /* mainnavigation */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-mainnavigation {
   position: relative;
   top: 0;
@@ -4391,6 +4559,21 @@ h4.elm-headline {
 }
 
 /* metanavigation */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-metanavigation {
   display: flex;
   list-style: none;
@@ -4439,6 +4622,9 @@ h4.elm-headline {
 }
 
 /* brand */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-brand .elm-image.is-logo {
   float: left;
   margin-top: -0.125rem;
@@ -4465,6 +4651,21 @@ h4.elm-headline {
 }
 
 /* sitesearch */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-sitesearch {
   position: relative;
 }
@@ -4547,6 +4748,9 @@ h4.elm-headline {
 }
 
 /* notification */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-notification {
   background-color: #282d37;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
@@ -4603,6 +4807,18 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 }
 
 /* dialog */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-dialog {
   border: 0;
   border-radius: 8px;
@@ -4682,6 +4898,21 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 }
 
 /* language-switcher */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-language-switcher {
   list-style: none;
   margin-right: 1rem;
@@ -4704,6 +4935,18 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 }
 .rea-header .cmp-language-switcher li:not([aria-selected=true]) ~ li:not([aria-selected=true]) {
   top: 6.75rem;
+}
+.rea-header .cmp-language-switcher li:not([aria-selected=true]) ~ li:not([aria-selected=true]) ~ li:not([aria-selected=true]) {
+  top: 10.125rem;
+}
+.rea-header .cmp-language-switcher li:not([aria-selected=true]) ~ li:not([aria-selected=true]) ~ li:not([aria-selected=true]) ~ li:not([aria-selected=true]) {
+  top: 13.5rem;
+}
+.rea-header .cmp-language-switcher li:not([aria-selected=true]) ~ li:not([aria-selected=true]) ~ li:not([aria-selected=true]) ~ li:not([aria-selected=true]) ~ li:not([aria-selected=true]) {
+  top: 16.875rem;
+}
+.rea-header .cmp-language-switcher li:not([aria-selected=true]) ~ li:not([aria-selected=true]) ~ li:not([aria-selected=true]) ~ li:not([aria-selected=true]) ~ li:not([aria-selected=true]) ~ li:not([aria-selected=true]) {
+  top: 20.25rem;
 }
 @media screen and (min-width: 1024px) {
   .rea-header .cmp-language-switcher li {
@@ -4754,6 +4997,18 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 }
 
 /* pagination */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-pagination {
   color: #282d37;
   font-size: 0.875rem;
@@ -4819,6 +5074,21 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 }
 
 /* sidenavi */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-sidenavi {
   background-color: #3c414b;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.08), 0 5px 30px rgba(0, 0, 0, 0.05);
@@ -4888,6 +5158,15 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 }
 
 /* tab-bar */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-tab-bar {
   display: flex;
   flex-wrap: wrap;
@@ -4941,6 +5220,15 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 }
 
 /* table */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-table {
   border-collapse: collapse;
   font-size: var(--table---fontSize, inherit);
@@ -5055,6 +5343,18 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 }
 
 /* link-list */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-link-list {
   list-style: none;
   padding-left: 0;
@@ -5083,6 +5383,21 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 }
 
 /* dropdown */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-overflow-menu, .cmp-dropdown {
   color: #2d333f;
   display: inline-block;
@@ -5225,6 +5540,12 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   z-index: 50;
 }
 
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .cmp-dropdown.is-account summary::before {
   --icon-font-family: "icons-24-outline",
   	"missing-icons" !important;
@@ -5295,6 +5616,12 @@ body.has-fixed-footer .rea-footer {
   }
 }
 
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .rea-header {
   background-color: #fdfdfd;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 1px rgba(0, 0, 0, 0.05);
@@ -5315,6 +5642,12 @@ body.has-fixed-footer .rea-footer {
   }
 }
 
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .rea-meta {
   display: flex;
 }
@@ -5477,6 +5810,15 @@ body.has-fixed-footer .rea-footer {
   flex: none;
   width: 20%;
 }
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
 .rea-footer {
   background-color: #fdfdfd;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.08), 0 5px 30px rgba(0, 0, 0, 0.05);
