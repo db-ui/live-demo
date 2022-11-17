@@ -2148,6 +2148,20 @@ nav ul,
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
+[data-icon-variant="16-outline"][data-icon]::before, [data-icon-variant="16-outline"][data-icon-before]::before,
+[data-icon-variant-before="16-outline"][data-icon]::before,
+[data-icon-variant-before="16-outline"][data-icon-before]::before {
+  --icon-font-family: "icons-16-outline",
+  	"missing-icons" !important;
+  --icon-font-size: 1rem;
+}
+
+[data-icon-variant-after="16-outline"][data-icon-after]::after {
+  --icon-font-family: "icons-16-outline",
+  	"missing-icons" !important;
+  --icon-font-size: 1rem;
+}
+
 [data-icon-variant="20-outline"][data-icon]::before, [data-icon-variant="20-outline"][data-icon-before]::before,
 [data-icon-variant-before="20-outline"][data-icon]::before,
 [data-icon-variant-before="20-outline"][data-icon-before]::before {
@@ -2298,6 +2312,22 @@ nav ul,
   font-display: block;
   font-family: "missing-icons";
   src: url("../icons/functional/fonts/icons-empty.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-empty.woff?4r2095") format("woff");
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-16-outline";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-16-outline-action.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-16-outline-action.woff?4r2095") format("woff");
+  unicode-range: U+002B,U+2713,U+2212;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-16-outline";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-16-outline-navigation.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-16-outline-navigation.woff?4r2095") format("woff");
+  unicode-range: U+003C,U+003E,U+2A2F,U+2303,U+2304;
 }
 @font-face {
   font-display: block;
@@ -3174,7 +3204,7 @@ h4.elm-headline {
 }
 
 /* image */
-/* *****
+/* stylelint-disable no-empty-source */ /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
 .elm-image.is-logo {
@@ -3545,7 +3575,7 @@ h4.elm-headline {
   .elm-progress progress[style^="--progress-conic:"]::-moz-progress-bar {
     background: none;
   }
-  .elm-progress progress[style^="--progress-conic:"] + output {
+  .elm-progress progress[style^="--progress-conic:"] + output, .elm-progress progress[style^="--progress-conic:"] + label {
     align-items: center;
     background: #fdfdfd;
     border-radius: 50%;
@@ -4622,7 +4652,7 @@ h4.elm-headline {
 }
 
 /* brand */
-/* *****
+/* stylelint-disable no-empty-source */ /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
 .cmp-brand .elm-image.is-logo {
@@ -5580,6 +5610,7 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   right: unset;
 }
 
+/* stylelint-disable no-empty-source */
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -5642,7 +5673,7 @@ body.has-fixed-footer .rea-footer {
   }
 }
 
-/* *****
+/* stylelint-disable no-empty-source */ /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
 /* *****
