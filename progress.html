@@ -26,8 +26,13 @@
 								:max="progressValues.attrMax"
 								id="progress-label-01"
 								:data-type="progressValues.type"
+								aria-describedby="progress-label-01-label"
 							></progress>
-							<output for="progress-label-01" v-if="progressValues.label"
+							<output
+								for="progress-label-01"
+								v-if="progressValues.label"
+								id="progress-label-01-label"
+								aria-hidden="true"
 								>68%</output
 							>
 						</div>
@@ -40,7 +45,9 @@
 					data-emphasis="high"
 					:open="optionsClosed ? false : true"
 				>
-					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<summary @click="optionsOpen=!optionsOpen">
+						Konfigurationen
+					</summary>
 					<fieldset class="row">
 						<legend>Optionen</legend>
 						<fieldset>
@@ -52,7 +59,9 @@
 								v-model="type"
 								value="0"
 							/>
-							<label class="elm-label" for="radio01">Linear Loader</label>
+							<label class="elm-label" for="radio01"
+								>Linear Loader</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -63,7 +72,9 @@
 								v-model="type"
 								value="1"
 							/>
-							<label class="elm-label" for="radio02">Linear Spinner</label>
+							<label class="elm-label" for="radio02"
+								>Linear Spinner</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -74,7 +85,9 @@
 								v-model="type"
 								value="2"
 							/>
-							<label class="elm-label" for="radio03">Infinite Spinner</label>
+							<label class="elm-label" for="radio03"
+								>Infinite Spinner</label
+							>
 						</fieldset>
 					</fieldset>
 
