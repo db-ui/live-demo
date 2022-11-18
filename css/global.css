@@ -3081,6 +3081,16 @@ nav ul,
   margin-bottom: 1rem;
   margin-top: 1.5rem;
 }
+.elm-headline[data-pulse]::after {
+  background: var(--db-pulse-background, #ec0016);
+  border-radius: calc(var(--db-logo-height, 40px) / 7 * 0.5);
+  content: "";
+  display: block;
+  margin-bottom: var(--db-pulse-margin-bottom, 14px);
+  margin-top: calc(var(--db-logo-height, 40px) * 0.5);
+  width: var(--db-logo-width, 58px);
+  height: calc(var(--db-logo-height, 40px) / 7);
+}
 
 h1.elm-headline,
 h2.elm-headline,
@@ -3214,6 +3224,75 @@ h4.elm-headline {
 }
 .cmp-brand .elm-image.is-logo {
   width: 39px;
+}
+
+/* logo */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+.elm-logo {
+  width: var(--db-logo-width, 58px);
+  height: var(--db-logo-height, 40px);
+}
+.elm-logo[data-size=xsmall] {
+  --db-logo-width: 20px;
+  --db-logo-height: 14px;
+}
+body:has(.elm-logo[data-size=xsmall]) .elm-headline[data-pulse] {
+  --db-logo-width: 20px;
+  --db-logo-height: 14px;
+}
+.elm-logo[data-size=xsmall] ~ .elm-headline[data-pulse] {
+  --db-logo-width: 20px;
+  --db-logo-height: 14px;
+}
+.elm-logo[data-size=small] {
+  --db-logo-width: 29px;
+  --db-logo-height: 20px;
+}
+body:has(.elm-logo[data-size=small]) .elm-headline[data-pulse] {
+  --db-logo-width: 29px;
+  --db-logo-height: 20px;
+}
+.elm-logo[data-size=small] ~ .elm-headline[data-pulse] {
+  --db-logo-width: 29px;
+  --db-logo-height: 20px;
+}
+.elm-logo[data-size=medium] {
+  --db-logo-width: 34px;
+  --db-logo-height: 24px;
+}
+body:has(.elm-logo[data-size=medium]) .elm-headline[data-pulse] {
+  --db-logo-width: 34px;
+  --db-logo-height: 24px;
+}
+.elm-logo[data-size=medium] ~ .elm-headline[data-pulse] {
+  --db-logo-width: 34px;
+  --db-logo-height: 24px;
+}
+.elm-logo[data-size=large] {
+  --db-logo-width: 40px;
+  --db-logo-height: 28px;
+}
+body:has(.elm-logo[data-size=large]) .elm-headline[data-pulse] {
+  --db-logo-width: 40px;
+  --db-logo-height: 28px;
+}
+.elm-logo[data-size=large] ~ .elm-headline[data-pulse] {
+  --db-logo-width: 40px;
+  --db-logo-height: 28px;
+}
+.elm-logo[data-size=xlarge] {
+  --db-logo-width: 56px;
+  --db-logo-height: 40px;
+}
+body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
+  --db-logo-width: 56px;
+  --db-logo-height: 40px;
+}
+.elm-logo[data-size=xlarge] ~ .elm-headline[data-pulse] {
+  --db-logo-width: 56px;
+  --db-logo-height: 40px;
 }
 
 /* checkbox */
