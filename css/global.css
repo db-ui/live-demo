@@ -420,6 +420,12 @@ nav ul,
 @font-face {
   font-family: "DB Screen Head";
   font-style: normal;
+  font-weight: 400;
+  src: local("DB Screen Head Regular"), url("../fonts/dbscreenhead-regular.woff2?4r0080") format("woff2"), url("../fonts/dbscreenhead-regular.woff?4r0080") format("woff");
+}
+@font-face {
+  font-family: "DB Screen Head";
+  font-style: normal;
   font-weight: 900;
   src: local("DB Screen Head Black"), url("../fonts/dbscreenhead-black.woff2?4r0080") format("woff2"), url("../fonts/dbscreenhead-black.woff?4r0080") format("woff");
 }
@@ -428,6 +434,18 @@ nav ul,
   font-style: normal;
   font-weight: 400;
   src: local("DB Screen Sans Regular"), url("../fonts/dbscreensans-regular.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-regular.woff?4r0080") format("woff");
+}
+@font-face {
+  font-family: "DB Screen Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: local("DB Screen Sans Medium"), url("../fonts/dbscreensans-medium.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-medium.woff?4r0080") format("woff");
+}
+@font-face {
+  font-family: "DB Screen Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("DB Screen Sans Semibold"), url("../fonts/dbscreensans-semibold.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-semibold.woff?4r0080") format("woff");
 }
 @font-face {
   font-family: "DB Screen Sans";
