@@ -2991,13 +2991,16 @@ nav ul,
   width: 2.75rem;
 }
 .elm-button[data-variant=brand-primary], .elm-button[data-variant=primary] {
-  color: #fff;
+  color: #ffffff;
 }
 .elm-button[data-variant=brand-primary], .elm-button[data-variant=primary] {
   font-weight: 700;
 }
 .elm-button[data-variant=brand-primary] {
   background-color: #ec0016;
+}
+.elm-button[data-variant=brand-primary]:disabled {
+  background-color: #ec001640;
 }
 .elm-button[data-variant=brand-primary]:not(:disabled):hover {
   background-color: #db0016;
@@ -3007,6 +3010,9 @@ nav ul,
 }
 .elm-button[data-variant=primary] {
   background-color: #282d37;
+}
+.elm-button[data-variant=primary]:disabled {
+  background-color: #282d3740;
 }
 .elm-button[data-variant=primary]:not(:disabled):hover {
   background-color: #2f3541;
@@ -3020,12 +3026,12 @@ nav ul,
   border-color: #282d37;
   color: #282d37;
 }
+.elm-button[data-variant=secondary-outline]:disabled {
+  color: #282d3780;
+  border-color: #282d3740;
+}
 .elm-button[data-variant=secondary-outline]:not(:disabled):hover {
   background-color: rgba(40, 45, 55, 0.03);
-}
-.elm-button[data-variant=secondary-outline]:disabled {
-  background-color: transparent;
-  color: #282d37;
 }
 .elm-button[data-variant=secondary-outline]:active {
   background-color: rgba(40, 45, 55, 0.06);
@@ -3033,6 +3039,10 @@ nav ul,
 .elm-button[data-variant=secondary-solid] {
   background-color: #d7dce1;
   color: #282d37;
+}
+.elm-button[data-variant=secondary-solid]:disabled {
+  color: #282d3780;
+  background-color: #d7dce140;
 }
 .elm-button[data-variant=secondary-solid]:not(:disabled):hover {
   background-color: #cdd4da;
@@ -3045,11 +3055,11 @@ nav ul,
   border: 2px solid transparent;
   color: #282d37;
 }
+.elm-button[data-variant=tertiary-plain]:disabled {
+  color: #282d3780;
+}
 .elm-button[data-variant=tertiary-plain]:not(:disabled):hover {
   background-color: rgba(40, 45, 55, 0.03);
-}
-.elm-button[data-variant=tertiary-plain]:disabled {
-  background-color: transparent;
 }
 .elm-button[data-variant=tertiary-plain]:active {
   background-color: rgba(40, 45, 55, 0.06);
@@ -3083,9 +3093,7 @@ nav ul,
   width: 3.25rem;
 }
 .elm-button:disabled {
-  background-color: #d7dce1;
-  color: #282d37;
-  opacity: 0.5;
+  color: #ffffff80;
 }
 
 /* headline */
