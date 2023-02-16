@@ -534,6 +534,15 @@ nav ul,
   --icon-glyph: "🔕";
 }
 
+[data-icon=railroad-car]::before,
+[data-icon-before=railroad-car]::before {
+  --icon-glyph: "󡆓";
+}
+
+[data-icon-after=railroad-car]::after {
+  --icon-glyph: "󡆓";
+}
+
 [data-icon=calendar]::before,
 [data-icon-before=calendar]::before {
   --icon-glyph: "📆";
@@ -858,6 +867,15 @@ nav ul,
   --icon-glyph: "󡂃";
 }
 
+[data-icon=bicycle-trailer]::before,
+[data-icon-before=bicycle-trailer]::before {
+  --icon-glyph: "󡆒";
+}
+
+[data-icon-after=bicycle-trailer]::after {
+  --icon-glyph: "󡆒";
+}
+
 [data-icon=zoom-out]::before,
 [data-icon-before=zoom-out]::before {
   --icon-glyph: "󡂄";
@@ -964,6 +982,15 @@ nav ul,
 
 [data-icon-after=stop]::after {
   --icon-glyph: "□";
+}
+
+[data-icon=subway]::before,
+[data-icon-before=subway]::before {
+  --icon-glyph: "󡈇";
+}
+
+[data-icon-after=subway]::after {
+  --icon-glyph: "󡈇";
 }
 
 [data-icon=subtitles]::before,
@@ -1254,6 +1281,15 @@ nav ul,
   --icon-glyph: "󡄄";
 }
 
+[data-icon=scooter]::before,
+[data-icon-before=scooter]::before {
+  --icon-glyph: "󡈄";
+}
+
+[data-icon-after=scooter]::after {
+  --icon-glyph: "󡈄";
+}
+
 [data-icon=capacity-indicator-fully-booked]::before,
 [data-icon-before=capacity-indicator-fully-booked]::before {
   --icon-glyph: "󡄆";
@@ -1344,6 +1380,15 @@ nav ul,
   --icon-glyph: "🗺";
 }
 
+[data-icon=stop-sign]::before,
+[data-icon-before=stop-sign]::before {
+  --icon-glyph: "󡄕";
+}
+
+[data-icon-after=stop-sign]::after {
+  --icon-glyph: "󡄕";
+}
+
 [data-icon=map-stop]::before,
 [data-icon-before=map-stop]::before {
   --icon-glyph: "󡄕";
@@ -1351,6 +1396,78 @@ nav ul,
 
 [data-icon-after=map-stop]::after {
   --icon-glyph: "󡄕";
+}
+
+[data-icon=travel-insurance]::before,
+[data-icon-before=travel-insurance]::before {
+  --icon-glyph: "󡆆";
+}
+
+[data-icon-after=travel-insurance]::after {
+  --icon-glyph: "󡆆";
+}
+
+[data-icon=multiple-passenger]::before,
+[data-icon-before=multiple-passenger]::before {
+  --icon-glyph: "👭";
+}
+
+[data-icon-after=multiple-passenger]::after {
+  --icon-glyph: "👭";
+}
+
+[data-icon=best-price]::before,
+[data-icon-before=best-price]::before {
+  --icon-glyph: "󡆅";
+}
+
+[data-icon-after=best-price]::after {
+  --icon-glyph: "󡆅";
+}
+
+[data-icon=multiple-cards]::before,
+[data-icon-before=multiple-cards]::before {
+  --icon-glyph: "󡆄";
+}
+
+[data-icon-after=multiple-cards]::after {
+  --icon-glyph: "󡆄";
+}
+
+[data-icon=bed]::before,
+[data-icon-before=bed]::before {
+  --icon-glyph: "🛏";
+}
+
+[data-icon-after=bed]::after {
+  --icon-glyph: "🛏";
+}
+
+[data-icon=aisle-not-available]::before,
+[data-icon-before=aisle-not-available]::before {
+  --icon-glyph: "󡆃";
+}
+
+[data-icon-after=aisle-not-available]::after {
+  --icon-glyph: "󡆃";
+}
+
+[data-icon=station]::before,
+[data-icon-before=station]::before {
+  --icon-glyph: "󡆂";
+}
+
+[data-icon-after=station]::after {
+  --icon-glyph: "󡆂";
+}
+
+[data-icon=parking]::before,
+[data-icon-before=parking]::before {
+  --icon-glyph: "🅿";
+}
+
+[data-icon-after=parking]::after {
+  --icon-glyph: "🅿";
 }
 
 [data-icon=place]::before,
@@ -1378,6 +1495,24 @@ nav ul,
 
 [data-icon-after=trainstation]::after {
   --icon-glyph: "🚉";
+}
+
+[data-icon=train-station]::before,
+[data-icon-before=train-station]::before {
+  --icon-glyph: "🚉";
+}
+
+[data-icon-after=train-station]::after {
+  --icon-glyph: "🚉";
+}
+
+[data-icon=couchette]::before,
+[data-icon-before=couchette]::before {
+  --icon-glyph: "󡆉";
+}
+
+[data-icon-after=couchette]::after {
+  --icon-glyph: "󡆉";
 }
 
 [data-icon=arrow-back]::before,
@@ -1461,6 +1596,24 @@ nav ul,
   --icon-glyph: "⌃";
 }
 
+[data-icon=carsharing]::before,
+[data-icon-before=carsharing]::before {
+  --icon-glyph: "󡆔";
+}
+
+[data-icon-after=carsharing]::after {
+  --icon-glyph: "󡆔";
+}
+
+[data-icon=electric-locomotive]::before,
+[data-icon-before=electric-locomotive]::before {
+  --icon-glyph: "󡆕";
+}
+
+[data-icon-after=electric-locomotive]::after {
+  --icon-glyph: "󡆕";
+}
+
 [data-icon=expand-more]::before,
 [data-icon-before=expand-more]::before {
   --icon-glyph: "⌄";
@@ -1533,6 +1686,15 @@ nav ul,
   --icon-glyph: "󡄢";
 }
 
+[data-icon=s-bahn]::before,
+[data-icon-before=s-bahn]::before {
+  --icon-glyph: "󡈃";
+}
+
+[data-icon-after=s-bahn]::after {
+  --icon-glyph: "󡈃";
+}
+
 [data-icon=more-horizontal]::before,
 [data-icon-before=more-horizontal]::before {
   --icon-glyph: "⋯";
@@ -1578,6 +1740,15 @@ nav ul,
   --icon-glyph: "⚠";
 }
 
+[data-icon=warning]::before,
+[data-icon-before=warning]::before {
+  --icon-glyph: "⚠";
+}
+
+[data-icon-after=warning]::after {
+  --icon-glyph: "⚠";
+}
+
 [data-icon=notify]::before,
 [data-icon-before=notify]::before {
   --icon-glyph: "󡄦";
@@ -1585,6 +1756,15 @@ nav ul,
 
 [data-icon-after=notify]::after {
   --icon-glyph: "󡄦";
+}
+
+[data-icon=taxi]::before,
+[data-icon-before=taxi]::before {
+  --icon-glyph: "󡈈";
+}
+
+[data-icon-after=taxi]::after {
+  --icon-glyph: "󡈈";
 }
 
 [data-icon=notify-cutoff]::before,
@@ -1731,6 +1911,24 @@ nav ul,
   --icon-glyph: "󡅀";
 }
 
+[data-icon=airplane]::before,
+[data-icon-before=airplane]::before {
+  --icon-glyph: "󡆐";
+}
+
+[data-icon-after=airplane]::after {
+  --icon-glyph: "󡆐";
+}
+
+[data-icon=call-a-bike]::before,
+[data-icon-before=call-a-bike]::before {
+  --icon-glyph: "󡆑";
+}
+
+[data-icon-after=call-a-bike]::after {
+  --icon-glyph: "󡆑";
+}
+
 [data-icon=return-journey]::before,
 [data-icon-before=return-journey]::before {
   --icon-glyph: "󡅁";
@@ -1756,6 +1954,24 @@ nav ul,
 
 [data-icon-after=ticket-discount]::after {
   --icon-glyph: "󡅂";
+}
+
+[data-icon=electric-scooter]::before,
+[data-icon-before=electric-scooter]::before {
+  --icon-glyph: "󡆖";
+}
+
+[data-icon-after=electric-scooter]::after {
+  --icon-glyph: "󡆖";
+}
+
+[data-icon=ev-car]::before,
+[data-icon-before=ev-car]::before {
+  --icon-glyph: "󡆗";
+}
+
+[data-icon-after=ev-car]::after {
+  --icon-glyph: "󡆗";
 }
 
 [data-icon=ticket-multiple]::before,
@@ -1884,6 +2100,15 @@ nav ul,
   --icon-glyph: "👪";
 }
 
+[data-icon=augmented-reality]::before,
+[data-icon-before=augmented-reality]::before {
+  --icon-glyph: "󡅧";
+}
+
+[data-icon-after=augmented-reality]::after {
+  --icon-glyph: "󡅧";
+}
+
 [data-icon=quiet-zone]::before,
 [data-icon-before=quiet-zone]::before {
   --icon-glyph: "🤫";
@@ -1899,6 +2124,15 @@ nav ul,
 }
 
 [data-icon-after=duplicate]::after {
+  --icon-glyph: "󡅔";
+}
+
+[data-icon=copy]::before,
+[data-icon-before=copy]::before {
+  --icon-glyph: "󡅔";
+}
+
+[data-icon-after=copy]::after {
   --icon-glyph: "󡅔";
 }
 
@@ -1936,6 +2170,627 @@ nav ul,
 
 [data-icon-after=restricted-mobility-toilet]::after {
   --icon-glyph: "󡅣";
+}
+
+[data-icon=database]::before,
+[data-icon-before=database]::before {
+  --icon-glyph: "󡆁";
+}
+
+[data-icon-after=database]::after {
+  --icon-glyph: "󡆁";
+}
+
+[data-icon=breakfast]::before,
+[data-icon-before=breakfast]::before {
+  --icon-glyph: "🥐";
+}
+
+[data-icon-after=breakfast]::after {
+  --icon-glyph: "🥐";
+}
+
+[data-icon=ferry]::before,
+[data-icon-before=ferry]::before {
+  --icon-glyph: "󡆘";
+}
+
+[data-icon-after=ferry]::after {
+  --icon-glyph: "󡆘";
+}
+
+[data-icon=no-smoking]::before,
+[data-icon-before=no-smoking]::before {
+  --icon-glyph: "🚭";
+}
+
+[data-icon-after=no-smoking]::after {
+  --icon-glyph: "🚭";
+}
+
+[data-icon=luggage-compartment]::before,
+[data-icon-before=luggage-compartment]::before {
+  --icon-glyph: "🛅";
+}
+
+[data-icon-after=luggage-compartment]::after {
+  --icon-glyph: "🛅";
+}
+
+[data-icon=environmental-mobility-check]::before,
+[data-icon-before=environmental-mobility-check]::before {
+  --icon-glyph: "🍃";
+}
+
+[data-icon-after=environmental-mobility-check]::after {
+  --icon-glyph: "🍃";
+}
+
+[data-icon=clothing-hanger]::before,
+[data-icon-before=clothing-hanger]::before {
+  --icon-glyph: "󡆀";
+}
+
+[data-icon-after=clothing-hanger]::after {
+  --icon-glyph: "󡆀";
+}
+
+[data-icon=handcart]::before,
+[data-icon-before=handcart]::before {
+  --icon-glyph: "󡆙";
+}
+
+[data-icon-after=handcart]::after {
+  --icon-glyph: "󡆙";
+}
+
+[data-icon=reservation]::before,
+[data-icon-before=reservation]::before {
+  --icon-glyph: "󡅹";
+}
+
+[data-icon-after=reservation]::after {
+  --icon-glyph: "󡅹";
+}
+
+[data-icon=platform]::before,
+[data-icon-before=platform]::before {
+  --icon-glyph: "🛤";
+}
+
+[data-icon-after=platform]::after {
+  --icon-glyph: "🛤";
+}
+
+[data-icon=night]::before,
+[data-icon-before=night]::before {
+  --icon-glyph: "🌒";
+}
+
+[data-icon-after=night]::after {
+  --icon-glyph: "🌒";
+}
+
+[data-icon=marketplace]::before,
+[data-icon-before=marketplace]::before {
+  --icon-glyph: "󡅸";
+}
+
+[data-icon-after=marketplace]::after {
+  --icon-glyph: "󡅸";
+}
+
+[data-icon=hydrogen]::before,
+[data-icon-before=hydrogen]::before {
+  --icon-glyph: "󡅷";
+}
+
+[data-icon-after=hydrogen]::after {
+  --icon-glyph: "󡅷";
+}
+
+[data-icon=day]::before,
+[data-icon-before=day]::before {
+  --icon-glyph: "☀";
+}
+
+[data-icon-after=day]::after {
+  --icon-glyph: "☀";
+}
+
+[data-icon=sink]::before,
+[data-icon-before=sink]::before {
+  --icon-glyph: "🧼";
+}
+
+[data-icon-after=sink]::after {
+  --icon-glyph: "🧼";
+}
+
+[data-icon=microphone]::before,
+[data-icon-before=microphone]::before {
+  --icon-glyph: "🎤";
+}
+
+[data-icon-after=microphone]::after {
+  --icon-glyph: "🎤";
+}
+
+[data-icon=undo]::before,
+[data-icon-before=undo]::before {
+  --icon-glyph: "⎌";
+}
+
+[data-icon-after=undo]::after {
+  --icon-glyph: "⎌";
+}
+
+[data-icon=thumb-up-down]::before,
+[data-icon-before=thumb-up-down]::before {
+  --icon-glyph: "👎";
+}
+
+[data-icon-after=thumb-up-down]::after {
+  --icon-glyph: "👎";
+}
+
+[data-icon=local-bus]::before,
+[data-icon-before=local-bus]::before {
+  --icon-glyph: "󡈁";
+}
+
+[data-icon-after=local-bus]::after {
+  --icon-glyph: "󡈁";
+}
+
+[data-icon=long-distance-bus]::before,
+[data-icon-before=long-distance-bus]::before {
+  --icon-glyph: "󡈂";
+}
+
+[data-icon-after=long-distance-bus]::after {
+  --icon-glyph: "󡈂";
+}
+
+[data-icon=thumb-up]::before,
+[data-icon-before=thumb-up]::before {
+  --icon-glyph: "👍";
+}
+
+[data-icon-after=thumb-up]::after {
+  --icon-glyph: "👍";
+}
+
+[data-icon=logbook]::before,
+[data-icon-before=logbook]::before {
+  --icon-glyph: "📓";
+}
+
+[data-icon-after=logbook]::after {
+  --icon-glyph: "📓";
+}
+
+[data-icon=lightbulb]::before,
+[data-icon-before=lightbulb]::before {
+  --icon-glyph: "💡";
+}
+
+[data-icon-after=lightbulb]::after {
+  --icon-glyph: "💡";
+}
+
+[data-icon=key]::before,
+[data-icon-before=key]::before {
+  --icon-glyph: "🔑";
+}
+
+[data-icon-after=key]::after {
+  --icon-glyph: "🔑";
+}
+
+[data-icon=fingerprint]::before,
+[data-icon-before=fingerprint]::before {
+  --icon-glyph: "󡅱";
+}
+
+[data-icon-after=fingerprint]::after {
+  --icon-glyph: "󡅱";
+}
+
+[data-icon=face-smiling]::before,
+[data-icon-before=face-smiling]::before {
+  --icon-glyph: "󡅰";
+}
+
+[data-icon-after=face-smiling]::after {
+  --icon-glyph: "󡅰";
+}
+
+[data-icon=face-neutral]::before,
+[data-icon-before=face-neutral]::before {
+  --icon-glyph: "󡅨";
+}
+
+[data-icon-after=face-neutral]::after {
+  --icon-glyph: "󡅨";
+}
+
+[data-icon=ice]::before,
+[data-icon-before=ice]::before {
+  --icon-glyph: "󡈀";
+}
+
+[data-icon-after=ice]::after {
+  --icon-glyph: "󡈀";
+}
+
+[data-icon=face-sad]::before,
+[data-icon-before=face-sad]::before {
+  --icon-glyph: "󡅩";
+}
+
+[data-icon-after=face-sad]::after {
+  --icon-glyph: "󡅩";
+}
+
+[data-icon=cloud-upload]::before,
+[data-icon-before=cloud-upload]::before {
+  --icon-glyph: "⇧";
+}
+
+[data-icon-after=cloud-upload]::after {
+  --icon-glyph: "⇧";
+}
+
+[data-icon=cloud-download]::before,
+[data-icon-before=cloud-download]::before {
+  --icon-glyph: "⇩";
+}
+
+[data-icon-after=cloud-download]::after {
+  --icon-glyph: "⇩";
+}
+
+[data-icon=cash]::before,
+[data-icon-before=cash]::before {
+  --icon-glyph: "💸";
+}
+
+[data-icon-after=cash]::after {
+  --icon-glyph: "💸";
+}
+
+[data-icon=dashboard]::before,
+[data-icon-before=dashboard]::before {
+  --icon-glyph: "󡅤";
+}
+
+[data-icon-after=dashboard]::after {
+  --icon-glyph: "󡅤";
+}
+
+[data-icon=resize]::before,
+[data-icon-before=resize]::before {
+  --icon-glyph: "󡅥";
+}
+
+[data-icon-after=resize]::after {
+  --icon-glyph: "󡅥";
+}
+
+[data-icon=sepa]::before,
+[data-icon-before=sepa]::before {
+  --icon-glyph: "󡅦";
+}
+
+[data-icon-after=sepa]::after {
+  --icon-glyph: "󡅦";
+}
+
+[data-icon=save]::before,
+[data-icon-before=save]::before {
+  --icon-glyph: "💾";
+}
+
+[data-icon-after=save]::after {
+  --icon-glyph: "💾";
+}
+
+[data-icon=pin]::before,
+[data-icon-before=pin]::before {
+  --icon-glyph: "📌";
+}
+
+[data-icon-after=pin]::after {
+  --icon-glyph: "📌";
+}
+
+[data-icon=folder-open]::before,
+[data-icon-before=folder-open]::before {
+  --icon-glyph: "📂";
+}
+
+[data-icon-after=folder-open]::after {
+  --icon-glyph: "📂";
+}
+
+[data-icon=folder]::before,
+[data-icon-before=folder]::before {
+  --icon-glyph: "📁";
+}
+
+[data-icon-after=folder]::after {
+  --icon-glyph: "📁";
+}
+
+[data-icon=camera]::before,
+[data-icon-before=camera]::before {
+  --icon-glyph: "📷";
+}
+
+[data-icon-after=camera]::after {
+  --icon-glyph: "📷";
+}
+
+[data-icon=compass]::before,
+[data-icon-before=compass]::before {
+  --icon-glyph: "🧭";
+}
+
+[data-icon-after=compass]::after {
+  --icon-glyph: "🧭";
+}
+
+[data-icon=drag-and-drop]::before,
+[data-icon-before=drag-and-drop]::before {
+  --icon-glyph: "󡆇";
+}
+
+[data-icon-after=drag-and-drop]::after {
+  --icon-glyph: "󡆇";
+}
+
+[data-icon=person-with-cane]::before,
+[data-icon-before=person-with-cane]::before {
+  --icon-glyph: "🦯";
+}
+
+[data-icon-after=person-with-cane]::after {
+  --icon-glyph: "🦯";
+}
+
+[data-icon=hearing]::before,
+[data-icon-before=hearing]::before {
+  --icon-glyph: "󡈑";
+}
+
+[data-icon-after=hearing]::after {
+  --icon-glyph: "󡈑";
+}
+
+[data-icon=hearing-disabled]::before,
+[data-icon-before=hearing-disabled]::before {
+  --icon-glyph: "󡈒";
+}
+
+[data-icon-after=hearing-disabled]::after {
+  --icon-glyph: "󡈒";
+}
+
+[data-icon=translation]::before,
+[data-icon-before=translation]::before {
+  --icon-glyph: "󡈓";
+}
+
+[data-icon-after=translation]::after {
+  --icon-glyph: "󡈓";
+}
+
+[data-icon=voucher]::before,
+[data-icon-before=voucher]::before {
+  --icon-glyph: "󡈔";
+}
+
+[data-icon-after=voucher]::after {
+  --icon-glyph: "󡈔";
+}
+
+[data-icon=support-dog]::before,
+[data-icon-before=support-dog]::before {
+  --icon-glyph: "󡈕";
+}
+
+[data-icon-after=support-dog]::after {
+  --icon-glyph: "󡈕";
+}
+
+[data-icon=person-with-rollator]::before,
+[data-icon-before=person-with-rollator]::before {
+  --icon-glyph: "󡆈";
+}
+
+[data-icon-after=person-with-rollator]::after {
+  --icon-glyph: "󡆈";
+}
+
+[data-icon=sort-down]::before,
+[data-icon-before=sort-down]::before {
+  --icon-glyph: "↡";
+}
+
+[data-icon-after=sort-down]::after {
+  --icon-glyph: "↡";
+}
+
+[data-icon=sort-up]::before,
+[data-icon-before=sort-up]::before {
+  --icon-glyph: "↟";
+}
+
+[data-icon-after=sort-up]::after {
+  --icon-glyph: "↟";
+}
+
+[data-icon=cloud]::before,
+[data-icon-before=cloud]::before {
+  --icon-glyph: "☁";
+}
+
+[data-icon-after=cloud]::after {
+  --icon-glyph: "☁";
+}
+
+[data-icon=sev]::before,
+[data-icon-before=sev]::before {
+  --icon-glyph: "󡈅";
+}
+
+[data-icon-after=sev]::after {
+  --icon-glyph: "󡈅";
+}
+
+[data-icon=train-and-car]::before,
+[data-icon-before=train-and-car]::before {
+  --icon-glyph: "󡈉";
+}
+
+[data-icon-after=train-and-car]::after {
+  --icon-glyph: "󡈉";
+}
+
+[data-icon=tram]::before,
+[data-icon-before=tram]::before {
+  --icon-glyph: "󡈐";
+}
+
+[data-icon-after=tram]::after {
+  --icon-glyph: "󡈐";
+}
+
+[data-icon=speedboat]::before,
+[data-icon-before=speedboat]::before {
+  --icon-glyph: "󡈆";
+}
+
+[data-icon-after=speedboat]::after {
+  --icon-glyph: "󡈆";
+}
+
+[data-icon=build]::before,
+[data-icon-before=build]::before {
+  --icon-glyph: "🛠";
+}
+
+[data-icon-after=build]::after {
+  --icon-glyph: "🛠";
+}
+
+[data-icon=bug]::before,
+[data-icon-before=bug]::before {
+  --icon-glyph: "🐛";
+}
+
+[data-icon-after=bug]::after {
+  --icon-glyph: "🐛";
+}
+
+[data-icon=question]::before,
+[data-icon-before=question]::before {
+  --icon-glyph: "󡅲";
+}
+
+[data-icon-after=question]::after {
+  --icon-glyph: "󡅲";
+}
+
+[data-icon=receive-item]::before,
+[data-icon-before=receive-item]::before {
+  --icon-glyph: "󡅳";
+}
+
+[data-icon-after=receive-item]::after {
+  --icon-glyph: "󡅳";
+}
+
+[data-icon=share-item]::before,
+[data-icon-before=share-item]::before {
+  --icon-glyph: "󡅴";
+}
+
+[data-icon-after=share-item]::after {
+  --icon-glyph: "󡅴";
+}
+
+[data-icon=playground]::before,
+[data-icon-before=playground]::before {
+  --icon-glyph: "🧸";
+}
+
+[data-icon-after=playground]::after {
+  --icon-glyph: "🧸";
+}
+
+[data-icon=shower]::before,
+[data-icon-before=shower]::before {
+  --icon-glyph: "🚿";
+}
+
+[data-icon-after=shower]::after {
+  --icon-glyph: "🚿";
+}
+
+[data-icon=shower-men]::before,
+[data-icon-before=shower-men]::before {
+  --icon-glyph: "󡅵";
+}
+
+[data-icon-after=shower-men]::after {
+  --icon-glyph: "󡅵";
+}
+
+[data-icon=shower-women]::before,
+[data-icon-before=shower-women]::before {
+  --icon-glyph: "󡅶";
+}
+
+[data-icon-after=shower-women]::after {
+  --icon-glyph: "󡅶";
+}
+
+[data-icon=add-link]::before,
+[data-icon-before=add-link]::before {
+  --icon-glyph: "🔗";
+}
+
+[data-icon-after=add-link]::after {
+  --icon-glyph: "🔗";
+}
+
+[data-icon=attachment]::before,
+[data-icon-before=attachment]::before {
+  --icon-glyph: "📎";
+}
+
+[data-icon-after=attachment]::after {
+  --icon-glyph: "📎";
+}
+
+[data-icon=block]::before,
+[data-icon-before=block]::before {
+  --icon-glyph: "❎";
+}
+
+[data-icon-after=block]::after {
+  --icon-glyph: "❎";
+}
+
+[data-icon=bookmark]::before,
+[data-icon-before=bookmark]::before {
+  --icon-glyph: "🔖";
+}
+
+[data-icon-after=bookmark]::after {
+  --icon-glyph: "🔖";
 }
 
 [data-icon=shopping-basket-disabled]::before,
@@ -1998,6 +2853,15 @@ nav ul,
 }
 
 [data-icon-after=seat-priority]::after {
+  --icon-glyph: "󡅢";
+}
+
+[data-icon=priority]::before,
+[data-icon-before=priority]::before {
+  --icon-glyph: "󡅢";
+}
+
+[data-icon-after=priority]::after {
   --icon-glyph: "󡅢";
 }
 
@@ -2250,6 +3114,20 @@ nav ul,
   --icon-font-size: 4rem;
 }
 
+[data-icon-variant="16-filled"][data-icon]::before, [data-icon-variant="16-filled"][data-icon-before]::before,
+[data-icon-variant-before="16-filled"][data-icon]::before,
+[data-icon-variant-before="16-filled"][data-icon-before]::before {
+  --icon-font-family: "icons-16-filled",
+  	"missing-icons" !important;
+  --icon-font-size: 1rem;
+}
+
+[data-icon-variant-after="16-filled"][data-icon-after]::after {
+  --icon-font-family: "icons-16-filled",
+  	"missing-icons" !important;
+  --icon-font-size: 1rem;
+}
+
 [data-icon-variant="20-filled"][data-icon]::before, [data-icon-variant="20-filled"][data-icon-before]::before,
 [data-icon-variant-before="20-filled"][data-icon]::before,
 [data-icon-variant-before="20-filled"][data-icon-before]::before {
@@ -2329,14 +3207,14 @@ nav ul,
 @font-face {
   font-display: block;
   font-family: "missing-icons";
-  src: url("../icons/functional/fonts/icons-empty.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-empty.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-empty.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-empty.woff?4r2096") format("woff");
 }
 @font-face {
   font-display: block;
   font-family: "icons-16-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-16-outline-action.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-16-outline-action.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-16-outline-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-16-outline-action.woff?4r2096") format("woff");
   unicode-range: U+002B,U+2713,U+2212;
 }
 @font-face {
@@ -2344,31 +3222,31 @@ nav ul,
   font-family: "icons-16-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-16-outline-navigation.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-16-outline-navigation.woff?4r2095") format("woff");
-  unicode-range: U+003C,U+003E,U+2A2F,U+2303,U+2304;
+  src: url("../icons/functional/fonts/icons-16-outline-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-16-outline-navigation.woff?4r2096") format("woff");
+  unicode-range: U+2190,U+2193,U+2192,U+2191,U+003C,U+003E,U+2A2F,U+2303,U+2304;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-action.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-action.woff?4r2095") format("woff");
-  unicode-range: U+1f642,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+002B,U+2295,U+23F0,U+1F514-1F515,U+1F4C6,U+2705,U+1F4B3,U+1F5D1,U+1F5B9,U+2713,U+2B73,U+270F,U+1F381,U+2661,U+003F,U+1F6C8,U+00A7,U+21A6,U+2212,U+1F5A8,U+229D,U+1F553,U+1F50D,U+25F9,U+2699,U+1F6CD,U+1F6D2,U+2606,U+21C6,U+21F5,U+1F441,U+1F310,U+e1154,U+1F5BC,U+1F512,U+1F513,U+e1155,U+e1156;
+  src: url("../icons/functional/fonts/icons-20-outline-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-action.woff?4r2096") format("woff");
+  unicode-range: U+1f642,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+002B,U+2295,U+23F0,U+1F514-1F515,U+1F4C6,U+2705,U+1F4B3,U+1F5D1,U+1F5B9,U+2713,U+2B73,U+270F,U+1F381,U+2661,U+003F,U+1F6C8,U+00A7,U+21A6,U+2212,U+1F5A8,U+229D,U+1F553,U+1F50D,U+25F9,U+2699,U+1F6CD,U+1F6D2,U+2606,U+21C6,U+21F5,U+1F441,U+1F310,U+e1154,U+1F5BC,U+1F512,U+1F513,U+e1155,U+e1156,U+1F517,U+1F4CE,U+e1167,U+274E,U+1F516,U+1F41B,U+1F6E0,U+1F4F7,U+1F4B8,U+2601,U+21E9,U+21E7,U+e1164,U+e1168,U+e1169,U+e1170,U+e1171,U+1F4C1,U+1F4C2,U+1F511,U+1F4A1,U+1F4D3,U+1F4CC,U+e1165,U+1F4BE,U+e1166,U+1F44D,U+1F44E,U+238C,U+1F9ED,U+e1187,U+21A1,U+219F,U+e1211,U+e1212,U+e1213,U+e1214;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-av.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-av.woff?4r2095") format("woff");
-  unicode-range: U+e1085-e1088,U+e1091,U+293A,U+293B,U+23F8,U+25B7,U+23EE,U+23ED,U+25A1,U+1F507-1F509,U+1F50A;
+  src: url("../icons/functional/fonts/icons-20-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-av.woff?4r2096") format("woff");
+  unicode-range: U+e1085-e1088,U+e1091,U+293A,U+293B,U+23F8,U+25B7,U+23EE,U+23ED,U+25A1,U+1F507-1F509,U+1F50A,U+1F3A4;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-brand.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-brand.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-brand.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-brand.woff?4r2096") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -2376,15 +3254,15 @@ nav ul,
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-communication.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-communication.woff?4r2095") format("woff");
-  unicode-range: U+1F4DE,U+e1095,U+e1098,U+e1149,U+1F4AC,U+1F5B7,U+2370,U+2709,U+1F4F4,U+1F4F1;
+  src: url("../icons/functional/fonts/icons-20-outline-communication.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-communication.woff?4r2096") format("woff");
+  unicode-range: U+1F4DE,U+e1095,U+e1098,U+e1149,U+1F4AC,U+1F5B7,U+2370,U+2709,U+1F4F4,U+1F4F1,U+e1172,U+e1173,U+e1174;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-covid-19.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-covid-19.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-covid-19.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-covid-19.woff?4r2096") format("woff");
   unicode-range: U+1F637;
 }
 @font-face {
@@ -2392,31 +3270,39 @@ nav ul,
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-facilities.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-facilities.woff?4r2095") format("woff");
-  unicode-range: U+1F6BB,U+1F6B9,U+1F6BE,U+1F6BA,U+e1163;
+  src: url("../icons/functional/fonts/icons-20-outline-facilities.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-facilities.woff?4r2096") format("woff");
+  unicode-range: U+1F6BB,U+1F6B9,U+1F6BE,U+1F6BA,U+e1163,U+,U+1F6BF,U+e1175,U+e1176,U+1F9FC;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-feature.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-feature.woff?4r2095") format("woff");
-  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744;
+  src: url("../icons/functional/fonts/icons-20-outline-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-feature.woff?4r2096") format("woff");
+  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+1F343,U+e1177,U+1F6C5,U+e1178,U+1F312,U+1F6AD,U+1F6E4,U+e1179,U+e1215,U+1F9AF,U+e1188;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-food.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-food.woff?4r2095") format("woff");
-  unicode-range: U+2615,U+e1101,U+1F37D;
+  src: url("../icons/functional/fonts/icons-20-outline-food.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-food.woff?4r2096") format("woff");
+  unicode-range: U+2615,U+e1101,U+1F37D,U+1F950;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-journey.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-journey.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-it.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-it.woff?4r2096") format("woff");
+  unicode-range: U+e1181;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-20-outline";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-20-outline-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-journey.woff?4r2096") format("woff");
   unicode-range: U+2488,U+2489,U+e1102-e1104,U+e1106,U+e1108,U+e1110,U+e1113,U+1F4CD,U+2B94,U+291E,U+29BF,U+e1161;
 }
 @font-face {
@@ -2424,15 +3310,15 @@ nav ul,
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-maps.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-maps.woff?4r2095") format("woff");
-  unicode-range: U+2302,U+e1115-e1116,U+1F5FA,U+1F78B,U+1F689,U+e1157;
+  src: url("../icons/functional/fonts/icons-20-outline-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-maps.woff?4r2096") format("woff");
+  unicode-range: U+2302,U+e1115-e1116,U+1F5FA,U+1F78B,U+1F689,U+e1157,U+e1158,U+e1182,U+1F17F;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-navigation.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-navigation.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-navigation.woff?4r2096") format("woff");
   unicode-range: U+2190-2193,U+2BBE,U+e1119-e1122,U+003C,U+003E,U+2A2F,U+2303,U+2304,U+1030E,U+1F862,U+1F865,U+22EF,U+22EE,U+1F5D8;
 }
 @font-face {
@@ -2440,7 +3326,7 @@ nav ul,
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-notification.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-notification.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-notification.woff?4r2096") format("woff");
   unicode-range: U+e1123,U+26A0,U+e1126,U+e1127;
 }
 @font-face {
@@ -2448,47 +3334,47 @@ nav ul,
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-seat.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-seat.woff?4r2095") format("woff");
-  unicode-range: U+e1128-e1130,U+1F4BA,U+267F,U+1F37C,U+1F46A,U+1F92B,U+e1162;
+  src: url("../icons/functional/fonts/icons-20-outline-seat.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-seat.woff?4r2096") format("woff");
+  unicode-range: U+e1128-e1130,U+1F4BA,U+267F,U+1F37C,U+1F46A,U+1F92B,U+e1162,U+e1183,U+1F6CF,U+e1189;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-ticket.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-ticket.woff?4r2095") format("woff");
-  unicode-range: U+e1131-e1132,U+e1134,U+e1136-e1146,U+2714,U+1F907,U+1F3AB;
+  src: url("../icons/functional/fonts/icons-20-outline-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-ticket.woff?4r2096") format("woff");
+  unicode-range: U+e1131-e1132,U+e1134,U+e1136-e1146,U+2714,U+1F907,U+1F3AB,U+e1185,U+e1184,U+1F46D,U+e1186;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-transportation.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-outline-transportation.woff?4r2095") format("woff");
-  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159;
+  src: url("../icons/functional/fonts/icons-20-outline-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-transportation.woff?4r2096") format("woff");
+  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159,U+e1190-e1210;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-action.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-action.woff?4r2095") format("woff");
-  unicode-range: U+1f642,U+002B,U+2295,U+23F0,U+e1062,U+1F514-1F515,U+1F4C6,U+2705,U+1F4B3,U+1F5D1,U+e1066,U+1F5B9,U+2713,U+2B73,U+270F,U+e1069,U+e1070,U+1F381,U+2661,U+003F,U+1F6C8,U+00A7,U+21A6,U+2212,U+1F5A8,U+229D,U+1F553,U+1F50D,U+25F9,U+2699,U+e1077,U+1F6CD,U+e1079,U+1F6D2,U+2606,U+21C6,U+21F5,U+e1081,U+1F441,U+e1082,U+1F310,U+e1083,U+e1084,U+e1154,U+1F512,U+1F513,U+e1155,U+e1156;
+  src: url("../icons/functional/fonts/icons-24-outline-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-action.woff?4r2096") format("woff");
+  unicode-range: U+1f642,U+002B,U+2295,U+1F517,U+23F0,U+e1062,U+1F514-1F515,U+1F4CE,U+e1167,U+274E,U+1F516,U+1F41B,U+1F6E0,U+1F4C6,U+1F4F7,U+1F4B8,U+2705,U+2601,U+21E9,U+21E7,U+e1154,U+1F4B3,U+e1164,U+1F5D1,U+e1066,U+1F5B9,U+2713,U+2B73,U+270F,U+e1168,U+e1169,U+e1170,U+e1069,U+e1171,U+1F4C1,U+1F4C2,U+e1070,U+1F381,U+2661,U+003F,U+1F5BC,U+1F6C8,U+1F511,U+00A7,U+1F4A1,U+1F512,U+1F513,U+21A6,U+1F4D3,U+2212,U+1F4CC,U+1F5A8,U+229D,U+e1165,U+1F4BE,U+1F553,U+1F50D,U+25F9,U+e1166,U+2699,U+e1077,U+1F6CD,U+e1079,U+e1155,U+1F6D2,U+e1156,U+2606,U+21C6,U+21F5,U+1F44D,U+1F44E,U+238C,U+e1081,U+1F441,U+e1082,U+1F310,U+e1083,U+e1084,U+1F9ED,U+e1187,U+21A1,U+219F,U+e1211,U+e1212,U+e1213,U+e1214;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-av.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-av.woff?4r2095") format("woff");
-  unicode-range: U+e1085,U+e1086,U+293A,U+e1087,U+e1088,U+293B,U+23F8,U+25B7,U+23EE,U+23ED,U+25A1,U+e1091,U+1F509,U+1F508,U+1F507,U+1F50A;
+  src: url("../icons/functional/fonts/icons-24-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-av.woff?4r2096") format("woff");
+  unicode-range: U+e1085,U+e1086,U+293A,U+e1087,U+e1088,U+293B,U+23F8,U+25B7,U+23EE,U+23ED,U+25A1,U+e1091,U+1F509,U+1F508,U+1F507,U+1F50A,U+1F3A4;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-brand.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-brand.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-brand.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-brand.woff?4r2096") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -2496,15 +3382,15 @@ nav ul,
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-communication.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-communication.woff?4r2095") format("woff");
-  unicode-range: U+1F4DE,U+1F4AC,U+e1095,U+1F5B7,U+2370,U+2709,U+1F4F4,U+1F4F1,U+e1098,U+e1149;
+  src: url("../icons/functional/fonts/icons-24-outline-communication.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-communication.woff?4r2096") format("woff");
+  unicode-range: U+1F4DE,U+1F4AC,U+e1095,U+1F5B7,U+2370,U+2709,U+1F4F4,U+1F4F1,U+e1098,U+e1149,U+e1172,U+e1173,U+e1174;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-covid-19.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-covid-19.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-covid-19.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-covid-19.woff?4r2096") format("woff");
   unicode-range: U+1F637;
 }
 @font-face {
@@ -2512,31 +3398,39 @@ nav ul,
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-facilities.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-facilities.woff?4r2095") format("woff");
-  unicode-range: U+1F6BB,U+1F6B9,U+1F6BE,U+1F6BA,U+e1163;
+  src: url("../icons/functional/fonts/icons-24-outline-facilities.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-facilities.woff?4r2096") format("woff");
+  unicode-range: U+1F6BB,U+1F6B9,U+1F6BE,U+1F6BA,U+e1163,U+1F9F8,U+1F6BF,U+e1175,U+e1176,U+1F9FC,;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-feature.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-feature.woff?4r2095") format("woff");
-  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744;
+  src: url("../icons/functional/fonts/icons-24-outline-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-feature.woff?4r2096") format("woff");
+  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+1F343,U+e1177,U+1F6C5,U+e1178,U+1F312,U+1F6AD,U+1F6E4,U+e1179,U+e1215,U+1F9AF,U+e1188;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-food.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-food.woff?4r2095") format("woff");
-  unicode-range: U+2615,U+e1101,U+1F37D;
+  src: url("../icons/functional/fonts/icons-24-outline-food.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-food.woff?4r2096") format("woff");
+  unicode-range: U+2615,U+e1101,U+1F37D,U+1F950;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-journey.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-journey.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-it.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-it.woff?4r2096") format("woff");
+  unicode-range: U+e1181;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-24-outline";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-24-outline-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-journey.woff?4r2096") format("woff");
   unicode-range: U+2488-2489,U+e1102-e1104,U+e1106,U+e1108,U+e1110,U+1F4CD,U+e1113,U+2B94,U+291E,U+29BF,U+e1161;
 }
 @font-face {
@@ -2544,15 +3438,15 @@ nav ul,
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-maps.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-maps.woff?4r2095") format("woff");
-  unicode-range: U+2302,U+1F5FA,U+e1115,U+e1116,U+1F78B,U+1F689,U+e1157;
+  src: url("../icons/functional/fonts/icons-24-outline-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-maps.woff?4r2096") format("woff");
+  unicode-range: U+2302,U+1F5FA,U+e1115,U+e1116,U+1F78B,U+1F689,U+e1157,U+e1158,U+1F17F,U+e1182;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-navigation.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-navigation.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-navigation.woff?4r2096") format("woff");
   unicode-range: U+2190-2193,U+2BBE,U+003C,U+003E,U+2A2F,U+2303,U+2304,U+e1119,U+e1120,U+1030E,U+1F862,U+1F865,U+e1121,U+e1122,U+22EF,U+22EE,U+1F5D8;
 }
 @font-face {
@@ -2560,7 +3454,7 @@ nav ul,
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-notification.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-notification.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-notification.woff?4r2096") format("woff");
   unicode-range: U+e1123-e1127,U+26A0;
 }
 @font-face {
@@ -2568,47 +3462,47 @@ nav ul,
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-seat.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-seat.woff?4r2095") format("woff");
-  unicode-range: U+1F4BA,U+e1128-e1130,U+267F,U+1F37C,U+1F46A,U+1F92B,U+e1162;
+  src: url("../icons/functional/fonts/icons-24-outline-seat.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-seat.woff?4r2096") format("woff");
+  unicode-range: U+1F4BA,U+e1128-e1130,U+267F,U+1F37C,U+1F46A,U+1F92B,U+e1162,U+e1183,U+1F6CF,U+e1189;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-ticket.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-ticket.woff?4r2095") format("woff");
-  unicode-range: U+e1131-e1146,U+2714,U+1F907,U+1F3AB;
+  src: url("../icons/functional/fonts/icons-24-outline-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-ticket.woff?4r2096") format("woff");
+  unicode-range: U+e1131-e1146,U+2714,U+1F907,U+1F3AB,U+e1184,U+e1185,U+1F46D,U+e1186;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-transportation.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-outline-transportation.woff?4r2095") format("woff");
-  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159;
+  src: url("../icons/functional/fonts/icons-24-outline-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-transportation.woff?4r2096") format("woff");
+  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159,U+e1190-e1210;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-action.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-action.woff?4r2095") format("woff");
-  unicode-range: U+1f642,U+2295,U+002B,U+e1062,U+e1064-e1084,U+23F0,U+1F514-1F515,U+1F4C6,U+2705,U+1F4B3,U+1F5D1,U+1F5B9,U+2713,U+2B73,U+270F,U+1F381,U+2661,U+003F,U+1F6C8,U+00A7,U+21A6,U+2212,U+1F5A8,U+229D,U+1F553,U+1F50D,U+25F9,U+2699,U+1F6CD,U+1F6D2,U+2606,U+21C6,U+21F5,U+1F441,U+1F310,U+e1154,U+1F512,U+1F513,U+e1155,U+e1156;
+  src: url("../icons/functional/fonts/icons-32-outline-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-action.woff?4r2096") format("woff");
+  unicode-range: U+1f642,U+002B,U+2295,U+1F517,U+23F0,U+e1062,U+1F514-1F515,U+1F4CE,U+e1167,U+274E,U+1F516,U+1F41B,U+1F6E0,U+1F4C6,U+1F4F7,U+1F4B8,U+2705,U+2601,U+21E9,U+21E7,U+e1154,U+1F4B3,U+e1164,U+1F5D1,U+e1066,U+1F5B9,U+2713,U+2B73,U+270F,U+e1168,U+e1169,U+e1170,U+e1069,U+e1171,U+1F4C1,U+1F4C2,U+e1070,U+1F381,U+2661,U+003F,U+1F5BC,U+1F6C8,U+1F511,U+00A7,U+1F4A1,U+1F512,U+1F513,U+21A6,U+1F4D3,U+2212,U+1F4CC,U+1F5A8,U+229D,U+e1165,U+1F4BE,U+1F553,U+1F50D,U+25F9,U+e1166,U+2699,U+e1077,U+1F6CD,U+e1079,U+e1155,U+1F6D2,U+e1156,U+2606,U+21C6,U+21F5,U+1F44D,U+1F44E,U+238C,U+e1081,U+1F441,U+e1082,U+1F310,U+e1083,U+e1084,U+1F9ED,U+e1187,U+21A1,U+219F,U+e1211,U+e1212,U+e1213,U+e1214;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-av.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-av.woff?4r2095") format("woff");
-  unicode-range: U+e1085-e1088,U+e1091,U+293A,U+293B,U+23F8,U+25B7,U+23EE,U+23ED,U+25A1,U+1F509,U+1F508,U+1F507,U+1F50A;
+  src: url("../icons/functional/fonts/icons-32-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-av.woff?4r2096") format("woff");
+  unicode-range: U+e1085-e1088,U+e1091,U+293A,U+293B,U+23F8,U+25B7,U+23EE,U+23ED,U+25A1,U+1F509,U+1F508,U+1F507,U+1F50A,U+1F3A4;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-brand.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-brand.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-brand.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-brand.woff?4r2096") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -2616,15 +3510,15 @@ nav ul,
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-communication.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-communication.woff?4r2095") format("woff");
-  unicode-range: U+1F4DE,U+1F4AC,U+e1095,U+1F5B7,U+2370,U+2709,U+1F4F4,U+1F4F1,U+e1098,U+e1149;
+  src: url("../icons/functional/fonts/icons-32-outline-communication.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-communication.woff?4r2096") format("woff");
+  unicode-range: U+1F4DE,U+1F4AC,U+e1095,U+1F5B7,U+2370,U+2709,U+1F4F4,U+1F4F1,U+e1098,U+e1149,U+e1172,U+e1173,U+e1174;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-covid-19.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-covid-19.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-covid-19.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-covid-19.woff?4r2096") format("woff");
   unicode-range: U+1F637;
 }
 @font-face {
@@ -2632,31 +3526,39 @@ nav ul,
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-facilities.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-facilities.woff?4r2095") format("woff");
-  unicode-range: U+1F6B9,U+1F6BE,U+1F6BA,U+1F6BB,U+e1163;
+  src: url("../icons/functional/fonts/icons-32-outline-facilities.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-facilities.woff?4r2096") format("woff");
+  unicode-range: U+1F6B9,U+1F6BE,U+1F6BA,U+1F6BB,U+e1163,U+1F9F8,U+1F6BF,U+e1175,U+e1176,U+1F9FC;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-feature.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-feature.woff?4r2095") format("woff");
-  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744;
+  src: url("../icons/functional/fonts/icons-32-outline-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-feature.woff?4r2096") format("woff");
+  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+1F343,U+e1177,U+1F6C5,U+e1178,U+1F312,U+1F6AD,U+1F6E4,U+e1179,U+1F9AF,U+e1188,U+e1215;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-food.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-food.woff?4r2095") format("woff");
-  unicode-range: U+2615,U+e1101,U+1F37D;
+  src: url("../icons/functional/fonts/icons-32-outline-food.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-food.woff?4r2096") format("woff");
+  unicode-range: U+2615,U+e1101,U+1F37D,U+1F950;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-journey.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-journey.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-it.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-it.woff?4r2096") format("woff");
+  unicode-range: U+e1181;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-32-outline";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-32-outline-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-journey.woff?4r2096") format("woff");
   unicode-range: U+2488,U+2489,U+e1102-e1110,U+1F4CD,U+e1113,U+2B94,U+291E,U+29BF,U+e1161;
 }
 @font-face {
@@ -2664,15 +3566,15 @@ nav ul,
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-maps.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-maps.woff?4r2095") format("woff");
-  unicode-range: U+2302,U+1F5FA,U+e1116,U+1F78B,U+e1115,U+1F689,U+e1157;
+  src: url("../icons/functional/fonts/icons-32-outline-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-maps.woff?4r2096") format("woff");
+  unicode-range: U+2302,U+1F5FA,U+e1116,U+1F78B,U+e1115,U+1F689,U+e1157,U+e1158,U+1F17F,U+e1182;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-navigation.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-navigation.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-navigation.woff?4r2096") format("woff");
   unicode-range: U+2190-2193,U+e1119-e1122,U+2BBE,U+003C,U+003E,U+2A2F,U+2303,U+2304,U+1030E,U+1F865,U+1F862,U+22EF,U+22EE,U+1F5D8;
 }
 @font-face {
@@ -2680,7 +3582,7 @@ nav ul,
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-notification.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-notification.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-notification.woff?4r2096") format("woff");
   unicode-range: U+26A0,U+e1123-e1127;
 }
 @font-face {
@@ -2688,31 +3590,47 @@ nav ul,
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-seat.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-seat.woff?4r2095") format("woff");
-  unicode-range: U+1F4BA,U+e1128-e1130,U+267F,U+1F37C,U+1F46A,U+1F92B,U+e1162;
+  src: url("../icons/functional/fonts/icons-32-outline-seat.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-seat.woff?4r2096") format("woff");
+  unicode-range: U+1F4BA,U+e1128-e1130,U+267F,U+1F37C,U+1F46A,U+1F92B,U+e1162,U+e1183,U+1F6CF,U+e1189;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-ticket.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-ticket.woff?4r2095") format("woff");
-  unicode-range: U+e1131-e1146,U+2714,U+1F907,U+1F3AB;
+  src: url("../icons/functional/fonts/icons-32-outline-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-ticket.woff?4r2096") format("woff");
+  unicode-range: U+e1131-e1146,U+2714,U+1F907,U+1F3AB,U+e1184,U+e1185,U+1F46D,U+e1186;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-transportation.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-outline-transportation.woff?4r2095") format("woff");
-  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159;
+  src: url("../icons/functional/fonts/icons-32-outline-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-transportation.woff?4r2096") format("woff");
+  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159,U+e1190-e1210;
 }
 @font-face {
   font-display: block;
   font-family: "icons-48-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-48-outline-av.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-48-outline-av.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-48-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-48-outline-av.woff?4r2096") format("woff");
+  unicode-range: U+23F8,U+25B7;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-48-outline";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-48-outline-brand.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-48-outline-brand.woff?4r2096") format("woff");
+  unicode-range: U+e1152;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-64-outline";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-64-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-64-outline-av.woff?4r2096") format("woff");
   unicode-range: U+23F8,U+25B7;
 }
 @font-face {
@@ -2720,79 +3638,31 @@ nav ul,
   font-family: "icons-64-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-64-outline-av.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-64-outline-av.woff?4r2095") format("woff");
-  unicode-range: U+23F8,U+25B7;
+  src: url("../icons/functional/fonts/icons-64-outline-brand.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-64-outline-brand.woff?4r2096") format("woff");
+  unicode-range: U+e1152;
 }
 @font-face {
   font-display: block;
-  font-family: "icons-20-filled";
+  font-family: "icons-16-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-action.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-filled-action.woff?4r2095") format("woff");
-  unicode-range: U+1f642,U+2295,U+1F514,U+2705,U+1F4B3,U+e1066,U+270F,U+e1070,U+003F,U+1F6C8,U+1F5A8,U+229D,U+1F553,U+1F6CD,U+e1079,U+2661,U+2606,U+e1154,U+1F5BC,U+1F512,U+1F513,U+e1155;
+  src: url("../icons/functional/fonts/icons-16-filled-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-16-filled-action.woff?4r2096") format("woff");
+  unicode-range: U+2705,U+003F,U+1F6C8;
 }
 @font-face {
   font-display: block;
-  font-family: "icons-20-filled";
+  font-family: "icons-16-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-av.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-filled-av.woff?4r2095") format("woff");
-  unicode-range: U+25B7,U+23EE,U+23ED,U+25A1,U+e1091;
-}
-@font-face {
-  font-display: block;
-  font-family: "icons-20-filled";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-communication.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-filled-communication.woff?4r2095") format("woff");
-  unicode-range: U+1F4DE,U+1F4AC,U+e1095,U+2370;
-}
-@font-face {
-  font-display: block;
-  font-family: "icons-20-filled";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-feature.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-filled-feature.woff?4r2095") format("woff");
-  unicode-range: U+271A;
-}
-@font-face {
-  font-display: block;
-  font-family: "icons-20-filled";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-food.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-filled-food.woff?4r2095") format("woff");
-  unicode-range: U+2615;
-}
-@font-face {
-  font-display: block;
-  font-family: "icons-20-filled";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-journey.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-filled-journey.woff?4r2095") format("woff");
-  unicode-range: U+e1104,U+e1106,U+e1108,U+e1110,U+1F4CD;
-}
-@font-face {
-  font-display: block;
-  font-family: "icons-20-filled";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-maps.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-filled-maps.woff?4r2095") format("woff");
-  unicode-range: U+2302,U+e1116,U+e1157,U+e1158;
-}
-@font-face {
-  font-display: block;
-  font-family: "icons-20-filled";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-navigation.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-filled-navigation.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-16-filled-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-16-filled-navigation.woff?4r2096") format("woff");
   unicode-range: U+2BBE;
 }
 @font-face {
   font-display: block;
-  font-family: "icons-20-filled";
+  font-family: "icons-16-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-notification.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-filled-notification.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-16-filled-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-16-filled-notification.woff?4r2096") format("woff");
   unicode-range: U+e1123,U+26A0;
 }
 @font-face {
@@ -2800,31 +3670,111 @@ nav ul,
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-ticket.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-20-filled-ticket.woff?4r2095") format("woff");
-  unicode-range: U+e1132,U+e1134;
+  src: url("../icons/functional/fonts/icons-20-filled-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-action.woff?4r2096") format("woff");
+  unicode-range: U+1f642,U+2295,U+1F514,U+2705,U+1F4B3,U+e1066,U+270F,U+e1070,U+003F,U+1F6C8,U+1F5A8,U+229D,U+1F553,U+1F6CD,U+e1079,U+2661,U+2606,U+e1154,U+1F5BC,U+1F512,U+1F513,U+e1155,U+274E,U+1F516,U+1F6E0,U+1F4F7,U+2601,U+1F4C2,U+1F4C1,U+1F4CC,U+1F4BE,U+e1164,U+e1165,U+e1166,U+1F6C8,U+003F,U+e1214;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-20-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-20-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-av.woff?4r2096") format("woff");
+  unicode-range: U+25B7,U+23EE,U+23ED,U+25A1,U+e1091,U+1F3A4;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-20-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-20-filled-communication.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-communication.woff?4r2096") format("woff");
+  unicode-range: U+1F4DE,U+1F4AC,U+e1095,U+2370,U+e1172,U+e1173,U+e1174;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-20-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-20-filled-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-feature.woff?4r2096") format("woff");
+  unicode-range: U+271A,U+2600,U+e1177,U+e1178,U+1F312,U+1F6E4,U+e1179;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-20-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-20-filled-food.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-food.woff?4r2096") format("woff");
+  unicode-range: U+2615;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-20-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-20-filled-it.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-it.woff?4r2096") format("woff");
+  unicode-range: U+e1181;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-20-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-20-filled-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-journey.woff?4r2096") format("woff");
+  unicode-range: U+e1104,U+e1106,U+e1108,U+e1110,U+1F4CD;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-20-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-20-filled-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-maps.woff?4r2096") format("woff");
+  unicode-range: U+2302,U+e1116,U+e1157,U+e1158,U+e1115,U+1F17F;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-20-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-20-filled-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-navigation.woff?4r2096") format("woff");
+  unicode-range: U+2BBE,U+1030E;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-20-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-20-filled-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-notification.woff?4r2096") format("woff");
+  unicode-range: U+e1123,U+26A0;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-20-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-20-filled-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-ticket.woff?4r2096") format("woff");
+  unicode-range: U+e1132,U+e1134,U+e1184;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-action.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-filled-action.woff?4r2095") format("woff");
-  unicode-range: U+1F514,U+2661,U+2606;
+  src: url("../icons/functional/fonts/icons-24-filled-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-action.woff?4r2096") format("woff");
+  unicode-range: U+1F514,U+2661,U+2606,U+1F4F7,U+1F516,U+2295,U+2705,U+2601,U+1F4CC,U+229D,U+1F6C8,U+003F;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-av.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-filled-av.woff?4r2095") format("woff");
-  unicode-range: U+25B7,U+25A1,U+23EE,U+23ED;
+  src: url("../icons/functional/fonts/icons-24-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-av.woff?4r2096") format("woff");
+  unicode-range: U+25B7,U+25A1,U+23EE,U+23ED,U+1F3A4;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-journey.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-filled-journey.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-journey.woff?4r2096") format("woff");
   unicode-range: U+e1104,U+e1106,U+e1108,U+e1110,U+1F4CD;
 }
 @font-face {
@@ -2832,7 +3782,7 @@ nav ul,
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-maps.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-filled-maps.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-maps.woff?4r2096") format("woff");
   unicode-range: U+e1157,U+e1158;
 }
 @font-face {
@@ -2840,31 +3790,39 @@ nav ul,
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-navigation.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-24-filled-navigation.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-navigation.woff?4r2096") format("woff");
   unicode-range: U+2BBE;
 }
 @font-face {
   font-display: block;
-  font-family: "icons-32-filled";
+  font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-action.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-filled-action.woff?4r2095") format("woff");
-  unicode-range: U+1F514,U+2661,U+2606;
+  src: url("../icons/functional/fonts/icons-24-filled-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-notification.woff?4r2096") format("woff");
+  unicode-range: U+e1123,U+26A0;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-av.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-filled-av.woff?4r2095") format("woff");
-  unicode-range: U+25B7,U+23EE,U+23ED,U+25A1;
+  src: url("../icons/functional/fonts/icons-32-filled-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-action.woff?4r2096") format("woff");
+  unicode-range: U+2606,U+2661,U+1F514,U+2295,U+1f516,U+1F4F7,U+e904,U+2705,U+2601,U+1F4CC,U+229D,U+1F6C8,U+003F;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-maps.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-filled-maps.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-av.woff?4r2096") format("woff");
+  unicode-range: U+25B7,U+23EE,U+23ED,U+25A1,U+1F3A4;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-32-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-32-filled-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-maps.woff?4r2096") format("woff");
   unicode-range: U+e1157,U+e1158;
 }
 @font-face {
@@ -2872,15 +3830,23 @@ nav ul,
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-navigation.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-32-filled-navigation.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-navigation.woff?4r2096") format("woff");
   unicode-range: U+2BBE;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-32-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-32-filled-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-notification.woff?4r2096") format("woff");
+  unicode-range: U+e1123,U+26A0;
 }
 @font-face {
   font-display: block;
   font-family: "icons-48-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-48-filled-av.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-48-filled-av.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-48-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-48-filled-av.woff?4r2096") format("woff");
   unicode-range: U+25B7;
 }
 @font-face {
@@ -2888,7 +3854,7 @@ nav ul,
   font-family: "icons-64-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-64-filled-av.woff2?4r2095") format("woff2"), url("../icons/functional/fonts/icons-64-filled-av.woff?4r2095") format("woff");
+  src: url("../icons/functional/fonts/icons-64-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-64-filled-av.woff?4r2096") format("woff");
   unicode-range: U+25B7;
 }
 .cmp-dropdown.is-account summary::before, .cmp-overflow-menu summary::before, .cmp-dropdown summary::before, .cmp-link-list li .elm-link::before, .cmp-sidenavi .elm-link[rel=help]::before, .cmp-sidenavi .elm-link[rel=calendar]::before, .cmp-sidenavi .elm-link[rel=cloud]::before, .cmp-sidenavi .elm-link[rel=dashboard]::before, .cmp-sidenavi .elm-link[rel=documents]::before, .cmp-sidenavi .elm-link[rel=index]::before, .cmp-pagination .elm-link[rel=next]::before, .cmp-pagination .elm-link[rel=prev]::before, .cmp-language-switcher li[aria-selected] .elm-link::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::before, .cmp-breadcrumb ol > *:not(:first-child)::before, .cmp-breadcrumb ol > *:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
@@ -5268,14 +6234,14 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   	"missing-icons" !important;
   --icon-font-size: 2rem;
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "";
+  --icon-glyph: "󡅤";
 }
 .cmp-sidenavi .elm-link[rel=cloud]::before {
   --icon-font-family: "icons-32-enterprise-outline",
   	"missing-icons" !important;
   --icon-font-size: 2rem;
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "";
+  --icon-glyph: "☁";
 }
 .cmp-sidenavi .elm-link[rel=calendar]::before {
   --icon-font-family: "icons-32-outline",
