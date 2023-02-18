@@ -1407,6 +1407,15 @@ nav ul,
   --icon-glyph: "󡆆";
 }
 
+[data-icon=intercity-train]::before,
+[data-icon-before=intercity-train]::before {
+  --icon-glyph: "󡈖";
+}
+
+[data-icon-after=intercity-train]::after {
+  --icon-glyph: "󡈖";
+}
+
 [data-icon=multiple-passenger]::before,
 [data-icon-before=multiple-passenger]::before {
   --icon-glyph: "👭";
@@ -3755,6 +3764,14 @@ nav ul,
 }
 @font-face {
   font-display: block;
+  font-family: "icons-20-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-20-filled-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-transportation.woff?4r2096") format("woff");
+  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+1F6B2,U+e1151,U+e1147,U+1F684,U+1F688,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+1F6B6;
+}
+@font-face {
+  font-display: block;
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
@@ -3803,6 +3820,14 @@ nav ul,
 }
 @font-face {
   font-display: block;
+  font-family: "icons-24-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-24-filled-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-transportation.woff?4r2096") format("woff");
+  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+1F6B2,U+e1151,U+e1147,U+1F684,U+1F688,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+1F6B6;
+}
+@font-face {
+  font-display: block;
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
@@ -3840,6 +3865,14 @@ nav ul,
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-filled-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-notification.woff?4r2096") format("woff");
   unicode-range: U+e1123,U+26A0;
+}
+@font-face {
+  font-display: block;
+  font-family: "icons-32-filled";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icons/functional/fonts/icons-32-filled-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-transportation.woff?4r2096") format("woff");
+  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+1F6B2,U+e1151,U+e1147,U+1F684,U+1F688,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+1F6B6;
 }
 @font-face {
   font-display: block;
