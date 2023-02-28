@@ -430,6 +430,12 @@ nav ul,
   src: local("DB Screen Head Black"), url("../fonts/dbscreenhead-black.woff2?4r0080") format("woff2"), url("../fonts/dbscreenhead-black.woff?4r0080") format("woff");
 }
 @font-face {
+  font-family: "DB Screen Sans Digital Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dbscreensans-digitalregular.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-digitalregular.woff?4r0080") format("woff");
+}
+@font-face {
   font-family: "DB Screen Sans";
   font-style: normal;
   font-weight: 400;
@@ -3907,6 +3913,7 @@ nav ul,
   font-weight: var(--icon-font-weight, normal);
   line-height: 1;
   speak: none;
+  speak: never;
   text-transform: none;
   vertical-align: middle;
 }
