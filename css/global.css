@@ -4990,6 +4990,9 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: 1rem;
   transform: translate(1rem, -2.1875rem);
 }
+.elm-select:disabled, .elm-select:disabled + .elm-label, fieldset:disabled .elm-select, fieldset:disabled .elm-select + .elm-label {
+  opacity: 0.4;
+}
 .elm-select + .elm-label {
   display: block;
   font-size: 0.75rem;
