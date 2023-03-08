@@ -17,7 +17,7 @@
   "license": "Apache-2.0",
   "dependencies": {},
   "devDependencies": {
-    "@db-ui/core": "^2.8.1",
+    "@db-ui/core": "^2.8.2",
     "cpr": "^3.0.1",
     "http-server": "^14.1.1",
     "husky": "^8.0.3",
