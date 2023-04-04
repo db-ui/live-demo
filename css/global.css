@@ -399,7 +399,7 @@ nav ul,
   width: 1px;
 }
 
-.rea-footer::after, .rea-main::after, .rea-header::after {
+.rea-footer::after, .rea-main::after {
   clear: both;
   content: " ";
   display: table;
@@ -6844,7 +6844,7 @@ body.has-fixed-footer .rea-footer {
   --icon-margin-after: 0;
 }
 
-.rea-footer::after, .rea-main::after, .rea-header::after {
+.rea-footer::after, .rea-main::after {
   clear: both;
   content: " ";
   display: table;
