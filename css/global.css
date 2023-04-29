@@ -4751,7 +4751,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 .elm-radio:active {
   background-color: rgba(40, 45, 55, 0.3);
 }
-.elm-radio:checked, .elm-radio:invalid, .elm-radio[aria-invalid=true] {
+.elm-radio:checked {
   border-width: 0.375em;
 }
 .elm-radio:invalid, .elm-radio[aria-invalid=true] {
