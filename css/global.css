@@ -1458,6 +1458,33 @@ nav ul,
   --icon-glyph: "🛏";
 }
 
+[data-icon=steppless-entry]::before,
+[data-icon-before=steppless-entry]::before {
+  --icon-glyph: "󡈗";
+}
+
+[data-icon-after=steppless-entry]::after {
+  --icon-glyph: "󡈗";
+}
+
+[data-icon=ticket-subscription]::before,
+[data-icon-before=ticket-subscription]::before {
+  --icon-glyph: "󡈘";
+}
+
+[data-icon-after=ticket-subscription]::after {
+  --icon-glyph: "󡈘";
+}
+
+[data-icon=walking-fast]::before,
+[data-icon-before=walking-fast]::before {
+  --icon-glyph: "󡈙";
+}
+
+[data-icon-after=walking-fast]::after {
+  --icon-glyph: "󡈙";
+}
+
 [data-icon=aisle-not-available]::before,
 [data-icon-before=aisle-not-available]::before {
   --icon-glyph: "󡆃";
@@ -3294,7 +3321,7 @@ nav ul,
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-feature.woff?4r2096") format("woff");
-  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+1F343,U+e1177,U+1F6C5,U+e1178,U+1F312,U+1F6AD,U+1F6E4,U+e1179,U+e1215,U+1F9AF,U+e1188;
+  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+1F343,U+e1177,U+1F6C5,U+e1178,U+1F312,U+1F6AD,U+1F6E4,U+e1179,U+e1215,U+1F9AF,U+e1188,U+e1217;
 }
 @font-face {
   font-display: block;
@@ -3358,7 +3385,7 @@ nav ul,
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-ticket.woff?4r2096") format("woff");
-  unicode-range: U+e1131-e1132,U+e1134,U+e1136-e1146,U+2714,U+1F907,U+1F3AB,U+e1185,U+e1184,U+1F46D,U+e1186;
+  unicode-range: U+e1131-e1132,U+e1134,U+e1136-e1146,U+2714,U+1F907,U+1F3AB,U+e1185,U+e1184,U+1F46D,U+e1186,U+e1218;
 }
 @font-face {
   font-display: block;
@@ -3366,7 +3393,7 @@ nav ul,
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-transportation.woff?4r2096") format("woff");
-  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159,U+e1190-e1210,U+e1216;
+  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159,U+e1190-e1210,U+e1216,U+e1219;
 }
 @font-face {
   font-display: block;
@@ -3422,7 +3449,7 @@ nav ul,
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-feature.woff?4r2096") format("woff");
-  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+1F343,U+e1177,U+1F6C5,U+e1178,U+1F312,U+1F6AD,U+1F6E4,U+e1179,U+e1215,U+1F9AF,U+e1188;
+  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+1F343,U+e1177,U+1F6C5,U+e1178,U+1F312,U+1F6AD,U+1F6E4,U+e1179,U+e1215,U+1F9AF,U+e1188,U+e1217;
 }
 @font-face {
   font-display: block;
@@ -3486,7 +3513,7 @@ nav ul,
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-ticket.woff?4r2096") format("woff");
-  unicode-range: U+e1131-e1146,U+2714,U+1F907,U+1F3AB,U+e1184,U+e1185,U+1F46D,U+e1186;
+  unicode-range: U+e1131-e1146,U+2714,U+1F907,U+1F3AB,U+e1184,U+e1185,U+1F46D,U+e1186,U+e1218;
 }
 @font-face {
   font-display: block;
@@ -3494,7 +3521,7 @@ nav ul,
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-transportation.woff?4r2096") format("woff");
-  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159,U+e1190-e1210,U+e1216;
+  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159,U+e1190-e1210,U+e1216,U+e1219;
 }
 @font-face {
   font-display: block;
@@ -3550,7 +3577,7 @@ nav ul,
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-feature.woff?4r2096") format("woff");
-  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+1F343,U+e1177,U+1F6C5,U+e1178,U+1F312,U+1F6AD,U+1F6E4,U+e1179,U+1F9AF,U+e1188,U+e1215;
+  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+1F343,U+e1177,U+1F6C5,U+e1178,U+1F312,U+1F6AD,U+1F6E4,U+e1179,U+1F9AF,U+e1188,U+e1215,U+e1217;
 }
 @font-face {
   font-display: block;
@@ -3614,7 +3641,7 @@ nav ul,
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-ticket.woff?4r2096") format("woff");
-  unicode-range: U+e1131-e1146,U+2714,U+1F907,U+1F3AB,U+e1184,U+e1185,U+1F46D,U+e1186;
+  unicode-range: U+e1131-e1146,U+2714,U+1F907,U+1F3AB,U+e1184,U+e1185,U+1F46D,U+e1186,U+e1218;
 }
 @font-face {
   font-display: block;
@@ -3622,7 +3649,7 @@ nav ul,
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-transportation.woff?4r2096") format("woff");
-  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159,U+e1190-e1210,U+e1216;
+  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159,U+e1190-e1210,U+e1216,U+e1219;
 }
 @font-face {
   font-display: block;
@@ -3774,7 +3801,7 @@ nav ul,
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-filled-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-transportation.woff?4r2096") format("woff");
-  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+1F6B2,U+e1151,U+e1147,U+1F684,U+1F688,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+1F6B6;
+  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+1F6B2,U+e1151,U+e1147,U+1F684,U+1F688,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+1F6B6,U+e1219;
 }
 @font-face {
   font-display: block;
@@ -3830,7 +3857,7 @@ nav ul,
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-filled-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-transportation.woff?4r2096") format("woff");
-  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+1F6B2,U+e1151,U+e1147,U+1F684,U+1F688,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+1F6B6;
+  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+1F6B2,U+e1151,U+e1147,U+1F684,U+1F688,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+1F6B6,U+e1219;
 }
 @font-face {
   font-display: block;
@@ -3878,7 +3905,7 @@ nav ul,
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-filled-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-transportation.woff?4r2096") format("woff");
-  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+1F6B2,U+e1151,U+e1147,U+1F684,U+1F688,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+1F6B6;
+  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+1F6B2,U+e1151,U+e1147,U+1F684,U+1F688,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+1F6B6,U+e1219;
 }
 @font-face {
   font-display: block;
@@ -4508,7 +4535,6 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   opacity: 0.4;
 }
 .elm-input[type=color], .elm-input[type=date], .elm-input[type=datetime-local], .elm-input[type=email], .elm-input[type=month], .elm-input[type=number], .elm-input[type=password], :where(:not(.cmp-sitesearch)) > .elm-input[type=search], .elm-input[type=tel], .elm-input[type=text], .elm-input[type=time], .elm-input[type=url], .elm-input[type=week] {
-  margin-top: 1rem;
   /* stylelint-disable order/order */
   /* stylelint-enable order/order */
 }
