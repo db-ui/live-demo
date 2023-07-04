@@ -339,7 +339,7 @@ pre code {
 }
 
 html {
-  box-sizing: border-box;
+  box-sizing: var(--db-box-sizing, border-box);
 }
 
 *,
@@ -388,6 +388,10 @@ nav ul,
 }
 :where(ul) li::marker {
   color: #ec0016;
+}
+
+details > *, details > ::before, details > ::after {
+  box-sizing: var(--db-box-sizing, border-box);
 }
 
 .cmp-tab-bar > input[type=radio], .cmp-tab-bar > * > input[type=radio], .cmp-pagination .elm-headline, .cmp-notification > em, .cmp-mainnavigation > input[type=checkbox][id] {
@@ -5585,6 +5589,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 .rea-header .cmp-mainnavigation {
   order: 1;
 }
+@supports not selector(:has(db)) {
+  .cmp-mainnavigation {
+    margin: auto;
+  }
+}
 .cmp-mainnavigation .elm-link {
   border-radius: initial;
   color: inherit;
@@ -6859,6 +6868,11 @@ body.has-fixed-footer .rea-footer {
   min-height: 4.9375rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.rea-header:not(:has(.rea-meta))::after {
+  content: "";
+  display: inline-block;
+  order: 3;
 }
 .rea-header .elm-link {
   display: inline-block;
