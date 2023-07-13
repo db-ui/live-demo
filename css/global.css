@@ -4260,26 +4260,32 @@ h4.elm-headline {
   	"missing-icons" !important;
   --icon-font-size: 1.25rem;
 }
+.elm-link[rel=configuration] {
+  --icon-glyph: "⚙";
+}
 .elm-link[rel=configuration]::before {
   --icon-font-family: "icons-24-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "⚙";
+}
+.elm-link[rel=messages] {
+  --icon-glyph: "💬";
 }
 .elm-link[rel=messages]::before {
   --icon-font-family: "icons-24-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "💬";
+}
+.elm-link[rel=account] {
+  --icon-glyph: "🙂";
 }
 .elm-link[rel=account]::before {
   --icon-font-family: "icons-24-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "🙂";
 }
 .elm-link[rel=configuration]::before, .elm-link[rel=messages]::before, .elm-link[rel=account]::before {
   display: inline-block;
@@ -4375,6 +4381,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
 .elm-checkbox {
+  --icon-glyph: " ";
   align-content: center;
   appearance: none;
   background-color: rgba(255, 255, 255, 0.1);
@@ -4391,7 +4398,6 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: " ";
 }
 .elm-checkbox[type=checkbox] {
   vertical-align: top;
@@ -5382,22 +5388,26 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 .cmp-breadcrumb ol > * .elm-link:active {
   background-color: rgba(40, 45, 55, 0.06);
 }
+.cmp-breadcrumb ol > *:first-child {
+  --icon-glyph: "⌂";
+}
 .cmp-breadcrumb ol > *:first-child::before {
   --icon-font-family: "icons-20-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.25rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "⌂";
 }
 .cmp-breadcrumb ol > *:first-child::before {
   --icon-margin-after: 0.1875rem;
+}
+.cmp-breadcrumb ol > *:not(:first-child) {
+  --icon-glyph: ">";
 }
 .cmp-breadcrumb ol > *:not(:first-child)::before {
   --icon-font-family: "icons-20-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.25rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: ">";
 }
 .cmp-breadcrumb ol > *:not(:first-child)::before {
   --icon-font-size: 0.875rem;
@@ -5501,6 +5511,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   padding-right: 1rem;
 }
 .cmp-accordion summary {
+  --icon-glyph: ">";
   align-items: center;
   display: flex;
   padding-block: 0.75rem;
@@ -5514,7 +5525,6 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: ">";
 }
 .cmp-accordion summary::-webkit-details-marker {
   display: none;
@@ -5606,6 +5616,8 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   }
 }
 .cmp-mainnavigation > label[for] {
+  --icon-glyph: "󡄢";
+  --icon-glyph: "⨯";
   background-color: #fdfdfd;
   border-bottom: 1px solid #f5f4f1;
   display: block;
@@ -5616,14 +5628,12 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "󡄢";
 }
 .cmp-mainnavigation > label[for]::after {
   --icon-font-family: "icons-24-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-after, var(--icon-font-size, 1.5rem));
   margin-inline-start: var(--icon-margin-before, 0.375rem);
-  --icon-glyph: "⨯";
 }
 .cmp-mainnavigation > label[for]::before {
   margin-right: 1rem;
@@ -5715,12 +5725,14 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   display: block;
   position: relative;
 }
+.cmp-mainnavigation li[aria-haspopup=true] {
+  --icon-glyph: ">";
+}
 .cmp-mainnavigation li[aria-haspopup=true]::after {
   --icon-font-family: "icons-24-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-after, var(--icon-font-size, 1.5rem));
   margin-inline-start: var(--icon-margin-before, 0.375rem);
-  --icon-glyph: ">";
 }
 .cmp-mainnavigation li[aria-haspopup=true]::after {
   position: absolute;
@@ -5899,6 +5911,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   display: initial;
 }
 .cmp-sitesearch .elm-label {
+  --icon-glyph: "🔍";
   display: inline-block;
 }
 .cmp-sitesearch .elm-label::before {
@@ -5906,7 +5919,6 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "🔍";
 }
 .cmp-sitesearch .elm-label::before {
   font-size: 1.375rem;
@@ -5924,6 +5936,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   }
 }
 .cmp-sitesearch .elm-button {
+  --icon-glyph: "🔍";
   display: none;
   left: 0;
   position: absolute;
@@ -5935,7 +5948,6 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "🔍";
 }
 .cmp-sitesearch .elm-button::before {
   left: 0.25rem;
@@ -6077,6 +6089,7 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   }
 }
 .cmp-dialog header .elm-link.is-close {
+  --icon-glyph: "⨯";
   font-size: 0;
   position: absolute;
   right: 0;
@@ -6087,7 +6100,6 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "⨯";
 }
 .cmp-dialog header .elm-link.is-close::before {
   --icon-margin-after: 0;
@@ -6193,6 +6205,7 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 .cmp-language-switcher li[aria-current] .elm-link,
 .cmp-language-switcher li[aria-current] .elm-button, .cmp-language-switcher li[aria-selected] .elm-link,
 .cmp-language-switcher li[aria-selected] .elm-button {
+  --icon-glyph: "⌄";
   padding-bottom: 1.375rem;
 }
 .cmp-language-switcher li[aria-current] .elm-link::after,
@@ -6202,7 +6215,6 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   	"missing-icons" !important;
   font-size: var(--icon-font-size-after, var(--icon-font-size, 1.5rem));
   margin-inline-start: var(--icon-margin-before, 0.375rem);
-  --icon-glyph: "⌄";
 }
 .cmp-language-switcher li[aria-current] .elm-link:hover,
 .cmp-language-switcher li[aria-current] .elm-button:hover, .cmp-language-switcher li[aria-selected] .elm-link:hover,
@@ -6280,6 +6292,7 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   margin-right: 0.6875rem;
 }
 .cmp-pagination .elm-link[rel=prev] {
+  --icon-glyph: "<";
   font-size: 0;
 }
 .cmp-pagination .elm-link[rel=prev]::before {
@@ -6287,12 +6300,12 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "<";
 }
 .cmp-pagination .elm-link[rel=prev]::before {
   --icon-margin-after: 0;
 }
 .cmp-pagination .elm-link[rel=next] {
+  --icon-glyph: ">";
   font-size: 0;
 }
 .cmp-pagination .elm-link[rel=next]::before {
@@ -6300,7 +6313,6 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: ">";
 }
 .cmp-pagination .elm-link[rel=next]::before {
   --icon-margin-after: 0;
@@ -6350,47 +6362,59 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 .cmp-sidenavi .elm-link[rel] {
   padding-left: 1.3125rem;
 }
+.cmp-sidenavi .elm-link[rel=index] {
+  --icon-glyph: "⌂";
+}
 .cmp-sidenavi .elm-link[rel=index]::before {
   --icon-font-family: "icons-32-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "⌂";
+}
+.cmp-sidenavi .elm-link[rel=documents] {
+  --icon-glyph: "🖹";
 }
 .cmp-sidenavi .elm-link[rel=documents]::before {
   --icon-font-family: "icons-32-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "🖹";
+}
+.cmp-sidenavi .elm-link[rel=dashboard] {
+  --icon-glyph: "󡅤";
 }
 .cmp-sidenavi .elm-link[rel=dashboard]::before {
   --icon-font-family: "icons-32-enterprise-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "󡅤";
+}
+.cmp-sidenavi .elm-link[rel=cloud] {
+  --icon-glyph: "☁";
 }
 .cmp-sidenavi .elm-link[rel=cloud]::before {
   --icon-font-family: "icons-32-enterprise-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "☁";
+}
+.cmp-sidenavi .elm-link[rel=calendar] {
+  --icon-glyph: "📆";
 }
 .cmp-sidenavi .elm-link[rel=calendar]::before {
   --icon-font-family: "icons-32-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "📆";
+}
+.cmp-sidenavi .elm-link[rel=help] {
+  --icon-glyph: "?";
 }
 .cmp-sidenavi .elm-link[rel=help]::before {
   --icon-font-family: "icons-32-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "?";
 }
 
 /* tab-bar */
@@ -6596,6 +6620,7 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   padding-left: 0;
 }
 .cmp-link-list li .elm-link {
+  --icon-glyph: ">";
   font-weight: 700;
   text-decoration: none;
 }
@@ -6604,7 +6629,6 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: ">";
 }
 .cmp-link-list li .elm-link:hover, .cmp-link-list li .elm-link:active {
   text-decoration: underline;
@@ -6646,6 +6670,7 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   --icon-margin-after: 0;
 }
 .cmp-overflow-menu summary, .cmp-dropdown summary {
+  --icon-glyph: "⋮";
   display: inline-block;
 }
 .cmp-overflow-menu summary::before, .cmp-dropdown summary::before {
@@ -6653,7 +6678,6 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.25rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "⋮";
 }
 .cmp-overflow-menu summary::before, .cmp-dropdown summary::before {
   display: inline-block;
@@ -6782,12 +6806,14 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
+.cmp-dropdown.is-account summary {
+  --icon-glyph: "🙂";
+}
 .cmp-dropdown.is-account summary::before {
   --icon-font-family: "icons-24-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
-  --icon-glyph: "🙂";
 }
 .cmp-dropdown.is-account summary:hover::before {
   color: #ec0016;
