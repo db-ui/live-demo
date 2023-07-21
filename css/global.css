@@ -4292,7 +4292,8 @@ h4.elm-headline {
 }
 
 /* image */
-/* stylelint-disable no-empty-source */ /* *****
+/* stylelint-disable no-empty-source */
+/* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
 .elm-image.is-logo {
@@ -5846,7 +5847,8 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 }
 
 /* brand */
-/* stylelint-disable no-empty-source */ /* *****
+/* stylelint-disable no-empty-source */
+/* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
 .cmp-brand .elm-image.is-logo {
@@ -6910,7 +6912,8 @@ body.has-fixed-footer .rea-footer {
   }
 }
 
-/* stylelint-disable no-empty-source */ /* *****
+/* stylelint-disable no-empty-source */
+/* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
 /* *****
