@@ -4535,6 +4535,9 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   padding: 0.5rem 1rem;
   width: 100%;
 }
+.elm-input[list]::-webkit-calendar-picker-indicator {
+  margin-right: -1rem;
+}
 .elm-input:not(:placeholder-shown) {
   padding-bottom: 0;
   padding-top: 1rem;
