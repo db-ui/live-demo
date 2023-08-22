@@ -419,49 +419,49 @@ details > *, details > ::before, details > ::after {
   font-family: "DB Screen Head";
   font-style: normal;
   font-weight: 300;
-  src: local("DB Screen Head Light"), url("../fonts/dbscreenhead-light.woff2?4r0080") format("woff2"), url("../fonts/dbscreenhead-light.woff?4r0080") format("woff");
+  src: local("DB Screen Head Light"), local("DB Head Light"), url("../fonts/dbscreenhead-light.woff2?4r0080") format("woff2"), url("../fonts/dbscreenhead-light.woff?4r0080") format("woff");
 }
 @font-face {
   font-family: "DB Screen Head";
   font-style: normal;
   font-weight: 400;
-  src: local("DB Screen Head Regular"), url("../fonts/dbscreenhead-regular.woff2?4r0080") format("woff2"), url("../fonts/dbscreenhead-regular.woff?4r0080") format("woff");
+  src: local("DB Screen Head"), local("DB Head"), url("../fonts/dbscreenhead-regular.woff2?4r0080") format("woff2"), url("../fonts/dbscreenhead-regular.woff?4r0080") format("woff");
 }
 @font-face {
   font-family: "DB Screen Head";
   font-style: normal;
   font-weight: 900;
-  src: local("DB Screen Head Black"), url("../fonts/dbscreenhead-black.woff2?4r0080") format("woff2"), url("../fonts/dbscreenhead-black.woff?4r0080") format("woff");
+  src: local("DB Screen Head Black"), local("DB Head Black"), url("../fonts/dbscreenhead-black.woff2?4r0080") format("woff2"), url("../fonts/dbscreenhead-black.woff?4r0080") format("woff");
 }
 @font-face {
   font-family: "DB Screen Sans Digital Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/dbscreensans-digitalregular.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-digitalregular.woff?4r0080") format("woff");
+  src: local("DB Screen Sans Digital"), local("DB Sans Digital"), url("../fonts/dbscreensans-digitalregular.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-digitalregular.woff?4r0080") format("woff");
 }
 @font-face {
   font-family: "DB Screen Sans";
   font-style: normal;
   font-weight: 400;
-  src: local("DB Screen Sans Regular"), url("../fonts/dbscreensans-regular.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-regular.woff?4r0080") format("woff");
+  src: local("DB Screen Sans"), local("DB Sans"), url("../fonts/dbscreensans-regular.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-regular.woff?4r0080") format("woff");
 }
 @font-face {
   font-family: "DB Screen Sans";
   font-style: normal;
   font-weight: 500;
-  src: local("DB Screen Sans Medium"), url("../fonts/dbscreensans-medium.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-medium.woff?4r0080") format("woff");
+  src: url("../fonts/dbscreensans-medium.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-medium.woff?4r0080") format("woff");
 }
 @font-face {
   font-family: "DB Screen Sans";
   font-style: normal;
   font-weight: 600;
-  src: local("DB Screen Sans Semibold"), url("../fonts/dbscreensans-semibold.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-semibold.woff?4r0080") format("woff");
+  src: url("../fonts/dbscreensans-semibold.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-semibold.woff?4r0080") format("woff");
 }
 @font-face {
   font-family: "DB Screen Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/dbscreensans-bold.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-bold.woff?4r0080") format("woff");
+  src: local("DB Screen Sans Bold"), local("DB Sans Bold"), url("../fonts/dbscreensans-bold.woff2?4r0080") format("woff2"), url("../fonts/dbscreensans-bold.woff?4r0080") format("woff");
 }
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
