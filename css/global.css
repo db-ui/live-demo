@@ -3929,7 +3929,7 @@ details > *, details > ::before, details > ::after {
 }
 .cmp-dropdown.is-account summary::before, .cmp-overflow-menu summary::before, .cmp-dropdown summary::before, .cmp-link-list li .elm-link::before, .cmp-sidenavi .elm-link[rel=help]::before, .cmp-sidenavi .elm-link[rel=calendar]::before, .cmp-sidenavi .elm-link[rel=cloud]::before, .cmp-sidenavi .elm-link[rel=dashboard]::before, .cmp-sidenavi .elm-link[rel=documents]::before, .cmp-sidenavi .elm-link[rel=index]::before, .cmp-pagination .elm-link[rel=next]::before, .cmp-pagination .elm-link[rel=prev]::before, .cmp-language-switcher li[aria-current] .elm-link::after,
 .cmp-language-switcher li[aria-current] .elm-button::after, .cmp-language-switcher li[aria-selected] .elm-link::after,
-.cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::before, .cmp-breadcrumb ol > *:not(:first-child)::before, .cmp-breadcrumb ol > *:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
+.cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::after, .cmp-breadcrumb ol > *:not(:first-child)::before, .cmp-breadcrumb ol > *:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
 [data-icon-before]::before {
   -webkit-alt: "";
   alt: "";
@@ -3952,7 +3952,7 @@ details > *, details > ::before, details > ::after {
 @supports (content: ""/"") {
   .cmp-dropdown.is-account summary::before, .cmp-overflow-menu summary::before, .cmp-dropdown summary::before, .cmp-link-list li .elm-link::before, .cmp-sidenavi .elm-link[rel=help]::before, .cmp-sidenavi .elm-link[rel=calendar]::before, .cmp-sidenavi .elm-link[rel=cloud]::before, .cmp-sidenavi .elm-link[rel=dashboard]::before, .cmp-sidenavi .elm-link[rel=documents]::before, .cmp-sidenavi .elm-link[rel=index]::before, .cmp-pagination .elm-link[rel=next]::before, .cmp-pagination .elm-link[rel=prev]::before, .cmp-language-switcher li[aria-current] .elm-link::after,
   .cmp-language-switcher li[aria-current] .elm-button::after, .cmp-language-switcher li[aria-selected] .elm-link::after,
-  .cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::before, .cmp-breadcrumb ol > *:not(:first-child)::before, .cmp-breadcrumb ol > *:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
+  .cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::after, .cmp-breadcrumb ol > *:not(:first-child)::before, .cmp-breadcrumb ol > *:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
   [data-icon-before]::before {
     content: var(--icon-glyph)/"";
   }
@@ -3960,7 +3960,7 @@ details > *, details > ::before, details > ::after {
 @media aural {
   .cmp-dropdown.is-account summary::before, .cmp-overflow-menu summary::before, .cmp-dropdown summary::before, .cmp-link-list li .elm-link::before, .cmp-sidenavi .elm-link[rel=help]::before, .cmp-sidenavi .elm-link[rel=calendar]::before, .cmp-sidenavi .elm-link[rel=cloud]::before, .cmp-sidenavi .elm-link[rel=dashboard]::before, .cmp-sidenavi .elm-link[rel=documents]::before, .cmp-sidenavi .elm-link[rel=index]::before, .cmp-pagination .elm-link[rel=next]::before, .cmp-pagination .elm-link[rel=prev]::before, .cmp-language-switcher li[aria-current] .elm-link::after,
   .cmp-language-switcher li[aria-current] .elm-button::after, .cmp-language-switcher li[aria-selected] .elm-link::after,
-  .cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::before, .cmp-breadcrumb ol > *:not(:first-child)::before, .cmp-breadcrumb ol > *:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
+  .cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::after, .cmp-breadcrumb ol > *:not(:first-child)::before, .cmp-breadcrumb ol > *:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
   [data-icon-before]::before {
     content: none;
   }
@@ -3968,7 +3968,7 @@ details > *, details > ::before, details > ::after {
 @media speech {
   .cmp-dropdown.is-account summary::before, .cmp-overflow-menu summary::before, .cmp-dropdown summary::before, .cmp-link-list li .elm-link::before, .cmp-sidenavi .elm-link[rel=help]::before, .cmp-sidenavi .elm-link[rel=calendar]::before, .cmp-sidenavi .elm-link[rel=cloud]::before, .cmp-sidenavi .elm-link[rel=dashboard]::before, .cmp-sidenavi .elm-link[rel=documents]::before, .cmp-sidenavi .elm-link[rel=index]::before, .cmp-pagination .elm-link[rel=next]::before, .cmp-pagination .elm-link[rel=prev]::before, .cmp-language-switcher li[aria-current] .elm-link::after,
   .cmp-language-switcher li[aria-current] .elm-button::after, .cmp-language-switcher li[aria-selected] .elm-link::after,
-  .cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::before, .cmp-breadcrumb ol > *:not(:first-child)::before, .cmp-breadcrumb ol > *:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
+  .cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::after, .cmp-breadcrumb ol > *:not(:first-child)::before, .cmp-breadcrumb ol > *:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
   [data-icon-before]::before {
     content: none;
   }
@@ -5509,26 +5509,27 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
 .cmp-accordion {
-  --db-accordion---paddingLeft: 2.875rem;
+  --db-accordion---paddingLeft: 0.0625remrem;
   border-bottom: 1px solid #d7dce1;
   padding-left: var(--db-accordion---paddingLeft);
   padding-right: 1rem;
 }
 .cmp-accordion summary {
-  --icon-glyph: ">";
+  --icon-glyph: "⌄";
   align-items: center;
   display: flex;
+  justify-content: space-between;
   padding-block: 0.75rem;
   transform: translateX(calc(var(--db-accordion---paddingLeft) * -1));
   width: calc(
 			100% + var(--db-accordion---paddingLeft) + 1rem
 		);
 }
-.cmp-accordion summary::before {
+.cmp-accordion summary::after {
   --icon-font-family: "icons-24-outline",
   	"missing-icons" !important;
-  font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
-  margin-inline-end: var(--icon-margin-after, 0.375rem);
+  font-size: var(--icon-font-size-after, var(--icon-font-size, 1.5rem));
+  margin-inline-start: var(--icon-margin-before, 0.375rem);
 }
 .cmp-accordion summary::-webkit-details-marker {
   display: none;
@@ -5536,46 +5537,46 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 .cmp-accordion summary:first-of-type {
   list-style-type: none;
 }
-.cmp-accordion summary::before {
-  --icon-margin-after: 0.5rem;
-  margin-left: 0.875rem;
+.cmp-accordion summary::after {
+  --icon-margin-before: 0.5rem;
+  margin-right: 0.875rem;
 }
 .cmp-accordion summary + p {
   margin-top: 0;
 }
-.cmp-accordion[open] > summary::before {
+.cmp-accordion[open] > summary::after {
   content: "⌃";
 }
 .cmp-accordion[data-emphasis=high] {
-  --db-accordion---paddingLeft: 3.375rem;
+  --db-accordion---paddingLeft: 0.5625remrem;
 }
 .cmp-accordion[data-emphasis=high] summary {
   font-weight: 700;
   height: 3.5rem;
 }
-.cmp-accordion[data-emphasis=high] summary::before {
+.cmp-accordion[data-emphasis=high] summary::after {
   --icon-font-size: 2rem;
 }
 .cmp-accordion[data-size=small] {
-  --db-accordion---paddingLeft: 2.125rem;
+  --db-accordion---paddingLeft: -0.6875remrem;
 }
 .cmp-accordion[data-size=small] summary {
   font-size: 0.875rem;
   padding-block: 0.59375rem;
 }
-.cmp-accordion[data-size=small] summary::before {
+.cmp-accordion[data-size=small] summary::after {
   --icon-font-size: 1.25rem;
   --icon-margin-after: 0.375rem;
   margin-left: 0.375rem;
 }
 .cmp-accordion[data-size=large] {
-  --db-accordion---paddingLeft: 3.375rem;
+  --db-accordion---paddingLeft: 0.5625remrem;
 }
 .cmp-accordion[data-size=large] summary {
   font-size: 1.25rem;
   padding-block: 1rem;
 }
-.cmp-accordion[data-size=large] summary::before {
+.cmp-accordion[data-size=large] summary::after {
   --icon-font-size: 2rem;
 }
 /* overflow-menu */
