@@ -5521,9 +5521,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   justify-content: space-between;
   padding-block: 0.75rem;
   transform: translateX(calc(var(--db-accordion---paddingLeft) * -1));
-  width: calc(
-			100% + var(--db-accordion---paddingLeft) + 1rem
-		);
+  width: calc(100% + var(--db-accordion---paddingLeft) + 1rem);
 }
 .cmp-accordion summary::after {
   --icon-font-family: "icons-24-outline",
@@ -7044,9 +7042,7 @@ body.has-fixed-footer .rea-footer {
     margin-bottom: -0.375rem;
   }
   .rea-grid:not(:last-child) {
-    margin-bottom: calc(
-				1.5rem - 0.375rem
-			);
+    margin-bottom: calc(1.5rem - 0.375rem);
   }
 }
 .rea-grid [data-type=four-fifths] {
