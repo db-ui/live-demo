@@ -474,11 +474,11 @@ details > *, details > ::before, details > ::after {
 ***** */
 [data-icon=account],
 [data-icon-before=account] {
-  --icon-glyph-before: "🙂";
+  --icon-glyph-before: "󡈡";
 }
 
 [data-icon-after=account] {
-  --icon-glyph-after: "🙂";
+  --icon-glyph-after: "󡈡";
 }
 
 [data-icon=add],
@@ -510,11 +510,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=alarm],
 [data-icon-before=alarm] {
-  --icon-glyph-before: "⏰";
+  --icon-glyph-before: "󡉄";
 }
 
 [data-icon-after=alarm] {
-  --icon-glyph-after: "⏰";
+  --icon-glyph-after: "󡉄";
 }
 
 [data-icon=alarm-add],
@@ -528,20 +528,20 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=alert],
 [data-icon-before=alert] {
-  --icon-glyph-before: "🔔";
+  --icon-glyph-before: "󡈢";
 }
 
 [data-icon-after=alert] {
-  --icon-glyph-after: "🔔";
+  --icon-glyph-after: "󡈢";
 }
 
 [data-icon=alert-off],
 [data-icon-before=alert-off] {
-  --icon-glyph-before: "🔕";
+  --icon-glyph-before: "󡉃";
 }
 
 [data-icon-after=alert-off] {
-  --icon-glyph-after: "🔕";
+  --icon-glyph-after: "󡉃";
 }
 
 [data-icon=railroad-car],
@@ -555,29 +555,29 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=calendar],
 [data-icon-before=calendar] {
-  --icon-glyph-before: "📆";
+  --icon-glyph-before: "󡉇";
 }
 
 [data-icon-after=calendar] {
-  --icon-glyph-after: "📆";
+  --icon-glyph-after: "󡉇";
 }
 
 [data-icon=check-circle],
 [data-icon-before=check-circle] {
-  --icon-glyph-before: "✅";
+  --icon-glyph-before: "󡈠";
 }
 
 [data-icon-after=check-circle] {
-  --icon-glyph-after: "✅";
+  --icon-glyph-after: "󡈠";
 }
 
 [data-icon=credit-card],
 [data-icon-before=credit-card] {
-  --icon-glyph-before: "💳";
+  --icon-glyph-before: "󡈦";
 }
 
 [data-icon-after=credit-card] {
-  --icon-glyph-after: "💳";
+  --icon-glyph-after: "󡈦";
 }
 
 [data-icon=delete],
@@ -654,11 +654,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=giftcard],
 [data-icon-before=giftcard] {
-  --icon-glyph-before: "🎁";
+  --icon-glyph-before: "󡉐";
 }
 
 [data-icon-after=giftcard] {
-  --icon-glyph-after: "🎁";
+  --icon-glyph-after: "󡉐";
 }
 
 [data-icon=heart],
@@ -735,20 +735,20 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=schedule],
 [data-icon-before=schedule] {
-  --icon-glyph-before: "🕓";
+  --icon-glyph-before: "󡈳";
 }
 
 [data-icon-after=schedule] {
-  --icon-glyph-after: "🕓";
+  --icon-glyph-after: "󡈳";
 }
 
 [data-icon=search],
 [data-icon-before=search] {
-  --icon-glyph-before: "🔍";
+  --icon-glyph-before: "󡉔";
 }
 
 [data-icon-after=search] {
-  --icon-glyph-after: "🔍";
+  --icon-glyph-after: "󡉔";
 }
 
 [data-icon=send],
@@ -798,11 +798,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=shopping-cart],
 [data-icon-before=shopping-cart] {
-  --icon-glyph-before: "🛒";
+  --icon-glyph-before: "󡉕";
 }
 
 [data-icon-after=shopping-cart] {
-  --icon-glyph-after: "🛒";
+  --icon-glyph-after: "󡉕";
 }
 
 [data-icon=star],
@@ -861,11 +861,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=website],
 [data-icon-before=website] {
-  --icon-glyph-before: "🌐";
+  --icon-glyph-before: "󡉘";
 }
 
 [data-icon-after=website] {
-  --icon-glyph-after: "🌐";
+  --icon-glyph-after: "󡉘";
 }
 
 [data-icon=zoom-in],
@@ -1014,56 +1014,56 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=volume-down],
 [data-icon-before=volume-down] {
-  --icon-glyph-before: "🔉";
+  --icon-glyph-before: "󡉙";
 }
 
 [data-icon-after=volume-down] {
-  --icon-glyph-after: "🔉";
+  --icon-glyph-after: "󡉙";
 }
 
 [data-icon=volume-mute],
 [data-icon-before=volume-mute] {
-  --icon-glyph-before: "🔈";
+  --icon-glyph-before: "󡉠";
 }
 
 [data-icon-after=volume-mute] {
-  --icon-glyph-after: "🔈";
+  --icon-glyph-after: "󡉠";
 }
 
 [data-icon=volume-off],
 [data-icon-before=volume-off] {
-  --icon-glyph-before: "🔇";
+  --icon-glyph-before: "󡉡";
 }
 
 [data-icon-after=volume-off] {
-  --icon-glyph-after: "🔇";
+  --icon-glyph-after: "󡉡";
 }
 
 [data-icon=volume-up],
 [data-icon-before=volume-up] {
-  --icon-glyph-before: "🔊";
+  --icon-glyph-before: "󡉢";
 }
 
 [data-icon-after=volume-up] {
-  --icon-glyph-after: "🔊";
+  --icon-glyph-after: "󡉢";
 }
 
 [data-icon=call],
 [data-icon-before=call] {
-  --icon-glyph-before: "📞";
+  --icon-glyph-before: "󡈵";
 }
 
 [data-icon-after=call] {
-  --icon-glyph-after: "📞";
+  --icon-glyph-after: "󡈵";
 }
 
 [data-icon=chat],
 [data-icon-before=chat] {
-  --icon-glyph-before: "💬";
+  --icon-glyph-before: "󡈶";
 }
 
 [data-icon-after=chat] {
-  --icon-glyph-after: "💬";
+  --icon-glyph-after: "󡈶";
 }
 
 [data-icon=conversation],
@@ -1104,20 +1104,20 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=mobile-off],
 [data-icon-before=mobile-off] {
-  --icon-glyph-before: "📴";
+  --icon-glyph-before: "󡉤";
 }
 
 [data-icon-after=mobile-off] {
-  --icon-glyph-after: "📴";
+  --icon-glyph-after: "󡉤";
 }
 
 [data-icon=mobile-phone],
 [data-icon-before=mobile-phone] {
-  --icon-glyph-before: "📱";
+  --icon-glyph-before: "󡉣";
 }
 
 [data-icon-after=mobile-phone] {
-  --icon-glyph-after: "📱";
+  --icon-glyph-after: "󡉣";
 }
 
 [data-icon=wifi],
@@ -1140,47 +1140,47 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=mask],
 [data-icon-before=mask] {
-  --icon-glyph-before: "😷";
+  --icon-glyph-before: "󡉥";
 }
 
 [data-icon-after=mask] {
-  --icon-glyph-after: "😷";
+  --icon-glyph-after: "󡉥";
 }
 
 [data-icon=wc],
 [data-icon-before=wc] {
-  --icon-glyph-before: "🚻";
+  --icon-glyph-before: "󡉩";
 }
 
 [data-icon-after=wc] {
-  --icon-glyph-after: "🚻";
+  --icon-glyph-after: "󡉩";
 }
 
 [data-icon=wc-men],
 [data-icon-before=wc-men] {
-  --icon-glyph-before: "🚹";
+  --icon-glyph-before: "󡉰";
 }
 
 [data-icon-after=wc-men] {
-  --icon-glyph-after: "🚹";
+  --icon-glyph-after: "󡉰";
 }
 
 [data-icon=wc-sign],
 [data-icon-before=wc-sign] {
-  --icon-glyph-before: "🚾";
+  --icon-glyph-before: "󡉱";
 }
 
 [data-icon-after=wc-sign] {
-  --icon-glyph-after: "🚾";
+  --icon-glyph-after: "󡉱";
 }
 
 [data-icon=wc-woman],
 [data-icon-before=wc-woman] {
-  --icon-glyph-before: "🚺";
+  --icon-glyph-before: "󡉲";
 }
 
 [data-icon-after=wc-woman] {
-  --icon-glyph-after: "🚺";
+  --icon-glyph-after: "󡉲";
 }
 
 [data-icon=entry-aid],
@@ -1194,11 +1194,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=luggage-rack],
 [data-icon-before=luggage-rack] {
-  --icon-glyph-before: "🧳";
+  --icon-glyph-before: "󡉵";
 }
 
 [data-icon-after=luggage-rack] {
-  --icon-glyph-after: "🧳";
+  --icon-glyph-after: "󡉵";
 }
 
 [data-icon=medical],
@@ -1212,20 +1212,20 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=power-outlet],
 [data-icon-before=power-outlet] {
-  --icon-glyph-before: "🔌";
+  --icon-glyph-before: "󡉸";
 }
 
 [data-icon-after=power-outlet] {
-  --icon-glyph-after: "🔌";
+  --icon-glyph-after: "󡉸";
 }
 
 [data-icon=coffee-cup],
 [data-icon-before=coffee-cup] {
-  --icon-glyph-before: "☕";
+  --icon-glyph-before: "󡈷";
 }
 
 [data-icon-after=coffee-cup] {
-  --icon-glyph-after: "☕";
+  --icon-glyph-after: "󡈷";
 }
 
 [data-icon=drink],
@@ -1329,11 +1329,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=destination],
 [data-icon-before=destination] {
-  --icon-glyph-before: "📍";
+  --icon-glyph-before: "󡈸";
 }
 
 [data-icon-after=destination] {
-  --icon-glyph-after: "📍";
+  --icon-glyph-after: "󡈸";
 }
 
 [data-icon=intermediary-stop],
@@ -1428,11 +1428,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=multiple-passenger],
 [data-icon-before=multiple-passenger] {
-  --icon-glyph-before: "👭";
+  --icon-glyph-before: "󡊆";
 }
 
 [data-icon-after=multiple-passenger] {
-  --icon-glyph-after: "👭";
+  --icon-glyph-after: "󡊆";
 }
 
 [data-icon=best-price],
@@ -1536,20 +1536,20 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=trainstation],
 [data-icon-before=trainstation] {
-  --icon-glyph-before: "🚉";
+  --icon-glyph-before: "󡊀";
 }
 
 [data-icon-after=trainstation] {
-  --icon-glyph-after: "🚉";
+  --icon-glyph-after: "󡊀";
 }
 
 [data-icon=train-station],
 [data-icon-before=train-station] {
-  --icon-glyph-before: "🚉";
+  --icon-glyph-before: "󡊀";
 }
 
 [data-icon-after=train-station] {
-  --icon-glyph-after: "🚉";
+  --icon-glyph-after: "󡊀";
 }
 
 [data-icon=couchette],
@@ -1824,11 +1824,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=aisle],
 [data-icon-before=aisle] {
-  --icon-glyph-before: "💺";
+  --icon-glyph-before: "󡊁";
 }
 
 [data-icon-after=aisle] {
-  --icon-glyph-after: "💺";
+  --icon-glyph-after: "󡊁";
 }
 
 [data-icon=elderly],
@@ -1842,11 +1842,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=handicapped],
 [data-icon-before=handicapped] {
-  --icon-glyph-before: "♿";
+  --icon-glyph-before: "󡊃";
 }
 
 [data-icon-after=handicapped] {
-  --icon-glyph-after: "♿";
+  --icon-glyph-after: "󡊃";
 }
 
 [data-icon=table],
@@ -1986,11 +1986,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=ticket],
 [data-icon-before=ticket] {
-  --icon-glyph-before: "🎫";
+  --icon-glyph-before: "󡊇";
 }
 
 [data-icon-after=ticket] {
-  --icon-glyph-after: "🎫";
+  --icon-glyph-after: "󡊇";
 }
 
 [data-icon=ticket-discount],
@@ -2058,11 +2058,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=bicycle],
 [data-icon-before=bicycle] {
-  --icon-glyph-before: "🚲";
+  --icon-glyph-before: "󡈹";
 }
 
 [data-icon-after=bicycle] {
-  --icon-glyph-after: "🚲";
+  --icon-glyph-after: "󡈹";
 }
 
 [data-icon=car],
@@ -2085,11 +2085,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=ice-side-view],
 [data-icon-before=ice-side-view] {
-  --icon-glyph-before: "🚄";
+  --icon-glyph-before: "󡊈";
 }
 
 [data-icon-after=ice-side-view] {
-  --icon-glyph-after: "🚄";
+  --icon-glyph-after: "󡊈";
 }
 
 [data-icon=sprinter],
@@ -2103,11 +2103,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=walking],
 [data-icon-before=walking] {
-  --icon-glyph-before: "🚶";
+  --icon-glyph-before: "󡉁";
 }
 
 [data-icon-after=walking] {
-  --icon-glyph-after: "🚶";
+  --icon-glyph-after: "󡉁";
 }
 
 [data-icon=logo],
@@ -2130,20 +2130,20 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=childrens-compartment],
 [data-icon-before=childrens-compartment] {
-  --icon-glyph-before: "🍼";
+  --icon-glyph-before: "󡊂";
 }
 
 [data-icon-after=childrens-compartment] {
-  --icon-glyph-after: "🍼";
+  --icon-glyph-after: "󡊂";
 }
 
 [data-icon=parent-child-compartment],
 [data-icon-before=parent-child-compartment] {
-  --icon-glyph-before: "👪";
+  --icon-glyph-before: "󡊄";
 }
 
 [data-icon-after=parent-child-compartment] {
-  --icon-glyph-after: "👪";
+  --icon-glyph-after: "󡊄";
 }
 
 [data-icon=augmented-reality],
@@ -2157,11 +2157,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=quiet-zone],
 [data-icon-before=quiet-zone] {
-  --icon-glyph-before: "🤫";
+  --icon-glyph-before: "󡊅";
 }
 
 [data-icon-after=quiet-zone] {
-  --icon-glyph-after: "🤫";
+  --icon-glyph-after: "󡊅";
 }
 
 [data-icon=duplicate],
@@ -2193,20 +2193,20 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=lock-close],
 [data-icon-before=lock-close] {
-  --icon-glyph-before: "🔒";
+  --icon-glyph-before: "󡈩";
 }
 
 [data-icon-after=lock-close] {
-  --icon-glyph-after: "🔒";
+  --icon-glyph-after: "󡈩";
 }
 
 [data-icon=lock-open],
 [data-icon-before=lock-open] {
-  --icon-glyph-before: "🔓";
+  --icon-glyph-before: "󡈰";
 }
 
 [data-icon-after=lock-open] {
-  --icon-glyph-after: "🔓";
+  --icon-glyph-after: "󡈰";
 }
 
 [data-icon=restricted-mobility-toilet],
@@ -2229,11 +2229,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=breakfast],
 [data-icon-before=breakfast] {
-  --icon-glyph-before: "🥐";
+  --icon-glyph-before: "󡉹";
 }
 
 [data-icon-after=breakfast] {
-  --icon-glyph-after: "🥐";
+  --icon-glyph-after: "󡉹";
 }
 
 [data-icon=ferry],
@@ -2247,29 +2247,29 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=no-smoking],
 [data-icon-before=no-smoking] {
-  --icon-glyph-before: "🚭";
+  --icon-glyph-before: "󡉶";
 }
 
 [data-icon-after=no-smoking] {
-  --icon-glyph-after: "🚭";
+  --icon-glyph-after: "󡉶";
 }
 
 [data-icon=luggage-compartment],
 [data-icon-before=luggage-compartment] {
-  --icon-glyph-before: "🛅";
+  --icon-glyph-before: "󡉴";
 }
 
 [data-icon-after=luggage-compartment] {
-  --icon-glyph-after: "🛅";
+  --icon-glyph-after: "󡉴";
 }
 
 [data-icon=environmental-mobility-check],
 [data-icon-before=environmental-mobility-check] {
-  --icon-glyph-before: "🍃";
+  --icon-glyph-before: "󡉳";
 }
 
 [data-icon-after=environmental-mobility-check] {
-  --icon-glyph-after: "🍃";
+  --icon-glyph-after: "󡉳";
 }
 
 [data-icon=clothing-hanger],
@@ -2310,11 +2310,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=night],
 [data-icon-before=night] {
-  --icon-glyph-before: "🌒";
+  --icon-glyph-before: "󡊉";
 }
 
 [data-icon-after=night] {
-  --icon-glyph-after: "🌒";
+  --icon-glyph-after: "󡊉";
 }
 
 [data-icon=marketplace],
@@ -2346,20 +2346,20 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=sink],
 [data-icon-before=sink] {
-  --icon-glyph-before: "🧼";
+  --icon-glyph-before: "󡉨";
 }
 
 [data-icon-after=sink] {
-  --icon-glyph-after: "🧼";
+  --icon-glyph-after: "󡉨";
 }
 
 [data-icon=microphone],
 [data-icon-before=microphone] {
-  --icon-glyph-before: "🎤";
+  --icon-glyph-before: "󡈴";
 }
 
 [data-icon-after=microphone] {
-  --icon-glyph-after: "🎤";
+  --icon-glyph-after: "󡈴";
 }
 
 [data-icon=undo],
@@ -2373,11 +2373,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=thumb-up-down],
 [data-icon-before=thumb-up-down] {
-  --icon-glyph-before: "👎";
+  --icon-glyph-before: "󡉗";
 }
 
 [data-icon-after=thumb-up-down] {
-  --icon-glyph-after: "👎";
+  --icon-glyph-after: "󡉗";
 }
 
 [data-icon=local-bus],
@@ -2400,38 +2400,38 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=thumb-up],
 [data-icon-before=thumb-up] {
-  --icon-glyph-before: "👍";
+  --icon-glyph-before: "󡉖";
 }
 
 [data-icon-after=thumb-up] {
-  --icon-glyph-after: "👍";
+  --icon-glyph-after: "󡉖";
 }
 
 [data-icon=logbook],
 [data-icon-before=logbook] {
-  --icon-glyph-before: "📓";
+  --icon-glyph-before: "󡉓";
 }
 
 [data-icon-after=logbook] {
-  --icon-glyph-after: "📓";
+  --icon-glyph-after: "󡉓";
 }
 
 [data-icon=lightbulb],
 [data-icon-before=lightbulb] {
-  --icon-glyph-before: "💡";
+  --icon-glyph-before: "󡉒";
 }
 
 [data-icon-after=lightbulb] {
-  --icon-glyph-after: "💡";
+  --icon-glyph-after: "󡉒";
 }
 
 [data-icon=key],
 [data-icon-before=key] {
-  --icon-glyph-before: "🔑";
+  --icon-glyph-before: "󡉑";
 }
 
 [data-icon-after=key] {
-  --icon-glyph-after: "🔑";
+  --icon-glyph-after: "󡉑";
 }
 
 [data-icon=fingerprint],
@@ -2499,11 +2499,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=cash],
 [data-icon-before=cash] {
-  --icon-glyph-before: "💸";
+  --icon-glyph-before: "󡉈";
 }
 
 [data-icon-after=cash] {
-  --icon-glyph-after: "💸";
+  --icon-glyph-after: "󡉈";
 }
 
 [data-icon=dashboard],
@@ -2535,56 +2535,56 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=save],
 [data-icon-before=save] {
-  --icon-glyph-before: "💾";
+  --icon-glyph-before: "󡈲";
 }
 
 [data-icon-after=save] {
-  --icon-glyph-after: "💾";
+  --icon-glyph-after: "󡈲";
 }
 
 [data-icon=pin],
 [data-icon-before=pin] {
-  --icon-glyph-before: "📌";
+  --icon-glyph-before: "󡈱";
 }
 
 [data-icon-after=pin] {
-  --icon-glyph-after: "📌";
+  --icon-glyph-after: "󡈱";
 }
 
 [data-icon=folder-open],
 [data-icon-before=folder-open] {
-  --icon-glyph-before: "📂";
+  --icon-glyph-before: "󡈨";
 }
 
 [data-icon-after=folder-open] {
-  --icon-glyph-after: "📂";
+  --icon-glyph-after: "󡈨";
 }
 
 [data-icon=folder],
 [data-icon-before=folder] {
-  --icon-glyph-before: "📁";
+  --icon-glyph-before: "󡈧";
 }
 
 [data-icon-after=folder] {
-  --icon-glyph-after: "📁";
+  --icon-glyph-after: "󡈧";
 }
 
 [data-icon=camera],
 [data-icon-before=camera] {
-  --icon-glyph-before: "📷";
+  --icon-glyph-before: "󡈥";
 }
 
 [data-icon-after=camera] {
-  --icon-glyph-after: "📷";
+  --icon-glyph-after: "󡈥";
 }
 
 [data-icon=compass],
 [data-icon-before=compass] {
-  --icon-glyph-before: "🧭";
+  --icon-glyph-before: "󡉉";
 }
 
 [data-icon-after=compass] {
-  --icon-glyph-after: "🧭";
+  --icon-glyph-after: "󡉉";
 }
 
 [data-icon=drag-and-drop],
@@ -2598,11 +2598,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=person-with-cane],
 [data-icon-before=person-with-cane] {
-  --icon-glyph-before: "🦯";
+  --icon-glyph-before: "󡉷";
 }
 
 [data-icon-after=person-with-cane] {
-  --icon-glyph-after: "🦯";
+  --icon-glyph-after: "󡉷";
 }
 
 [data-icon=hearing],
@@ -2733,11 +2733,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=bug],
 [data-icon-before=bug] {
-  --icon-glyph-before: "🐛";
+  --icon-glyph-before: "󡉆";
 }
 
 [data-icon-after=bug] {
-  --icon-glyph-after: "🐛";
+  --icon-glyph-after: "󡉆";
 }
 
 [data-icon=question],
@@ -2769,20 +2769,20 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=playground],
 [data-icon-before=playground] {
-  --icon-glyph-before: "🧸";
+  --icon-glyph-before: "󡉦";
 }
 
 [data-icon-after=playground] {
-  --icon-glyph-after: "🧸";
+  --icon-glyph-after: "󡉦";
 }
 
 [data-icon=shower],
 [data-icon-before=shower] {
-  --icon-glyph-before: "🚿";
+  --icon-glyph-before: "󡉧";
 }
 
 [data-icon-after=shower] {
-  --icon-glyph-after: "🚿";
+  --icon-glyph-after: "󡉧";
 }
 
 [data-icon=shower-men],
@@ -2805,38 +2805,38 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=add-link],
 [data-icon-before=add-link] {
-  --icon-glyph-before: "🔗";
+  --icon-glyph-before: "󡉂";
 }
 
 [data-icon-after=add-link] {
-  --icon-glyph-after: "🔗";
+  --icon-glyph-after: "󡉂";
 }
 
 [data-icon=attachment],
 [data-icon-before=attachment] {
-  --icon-glyph-before: "📎";
+  --icon-glyph-before: "󡉅";
 }
 
 [data-icon-after=attachment] {
-  --icon-glyph-after: "📎";
+  --icon-glyph-after: "󡉅";
 }
 
 [data-icon=block],
 [data-icon-before=block] {
-  --icon-glyph-before: "❎";
+  --icon-glyph-before: "󡈣";
 }
 
 [data-icon-after=block] {
-  --icon-glyph-after: "❎";
+  --icon-glyph-after: "󡈣";
 }
 
 [data-icon=bookmark],
 [data-icon-before=bookmark] {
-  --icon-glyph-before: "🔖";
+  --icon-glyph-before: "󡈤";
 }
 
 [data-icon-after=bookmark] {
-  --icon-glyph-after: "🔖";
+  --icon-glyph-after: "󡈤";
 }
 
 [data-icon=shopping-basket-disabled],
@@ -2877,11 +2877,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=local-train],
 [data-icon-before=local-train] {
-  --icon-glyph-before: "🚈";
+  --icon-glyph-before: "󡉀";
 }
 
 [data-icon-after=local-train] {
-  --icon-glyph-after: "🚈";
+  --icon-glyph-after: "󡉀";
 }
 
 [data-icon=rail-and-fly],
@@ -3277,7 +3277,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-action.woff?4r2096") format("woff");
-  unicode-range: U+1f642,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+002B,U+2295,U+23F0,U+1F514-1F515,U+1F4C6,U+2705,U+1F4B3,U+1F5D1,U+1F5B9,U+2713,U+2B73,U+270F,U+1F381,U+2661,U+003F,U+1F6C8,U+00A7,U+21A6,U+2212,U+1F5A8,U+229D,U+1F553,U+1F50D,U+25F9,U+2699,U+1F6CD,U+1F6D2,U+2606,U+21C6,U+21F5,U+1F441,U+1F310,U+e1154,U+1F5BC,U+1F512,U+1F513,U+e1155,U+e1156,U+1F517,U+1F4CE,U+e1167,U+274E,U+1F516,U+1F41B,U+1F6E0,U+1F4F7,U+1F4B8,U+2601,U+21E9,U+21E7,U+e1164,U+e1168,U+e1169,U+e1170,U+e1171,U+1F4C1,U+1F4C2,U+1F511,U+1F4A1,U+1F4D3,U+1F4CC,U+e1165,U+1F4BE,U+e1166,U+1F44D,U+1F44E,U+238C,U+1F9ED,U+e1187,U+21A1,U+219F,U+e1211,U+e1212,U+e1213,U+e1214;
+  unicode-range: U+e1221,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+002B,U+2295,U+e1243,U+e1222-e1244,U+e1247,U+e1220,U+e1226,U+1F5D1,U+1F5B9,U+2713,U+2B73,U+270F,U+e1250,U+2661,U+003F,U+1F6C8,U+00A7,U+21A6,U+2212,U+1F5A8,U+229D,U+e1233,U+e1254,U+25F9,U+2699,U+1F6CD,U+e1255,U+2606,U+21C6,U+21F5,U+1F441,U+e1258,U+e1154,U+1F5BC,U+e1229,U+e1230,U+e1155,U+e1156,U+e1242,U+e1245,U+e1167,U+e1223,U+e1224,U+e1246,U+1F6E0,U+e1225,U+e1248,U+2601,U+21E9,U+21E7,U+e1164,U+e1168,U+e1169,U+e1170,U+e1171,U+e1227,U+e1228,U+e1251,U+e1252,U+e1253,U+e1231,U+e1165,U+e1232,U+e1166,U+e1256,U+e1257,U+238C,U+e1249,U+e1187,U+21A1,U+219F,U+e1211,U+e1212,U+e1213,U+e1214;
 }
 @font-face {
   font-display: block;
@@ -3285,7 +3285,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-av.woff?4r2096") format("woff");
-  unicode-range: U+e1085-e1088,U+e1091,U+293A,U+293B,U+23F8,U+25B7,U+23EE,U+23ED,U+25A1,U+1F507-1F509,U+1F50A,U+1F3A4;
+  unicode-range: U+e1085-e1088,U+e1091,U+293A,U+293B,U+23F8,U+25B7,U+23EE,U+23ED,U+25A1,U+e1261-e1259,U+e1262,U+e1234;
 }
 @font-face {
   font-display: block;
@@ -3301,7 +3301,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-communication.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-communication.woff?4r2096") format("woff");
-  unicode-range: U+1F4DE,U+e1095,U+e1098,U+e1149,U+1F4AC,U+1F5B7,U+2370,U+2709,U+1F4F4,U+1F4F1,U+e1172,U+e1173,U+e1174;
+  unicode-range: U+e1235,U+e1095,U+e1098,U+e1149,U+e1236,U+1F5B7,U+2370,U+2709,U+e1264,U+e1263,U+e1172,U+e1173,U+e1174;
 }
 @font-face {
   font-display: block;
@@ -3309,7 +3309,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-covid-19.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-covid-19.woff?4r2096") format("woff");
-  unicode-range: U+1F637;
+  unicode-range: U+e1265;
 }
 @font-face {
   font-display: block;
@@ -3317,7 +3317,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-facilities.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-facilities.woff?4r2096") format("woff");
-  unicode-range: U+1F6BB,U+1F6B9,U+1F6BE,U+1F6BA,U+e1163,U+,U+1F6BF,U+e1175,U+e1176,U+1F9FC;
+  unicode-range: U+e1269,U+e1270,U+e1271,U+e1272,U+e1163,U+,U+e1267,U+e1175,U+e1176,U+e1268;
 }
 @font-face {
   font-display: block;
@@ -3325,7 +3325,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-feature.woff?4r2096") format("woff");
-  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+1F343,U+e1177,U+1F6C5,U+e1178,U+1F312,U+1F6AD,U+1F6E4,U+e1179,U+e1215,U+1F9AF,U+e1188,U+e1217;
+  unicode-range: U+e1275,U+271A,U+e1278,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+e1273,U+e1177,U+e1274,U+e1178,U+e1289,U+e1276,U+1F6E4,U+e1179,U+e1215,U+e1277,U+e1188,U+e1217;
 }
 @font-face {
   font-display: block;
@@ -3333,7 +3333,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-food.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-food.woff?4r2096") format("woff");
-  unicode-range: U+2615,U+e1101,U+1F37D,U+1F950;
+  unicode-range: U+e1237,U+e1101,U+1F37D,U+e1279;
 }
 @font-face {
   font-display: block;
@@ -3349,7 +3349,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-journey.woff?4r2096") format("woff");
-  unicode-range: U+2488,U+2489,U+e1102-e1104,U+e1106,U+e1108,U+e1110,U+e1113,U+1F4CD,U+2B94,U+291E,U+29BF,U+e1161;
+  unicode-range: U+2488,U+2489,U+e1102-e1104,U+e1106,U+e1108,U+e1110,U+e1113,U+e1238,U+2B94,U+291E,U+29BF,U+e1161;
 }
 @font-face {
   font-display: block;
@@ -3357,7 +3357,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-maps.woff?4r2096") format("woff");
-  unicode-range: U+2302,U+e1115-e1116,U+1F5FA,U+1F78B,U+1F689,U+e1157,U+e1158,U+e1182,U+1F17F;
+  unicode-range: U+2302,U+e1115-e1116,U+1F5FA,U+1F78B,U+e1280,U+e1157,U+e1158,U+e1182,U+1F17F;
 }
 @font-face {
   font-display: block;
@@ -3381,7 +3381,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-seat.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-seat.woff?4r2096") format("woff");
-  unicode-range: U+e1128-e1130,U+1F4BA,U+267F,U+1F37C,U+1F46A,U+1F92B,U+e1162,U+e1183,U+1F6CF,U+e1189;
+  unicode-range: U+e1128-e1130,U+e1281,U+e1283,U+e1282,U+e1284,U+e1285,U+e1162,U+e1183,U+1F6CF,U+e1189;
 }
 @font-face {
   font-display: block;
@@ -3389,7 +3389,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-ticket.woff?4r2096") format("woff");
-  unicode-range: U+e1131-e1132,U+e1134,U+e1136-e1146,U+2714,U+1F907,U+1F3AB,U+e1185,U+e1184,U+1F46D,U+e1186,U+e1218;
+  unicode-range: U+e1131-e1132,U+e1134,U+e1136-e1146,U+2714,U+1F907,U+e1287,U+e1185,U+e1184,U+e1286,U+e1186,U+e1218;
 }
 @font-face {
   font-display: block;
@@ -3397,7 +3397,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-outline-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-transportation.woff?4r2096") format("woff");
-  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159,U+e1190-e1210,U+e1216,U+e1219;
+  unicode-range: U+e1239,U+e1147,U+e1151,U+e1288,U+e1148,U+e1240,U+e1241,U+e1159,U+e1190-e1210,U+e1216,U+e1219;
 }
 @font-face {
   font-display: block;
@@ -3405,7 +3405,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-action.woff?4r2096") format("woff");
-  unicode-range: U+1f642,U+002B,U+2295,U+1F517,U+23F0,U+e1062,U+1F514-1F515,U+1F4CE,U+e1167,U+274E,U+1F516,U+1F41B,U+1F6E0,U+1F4C6,U+1F4F7,U+1F4B8,U+2705,U+2601,U+21E9,U+21E7,U+e1154,U+1F4B3,U+e1164,U+1F5D1,U+e1066,U+1F5B9,U+2713,U+2B73,U+270F,U+e1168,U+e1169,U+e1170,U+e1069,U+e1171,U+1F4C1,U+1F4C2,U+e1070,U+1F381,U+2661,U+003F,U+1F5BC,U+1F6C8,U+1F511,U+00A7,U+1F4A1,U+1F512,U+1F513,U+21A6,U+1F4D3,U+2212,U+1F4CC,U+1F5A8,U+229D,U+e1165,U+1F4BE,U+1F553,U+1F50D,U+25F9,U+e1166,U+2699,U+e1077,U+1F6CD,U+e1079,U+e1155,U+1F6D2,U+e1156,U+2606,U+21C6,U+21F5,U+1F44D,U+1F44E,U+238C,U+e1081,U+1F441,U+e1082,U+1F310,U+e1083,U+e1084,U+1F9ED,U+e1187,U+21A1,U+219F,U+e1211,U+e1212,U+e1213,U+e1214;
+  unicode-range: U+e1221,U+002B,U+2295,U+e1242,U+e1243,U+e1062,U+e1222-e1244,U+e1245,U+e1167,U+e1223,U+e1224,U+e1246,U+1F6E0,U+e1247,U+e1225,U+e1248,U+e1220,U+2601,U+21E9,U+21E7,U+e1154,U+e1226,U+e1164,U+1F5D1,U+e1066,U+1F5B9,U+2713,U+2B73,U+270F,U+e1168,U+e1169,U+e1170,U+e1069,U+e1171,U+e1227,U+e1228,U+e1070,U+e1250,U+2661,U+003F,U+1F5BC,U+1F6C8,U+e1251,U+00A7,U+e1252,U+e1229,U+e1230,U+21A6,U+e1253,U+2212,U+e1231,U+1F5A8,U+229D,U+e1165,U+e1232,U+e1233,U+e1254,U+25F9,U+e1166,U+2699,U+e1077,U+1F6CD,U+e1079,U+e1155,U+e1255,U+e1156,U+2606,U+21C6,U+21F5,U+e1256,U+e1257,U+238C,U+e1081,U+1F441,U+e1082,U+e1258,U+e1083,U+e1084,U+e1249,U+e1187,U+21A1,U+219F,U+e1211,U+e1212,U+e1213,U+e1214;
 }
 @font-face {
   font-display: block;
@@ -3413,7 +3413,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-av.woff?4r2096") format("woff");
-  unicode-range: U+e1085,U+e1086,U+293A,U+e1087,U+e1088,U+293B,U+23F8,U+25B7,U+23EE,U+23ED,U+25A1,U+e1091,U+1F509,U+1F508,U+1F507,U+1F50A,U+1F3A4;
+  unicode-range: U+e1085,U+e1086,U+293A,U+e1087,U+e1088,U+293B,U+23F8,U+25B7,U+23EE,U+23ED,U+25A1,U+e1091,U+e1259,U+e1260,U+e1261,U+e1262,U+e1234;
 }
 @font-face {
   font-display: block;
@@ -3429,7 +3429,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-communication.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-communication.woff?4r2096") format("woff");
-  unicode-range: U+1F4DE,U+1F4AC,U+e1095,U+1F5B7,U+2370,U+2709,U+1F4F4,U+1F4F1,U+e1098,U+e1149,U+e1172,U+e1173,U+e1174;
+  unicode-range: U+e1235,U+e1236,U+e1095,U+1F5B7,U+2370,U+2709,U+e1264,U+e1263,U+e1098,U+e1149,U+e1172,U+e1173,U+e1174;
 }
 @font-face {
   font-display: block;
@@ -3437,7 +3437,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-covid-19.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-covid-19.woff?4r2096") format("woff");
-  unicode-range: U+1F637;
+  unicode-range: U+e1265;
 }
 @font-face {
   font-display: block;
@@ -3445,7 +3445,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-facilities.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-facilities.woff?4r2096") format("woff");
-  unicode-range: U+1F6BB,U+1F6B9,U+1F6BE,U+1F6BA,U+e1163,U+1F9F8,U+1F6BF,U+e1175,U+e1176,U+1F9FC,;
+  unicode-range: U+e1269,U+e1270,U+e1271,U+e1272,U+e1163,U+e1266,U+e1267,U+e1175,U+e1176,U+e1268,;
 }
 @font-face {
   font-display: block;
@@ -3453,7 +3453,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-feature.woff?4r2096") format("woff");
-  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+1F343,U+e1177,U+1F6C5,U+e1178,U+1F312,U+1F6AD,U+1F6E4,U+e1179,U+e1215,U+1F9AF,U+e1188,U+e1217;
+  unicode-range: U+e1275,U+271A,U+e1278,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+e1273,U+e1177,U+e1274,U+e1178,U+e1289,U+e1276,U+1F6E4,U+e1179,U+e1215,U+e1277,U+e1188,U+e1217;
 }
 @font-face {
   font-display: block;
@@ -3461,7 +3461,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-food.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-food.woff?4r2096") format("woff");
-  unicode-range: U+2615,U+e1101,U+1F37D,U+1F950;
+  unicode-range: U+e1237,U+e1101,U+1F37D,U+e1279;
 }
 @font-face {
   font-display: block;
@@ -3477,7 +3477,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-journey.woff?4r2096") format("woff");
-  unicode-range: U+2488-2489,U+e1102-e1104,U+e1106,U+e1108,U+e1110,U+1F4CD,U+e1113,U+2B94,U+291E,U+29BF,U+e1161;
+  unicode-range: U+2488-2489,U+e1102-e1104,U+e1106,U+e1108,U+e1110,U+e1238,U+e1113,U+2B94,U+291E,U+29BF,U+e1161;
 }
 @font-face {
   font-display: block;
@@ -3485,7 +3485,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-maps.woff?4r2096") format("woff");
-  unicode-range: U+2302,U+1F5FA,U+e1115,U+e1116,U+1F78B,U+1F689,U+e1157,U+e1158,U+1F17F,U+e1182;
+  unicode-range: U+2302,U+1F5FA,U+e1115,U+e1116,U+1F78B,U+e1280,U+e1157,U+e1158,U+1F17F,U+e1182;
 }
 @font-face {
   font-display: block;
@@ -3509,7 +3509,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-seat.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-seat.woff?4r2096") format("woff");
-  unicode-range: U+1F4BA,U+e1128-e1130,U+267F,U+1F37C,U+1F46A,U+1F92B,U+e1162,U+e1183,U+1F6CF,U+e1189;
+  unicode-range: U+e1281,U+e1128-e1130,U+e1283,U+e1282,U+e1284,U+e1285,U+e1162,U+e1183,U+1F6CF,U+e1189;
 }
 @font-face {
   font-display: block;
@@ -3517,7 +3517,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-ticket.woff?4r2096") format("woff");
-  unicode-range: U+e1131-e1146,U+2714,U+1F907,U+1F3AB,U+e1184,U+e1185,U+1F46D,U+e1186,U+e1218;
+  unicode-range: U+e1131-e1146,U+2714,U+1F907,U+e1287,U+e1184,U+e1185,U+e1286,U+e1186,U+e1218;
 }
 @font-face {
   font-display: block;
@@ -3525,7 +3525,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-outline-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-transportation.woff?4r2096") format("woff");
-  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159,U+e1190-e1210,U+e1216,U+e1219;
+  unicode-range: U+e1239,U+e1147,U+e1151,U+e1288,U+e1148,U+e1240,U+e1241,U+e1159,U+e1190-e1210,U+e1216,U+e1219;
 }
 @font-face {
   font-display: block;
@@ -3533,7 +3533,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-action.woff?4r2096") format("woff");
-  unicode-range: U+1f642,U+002B,U+2295,U+1F517,U+23F0,U+e1062,U+1F514-1F515,U+1F4CE,U+e1167,U+274E,U+1F516,U+1F41B,U+1F6E0,U+1F4C6,U+1F4F7,U+1F4B8,U+2705,U+2601,U+21E9,U+21E7,U+e1154,U+1F4B3,U+e1164,U+1F5D1,U+e1066,U+1F5B9,U+2713,U+2B73,U+270F,U+e1168,U+e1169,U+e1170,U+e1069,U+e1171,U+1F4C1,U+1F4C2,U+e1070,U+1F381,U+2661,U+003F,U+1F5BC,U+1F6C8,U+1F511,U+00A7,U+1F4A1,U+1F512,U+1F513,U+21A6,U+1F4D3,U+2212,U+1F4CC,U+1F5A8,U+229D,U+e1165,U+1F4BE,U+1F553,U+1F50D,U+25F9,U+e1166,U+2699,U+e1077,U+1F6CD,U+e1079,U+e1155,U+1F6D2,U+e1156,U+2606,U+21C6,U+21F5,U+1F44D,U+1F44E,U+238C,U+e1081,U+1F441,U+e1082,U+1F310,U+e1083,U+e1084,U+1F9ED,U+e1187,U+21A1,U+219F,U+e1211,U+e1212,U+e1213,U+e1214;
+  unicode-range: U+e1221,U+002B,U+2295,U+e1242,U+e1243,U+e1062,U+e1222-e1244,U+e1245,U+e1167,U+e1223,U+e1224,U+e1246,U+1F6E0,U+e1247,U+e1225,U+e1248,U+e1220,U+2601,U+21E9,U+21E7,U+e1154,U+e1226,U+e1164,U+1F5D1,U+e1066,U+1F5B9,U+2713,U+2B73,U+270F,U+e1168,U+e1169,U+e1170,U+e1069,U+e1171,U+e1227,U+e1228,U+e1070,U+e1250,U+2661,U+003F,U+1F5BC,U+1F6C8,U+e1251,U+00A7,U+e1252,U+e1229,U+e1230,U+21A6,U+e1253,U+2212,U+e1231,U+1F5A8,U+229D,U+e1165,U+e1232,U+e1233,U+e1254,U+25F9,U+e1166,U+2699,U+e1077,U+1F6CD,U+e1079,U+e1155,U+e1255,U+e1156,U+2606,U+21C6,U+21F5,U+e1256,U+e1257,U+238C,U+e1081,U+1F441,U+e1082,U+e1258,U+e1083,U+e1084,U+e1249,U+e1187,U+21A1,U+219F,U+e1211,U+e1212,U+e1213,U+e1214;
 }
 @font-face {
   font-display: block;
@@ -3541,7 +3541,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-av.woff?4r2096") format("woff");
-  unicode-range: U+e1085-e1088,U+e1091,U+293A,U+293B,U+23F8,U+25B7,U+23EE,U+23ED,U+25A1,U+1F509,U+1F508,U+1F507,U+1F50A,U+1F3A4;
+  unicode-range: U+e1085-e1088,U+e1091,U+293A,U+293B,U+23F8,U+25B7,U+23EE,U+23ED,U+25A1,U+e1259,U+e1260,U+e1261,U+e1262,U+e1234;
 }
 @font-face {
   font-display: block;
@@ -3557,7 +3557,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-communication.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-communication.woff?4r2096") format("woff");
-  unicode-range: U+1F4DE,U+1F4AC,U+e1095,U+1F5B7,U+2370,U+2709,U+1F4F4,U+1F4F1,U+e1098,U+e1149,U+e1172,U+e1173,U+e1174;
+  unicode-range: U+e1235,U+e1236,U+e1095,U+1F5B7,U+2370,U+2709,U+e1264,U+e1263,U+e1098,U+e1149,U+e1172,U+e1173,U+e1174;
 }
 @font-face {
   font-display: block;
@@ -3565,7 +3565,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-covid-19.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-covid-19.woff?4r2096") format("woff");
-  unicode-range: U+1F637;
+  unicode-range: U+e1265;
 }
 @font-face {
   font-display: block;
@@ -3573,7 +3573,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-facilities.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-facilities.woff?4r2096") format("woff");
-  unicode-range: U+1F6B9,U+1F6BE,U+1F6BA,U+1F6BB,U+e1163,U+1F9F8,U+1F6BF,U+e1175,U+e1176,U+1F9FC;
+  unicode-range: U+e1270,U+e1271,U+e1272,U+e1269,U+e1163,U+e1266,U+e1267,U+e1175,U+e1176,U+e1268;
 }
 @font-face {
   font-display: block;
@@ -3581,7 +3581,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-feature.woff?4r2096") format("woff");
-  unicode-range: U+1F9F3,U+271A,U+1F50C,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+1F343,U+e1177,U+1F6C5,U+e1178,U+1F312,U+1F6AD,U+1F6E4,U+e1179,U+1F9AF,U+e1188,U+e1215,U+e1217;
+  unicode-range: U+e1275,U+271A,U+e1278,U+e1150,U+e1153,U+e1160,U+2744,U+e1180,U+2600,U+e1273,U+e1177,U+e1274,U+e1178,U+e1289,U+e1276,U+1F6E4,U+e1179,U+e1277,U+e1188,U+e1215,U+e1217;
 }
 @font-face {
   font-display: block;
@@ -3589,7 +3589,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-food.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-food.woff?4r2096") format("woff");
-  unicode-range: U+2615,U+e1101,U+1F37D,U+1F950;
+  unicode-range: U+e1237,U+e1101,U+1F37D,U+e1279;
 }
 @font-face {
   font-display: block;
@@ -3605,7 +3605,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-journey.woff?4r2096") format("woff");
-  unicode-range: U+2488,U+2489,U+e1102-e1110,U+1F4CD,U+e1113,U+2B94,U+291E,U+29BF,U+e1161;
+  unicode-range: U+2488,U+2489,U+e1102-e1110,U+e1238,U+e1113,U+2B94,U+291E,U+29BF,U+e1161;
 }
 @font-face {
   font-display: block;
@@ -3613,7 +3613,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-maps.woff?4r2096") format("woff");
-  unicode-range: U+2302,U+1F5FA,U+e1116,U+1F78B,U+e1115,U+1F689,U+e1157,U+e1158,U+1F17F,U+e1182;
+  unicode-range: U+2302,U+1F5FA,U+e1116,U+1F78B,U+e1115,U+e1280,U+e1157,U+e1158,U+1F17F,U+e1182;
 }
 @font-face {
   font-display: block;
@@ -3637,7 +3637,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-seat.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-seat.woff?4r2096") format("woff");
-  unicode-range: U+1F4BA,U+e1128-e1130,U+267F,U+1F37C,U+1F46A,U+1F92B,U+e1162,U+e1183,U+1F6CF,U+e1189;
+  unicode-range: U+e1281,U+e1128-e1130,U+e1283,U+e1282,U+e1284,U+e1285,U+e1162,U+e1183,U+1F6CF,U+e1189;
 }
 @font-face {
   font-display: block;
@@ -3645,7 +3645,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-ticket.woff?4r2096") format("woff");
-  unicode-range: U+e1131-e1146,U+2714,U+1F907,U+1F3AB,U+e1184,U+e1185,U+1F46D,U+e1186,U+e1218;
+  unicode-range: U+e1131-e1146,U+2714,U+1F907,U+e1287,U+e1184,U+e1185,U+e1286,U+e1186,U+e1218;
 }
 @font-face {
   font-display: block;
@@ -3653,7 +3653,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-outline-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-transportation.woff?4r2096") format("woff");
-  unicode-range: U+1F6B2,U+e1147,U+e1151,U+1F684,U+e1148,U+1F6B6,U+1F688,U+e1159,U+e1190-e1210,U+e1216,U+e1219;
+  unicode-range: U+e1239,U+e1147,U+e1151,U+e1288,U+e1148,U+e1240,U+e1241,U+e1159,U+e1190-e1210,U+e1216,U+e1219;
 }
 @font-face {
   font-display: block;
@@ -3693,7 +3693,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-16-filled-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-16-filled-action.woff?4r2096") format("woff");
-  unicode-range: U+2705,U+003F,U+1F6C8;
+  unicode-range: U+e1220,U+003F,U+1F6C8;
 }
 @font-face {
   font-display: block;
@@ -3717,7 +3717,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-filled-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-action.woff?4r2096") format("woff");
-  unicode-range: U+1f642,U+2295,U+1F514,U+2705,U+1F4B3,U+e1066,U+270F,U+e1070,U+003F,U+1F6C8,U+1F5A8,U+229D,U+1F553,U+1F6CD,U+e1079,U+2661,U+2606,U+e1154,U+1F5BC,U+1F512,U+1F513,U+e1155,U+274E,U+1F516,U+1F6E0,U+1F4F7,U+2601,U+1F4C2,U+1F4C1,U+1F4CC,U+1F4BE,U+e1164,U+e1165,U+e1166,U+1F6C8,U+003F,U+e1214;
+  unicode-range: U+e1221,U+2295,U+e1222,U+e1220,U+e1226,U+e1066,U+270F,U+e1070,U+003F,U+1F6C8,U+1F5A8,U+229D,U+e1233,U+1F6CD,U+e1079,U+2661,U+2606,U+e1154,U+1F5BC,U+e1229,U+e1230,U+e1155,U+e1223,U+e1224,U+1F6E0,U+e1225,U+2601,U+e1228,U+e1227,U+e1231,U+e1232,U+e1164,U+e1165,U+e1166,U+1F6C8,U+003F,U+e1214;
 }
 @font-face {
   font-display: block;
@@ -3725,7 +3725,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-av.woff?4r2096") format("woff");
-  unicode-range: U+25B7,U+23EE,U+23ED,U+25A1,U+e1091,U+1F3A4;
+  unicode-range: U+25B7,U+23EE,U+23ED,U+25A1,U+e1091,U+e1234;
 }
 @font-face {
   font-display: block;
@@ -3733,7 +3733,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-filled-communication.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-communication.woff?4r2096") format("woff");
-  unicode-range: U+1F4DE,U+1F4AC,U+e1095,U+2370,U+e1172,U+e1173,U+e1174;
+  unicode-range: U+e1235,U+e1236,U+e1095,U+2370,U+e1172,U+e1173,U+e1174;
 }
 @font-face {
   font-display: block;
@@ -3741,7 +3741,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-filled-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-feature.woff?4r2096") format("woff");
-  unicode-range: U+271A,U+2600,U+e1177,U+e1178,U+1F312,U+1F6E4,U+e1179;
+  unicode-range: U+271A,U+2600,U+e1177,U+e1178,U+e1289,U+1F6E4,U+e1179;
 }
 @font-face {
   font-display: block;
@@ -3749,7 +3749,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-filled-food.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-food.woff?4r2096") format("woff");
-  unicode-range: U+2615;
+  unicode-range: U+e1237;
 }
 @font-face {
   font-display: block;
@@ -3765,7 +3765,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-filled-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-journey.woff?4r2096") format("woff");
-  unicode-range: U+e1104,U+e1106,U+e1108,U+e1110,U+1F4CD;
+  unicode-range: U+e1104,U+e1106,U+e1108,U+e1110,U+e1238;
 }
 @font-face {
   font-display: block;
@@ -3805,7 +3805,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-20-filled-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-transportation.woff?4r2096") format("woff");
-  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+1F6B2,U+e1151,U+e1147,U+1F684,U+1F688,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+1F6B6,U+e1219;
+  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+e1239,U+e1151,U+e1147,U+e1288,U+e1240,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+e1241,U+e1219;
 }
 @font-face {
   font-display: block;
@@ -3813,7 +3813,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-filled-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-action.woff?4r2096") format("woff");
-  unicode-range: U+1F514,U+2661,U+2606,U+1F4F7,U+1F516,U+2295,U+2705,U+2601,U+1F4CC,U+229D,U+1F6C8,U+003F;
+  unicode-range: U+e1222,U+2661,U+2606,U+e1225,U+e1224,U+2295,U+e1220,U+2601,U+e1231,U+229D,U+1F6C8,U+003F;
 }
 @font-face {
   font-display: block;
@@ -3821,7 +3821,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-av.woff?4r2096") format("woff");
-  unicode-range: U+25B7,U+25A1,U+23EE,U+23ED,U+1F3A4;
+  unicode-range: U+25B7,U+25A1,U+23EE,U+23ED,U+e1234;
 }
 @font-face {
   font-display: block;
@@ -3829,7 +3829,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-filled-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-journey.woff?4r2096") format("woff");
-  unicode-range: U+e1104,U+e1106,U+e1108,U+e1110,U+1F4CD;
+  unicode-range: U+e1104,U+e1106,U+e1108,U+e1110,U+e1238;
 }
 @font-face {
   font-display: block;
@@ -3861,7 +3861,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-24-filled-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-transportation.woff?4r2096") format("woff");
-  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+1F6B2,U+e1151,U+e1147,U+1F684,U+1F688,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+1F6B6,U+e1219;
+  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+e1239,U+e1151,U+e1147,U+e1288,U+e1240,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+e1241,U+e1219;
 }
 @font-face {
   font-display: block;
@@ -3869,7 +3869,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-filled-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-action.woff?4r2096") format("woff");
-  unicode-range: U+2606,U+2661,U+1F514,U+2295,U+1f516,U+1F4F7,U+e904,U+2705,U+2601,U+1F4CC,U+229D,U+1F6C8,U+003F;
+  unicode-range: U+2606,U+2661,U+e1222,U+2295,U+e1224,U+e1225,U+e904,U+e1220,U+2601,U+e1231,U+229D,U+1F6C8,U+003F;
 }
 @font-face {
   font-display: block;
@@ -3877,7 +3877,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-av.woff?4r2096") format("woff");
-  unicode-range: U+25B7,U+23EE,U+23ED,U+25A1,U+1F3A4;
+  unicode-range: U+25B7,U+23EE,U+23ED,U+25A1,U+e1234;
 }
 @font-face {
   font-display: block;
@@ -3909,7 +3909,7 @@ details > *, details > ::before, details > ::after {
   font-style: normal;
   font-weight: normal;
   src: url("../icons/functional/fonts/icons-32-filled-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-transportation.woff?4r2096") format("woff");
-  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+1F6B2,U+e1151,U+e1147,U+1F684,U+1F688,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+1F6B6,U+e1219;
+  unicode-range: U+e1190,U+e1191,U+e1192,U+e1194,U+e1195,U+e1196,U+e1197,U+e1198,U+e1199,U+e1200,U+e1201,U+e1202,U+e1203,U+e1204,U+e1239,U+e1151,U+e1147,U+e1288,U+e1240,U+e1206,U+e1207,U+e1208,U+e1216,U+e1208,U+e1209,U+e1210,U+e1241,U+e1219;
 }
 @font-face {
   font-display: block;
@@ -3933,7 +3933,6 @@ details > *, details > ::before, details > ::after {
 [data-icon-before]::before {
   -webkit-alt: "";
   alt: "";
-  content: var(--icon-glyph);
   display: inline-block;
   /*** icon - placeholder ***/
   font-family: var(--icon-font-family) !important;
@@ -3948,14 +3947,6 @@ details > *, details > ::before, details > ::after {
   speak: never;
   text-transform: none;
   vertical-align: middle;
-}
-@supports (content: ""/"") {
-  .cmp-dropdown.is-account summary::before, .cmp-overflow-menu summary::before, .cmp-dropdown summary::before, .cmp-link-list li .elm-link::before, .cmp-sidenavi .elm-link[rel=help]::before, .cmp-sidenavi .elm-link[rel=calendar]::before, .cmp-sidenavi .elm-link[rel=cloud]::before, .cmp-sidenavi .elm-link[rel=dashboard]::before, .cmp-sidenavi .elm-link[rel=documents]::before, .cmp-sidenavi .elm-link[rel=index]::before, .cmp-pagination .elm-link[rel=next]::before, .cmp-pagination .elm-link[rel=prev]::before, .cmp-language-switcher li[aria-current] .elm-link::after,
-  .cmp-language-switcher li[aria-current] .elm-button::after, .cmp-language-switcher li[aria-selected] .elm-link::after,
-  .cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::after, .cmp-breadcrumb ol > *:not(:first-child)::before, .cmp-breadcrumb ol > *:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
-  [data-icon-before]::before {
-    content: var(--icon-glyph)/"";
-  }
 }
 @media aural {
   .cmp-dropdown.is-account summary::before, .cmp-overflow-menu summary::before, .cmp-dropdown summary::before, .cmp-link-list li .elm-link::before, .cmp-sidenavi .elm-link[rel=help]::before, .cmp-sidenavi .elm-link[rel=calendar]::before, .cmp-sidenavi .elm-link[rel=cloud]::before, .cmp-sidenavi .elm-link[rel=dashboard]::before, .cmp-sidenavi .elm-link[rel=documents]::before, .cmp-sidenavi .elm-link[rel=index]::before, .cmp-pagination .elm-link[rel=next]::before, .cmp-pagination .elm-link[rel=prev]::before, .cmp-language-switcher li[aria-current] .elm-link::after,
@@ -4272,8 +4263,13 @@ h4.elm-headline {
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
 }
+@supports (content: ""/"") {
+  .elm-link[rel=configuration]::before {
+    content: var(--icon-glyph-before)/"";
+  }
+}
 .elm-link[rel=messages] {
-  --icon-glyph-before: "💬";
+  --icon-glyph-before: "󡈶";
 }
 .elm-link[rel=messages]::before {
   --icon-font-family: "icons-24-outline",
@@ -4282,8 +4278,13 @@ h4.elm-headline {
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
 }
+@supports (content: ""/"") {
+  .elm-link[rel=messages]::before {
+    content: var(--icon-glyph-before)/"";
+  }
+}
 .elm-link[rel=account] {
-  --icon-glyph-before: "🙂";
+  --icon-glyph-before: "󡈡";
 }
 .elm-link[rel=account]::before {
   --icon-font-family: "icons-24-outline",
@@ -4291,6 +4292,11 @@ h4.elm-headline {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
+}
+@supports (content: ""/"") {
+  .elm-link[rel=account]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .elm-link[rel=configuration]::before, .elm-link[rel=messages]::before, .elm-link[rel=account]::before {
   display: inline-block;
@@ -4405,6 +4411,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
+}
+@supports (content: ""/"") {
+  .elm-checkbox::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .elm-checkbox[type=checkbox] {
   vertical-align: top;
@@ -5408,6 +5419,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
 }
+@supports (content: ""/"") {
+  .cmp-breadcrumb ol > *:first-child::before {
+    content: var(--icon-glyph-before)/"";
+  }
+}
 .cmp-breadcrumb ol > *:first-child::before {
   --icon-margin-after: 0.1875rem;
 }
@@ -5420,6 +5436,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.25rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
+}
+@supports (content: ""/"") {
+  .cmp-breadcrumb ol > *:not(:first-child)::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-breadcrumb ol > *:not(:first-child)::before {
   --icon-font-size: 0.875rem;
@@ -5538,6 +5559,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   margin-inline-start: var(--icon-margin-before, 0.375rem);
   content: var(--icon-glyph-after);
 }
+@supports (content: ""/"") {
+  .cmp-accordion summary::after {
+    content: var(--icon-glyph-after)/"";
+  }
+}
 .cmp-accordion summary::-webkit-details-marker {
   display: none;
 }
@@ -5642,12 +5668,22 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
 }
+@supports (content: ""/"") {
+  .cmp-mainnavigation > label[for]::before {
+    content: var(--icon-glyph-before)/"";
+  }
+}
 .cmp-mainnavigation > label[for]::after {
   --icon-font-family: "icons-24-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-after, var(--icon-font-size, 1.5rem));
   margin-inline-start: var(--icon-margin-before, 0.375rem);
   content: var(--icon-glyph-after);
+}
+@supports (content: ""/"") {
+  .cmp-mainnavigation > label[for]::after {
+    content: var(--icon-glyph-after)/"";
+  }
 }
 .cmp-mainnavigation > label[for]::before {
   margin-right: 1rem;
@@ -5748,6 +5784,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-after, var(--icon-font-size, 1.5rem));
   margin-inline-start: var(--icon-margin-before, 0.375rem);
   content: var(--icon-glyph-after);
+}
+@supports (content: ""/"") {
+  .cmp-mainnavigation li[aria-haspopup=true]::after {
+    content: var(--icon-glyph-after)/"";
+  }
 }
 .cmp-mainnavigation li[aria-haspopup=true]::after {
   position: absolute;
@@ -5927,7 +5968,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   display: initial;
 }
 .cmp-sitesearch .elm-label {
-  --icon-glyph-before: "🔍";
+  --icon-glyph-before: "󡉔";
   display: inline-block;
 }
 .cmp-sitesearch .elm-label::before {
@@ -5936,6 +5977,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
+}
+@supports (content: ""/"") {
+  .cmp-sitesearch .elm-label::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-sitesearch .elm-label::before {
   font-size: 1.375rem;
@@ -5953,7 +5999,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   }
 }
 .cmp-sitesearch .elm-button {
-  --icon-glyph-before: "🔍";
+  --icon-glyph-before: "󡉔";
   display: none;
   left: 0;
   position: absolute;
@@ -5966,6 +6012,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
+}
+@supports (content: ""/"") {
+  .cmp-sitesearch .elm-button::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-sitesearch .elm-button::before {
   left: 0.25rem;
@@ -6120,6 +6171,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
 }
+@supports (content: ""/"") {
+  .cmp-dialog header .elm-link.is-close::before {
+    content: var(--icon-glyph-before)/"";
+  }
+}
 .cmp-dialog header .elm-link.is-close::before {
   --icon-margin-after: 0;
 }
@@ -6236,6 +6292,13 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   margin-inline-start: var(--icon-margin-before, 0.375rem);
   content: var(--icon-glyph-after);
 }
+@supports (content: ""/"") {
+  .cmp-language-switcher li[aria-current] .elm-link::after,
+  .cmp-language-switcher li[aria-current] .elm-button::after, .cmp-language-switcher li[aria-selected] .elm-link::after,
+  .cmp-language-switcher li[aria-selected] .elm-button::after {
+    content: var(--icon-glyph-after)/"";
+  }
+}
 .cmp-language-switcher li[aria-current] .elm-link:hover,
 .cmp-language-switcher li[aria-current] .elm-button:hover, .cmp-language-switcher li[aria-selected] .elm-link:hover,
 .cmp-language-switcher li[aria-selected] .elm-button:hover {
@@ -6322,6 +6385,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
 }
+@supports (content: ""/"") {
+  .cmp-pagination .elm-link[rel=prev]::before {
+    content: var(--icon-glyph-before)/"";
+  }
+}
 .cmp-pagination .elm-link[rel=prev]::before {
   --icon-margin-after: 0;
 }
@@ -6335,6 +6403,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
+}
+@supports (content: ""/"") {
+  .cmp-pagination .elm-link[rel=next]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-pagination .elm-link[rel=next]::before {
   --icon-margin-after: 0;
@@ -6394,6 +6467,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
 }
+@supports (content: ""/"") {
+  .cmp-sidenavi .elm-link[rel=index]::before {
+    content: var(--icon-glyph-before)/"";
+  }
+}
 .cmp-sidenavi .elm-link[rel=documents] {
   --icon-glyph-before: "🖹";
 }
@@ -6403,6 +6481,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
+}
+@supports (content: ""/"") {
+  .cmp-sidenavi .elm-link[rel=documents]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-sidenavi .elm-link[rel=dashboard] {
   --icon-glyph-before: "󡅤";
@@ -6414,6 +6497,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
 }
+@supports (content: ""/"") {
+  .cmp-sidenavi .elm-link[rel=dashboard]::before {
+    content: var(--icon-glyph-before)/"";
+  }
+}
 .cmp-sidenavi .elm-link[rel=cloud] {
   --icon-glyph-before: "☁";
 }
@@ -6424,8 +6512,13 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
 }
+@supports (content: ""/"") {
+  .cmp-sidenavi .elm-link[rel=cloud]::before {
+    content: var(--icon-glyph-before)/"";
+  }
+}
 .cmp-sidenavi .elm-link[rel=calendar] {
-  --icon-glyph-before: "📆";
+  --icon-glyph-before: "󡉇";
 }
 .cmp-sidenavi .elm-link[rel=calendar]::before {
   --icon-font-family: "icons-32-outline",
@@ -6433,6 +6526,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
+}
+@supports (content: ""/"") {
+  .cmp-sidenavi .elm-link[rel=calendar]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-sidenavi .elm-link[rel=help] {
   --icon-glyph-before: "?";
@@ -6443,6 +6541,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
+}
+@supports (content: ""/"") {
+  .cmp-sidenavi .elm-link[rel=help]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 
 /* tab-bar */
@@ -6659,6 +6762,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
 }
+@supports (content: ""/"") {
+  .cmp-link-list li .elm-link::before {
+    content: var(--icon-glyph-before)/"";
+  }
+}
 .cmp-link-list li .elm-link:hover, .cmp-link-list li .elm-link:active {
   text-decoration: underline;
 }
@@ -6708,6 +6816,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.25rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
+}
+@supports (content: ""/"") {
+  .cmp-overflow-menu summary::before, .cmp-dropdown summary::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-overflow-menu summary::before, .cmp-dropdown summary::before {
   display: inline-block;
@@ -6837,7 +6950,7 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
 .cmp-dropdown.is-account summary {
-  --icon-glyph-before: "🙂";
+  --icon-glyph-before: "󡈡";
 }
 .cmp-dropdown.is-account summary::before {
   --icon-font-family: "icons-24-outline",
@@ -6845,6 +6958,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
+}
+@supports (content: ""/"") {
+  .cmp-dropdown.is-account summary::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-dropdown.is-account summary:hover::before {
   color: #ec0016;
