@@ -394,7 +394,7 @@ details > *, details > ::before, details > ::after {
   box-sizing: var(--db-box-sizing, border-box);
 }
 
-.cmp-tab-bar > input[type=radio], .cmp-tab-bar > * > input[type=radio], .cmp-pagination .elm-headline, .cmp-notification > em, .cmp-mainnavigation > input[type=checkbox][id] {
+.cmp-tab-bar > input[type=radio], .cmp-tab-bar > * > input[type=radio], .cmp-pagination .elm-headline, .cmp-notification > em, .cmp-mainnavigation > input[type=checkbox][id], .elm-select + [data-label-hidden=true].elm-label, [data-label-hidden=true].elm-label:has(+ .elm-textarea), .elm-radio + label[data-label-hidden=true], .elm-input[type=color] + [data-label-hidden=true].elm-label, .elm-input[type=date] + [data-label-hidden=true].elm-label, .elm-input[type=datetime-local] + [data-label-hidden=true].elm-label, .elm-input[type=email] + [data-label-hidden=true].elm-label, .elm-input[type=month] + [data-label-hidden=true].elm-label, .elm-input[type=number] + [data-label-hidden=true].elm-label, .elm-input[type=password] + [data-label-hidden=true].elm-label, :where(:not(.cmp-sitesearch)) > .elm-input[type=search] + [data-label-hidden=true].elm-label, .elm-input[type=tel] + [data-label-hidden=true].elm-label, .elm-input[type=text] + [data-label-hidden=true].elm-label, .elm-input[type=time] + [data-label-hidden=true].elm-label, .elm-input[type=url] + [data-label-hidden=true].elm-label, .elm-input[type=week] + [data-label-hidden=true].elm-label, .elm-checkbox + label[data-label-hidden=true] {
   clip: rect(0, 0, 0, 0);
   height: 1px;
   overflow: hidden;
@@ -1012,6 +1012,15 @@ details > *, details > ::before, details > ::after {
   --icon-glyph-after: "󡂑";
 }
 
+[data-icon=dog],
+[data-icon-before=dog] {
+  --icon-glyph-before: "󡊙";
+}
+
+[data-icon-after=dog] {
+  --icon-glyph-after: "󡊙";
+}
+
 [data-icon=volume-down],
 [data-icon-before=volume-down] {
   --icon-glyph-before: "󡉙";
@@ -1082,6 +1091,15 @@ details > *, details > ::before, details > ::after {
 
 [data-icon-after=fax] {
   --icon-glyph-after: "🖷";
+}
+
+[data-icon=qr-code-scan],
+[data-icon-before=qr-code-scan] {
+  --icon-glyph-before: "󡊘";
+}
+
+[data-icon-after=qr-code-scan] {
+  --icon-glyph-after: "󡊘";
 }
 
 [data-icon=feedback],
@@ -2317,6 +2335,78 @@ details > *, details > ::before, details > ::after {
   --icon-glyph-after: "󡊉";
 }
 
+[data-icon=piggybank],
+[data-icon-before=piggybank] {
+  --icon-glyph-before: "󡊐";
+}
+
+[data-icon-after=piggybank] {
+  --icon-glyph-after: "󡊐";
+}
+
+[data-icon=resize-handle-corner],
+[data-icon-before=resize-handle-corner] {
+  --icon-glyph-before: "󡊑";
+}
+
+[data-icon-after=resize-handle-corner] {
+  --icon-glyph-after: "󡊑";
+}
+
+[data-icon=document-check],
+[data-icon-before=document-check] {
+  --icon-glyph-before: "󡊒";
+}
+
+[data-icon-after=document-check] {
+  --icon-glyph-after: "󡊒";
+}
+
+[data-icon=face-delighted],
+[data-icon-before=face-delighted] {
+  --icon-glyph-before: "󡊓";
+}
+
+[data-icon-after=face-delighted] {
+  --icon-glyph-after: "󡊓";
+}
+
+[data-icon=face-disappointed],
+[data-icon-before=face-disappointed] {
+  --icon-glyph-before: "󡊔";
+}
+
+[data-icon-after=face-disappointed] {
+  --icon-glyph-after: "󡊔";
+}
+
+[data-icon=push-button],
+[data-icon-before=push-button] {
+  --icon-glyph-before: "󡊕";
+}
+
+[data-icon-after=push-button] {
+  --icon-glyph-after: "󡊕";
+}
+
+[data-icon=fast-backward],
+[data-icon-before=fast-backward] {
+  --icon-glyph-before: "󡊖";
+}
+
+[data-icon-after=fast-backward] {
+  --icon-glyph-after: "󡊖";
+}
+
+[data-icon=fast-forward],
+[data-icon-before=fast-forward] {
+  --icon-glyph-before: "󡊗";
+}
+
+[data-icon-after=fast-forward] {
+  --icon-glyph-after: "󡊗";
+}
+
 [data-icon=marketplace],
 [data-icon-before=marketplace] {
   --icon-glyph-before: "󡅸";
@@ -2929,6 +3019,42 @@ details > *, details > ::before, details > ::after {
   --icon-glyph-after: "󡅡";
 }
 
+[data-icon=navigation-straight],
+[data-icon-before=navigation-straight] {
+  --icon-glyph-before: "󡌀";
+}
+
+[data-icon-after=navigation-straight] {
+  --icon-glyph-after: "󡌀";
+}
+
+[data-icon=navigation-to-left],
+[data-icon-before=navigation-to-left] {
+  --icon-glyph-before: "󡌁";
+}
+
+[data-icon-after=navigation-to-left] {
+  --icon-glyph-after: "󡌁";
+}
+
+[data-icon=navigation-to-right],
+[data-icon-before=navigation-to-right] {
+  --icon-glyph-before: "󡌂";
+}
+
+[data-icon-after=navigation-to-right] {
+  --icon-glyph-after: "󡌂";
+}
+
+[data-icon=navigation-u-turn],
+[data-icon-before=navigation-u-turn] {
+  --icon-glyph-before: "󡌃";
+}
+
+[data-icon-after=navigation-u-turn] {
+  --icon-glyph-after: "󡌃";
+}
+
 [data-icon=transportation-train-ec],
 [data-icon-before=transportation-train-ec] {
   --icon-glyph-before: "";
@@ -3253,14 +3379,14 @@ details > *, details > ::before, details > ::after {
 @font-face {
   font-display: block;
   font-family: "missing-icons";
-  src: url("../icons/functional/fonts/icons-empty.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-empty.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-empty.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-empty.woff?4r2097") format("woff");
 }
 @font-face {
   font-display: block;
   font-family: "icons-16-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-16-outline-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-16-outline-action.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-16-outline-action.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-16-outline-action.woff?4r2097") format("woff");
   unicode-range: U+002B,U+2212,U+2713;
 }
 @font-face {
@@ -3268,7 +3394,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-16-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-16-outline-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-16-outline-navigation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-16-outline-navigation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-16-outline-navigation.woff?4r2097") format("woff");
   unicode-range: U+003C,U+003E,U+2190-2193,U+2303-2304,U+2A2F;
 }
 @font-face {
@@ -3276,23 +3402,23 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-action.woff?4r2096") format("woff");
-  unicode-range: U+002B,U+003F,U+00A7,U+1F441,U+1F5A8,U+1F5B9,U+1F5BC,U+1F5D1,U+1F6C8,U+1F6CD,U+1F6E0,U+219F,U+21A1,U+21A6,U+21C6,U+21E7,U+21E9,U+21F5,U+2212,U+2295,U+229D,U+238C,U+25F9,U+2601,U+2606,U+2661,U+2699,U+270F,U+2713,U+2B73,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+e1154-e1156,U+e1164-e1171,U+e1187,U+e1211-e1214,U+e1220-e1258;
+  src: url("../icons/functional/fonts/icons-20-outline-action.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-action.woff?4r2097") format("woff");
+  unicode-range: U+002B,U+003F,U+00A7,U+1F441,U+1F5A8,U+1F5B9,U+1F5BC,U+1F5D1,U+1F6C8,U+1F6CD,U+1F6E0,U+219F,U+21A1,U+21A6,U+21C6,U+21E7,U+21E9,U+21F5,U+2212,U+2295,U+229D,U+238C,U+25F9,U+2601,U+2606,U+2661,U+2699,U+270F,U+2713,U+2B73,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+e1154-e1156,U+e1164-e1171,U+e1187,U+e1211-e1214,U+e1220-e1258,U+e1290-e1295;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-av.woff?4r2096") format("woff");
-  unicode-range: U+23ED-23EE,U+23F8,U+25A1,U+25B7,U+293A-293B,U+e1085-e1088,U+e1091,U+e1234,U+e1261-e1259,U+e1262;
+  src: url("../icons/functional/fonts/icons-20-outline-av.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-av.woff?4r2097") format("woff");
+  unicode-range: U+23ED-23EE,U+23F8,U+25A1,U+25B7,U+293A-293B,U+e1085-e1088,U+e1091,U+e1234,U+e1261-e1259,U+e1262,U+e1296-e1297;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-brand.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-brand.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-brand.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-brand.woff?4r2097") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -3300,7 +3426,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-communication.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-communication.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-communication.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-communication.woff?4r2097") format("woff");
   unicode-range: U+1F5B7,U+2370,U+2709,U+e1095,U+e1098,U+e1149,U+e1172-e1174,U+e1235-e1236,U+e1263-e1264;
 }
 @font-face {
@@ -3308,7 +3434,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-covid-19.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-covid-19.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-covid-19.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-covid-19.woff?4r2097") format("woff");
   unicode-range: U+e1265;
 }
 @font-face {
@@ -3316,7 +3442,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-facilities.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-facilities.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-facilities.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-facilities.woff?4r2097") format("woff");
   unicode-range: U+e1163,U+e1175-e1176,U+e1266-e1272;
 }
 @font-face {
@@ -3324,15 +3450,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-feature.woff?4r2096") format("woff");
-  unicode-range: U+1F6E4,U+2600,U+271A,U+2744,U+e1150,U+e1153,U+e1160,U+e1177-e1180,U+e1188,U+e1215,U+e1217,U+e1273-e1278,U+e1289;
+  src: url("../icons/functional/fonts/icons-20-outline-feature.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-feature.woff?4r2097") format("woff");
+  unicode-range: U+1F6E4,U+2600,U+271A,U+2744,U+e1150,U+e1153,U+e1160,U+e1177-e1180,U+e1188,U+e1215,U+e1217,U+e1273-e1278,U+e1289,U+e1299;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-food.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-food.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-food.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-food.woff?4r2097") format("woff");
   unicode-range: U+1F37D,U+e1101,U+e1237,U+e1279;
 }
 @font-face {
@@ -3340,7 +3466,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-it.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-it.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-it.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-it.woff?4r2097") format("woff");
   unicode-range: U+e1181;
 }
 @font-face {
@@ -3348,7 +3474,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-journey.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-journey.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-journey.woff?4r2097") format("woff");
   unicode-range: U+2488-2489,U+291E,U+29BF,U+2B94,U+e1102-e1104,U+e1106,U+e1108,U+e1110,U+e1113,U+e1161,U+e1238;
 }
 @font-face {
@@ -3356,15 +3482,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-maps.woff?4r2096") format("woff");
-  unicode-range: U+1F17F,U+1F5FA,U+1F78B,U+2302,U+e1115-e1116,U+e1157-e1158,U+e1182,U+e1280;
+  src: url("../icons/functional/fonts/icons-20-outline-maps.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-maps.woff?4r2097") format("woff");
+  unicode-range: U+1F17F,U+1F5FA,U+1F78B,U+2302,U+e1115-e1116,U+e1157-e1158,U+e1182,U+e1280,U+e1300-e1303;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-navigation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-navigation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-navigation.woff?4r2097") format("woff");
   unicode-range: U+003C,U+003E,U+1030E,U+1F5D8,U+1F862,U+1F865,U+2190-2193,U+22EE-22EF,U+2303-2304,U+2A2F,U+2BBE,U+e1119-e1122;
 }
 @font-face {
@@ -3372,7 +3498,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-notification.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-notification.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-notification.woff?4r2097") format("woff");
   unicode-range: U+26A0,U+e1123,U+e1126-e1127;
 }
 @font-face {
@@ -3380,7 +3506,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-seat.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-seat.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-seat.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-seat.woff?4r2097") format("woff");
   unicode-range: U+1F6CF,U+e1128-e1130,U+e1162,U+e1183,U+e1189,U+e1281-e1285;
 }
 @font-face {
@@ -3388,15 +3514,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-ticket.woff?4r2096") format("woff");
-  unicode-range: U+1F907,U+2714,U+e1131-e1132,U+e1134,U+e1136-e1146,U+e1184-e1186,U+e1218,U+e1286-e1287;
+  src: url("../icons/functional/fonts/icons-20-outline-ticket.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-ticket.woff?4r2097") format("woff");
+  unicode-range: U+1F907,U+2714,U+e1131-e1132,U+e1134,U+e1136-e1146,U+e1184-e1186,U+e1218,U+e1286-e1287,U+e1298;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-outline-transportation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-transportation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-outline-transportation.woff?4r2097") format("woff");
   unicode-range: U+e1147-e1148,U+e1151,U+e1159,U+e1190-e1210,U+e1216,U+e1219,U+e1239-e1241,U+e1288;
 }
 @font-face {
@@ -3404,23 +3530,23 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-action.woff?4r2096") format("woff");
-  unicode-range: U+002B,U+003F,U+00A7,U+1F441,U+1F5A8,U+1F5B9,U+1F5BC,U+1F5D1,U+1F6C8,U+1F6CD,U+1F6E0,U+219F,U+21A1,U+21A6,U+21C6,U+21E7,U+21E9,U+21F5,U+2212,U+2295,U+229D,U+238C,U+25F9,U+2601,U+2606,U+2661,U+2699,U+270F,U+2713,U+2B73,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+e1154-e1156,U+e1164-e1171,U+e1187,U+e1211-e1214,U+e1220-e1258;
+  src: url("../icons/functional/fonts/icons-24-outline-action.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-action.woff?4r2097") format("woff");
+  unicode-range: U+002B,U+003F,U+00A7,U+1F441,U+1F5A8,U+1F5B9,U+1F5BC,U+1F5D1,U+1F6C8,U+1F6CD,U+1F6E0,U+219F,U+21A1,U+21A6,U+21C6,U+21E7,U+21E9,U+21F5,U+2212,U+2295,U+229D,U+238C,U+25F9,U+2601,U+2606,U+2661,U+2699,U+270F,U+2713,U+2B73,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+e1154-e1156,U+e1164-e1171,U+e1187,U+e1211-e1214,U+e1220-e1258,U+e1290-e1295;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-av.woff?4r2096") format("woff");
-  unicode-range: U+23ED-23EE,U+23F8,U+25A1,U+25B7,U+293A-293B,U+e1085-e1088,U+e1091,U+e1234,U+e1259-e1262;
+  src: url("../icons/functional/fonts/icons-24-outline-av.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-av.woff?4r2097") format("woff");
+  unicode-range: U+23ED-23EE,U+23F8,U+25A1,U+25B7,U+293A-293B,U+e1085-e1088,U+e1091,U+e1234,U+e1259-e1262,U+e1296-e1297;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-brand.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-brand.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-brand.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-brand.woff?4r2097") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -3428,7 +3554,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-communication.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-communication.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-communication.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-communication.woff?4r2097") format("woff");
   unicode-range: U+1F5B7,U+2370,U+2709,U+e1095,U+e1098,U+e1149,U+e1172-e1174,U+e1235-e1236,U+e1263-e1264;
 }
 @font-face {
@@ -3436,7 +3562,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-covid-19.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-covid-19.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-covid-19.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-covid-19.woff?4r2097") format("woff");
   unicode-range: U+e1265;
 }
 @font-face {
@@ -3444,7 +3570,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-facilities.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-facilities.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-facilities.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-facilities.woff?4r2097") format("woff");
   unicode-range: U+e1163,U+e1175-e1176,U+e1266-e1272;
 }
 @font-face {
@@ -3452,15 +3578,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-feature.woff?4r2096") format("woff");
-  unicode-range: U+1F6E4,U+2600,U+271A,U+2744,U+e1150,U+e1153,U+e1160,U+e1177-e1180,U+e1188,U+e1215,U+e1217,U+e1273-e1278,U+e1289;
+  src: url("../icons/functional/fonts/icons-24-outline-feature.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-feature.woff?4r2097") format("woff");
+  unicode-range: U+1F6E4,U+2600,U+271A,U+2744,U+e1150,U+e1153,U+e1160,U+e1177-e1180,U+e1188,U+e1215,U+e1217,U+e1273-e1278,U+e1289,U+e1299;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-food.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-food.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-food.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-food.woff?4r2097") format("woff");
   unicode-range: U+1F37D,U+e1101,U+e1237,U+e1279;
 }
 @font-face {
@@ -3468,7 +3594,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-it.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-it.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-it.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-it.woff?4r2097") format("woff");
   unicode-range: U+e1181;
 }
 @font-face {
@@ -3476,7 +3602,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-journey.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-journey.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-journey.woff?4r2097") format("woff");
   unicode-range: U+2488-2489,U+291E,U+29BF,U+2B94,U+e1102-e1104,U+e1106,U+e1108,U+e1110,U+e1113,U+e1161,U+e1238;
 }
 @font-face {
@@ -3484,15 +3610,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-maps.woff?4r2096") format("woff");
-  unicode-range: U+1F17F,U+1F5FA,U+1F78B,U+2302,U+e1115-e1116,U+e1157-e1158,U+e1182,U+e1280;
+  src: url("../icons/functional/fonts/icons-24-outline-maps.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-maps.woff?4r2097") format("woff");
+  unicode-range: U+1F17F,U+1F5FA,U+1F78B,U+2302,U+e1115-e1116,U+e1157-e1158,U+e1182,U+e1280,U+e1300-e1303;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-navigation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-navigation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-navigation.woff?4r2097") format("woff");
   unicode-range: U+003C,U+003E,U+1030E,U+1F5D8,U+1F862,U+1F865,U+2190-2193,U+22EE-22EF,U+2303-2304,U+2A2F,U+2BBE,U+e1119-e1122;
 }
 @font-face {
@@ -3500,7 +3626,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-notification.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-notification.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-notification.woff?4r2097") format("woff");
   unicode-range: U+26A0,U+e1123-e1127;
 }
 @font-face {
@@ -3508,7 +3634,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-seat.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-seat.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-seat.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-seat.woff?4r2097") format("woff");
   unicode-range: U+1F6CF,U+e1128-e1130,U+e1162,U+e1183,U+e1189,U+e1281-e1285;
 }
 @font-face {
@@ -3516,15 +3642,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-ticket.woff?4r2096") format("woff");
-  unicode-range: U+1F907,U+2714,U+e1131-e1146,U+e1184-e1186,U+e1218,U+e1286-e1287;
+  src: url("../icons/functional/fonts/icons-24-outline-ticket.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-ticket.woff?4r2097") format("woff");
+  unicode-range: U+1F907,U+2714,U+e1131-e1146,U+e1184-e1186,U+e1218,U+e1286-e1287,U+e1298;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-outline-transportation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-transportation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-outline-transportation.woff?4r2097") format("woff");
   unicode-range: U+e1147-e1148,U+e1151,U+e1159,U+e1190-e1210,U+e1216,U+e1219,U+e1239-e1241,U+e1288;
 }
 @font-face {
@@ -3532,23 +3658,23 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-action.woff?4r2096") format("woff");
-  unicode-range: U+002B,U+003F,U+00A7,U+1F441,U+1F5A8,U+1F5B9,U+1F5BC,U+1F5D1,U+1F6C8,U+1F6CD,U+1F6E0,U+219F,U+21A1,U+21A6,U+21C6,U+21E7,U+21E9,U+21F5,U+2212,U+2295,U+229D,U+238C,U+25F9,U+2601,U+2606,U+2661,U+2699,U+270F,U+2713,U+2B73,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+e1154-e1156,U+e1164-e1171,U+e1187,U+e1211-e1214,U+e1220-e1258;
+  src: url("../icons/functional/fonts/icons-32-outline-action.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-action.woff?4r2097") format("woff");
+  unicode-range: U+002B,U+003F,U+00A7,U+1F441,U+1F5A8,U+1F5B9,U+1F5BC,U+1F5D1,U+1F6C8,U+1F6CD,U+1F6E0,U+219F,U+21A1,U+21A6,U+21C6,U+21E7,U+21E9,U+21F5,U+2212,U+2295,U+229D,U+238C,U+25F9,U+2601,U+2606,U+2661,U+2699,U+270F,U+2713,U+2B73,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+e1154-e1156,U+e1164-e1171,U+e1187,U+e1211-e1214,U+e1220-e1258,U+e1290-e1295;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-av.woff?4r2096") format("woff");
-  unicode-range: U+23ED-23EE,U+23F8,U+25A1,U+25B7,U+293A-293B,U+e1085-e1088,U+e1091,U+e1234,U+e1259-e1262;
+  src: url("../icons/functional/fonts/icons-32-outline-av.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-av.woff?4r2097") format("woff");
+  unicode-range: U+23ED-23EE,U+23F8,U+25A1,U+25B7,U+293A-293B,U+e1085-e1088,U+e1091,U+e1234,U+e1259-e1262,U+e1296-e1297;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-brand.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-brand.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-brand.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-brand.woff?4r2097") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -3556,7 +3682,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-communication.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-communication.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-communication.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-communication.woff?4r2097") format("woff");
   unicode-range: U+1F5B7,U+2370,U+2709,U+e1095,U+e1098,U+e1149,U+e1172-e1174,U+e1235-e1236,U+e1263-e1264;
 }
 @font-face {
@@ -3564,7 +3690,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-covid-19.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-covid-19.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-covid-19.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-covid-19.woff?4r2097") format("woff");
   unicode-range: U+e1265;
 }
 @font-face {
@@ -3572,7 +3698,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-facilities.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-facilities.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-facilities.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-facilities.woff?4r2097") format("woff");
   unicode-range: U+e1163,U+e1175-e1176,U+e1266-e1272;
 }
 @font-face {
@@ -3580,15 +3706,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-feature.woff?4r2096") format("woff");
-  unicode-range: U+1F6E4,U+2600,U+271A,U+2744,U+e1150,U+e1153,U+e1160,U+e1177-e1180,U+e1188,U+e1215,U+e1217,U+e1273-e1278,U+e1289;
+  src: url("../icons/functional/fonts/icons-32-outline-feature.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-feature.woff?4r2097") format("woff");
+  unicode-range: U+1F6E4,U+2600,U+271A,U+2744,U+e1150,U+e1153,U+e1160,U+e1177-e1180,U+e1188,U+e1215,U+e1217,U+e1273-e1278,U+e1289,U+e1299;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-food.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-food.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-food.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-food.woff?4r2097") format("woff");
   unicode-range: U+1F37D,U+e1101,U+e1237,U+e1279;
 }
 @font-face {
@@ -3596,7 +3722,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-it.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-it.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-it.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-it.woff?4r2097") format("woff");
   unicode-range: U+e1181;
 }
 @font-face {
@@ -3604,7 +3730,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-journey.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-journey.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-journey.woff?4r2097") format("woff");
   unicode-range: U+2488-2489,U+291E,U+29BF,U+2B94,U+e1102-e1110,U+e1113,U+e1161,U+e1238;
 }
 @font-face {
@@ -3612,15 +3738,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-maps.woff?4r2096") format("woff");
-  unicode-range: U+1F17F,U+1F5FA,U+1F78B,U+2302,U+e1115-e1116,U+e1157-e1158,U+e1182,U+e1280;
+  src: url("../icons/functional/fonts/icons-32-outline-maps.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-maps.woff?4r2097") format("woff");
+  unicode-range: U+1F17F,U+1F5FA,U+1F78B,U+2302,U+e1115-e1116,U+e1157-e1158,U+e1182,U+e1280,U+e1300-e1303;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-navigation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-navigation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-navigation.woff?4r2097") format("woff");
   unicode-range: U+003C,U+003E,U+1030E,U+1F5D8,U+1F862,U+1F865,U+2190-2193,U+22EE-22EF,U+2303-2304,U+2A2F,U+2BBE,U+e1119-e1122;
 }
 @font-face {
@@ -3628,7 +3754,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-notification.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-notification.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-notification.woff?4r2097") format("woff");
   unicode-range: U+26A0,U+e1123-e1127;
 }
 @font-face {
@@ -3636,7 +3762,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-seat.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-seat.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-seat.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-seat.woff?4r2097") format("woff");
   unicode-range: U+1F6CF,U+e1128-e1130,U+e1162,U+e1183,U+e1189,U+e1281-e1285;
 }
 @font-face {
@@ -3644,15 +3770,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-ticket.woff?4r2096") format("woff");
-  unicode-range: U+1F907,U+2714,U+e1131-e1146,U+e1184-e1186,U+e1218,U+e1286-e1287;
+  src: url("../icons/functional/fonts/icons-32-outline-ticket.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-ticket.woff?4r2097") format("woff");
+  unicode-range: U+1F907,U+2714,U+e1131-e1146,U+e1184-e1186,U+e1218,U+e1286-e1287,U+e1298;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-outline-transportation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-transportation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-outline-transportation.woff?4r2097") format("woff");
   unicode-range: U+e1147-e1148,U+e1151,U+e1159,U+e1190-e1210,U+e1216,U+e1219,U+e1239-e1241,U+e1288;
 }
 @font-face {
@@ -3660,15 +3786,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-48-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-48-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-48-outline-av.woff?4r2096") format("woff");
-  unicode-range: U+23F8,U+25B7;
+  src: url("../icons/functional/fonts/icons-48-outline-av.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-48-outline-av.woff?4r2097") format("woff");
+  unicode-range: U+23F8,U+25B7,U+e1296-e1297,U+25A1,U+23EE,U+23ED;
 }
 @font-face {
   font-display: block;
   font-family: "icons-48-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-48-outline-brand.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-48-outline-brand.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-48-outline-brand.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-48-outline-brand.woff?4r2097") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -3676,15 +3802,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-64-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-64-outline-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-64-outline-av.woff?4r2096") format("woff");
-  unicode-range: U+23F8,U+25B7;
+  src: url("../icons/functional/fonts/icons-64-outline-av.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-64-outline-av.woff?4r2097") format("woff");
+  unicode-range: U+23F8,U+25B7,U+e1296-e1297,U+25A1,U+23EE,U+23ED;
 }
 @font-face {
   font-display: block;
   font-family: "icons-64-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-64-outline-brand.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-64-outline-brand.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-64-outline-brand.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-64-outline-brand.woff?4r2097") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -3692,7 +3818,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-16-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-16-filled-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-16-filled-action.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-16-filled-action.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-16-filled-action.woff?4r2097") format("woff");
   unicode-range: U+003F,U+1F6C8,U+e1220;
 }
 @font-face {
@@ -3700,7 +3826,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-16-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-16-filled-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-16-filled-navigation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-16-filled-navigation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-16-filled-navigation.woff?4r2097") format("woff");
   unicode-range: U+2BBE;
 }
 @font-face {
@@ -3708,7 +3834,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-16-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-16-filled-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-16-filled-notification.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-16-filled-notification.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-16-filled-notification.woff?4r2097") format("woff");
   unicode-range: U+26A0,U+e1123;
 }
 @font-face {
@@ -3716,7 +3842,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-action.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-action.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-filled-action.woff?4r2097") format("woff");
   unicode-range: U+003F,U+1F5A8,U+1F5BC,U+1F6C8,U+1F6CD,U+1F6E0,U+2295,U+229D,U+2601,U+2606,U+2661,U+270F,U+e1066,U+e1070,U+e1079,U+e1154-e1155,U+e1164-e1166,U+e1214,U+e1220-e1233;
 }
 @font-face {
@@ -3724,15 +3850,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-av.woff?4r2096") format("woff");
-  unicode-range: U+23ED,U+23EE,U+25A1,U+25B7,U+e1091,U+e1234;
+  src: url("../icons/functional/fonts/icons-20-filled-av.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-filled-av.woff?4r2097") format("woff");
+  unicode-range: U+23ED,U+23EE,U+25A1,U+25B7,U+e1091,U+e1234,U+e1296-e1297;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-communication.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-communication.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-communication.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-filled-communication.woff?4r2097") format("woff");
   unicode-range: U+2370,U+e1095,U+e1172-e1174,U+e1235-e1236;
 }
 @font-face {
@@ -3740,7 +3866,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-feature.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-feature.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-feature.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-filled-feature.woff?4r2097") format("woff");
   unicode-range: U+1F6E4,U+2600,U+271A,U+e1177-e1179,U+e1289;
 }
 @font-face {
@@ -3748,7 +3874,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-food.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-food.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-food.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-filled-food.woff?4r2097") format("woff");
   unicode-range: U+e1237;
 }
 @font-face {
@@ -3756,7 +3882,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-it.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-it.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-it.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-filled-it.woff?4r2097") format("woff");
   unicode-range: U+e1181;
 }
 @font-face {
@@ -3764,7 +3890,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-journey.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-journey.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-filled-journey.woff?4r2097") format("woff");
   unicode-range: U+e1104,U+e1106,U+e1108,U+e1110,U+e1238;
 }
 @font-face {
@@ -3772,7 +3898,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-maps.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-maps.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-filled-maps.woff?4r2097") format("woff");
   unicode-range: U+1F17F,U+2302,U+e1115-e1116,U+e1157-e1158;
 }
 @font-face {
@@ -3780,7 +3906,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-navigation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-navigation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-filled-navigation.woff?4r2097") format("woff");
   unicode-range: U+1030E,U+2BBE;
 }
 @font-face {
@@ -3788,7 +3914,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-notification.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-notification.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-filled-notification.woff?4r2097") format("woff");
   unicode-range: U+26A0,U+e1123;
 }
 @font-face {
@@ -3796,7 +3922,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-ticket.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-ticket.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-ticket.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-filled-ticket.woff?4r2097") format("woff");
   unicode-range: U+e1132,U+e1134,U+e1184;
 }
 @font-face {
@@ -3804,7 +3930,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-20-filled-transportation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-transportation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-20-filled-transportation.woff?4r2097") format("woff");
   unicode-range: U+e1147,U+e1151,U+e1190-e1192,U+e1194-e1204,U+e1206-e1210,U+e1216,U+e1219,U+e1239-e1241,U+e1288;
 }
 @font-face {
@@ -3812,7 +3938,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-action.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-action.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-filled-action.woff?4r2097") format("woff");
   unicode-range: U+003F,U+1F6C8,U+2295,U+229D,U+2601,U+2606,U+2661,U+e1220,U+e1222,U+e1224-e1225,U+e1231;
 }
 @font-face {
@@ -3820,15 +3946,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-av.woff?4r2096") format("woff");
-  unicode-range: U+23ED-23EE,U+25A1,U+25B7,U+e1234;
+  src: url("../icons/functional/fonts/icons-24-filled-av.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-filled-av.woff?4r2097") format("woff");
+  unicode-range: U+23ED-23EE,U+25A1,U+25B7,U+e1234,U+e1296-e1297;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-journey.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-journey.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-journey.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-filled-journey.woff?4r2097") format("woff");
   unicode-range: U+e1104,U+e1106,U+e1108,U+e1110,U+e1238;
 }
 @font-face {
@@ -3836,7 +3962,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-maps.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-maps.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-filled-maps.woff?4r2097") format("woff");
   unicode-range: U+e1157-e1158;
 }
 @font-face {
@@ -3844,7 +3970,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-navigation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-navigation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-filled-navigation.woff?4r2097") format("woff");
   unicode-range: U+2BBE;
 }
 @font-face {
@@ -3852,7 +3978,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-notification.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-notification.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-filled-notification.woff?4r2097") format("woff");
   unicode-range: U+26A0,U+e1123;
 }
 @font-face {
@@ -3860,7 +3986,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-24-filled-transportation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-transportation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-24-filled-transportation.woff?4r2097") format("woff");
   unicode-range: U+e1147,U+e1151,U+e1190-e1192,U+e1194-e1204,U+e1206-e1210,U+e1216,U+e1219,U+e1239-e1241,U+e1288;
 }
 @font-face {
@@ -3868,7 +3994,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-action.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-action.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-action.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-filled-action.woff?4r2097") format("woff");
   unicode-range: U+003F,U+1F6C8,U+2295,U+229D,U+2601,U+2606,U+2661,U+e1220,U+e1222,U+e1224-e1225,U+e1231,U+e904;
 }
 @font-face {
@@ -3876,15 +4002,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-av.woff?4r2096") format("woff");
-  unicode-range: U+23ED-23EE,U+25A1,U+25B7,U+e1234;
+  src: url("../icons/functional/fonts/icons-32-filled-av.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-filled-av.woff?4r2097") format("woff");
+  unicode-range: U+23ED-23EE,U+25A1,U+25B7,U+e1234,U+e1296-e1297;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-maps.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-maps.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-maps.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-filled-maps.woff?4r2097") format("woff");
   unicode-range: U+e1157-e1158;
 }
 @font-face {
@@ -3892,7 +4018,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-navigation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-navigation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-navigation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-filled-navigation.woff?4r2097") format("woff");
   unicode-range: U+2BBE;
 }
 @font-face {
@@ -3900,7 +4026,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-notification.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-notification.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-notification.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-filled-notification.woff?4r2097") format("woff");
   unicode-range: U+26A0,U+e1123;
 }
 @font-face {
@@ -3908,7 +4034,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-transportation.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-32-filled-transportation.woff?4r2096") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-transportation.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-32-filled-transportation.woff?4r2097") format("woff");
   unicode-range: U+e1147,U+e1151,U+e1190-e1192,U+e1194-e1204,U+e1206-e1210,U+e1216,U+e1219,U+e1239-e1241,U+e1288;
 }
 @font-face {
@@ -3916,16 +4042,16 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-48-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-48-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-48-filled-av.woff?4r2096") format("woff");
-  unicode-range: U+25B7;
+  src: url("../icons/functional/fonts/icons-48-filled-av.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-48-filled-av.woff?4r2097") format("woff");
+  unicode-range: U+25B7,U+e1296-e1297,U+25A1,U+23EE,U+23ED;
 }
 @font-face {
   font-display: block;
   font-family: "icons-64-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-64-filled-av.woff2?4r2096") format("woff2"), url("../icons/functional/fonts/icons-64-filled-av.woff?4r2096") format("woff");
-  unicode-range: U+25B7;
+  src: url("../icons/functional/fonts/icons-64-filled-av.woff2?4r2097") format("woff2"), url("../icons/functional/fonts/icons-64-filled-av.woff?4r2097") format("woff");
+  unicode-range: U+25B7,U+e1296-e1297,U+25A1,U+23EE,U+23ED;
 }
 .cmp-dropdown.is-account summary::before, .cmp-overflow-menu summary::before, .cmp-dropdown summary::before, .cmp-link-list li .elm-link::before, .cmp-sidenavi .elm-link[rel=help]::before, .cmp-sidenavi .elm-link[rel=calendar]::before, .cmp-sidenavi .elm-link[rel=cloud]::before, .cmp-sidenavi .elm-link[rel=dashboard]::before, .cmp-sidenavi .elm-link[rel=documents]::before, .cmp-sidenavi .elm-link[rel=index]::before, .cmp-pagination .elm-link[rel=next]::before, .cmp-pagination .elm-link[rel=prev]::before, .cmp-language-switcher li[aria-current] .elm-link::after,
 .cmp-language-switcher li[aria-current] .elm-button::after, .cmp-language-switcher li[aria-selected] .elm-link::after,
@@ -4392,6 +4518,92 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+.elm-select, .elm-textarea, .elm-input {
+  --formElement---borderTopColor: var(
+  	--formElement---borderColor,
+  	transparent
+  );
+  --formElement---borderRightColor: var(
+  	--formElement---borderColor,
+  	transparent
+  );
+  --formElement---borderBottomColor: var(
+  	--formElement---borderColor,
+  	rgba(40, 45, 55, 0.5)
+  );
+  --formElement---borderLeftColor: var(
+  	--formElement---borderColor,
+  	transparent
+  );
+  border-radius: 4px;
+  caret-color: #ec0016;
+  color: #282d37;
+}
+.elm-select ~ .description, .elm-textarea ~ .description, .elm-input ~ .description {
+  color: #646973;
+  font-size: 0.875rem;
+  padding: 0.375rem 0.625rem;
+}
+
+.elm-select[data-variant=semitransparent], :where(.elm-select:not([multiple])), .elm-textarea[data-variant=semitransparent], :where(.elm-textarea), :not(.cmp-sitesearch) > .elm-input[type=search], .elm-input[type=color][data-variant=semitransparent], .elm-input[type=date][data-variant=semitransparent], .elm-input[type=datetime-local][data-variant=semitransparent], .elm-input[type=email][data-variant=semitransparent], .elm-input[type=month][data-variant=semitransparent], .elm-input[type=number][data-variant=semitransparent], .elm-input[type=password][data-variant=semitransparent], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=semitransparent], .elm-input[type=tel][data-variant=semitransparent], .elm-input[type=text][data-variant=semitransparent], .elm-input[type=time][data-variant=semitransparent], .elm-input[type=url][data-variant=semitransparent], .elm-input[type=week][data-variant=semitransparent], :where(.elm-input[type=color], .elm-input[type=date], .elm-input[type=datetime-local], .elm-input[type=email], .elm-input[type=month], .elm-input[type=number], .elm-input[type=password], :where(:not(.cmp-sitesearch)) > .elm-input[type=search], .elm-input[type=tel], .elm-input[type=text], .elm-input[type=time], .elm-input[type=url], .elm-input[type=week]) {
+  --formElement---borderColor: rgba(40, 45, 55, 0.5);
+  background-color: rgba(40, 45, 55, 0.05);
+  border-bottom: 1px solid var(--formElement---borderBottomColor);
+  border-left: 1px solid var(--formElement---borderLeftColor);
+  border-left-color: transparent;
+  border-right: 1px solid var(--formElement---borderRightColor);
+  border-right-color: transparent;
+  border-top: 1px solid var(--formElement---borderTopColor);
+  border-top-color: transparent;
+}
+
+.elm-select[data-variant=white], .elm-textarea[data-variant=white], .elm-input[type=color][data-variant=white], .elm-input[type=date][data-variant=white], .elm-input[type=datetime-local][data-variant=white], .elm-input[type=email][data-variant=white], .elm-input[type=month][data-variant=white], .elm-input[type=number][data-variant=white], .elm-input[type=password][data-variant=white], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=white], .elm-input[type=tel][data-variant=white], .elm-input[type=text][data-variant=white], .elm-input[type=time][data-variant=white], .elm-input[type=url][data-variant=white], .elm-input[type=week][data-variant=white] {
+  --formElement---borderColor: rgba(40, 45, 55, 0.5);
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--formElement---borderBottomColor);
+  border-left: 1px solid var(--formElement---borderLeftColor);
+  border-left-color: transparent;
+  border-right: 1px solid var(--formElement---borderRightColor);
+  border-right-color: transparent;
+  border-top: 1px solid var(--formElement---borderTopColor);
+  border-top-color: transparent;
+}
+
+.elm-select[data-variant=solid], .elm-textarea[data-variant=solid], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid] {
+  --formElement---borderColor: rgba(40, 45, 55, 0.5);
+  background-color: #f0f3f5;
+  border-bottom: 1px solid var(--formElement---borderBottomColor);
+  border-left: 1px solid var(--formElement---borderLeftColor);
+  border-left-color: transparent;
+  border-right: 1px solid var(--formElement---borderRightColor);
+  border-right-color: transparent;
+  border-top: 1px solid var(--formElement---borderTopColor);
+  border-top-color: transparent;
+}
+
+.elm-select[data-variant=outline], .elm-textarea[data-variant=outline], .elm-input[type=color][data-variant=outline], .elm-input[type=date][data-variant=outline], .elm-input[type=datetime-local][data-variant=outline], .elm-input[type=email][data-variant=outline], .elm-input[type=month][data-variant=outline], .elm-input[type=number][data-variant=outline], .elm-input[type=password][data-variant=outline], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=outline], .elm-input[type=tel][data-variant=outline], .elm-input[type=text][data-variant=outline], .elm-input[type=time][data-variant=outline], .elm-input[type=url][data-variant=outline], .elm-input[type=week][data-variant=outline] {
+  --formElement---borderColor: rgba(40, 45, 55, 0.25);
+  background-color: transparent;
+  border-bottom: 1px solid var(--formElement---borderBottomColor);
+  border-left: 1px solid var(--formElement---borderLeftColor);
+  border-right: 1px solid var(--formElement---borderRightColor);
+  border-top: 1px solid var(--formElement---borderTopColor);
+}
+
+.elm-textarea:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=color]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=date]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=datetime-local]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=email]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=month]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=number]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=password]:not([aria-invalid]):not(:placeholder-shown):valid, :where(:not(.cmp-sitesearch)) > .elm-input[type=search]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=tel]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=text]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=time]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=url]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=week]:not([aria-invalid]):not(:placeholder-shown):valid {
+  --formElement---borderColor: #2a7230;
+}
+.elm-textarea:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=color]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=date]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=datetime-local]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=email]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=month]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=number]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=password]:not([aria-invalid]):not(:placeholder-shown):invalid, :where(:not(.cmp-sitesearch)) > .elm-input[type=search]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=tel]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=text]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=time]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=url]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=week]:not([aria-invalid]):not(:placeholder-shown):invalid {
+  --formElement---borderColor: #ec0016;
+}
+
+[aria-invalid=true].elm-select:not([multiple]), [aria-invalid=true].elm-textarea, [aria-invalid=true].elm-input[type=color], [aria-invalid=true].elm-input[type=date], [aria-invalid=true].elm-input[type=datetime-local], [aria-invalid=true].elm-input[type=email], [aria-invalid=true].elm-input[type=month], [aria-invalid=true].elm-input[type=number], [aria-invalid=true].elm-input[type=password], :where(:not(.cmp-sitesearch)) > [aria-invalid=true].elm-input[type=search], [aria-invalid=true].elm-input[type=tel], [aria-invalid=true].elm-input[type=text], [aria-invalid=true].elm-input[type=time], [aria-invalid=true].elm-input[type=url], [aria-invalid=true].elm-input[type=week] {
+  --formElement---borderColor: #ec0016;
+}
+
 .elm-checkbox {
   --icon-glyph-before: " ";
   align-content: center;
@@ -4549,14 +4761,19 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   height: 2.75rem;
   line-height: 1.5rem;
   max-width: 100%;
-  padding: 0.5rem 1rem;
   width: 100%;
+  padding-inline: 1rem;
+}
+.elm-input:not(:has(+ label[data-label-hidden=true])) {
+  padding-block: 0.5rem;
 }
 .elm-input[list]::-webkit-calendar-picker-indicator {
   margin-right: -1rem;
 }
 .elm-input:not(:placeholder-shown) {
   padding-bottom: 0;
+}
+.elm-input:not(:placeholder-shown):not(:has(+ label[data-label-hidden=true])) {
   padding-top: 1rem;
 }
 .elm-input:focus:not(:disabled), .elm-input:hover:not(:disabled) {
@@ -4788,6 +5005,92 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+.elm-select, .elm-textarea, .elm-input {
+  --formElement---borderTopColor: var(
+  	--formElement---borderColor,
+  	transparent
+  );
+  --formElement---borderRightColor: var(
+  	--formElement---borderColor,
+  	transparent
+  );
+  --formElement---borderBottomColor: var(
+  	--formElement---borderColor,
+  	rgba(40, 45, 55, 0.5)
+  );
+  --formElement---borderLeftColor: var(
+  	--formElement---borderColor,
+  	transparent
+  );
+  border-radius: 4px;
+  caret-color: #ec0016;
+  color: #282d37;
+}
+.elm-select ~ .description, .elm-textarea ~ .description, .elm-input ~ .description {
+  color: #646973;
+  font-size: 0.875rem;
+  padding: 0.375rem 0.625rem;
+}
+
+.elm-select[data-variant=semitransparent], :where(.elm-select:not([multiple])), .elm-textarea[data-variant=semitransparent], :where(.elm-textarea), :where(.elm-input[type=color], .elm-input[type=date], .elm-input[type=datetime-local], .elm-input[type=email], .elm-input[type=month], .elm-input[type=number], .elm-input[type=password], :where(:not(.cmp-sitesearch)) > .elm-input[type=search], .elm-input[type=tel], .elm-input[type=text], .elm-input[type=time], .elm-input[type=url], .elm-input[type=week]), .elm-input[type=color][data-variant=semitransparent], .elm-input[type=date][data-variant=semitransparent], .elm-input[type=datetime-local][data-variant=semitransparent], .elm-input[type=email][data-variant=semitransparent], .elm-input[type=month][data-variant=semitransparent], .elm-input[type=number][data-variant=semitransparent], .elm-input[type=password][data-variant=semitransparent], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=semitransparent], .elm-input[type=tel][data-variant=semitransparent], .elm-input[type=text][data-variant=semitransparent], .elm-input[type=time][data-variant=semitransparent], .elm-input[type=url][data-variant=semitransparent], .elm-input[type=week][data-variant=semitransparent], :not(.cmp-sitesearch) > .elm-input[type=search] {
+  --formElement---borderColor: rgba(40, 45, 55, 0.5);
+  background-color: rgba(40, 45, 55, 0.05);
+  border-bottom: 1px solid var(--formElement---borderBottomColor);
+  border-left: 1px solid var(--formElement---borderLeftColor);
+  border-left-color: transparent;
+  border-right: 1px solid var(--formElement---borderRightColor);
+  border-right-color: transparent;
+  border-top: 1px solid var(--formElement---borderTopColor);
+  border-top-color: transparent;
+}
+
+.elm-select[data-variant=white], .elm-textarea[data-variant=white], .elm-input[type=color][data-variant=white], .elm-input[type=date][data-variant=white], .elm-input[type=datetime-local][data-variant=white], .elm-input[type=email][data-variant=white], .elm-input[type=month][data-variant=white], .elm-input[type=number][data-variant=white], .elm-input[type=password][data-variant=white], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=white], .elm-input[type=tel][data-variant=white], .elm-input[type=text][data-variant=white], .elm-input[type=time][data-variant=white], .elm-input[type=url][data-variant=white], .elm-input[type=week][data-variant=white] {
+  --formElement---borderColor: rgba(40, 45, 55, 0.5);
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--formElement---borderBottomColor);
+  border-left: 1px solid var(--formElement---borderLeftColor);
+  border-left-color: transparent;
+  border-right: 1px solid var(--formElement---borderRightColor);
+  border-right-color: transparent;
+  border-top: 1px solid var(--formElement---borderTopColor);
+  border-top-color: transparent;
+}
+
+.elm-select[data-variant=solid], .elm-textarea[data-variant=solid], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid] {
+  --formElement---borderColor: rgba(40, 45, 55, 0.5);
+  background-color: #f0f3f5;
+  border-bottom: 1px solid var(--formElement---borderBottomColor);
+  border-left: 1px solid var(--formElement---borderLeftColor);
+  border-left-color: transparent;
+  border-right: 1px solid var(--formElement---borderRightColor);
+  border-right-color: transparent;
+  border-top: 1px solid var(--formElement---borderTopColor);
+  border-top-color: transparent;
+}
+
+.elm-select[data-variant=outline], .elm-textarea[data-variant=outline], .elm-input[type=color][data-variant=outline], .elm-input[type=date][data-variant=outline], .elm-input[type=datetime-local][data-variant=outline], .elm-input[type=email][data-variant=outline], .elm-input[type=month][data-variant=outline], .elm-input[type=number][data-variant=outline], .elm-input[type=password][data-variant=outline], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=outline], .elm-input[type=tel][data-variant=outline], .elm-input[type=text][data-variant=outline], .elm-input[type=time][data-variant=outline], .elm-input[type=url][data-variant=outline], .elm-input[type=week][data-variant=outline] {
+  --formElement---borderColor: rgba(40, 45, 55, 0.25);
+  background-color: transparent;
+  border-bottom: 1px solid var(--formElement---borderBottomColor);
+  border-left: 1px solid var(--formElement---borderLeftColor);
+  border-right: 1px solid var(--formElement---borderRightColor);
+  border-top: 1px solid var(--formElement---borderTopColor);
+}
+
+.elm-textarea:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=color]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=date]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=datetime-local]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=email]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=month]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=number]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=password]:not([aria-invalid]):not(:placeholder-shown):valid, :where(:not(.cmp-sitesearch)) > .elm-input[type=search]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=tel]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=text]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=time]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=url]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=week]:not([aria-invalid]):not(:placeholder-shown):valid {
+  --formElement---borderColor: #2a7230;
+}
+.elm-textarea:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=color]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=date]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=datetime-local]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=email]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=month]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=number]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=password]:not([aria-invalid]):not(:placeholder-shown):invalid, :where(:not(.cmp-sitesearch)) > .elm-input[type=search]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=tel]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=text]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=time]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=url]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=week]:not([aria-invalid]):not(:placeholder-shown):invalid {
+  --formElement---borderColor: #ec0016;
+}
+
+[aria-invalid=true].elm-select:not([multiple]), [aria-invalid=true].elm-textarea, [aria-invalid=true].elm-input[type=color], [aria-invalid=true].elm-input[type=date], [aria-invalid=true].elm-input[type=datetime-local], [aria-invalid=true].elm-input[type=email], [aria-invalid=true].elm-input[type=month], [aria-invalid=true].elm-input[type=number], [aria-invalid=true].elm-input[type=password], :where(:not(.cmp-sitesearch)) > [aria-invalid=true].elm-input[type=search], [aria-invalid=true].elm-input[type=tel], [aria-invalid=true].elm-input[type=text], [aria-invalid=true].elm-input[type=time], [aria-invalid=true].elm-input[type=url], [aria-invalid=true].elm-input[type=week] {
+  --formElement---borderColor: #ec0016;
+}
+
 .elm-radio {
   appearance: none;
   background-color: rgba(255, 255, 255, 0.1);
@@ -5059,6 +5362,9 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   /* stylelint-disable order/order */
   /* stylelint-enable order/order */
 }
+.elm-select:not([multiple]):has(+ label[data-label-hidden=true]) {
+  padding-top: 0;
+}
 .elm-select:not([multiple]) + .elm-label {
   pointer-events: none;
   position: absolute;
@@ -5127,6 +5433,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   border: solid 1px #878c96;
   border-radius: 0.25rem;
   display: inline-flex;
+  font-weight: 500;
   font-size: 0.875rem;
   height: 1.75rem;
   justify-content: center;
@@ -5153,6 +5460,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   background-color: #282d37;
   border-color: transparent;
   color: #ffffff;
+}
+.elm-chip:checked + label[data-variant=light] {
+  background-color: #d7dce1;
+  color: #282d37;
+  border: 1px solid #878c96;
 }
 .elm-chip:checked + label[data-variant=warning] {
   background-color: #f75f00;
@@ -5221,8 +5533,8 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   border-radius: 0.25rem;
   color: #ffffff;
   display: inline-flex;
+  font-weight: 500;
   font-size: 0.75rem;
-  font-weight: initial;
   height: 1.5rem;
   justify-content: center;
   padding-left: 0.25rem;
@@ -5232,6 +5544,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 }
 .elm-tag[data-size=small] {
   height: 1.25rem;
+}
+.elm-tag[data-variant=light] {
+  background-color: #d7dce1;
+  color: #282d37;
+  border: 1px solid #878c96;
 }
 .elm-tag[data-variant=warning] {
   background-color: #cc4e00;

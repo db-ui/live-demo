@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -83,7 +83,9 @@
 					data-emphasis="high"
 					:open="optionsClosed ? false : true"
 				>
-					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<summary @click="optionsOpen=!optionsOpen">
+						Konfigurationen
+					</summary>
 
 					<fieldset class="row">
 						<legend>Icons</legend>
@@ -94,7 +96,9 @@
 								id="checkbox02"
 								v-model="iconBefore"
 							/>
-							<label class="elm-label" for="checkbox02">Leading Icon</label>
+							<label class="elm-label" for="checkbox02"
+								>Leading Icon</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -103,7 +107,9 @@
 								id="checkbox03"
 								v-model="iconAfter"
 							/>
-							<label class="elm-label" for="checkbox03">Trailing Icon</label>
+							<label class="elm-label" for="checkbox03"
+								>Trailing Icon</label
+							>
 						</fieldset>
 					</fieldset>
 
@@ -115,7 +121,9 @@
 							id="checkbox01"
 							v-model="disabled"
 						/>
-						<label class="elm-label" for="checkbox01">Disabled</label>
+						<label class="elm-label" for="checkbox01"
+							>Disabled</label
+						>
 					</fieldset>
 
 					<h4 v-if="computedLink != ''">Design Preview</h4>
@@ -140,6 +148,6 @@
 		<script>
 			const mountedApp = app.mount("#app");
 		</script>
-		<script src="./js/iframeresizer.contentwindow.min.js"></script>
+		<script src="./js/iframeResizer.contentWindow.js"></script>
 	</body>
 </html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -28,10 +28,20 @@
 							<summary>Toggle Overflow menu</summary>
 							<ul role="group">
 								<li>
-									<a href="#" class="elm-link" title="Title text">Modify</a>
+									<a
+										href="#"
+										class="elm-link"
+										title="Title text"
+										>Modify</a
+									>
 								</li>
 								<li>
-									<a href="#" class="elm-link" title="Title text">Delete</a>
+									<a
+										href="#"
+										class="elm-link"
+										title="Title text"
+										>Delete</a
+									>
 								</li>
 							</ul>
 						</details>
@@ -44,7 +54,9 @@
 					data-emphasis="high"
 					:open="optionsClosed ? false : true"
 				>
-					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<summary @click="optionsOpen=!optionsOpen">
+						Konfigurationen
+					</summary>
 					<fieldset class="row">
 						<legend>Tooltip Ausrichtung</legend>
 						<fieldset>
@@ -56,7 +68,9 @@
 								v-model="alignment"
 								value="default"
 							/>
-							<label class="elm-label" for="alignment01">Default</label>
+							<label class="elm-label" for="alignment01"
+								>Default</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -83,6 +97,6 @@
 		<script>
 			const mountedApp = app.mount("#app");
 		</script>
-		<script src="js/iframeresizer.contentwindow.min.js"></script>
+		<script src="js/iframeResizer.contentWindow.js"></script>
 	</body>
 </html>

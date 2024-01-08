@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -20,8 +20,14 @@
 					>DB UI Live Demo</label
 				>
 				<ul>
-					<li aria-haspopup="true" v-for="item in components" key="item.label">
-						<a href="#" class="elm-link" title="" rel="index">{{item.label}}</a>
+					<li
+						aria-haspopup="true"
+						v-for="item in components"
+						key="item.label"
+					>
+						<a href="#" class="elm-link" title="" rel="index"
+							>{{item.label}}</a
+						>
 						<ul>
 							<li
 								v-for="component in item.groupedComponents"
@@ -58,18 +64,18 @@
 		<section class="maincontent">
 			<h1>DB UI Design System - Live Demo</h1>
 			<p>
-				Personenverkehr und DB Systel führen ihre Design Systeme für Web in der
-				Version 2.0 der Standard Web Components zusammen. Unser Ziel ist eine
-				einheitliche Basis UX im Sinne der Modernen Ikone für Kunden und
-				Mitarbeiteranwendungen. Um unser Design End 2 End von Konzeption über
-				Design bis zur Implementierung konsistent zu halten, wird das DB Design
-				System auch in Code von DB Systel und Reisendeninformation umgesetzt.
-				Stay Tuned!
+				Personenverkehr und DB Systel führen ihre Design Systeme für Web
+				in der Version 2.0 der Standard Web Components zusammen. Unser
+				Ziel ist eine einheitliche Basis UX im Sinne der Modernen Ikone
+				für Kunden und Mitarbeiteranwendungen. Um unser Design End 2 End
+				von Konzeption über Design bis zur Implementierung konsistent zu
+				halten, wird das DB Design System auch in Code von DB Systel und
+				Reisendeninformation umgesetzt. Stay Tuned!
 			</p>
 			<p>
-				Die Live Demo zeigt Beispiele basierend auf Komponenten und Varianten
-				des DB UX Design Systems und dessen technischen Abbilds in Form des DB
-				UI Core bzw. DB UI Elements.
+				Die Live Demo zeigt Beispiele basierend auf Komponenten und
+				Varianten des DB UX Design Systems und dessen technischen
+				Abbilds in Form des DB UI Core bzw. DB UI Elements.
 			</p>
 			<h2>Komponente: {{activeComponent.label}}</h2>
 			<iframe
@@ -87,6 +93,6 @@
 		<script>
 			const mountedApp = app.mount("#app");
 		</script>
-		<script src="./js/iframeresizer.contentwindow.min.js"></script>
+		<script src="./js/iframeResizer.contentWindow.js"></script>
 	</body>
 </html>
