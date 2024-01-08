@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -29,7 +29,9 @@
 						>
 						<dialog id="dialog01" class="cmp-dialog" :open="opened">
 							<header>
-								<h2 class="elm-headline" id="dialog01">Modal</h2>
+								<h2 class="elm-headline" id="dialog01">
+									Modal
+								</h2>
 								<a
 									href="#"
 									class="elm-link is-close"
@@ -40,16 +42,21 @@
 							</header>
 							<main>
 								<p>
-									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-									diam nonumy eirmod tempor invidunt ut labore et dolore magna
-									aliquyam erat, sed diam voluptua. At vero eos et accusam et
-									justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-									sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-									ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-									nonumy eirmod tempor invidunt ut labore et dolore magna
-									aliquyam erat, sed diam voluptua. At vero eos et accusam et
-									justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-									sea takimata sanctus est Lorem ipsum dolor sit amet.
+									Lorem ipsum dolor sit amet, consetetur
+									sadipscing elitr, sed diam nonumy eirmod
+									tempor invidunt ut labore et dolore magna
+									aliquyam erat, sed diam voluptua. At vero
+									eos et accusam et justo duo dolores et ea
+									rebum. Stet clita kasd gubergren, no sea
+									takimata sanctus est Lorem ipsum dolor sit
+									amet. Lorem ipsum dolor sit amet, consetetur
+									sadipscing elitr, sed diam nonumy eirmod
+									tempor invidunt ut labore et dolore magna
+									aliquyam erat, sed diam voluptua. At vero
+									eos et accusam et justo duo dolores et ea
+									rebum. Stet clita kasd gubergren, no sea
+									takimata sanctus est Lorem ipsum dolor sit
+									amet.
 								</p>
 							</main>
 							<footer :data-alignment="alignment">
@@ -80,7 +87,9 @@
 					data-emphasis="high"
 					:open="optionsClosed ? false : true"
 				>
-					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<summary @click="optionsOpen=!optionsOpen">
+						Konfigurationen
+					</summary>
 					<fieldset class="row">
 						<legend>Button Alignment</legend>
 						<fieldset>
@@ -92,7 +101,9 @@
 								v-model="alignment"
 								value="null"
 							/>
-							<label class="elm-label" for="radio01">Default</label>
+							<label class="elm-label" for="radio01"
+								>Default</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -103,7 +114,9 @@
 								v-model="alignment"
 								value="end"
 							/>
-							<label class="elm-label" for="radio02">Rechts ausgerichtet</label>
+							<label class="elm-label" for="radio02"
+								>Rechts ausgerichtet</label
+							>
 						</fieldset>
 					</fieldset>
 
@@ -129,6 +142,6 @@
 		<script>
 			const mountedApp = app.mount("#app");
 		</script>
-		<script src="js/iframeresizer.contentwindow.min.js"></script>
+		<script src="js/iframeResizer.contentWindow.js"></script>
 	</body>
 </html>

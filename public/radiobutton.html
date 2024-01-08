@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -62,7 +62,9 @@
 					data-emphasis="high"
 					:open="optionsClosed ? false : true"
 				>
-					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<summary @click="optionsOpen=!optionsOpen">
+						Konfigurationen
+					</summary>
 					<fieldset class="row">
 						<legend>Label</legend>
 						<fieldset>
@@ -74,7 +76,9 @@
 								v-model="displayLabel"
 								value="true"
 							/>
-							<label class="elm-label" for="displaylabel01">Mit Label</label>
+							<label class="elm-label" for="displaylabel01"
+								>Mit Label</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -85,7 +89,9 @@
 								v-model="displayLabel"
 								value="false"
 							/>
-							<label class="elm-label" for="displaylabel02">Ohne Label</label>
+							<label class="elm-label" for="displaylabel02"
+								>Ohne Label</label
+							>
 						</fieldset>
 					</fieldset>
 
@@ -110,7 +116,9 @@
 								id="disabled"
 								v-model="disabled"
 							/>
-							<label class="elm-label" for="disabled">Disabled</label>
+							<label class="elm-label" for="disabled"
+								>Disabled</label
+							>
 						</fieldset>
 					</fieldset>
 
@@ -136,6 +144,6 @@
 		<script>
 			const mountedApp = app.mount("#app");
 		</script>
-		<script src="js/iframeresizer.contentwindow.min.js"></script>
+		<script src="js/iframeResizer.contentWindow.js"></script>
 	</body>
 </html>

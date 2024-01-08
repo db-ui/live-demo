@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -48,7 +48,8 @@
 							class="description"
 							v-if="activeElement == 0"
 						>
-							Bitte geben Sie einen Wert mit mehr als 5 Zeichen ein
+							Bitte geben Sie einen Wert mit mehr als 5 Zeichen
+							ein
 						</p>
 
 						<input
@@ -75,8 +76,13 @@
 							v-if="activeElement == 1"
 							>Textlabel</label
 						>
-						<p id="input15hint" class="description" v-if="activeElement == 1">
-							Bitte geben Sie einen Wert mit mehr als 5 Zeichen ein
+						<p
+							id="input15hint"
+							class="description"
+							v-if="activeElement == 1"
+						>
+							Bitte geben Sie einen Wert mit mehr als 5 Zeichen
+							ein
 						</p>
 					</div>
 				</section>
@@ -87,7 +93,9 @@
 					data-emphasis="high"
 					:open="optionsClosed ? false : true"
 				>
-					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<summary @click="optionsOpen=!optionsOpen">
+						Konfigurationen
+					</summary>
 					<!--<fieldset class="row">
 						<legend>Label</legend>
 						<fieldset>
@@ -125,7 +133,9 @@
 								v-model="state"
 								value="default"
 							/>
-							<label class="elm-label" for="radio01">Enabled</label>
+							<label class="elm-label" for="radio01"
+								>Enabled</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -136,7 +146,9 @@
 								v-model="state"
 								value="disabled"
 							/>
-							<label class="elm-label" for="radio02">Disabled</label>
+							<label class="elm-label" for="radio02"
+								>Disabled</label
+							>
 						</fieldset>
 						<!--<fieldset>
 							<input name="state" type="radio" class="elm-radio " id="radio03" v-model="state" value="readonly">
@@ -177,6 +189,6 @@
 		<script>
 			const mountedApp = app.mount("#app");
 		</script>
-		<script src="js/iframeresizer.contentwindow.min.js"></script>
+		<script src="js/iframeResizer.contentWindow.js"></script>
 	</body>
 </html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -32,7 +32,10 @@
 							</caption>
 							<thead>
 								<tr>
-									<th scope="col" :data-icon="iconBefore ? 'account' : null">
+									<th
+										scope="col"
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										The table header 01
 									</th>
 									<th scope="col">The table header 02</th>
@@ -40,85 +43,113 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 01 - 01
 									</td>
 									<td>Value 01 - 02</td>
 								</tr>
 								<tr>
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 02 - 01
 									</td>
 									<td>Value 02 - 02</td>
 								</tr>
 								<tr>
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 03 - 01
 									</td>
 									<td>Value 03 - 02</td>
 								</tr>
 								<tr>
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 04 - 01
 									</td>
 									<td>Value 04 - 02</td>
 								</tr>
 								<tr>
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 05 - 01
 									</td>
 									<td>Value 05 - 02</td>
 								</tr>
 								<tr v-if="fixedHeader != ''">
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 05 - 01 fix
 									</td>
 									<td>Value 05 - 02</td>
 								</tr>
 								<tr v-if="fixedHeader != ''">
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 05 - 01 fix
 									</td>
 									<td>Value 05 - 02</td>
 								</tr>
 								<tr v-if="fixedHeader != ''">
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 05 - 01 fix
 									</td>
 									<td>Value 05 - 02</td>
 								</tr>
 								<tr v-if="fixedHeader != ''">
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 05 - 01 fix
 									</td>
 									<td>Value 05 - 02</td>
 								</tr>
 								<tr v-if="fixedHeader != ''">
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 05 - 01 fix
 									</td>
 									<td>Value 05 - 02</td>
 								</tr>
 								<tr v-if="fixedHeader != ''">
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 05 - 01 fix
 									</td>
 									<td>Value 05 - 02</td>
 								</tr>
 								<tr v-if="fixedHeader != ''">
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 05 - 01 fix
 									</td>
 									<td>Value 05 - 02</td>
 								</tr>
 								<tr v-if="fixedHeader != ''">
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 05 - 01 fix
 									</td>
 									<td>Value 05 - 02</td>
 								</tr>
 								<tr v-if="fixedHeader != ''">
-									<td :data-icon="iconBefore ? 'account' : null">
+									<td
+										:data-icon="iconBefore ? 'account' : null"
+									>
 										Value 05 - 01 fix
 									</td>
 									<td>Value 05 - 02</td>
@@ -134,7 +165,9 @@
 					data-emphasis="high"
 					:open="optionsClosed ? false : true"
 				>
-					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<summary @click="optionsOpen=!optionsOpen">
+						Konfigurationen
+					</summary>
 					<fieldset class="row">
 						<legend>Density</legend>
 						<fieldset>
@@ -157,7 +190,9 @@
 								v-model="density"
 								value="regular"
 							/>
-							<label class="elm-label" for="radio02">Regular</label>
+							<label class="elm-label" for="radio02"
+								>Regular</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -182,7 +217,10 @@
 								id="rowStyle2"
 								v-model="rowStyle"
 							/>
-							<label class="elm-label" for="rowStyle2" @click="borderStyle=''"
+							<label
+								class="elm-label"
+								for="rowStyle2"
+								@click="borderStyle=''"
 								>Zebra</label
 							>
 						</fieldset>
@@ -199,7 +237,9 @@
 								v-model="borderStyle"
 								value=""
 							/>
-							<label class="elm-label" for="borderStyle1">Keine Rahmen</label>
+							<label class="elm-label" for="borderStyle1"
+								>Keine Rahmen</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -244,7 +284,9 @@
 								id="iconBefore2"
 								v-model="iconBefore"
 							/>
-							<label class="elm-label" for="iconBefore2">Leading Icon</label>
+							<label class="elm-label" for="iconBefore2"
+								>Leading Icon</label
+							>
 						</fieldset>
 					</fieldset>
 
@@ -296,6 +338,6 @@
 		<script>
 			const mountedApp = app.mount("#app");
 		</script>
-		<script src="./js/iframeresizer.contentwindow.min.js"></script>
+		<script src="./js/iframeResizer.contentWindow.js"></script>
 	</body>
 </html>
