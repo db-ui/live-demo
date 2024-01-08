@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -20,7 +20,10 @@
 				</header>
 				<section>
 					<div class="component_example">
-						<section aria-live="" :data-variant="components[active].variant">
+						<section
+							aria-live=""
+							:data-variant="components[active].variant"
+						>
 							<div
 								class="cmp-notification"
 								:data-type="[state]"
@@ -28,7 +31,8 @@
 								:data-icon="iconBefore ? 'alarm' : null"
 								:data-icon-after="iconAfter ? 'close' : null"
 							>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit
 							</div>
 						</section>
 					</div>
@@ -40,7 +44,9 @@
 					data-emphasis="high"
 					:open="optionsClosed ? false : true"
 				>
-					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<summary @click="optionsOpen=!optionsOpen">
+						Konfigurationen
+					</summary>
 					<fieldset class="row">
 						<legend>State</legend>
 						<fieldset>
@@ -52,7 +58,9 @@
 								v-model="state"
 								value=""
 							/>
-							<label class="elm-label" for="state01">Default</label>
+							<label class="elm-label" for="state01"
+								>Default</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -74,7 +82,9 @@
 								v-model="state"
 								value="informative"
 							/>
-							<label class="elm-label" for="state03">Informative</label>
+							<label class="elm-label" for="state03"
+								>Informative</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -85,7 +95,9 @@
 								v-model="state"
 								value="success"
 							/>
-							<label class="elm-label" for="state04">Success</label>
+							<label class="elm-label" for="state04"
+								>Success</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -96,7 +108,9 @@
 								v-model="state"
 								value="warning"
 							/>
-							<label class="elm-label" for="state05">Warning</label>
+							<label class="elm-label" for="state05"
+								>Warning</label
+							>
 						</fieldset>
 					</fieldset>
 
@@ -109,7 +123,9 @@
 								id="checkbox02"
 								v-model="iconBefore"
 							/>
-							<label class="elm-label" for="checkbox02">Leading Icon</label>
+							<label class="elm-label" for="checkbox02"
+								>Leading Icon</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -118,7 +134,9 @@
 								id="checkbox03"
 								v-model="iconAfter"
 							/>
-							<label class="elm-label" for="checkbox03">Trailing Icon</label>
+							<label class="elm-label" for="checkbox03"
+								>Trailing Icon</label
+							>
 						</fieldset>
 					</fieldset>
 
@@ -144,6 +162,6 @@
 		<script>
 			const mountedApp = app.mount("#app");
 		</script>
-		<script src="js/iframeresizer.contentwindow.min.js"></script>
+		<script src="js/iframeResizer.contentWindow.js"></script>
 	</body>
 </html>

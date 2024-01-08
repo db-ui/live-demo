@@ -52,5 +52,5 @@ public/icons
 public/images
 public/css/
 public/js/vue/
-public/js/iframeresizer.contentwindow.min.js
+public/js/iframeResizer.contentWindow.js
 public/favicon.ico

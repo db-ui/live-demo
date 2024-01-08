@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -23,29 +23,51 @@
 						<nav class="cmp-breadcrumb" aria-label="Breadcrumb">
 							<ol>
 								<li>
-									<a href="#" class="elm-link" title="Title text">Startseite</a>
+									<a
+										href="#"
+										class="elm-link"
+										title="Title text"
+										>Startseite</a
+									>
 								</li>
 								<li v-if="level === 'default'">
-									<a href="#" class="elm-link" title="Title text"
+									<a
+										href="#"
+										class="elm-link"
+										title="Title text"
 										>Seite XYZ {{index}}</a
 									>
 								</li>
 								<li v-if="level === 'default'">
-									<a href="#" class="elm-link" title="Title text"
+									<a
+										href="#"
+										class="elm-link"
+										title="Title text"
 										>Seite XYZ {{index}}</a
 									>
 								</li>
 
 								<li v-if="level === 'shortened'">
-									<a href="#" class="elm-link" title="Title text"
+									<a
+										href="#"
+										class="elm-link"
+										title="Title text"
 										>Seite XYZ {{index}}</a
 									>
 								</li>
 								<li v-if="level === 'shortened'">
-									<a href="#" class="elm-link" title="Title text">...</a>
+									<a
+										href="#"
+										class="elm-link"
+										title="Title text"
+										>...</a
+									>
 								</li>
 								<li v-if="level === 'shortened'">
-									<a href="#" class="elm-link" title="Title text"
+									<a
+										href="#"
+										class="elm-link"
+										title="Title text"
 										>Seite XYZ {{index}}</a
 									>
 								</li>
@@ -69,7 +91,9 @@
 					data-emphasis="high"
 					:open="optionsClosed ? false : true"
 				>
-					<summary @click="optionsOpen=!optionsOpen">Konfigurationen</summary>
+					<summary @click="optionsOpen=!optionsOpen">
+						Konfigurationen
+					</summary>
 					<fieldset class="row">
 						<legend>States</legend>
 						<fieldset>
@@ -81,7 +105,9 @@
 								v-model="level"
 								value="default"
 							/>
-							<label class="elm-label" for="radio01">Default</label>
+							<label class="elm-label" for="radio01"
+								>Default</label
+							>
 						</fieldset>
 						<fieldset>
 							<input
@@ -120,6 +146,6 @@
 		<script>
 			const mountedApp = app.mount("#app");
 		</script>
-		<script src="js/iframeresizer.contentwindow.min.js"></script>
+		<script src="js/iframeResizer.contentWindow.js"></script>
 	</body>
 </html>
