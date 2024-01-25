@@ -11,7 +11,7 @@
     "serve": "npx http-server public -o",
     "start": "npm-run-all --parallel copy:assets serve build:watch",
     "postinstall": "npm run copy:assets",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "author": "Kai Zwier",
   "license": "Apache-2.0",
@@ -19,7 +19,7 @@
     "@db-ui/core": "^2.17.1",
     "cpr": "^3.0.1",
     "http-server": "^14.1.1",
-    "husky": "^8.0.3",
+    "husky": "^9.0.2",
     "iframe-resizer": "^4.3.9",
     "lint-staged": "^15.2.0",
     "nodemon": "^3.0.3",
