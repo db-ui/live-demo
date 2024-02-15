@@ -3,6 +3,7 @@
 		"editorconfig.editorconfig",
 		"henrynguyen5-vsc.vsc-nvm",
 		"streetsidesoftware.code-spell-checker",
-		"esbenp.prettier-vscode"
+		"esbenp.prettier-vscode",
+		"stylelint.vscode-stylelint"
 	]
 }
