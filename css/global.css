@@ -4382,7 +4382,11 @@ h4.elm-headline {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .elm-link[rel=configuration]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .elm-link[rel=messages] {
   --icon-glyph-before: "󡈶";
@@ -4393,7 +4397,11 @@ h4.elm-headline {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .elm-link[rel=messages]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .elm-link[rel=account] {
   --icon-glyph-before: "󡈡";
@@ -4404,7 +4412,11 @@ h4.elm-headline {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .elm-link[rel=account]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .elm-link[rel=configuration]::before, .elm-link[rel=messages]::before, .elm-link[rel=account]::before {
   display: inline-block;
@@ -4605,7 +4617,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .elm-checkbox::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .elm-checkbox[type=checkbox] {
   vertical-align: top;
@@ -5713,7 +5729,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.25rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-breadcrumb ol > *:first-child::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-breadcrumb ol > *:first-child::before {
   --icon-margin-after: 0.1875rem;
@@ -5727,7 +5747,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.25rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-breadcrumb ol > *:not(:first-child)::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-breadcrumb ol > *:not(:first-child)::before {
   --icon-font-size: 0.875rem;
@@ -5845,7 +5869,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-after, var(--icon-font-size, 1.5rem));
   margin-inline-start: var(--icon-margin-before, 0.375rem);
   content: var(--icon-glyph-after);
-  content: var(--icon-glyph-after)/"";
+}
+@supports (content: ""/"") {
+  .cmp-accordion summary::after {
+    content: var(--icon-glyph-after)/"";
+  }
 }
 .cmp-accordion summary::-webkit-details-marker {
   display: none;
@@ -5950,7 +5978,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-mainnavigation > label[for]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-mainnavigation > label[for]::after {
   --icon-font-family: "icons-24-outline",
@@ -5958,7 +5990,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-after, var(--icon-font-size, 1.5rem));
   margin-inline-start: var(--icon-margin-before, 0.375rem);
   content: var(--icon-glyph-after);
-  content: var(--icon-glyph-after)/"";
+}
+@supports (content: ""/"") {
+  .cmp-mainnavigation > label[for]::after {
+    content: var(--icon-glyph-after)/"";
+  }
 }
 .cmp-mainnavigation > label[for]::before {
   margin-right: 1rem;
@@ -6059,7 +6095,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-after, var(--icon-font-size, 1.5rem));
   margin-inline-start: var(--icon-margin-before, 0.375rem);
   content: var(--icon-glyph-after);
-  content: var(--icon-glyph-after)/"";
+}
+@supports (content: ""/"") {
+  .cmp-mainnavigation li[aria-haspopup=true]::after {
+    content: var(--icon-glyph-after)/"";
+  }
 }
 .cmp-mainnavigation li[aria-haspopup=true]::after {
   position: absolute;
@@ -6248,7 +6288,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-sitesearch .elm-label::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-sitesearch .elm-label::before {
   font-size: 1.375rem;
@@ -6279,7 +6323,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-sitesearch .elm-button::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-sitesearch .elm-button::before {
   left: 0.25rem;
@@ -6433,7 +6481,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-dialog header .elm-link.is-close::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-dialog header .elm-link.is-close::before {
   --icon-margin-after: 0;
@@ -6550,7 +6602,13 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-after, var(--icon-font-size, 1.5rem));
   margin-inline-start: var(--icon-margin-before, 0.375rem);
   content: var(--icon-glyph-after);
-  content: var(--icon-glyph-after)/"";
+}
+@supports (content: ""/"") {
+  .cmp-language-switcher li[aria-current] .elm-link::after,
+  .cmp-language-switcher li[aria-current] .elm-button::after, .cmp-language-switcher li[aria-selected] .elm-link::after,
+  .cmp-language-switcher li[aria-selected] .elm-button::after {
+    content: var(--icon-glyph-after)/"";
+  }
 }
 .cmp-language-switcher li[aria-current] .elm-link:hover,
 .cmp-language-switcher li[aria-current] .elm-button:hover, .cmp-language-switcher li[aria-selected] .elm-link:hover,
@@ -6637,7 +6695,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-pagination .elm-link[rel=prev]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-pagination .elm-link[rel=prev]::before {
   --icon-margin-after: 0;
@@ -6652,7 +6714,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-pagination .elm-link[rel=next]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-pagination .elm-link[rel=next]::before {
   --icon-margin-after: 0;
@@ -6711,7 +6777,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-sidenavi .elm-link[rel=index]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-sidenavi .elm-link[rel=documents] {
   --icon-glyph-before: "🖹";
@@ -6722,7 +6792,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-sidenavi .elm-link[rel=documents]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-sidenavi .elm-link[rel=dashboard] {
   --icon-glyph-before: "󡅤";
@@ -6733,7 +6807,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-sidenavi .elm-link[rel=dashboard]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-sidenavi .elm-link[rel=cloud] {
   --icon-glyph-before: "☁";
@@ -6744,7 +6822,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-sidenavi .elm-link[rel=cloud]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-sidenavi .elm-link[rel=calendar] {
   --icon-glyph-before: "󡉇";
@@ -6755,7 +6837,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-sidenavi .elm-link[rel=calendar]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-sidenavi .elm-link[rel=help] {
   --icon-glyph-before: "?";
@@ -6766,7 +6852,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 2rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-sidenavi .elm-link[rel=help]::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 
 /* tab-bar */
@@ -6982,7 +7072,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-link-list li .elm-link::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-link-list li .elm-link:hover, .cmp-link-list li .elm-link:active {
   text-decoration: underline;
@@ -7033,7 +7127,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.25rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-overflow-menu summary::before, .cmp-dropdown summary::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-overflow-menu summary::before, .cmp-dropdown summary::before {
   display: inline-block;
@@ -7171,7 +7269,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
   margin-inline-end: var(--icon-margin-after, 0.375rem);
   content: var(--icon-glyph-before);
-  content: var(--icon-glyph-before)/"";
+}
+@supports (content: ""/"") {
+  .cmp-dropdown.is-account summary::before {
+    content: var(--icon-glyph-before)/"";
+  }
 }
 .cmp-dropdown.is-account summary:hover::before {
   color: #ec0016;
