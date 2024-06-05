@@ -24,7 +24,7 @@
     "lint-staged": "^15.2.2",
     "nodemon": "^3.1.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.1",
     "sass": "^1.77.1",
     "vue": "^3.2.31"
   },
