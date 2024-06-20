@@ -2995,6 +2995,15 @@ details > *, details > ::before, details > ::after {
   --icon-glyph-after: "󡅢";
 }
 
+[data-icon=traveler-with-reduced-mobility],
+[data-icon-before=traveler-with-reduced-mobility] {
+  --icon-glyph-before: "󡅢";
+}
+
+[data-icon-after=traveler-with-reduced-mobility] {
+  --icon-glyph-after: "󡅢";
+}
+
 [data-icon=standing-room],
 [data-icon-before=standing-room] {
   --icon-glyph-before: "󡅠";
