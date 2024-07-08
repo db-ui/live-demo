@@ -6152,7 +6152,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   display: inline-block;
   text-decoration: none;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (width > 1023px) {
   .cmp-mainnavigation > input[type=checkbox][id], .cmp-mainnavigation > input[type=checkbox][id] + label[for] {
     display: none;
   }
@@ -6216,7 +6216,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 .cmp-mainnavigation ul {
   background-color: #fdfdfd;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (width > 1023px) {
   .cmp-mainnavigation ul ul {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.08), 0 5px 30px rgba(0, 0, 0, 0.05);
     position: absolute;
@@ -6229,12 +6229,12 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
     display: none;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (width > 1023px) {
   .cmp-mainnavigation > ul {
     display: flex;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (width > 1023px) {
   .cmp-mainnavigation > ul > li > .elm-link, .cmp-mainnavigation > ul > li > * > .elm-link, .cmp-mainnavigation > ul > * > li > .elm-link, .cmp-mainnavigation > ul > * > li > * > .elm-link {
     padding: 2rem 1.625rem 1.1875rem;
     border-bottom: 4px solid transparent;
@@ -6246,7 +6246,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
     border-bottom-color: #ec0016;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (width > 1023px) {
   .cmp-mainnavigation > ul > li ul, .cmp-mainnavigation > ul > * > li ul {
     left: 0;
     min-width: 100%;
@@ -6329,7 +6329,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
     position: relative;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (width > 1023px) {
   .cmp-mainnavigation li[aria-haspopup=true]::after {
     content: none;
   }
@@ -6421,7 +6421,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 .rea-header .cmp-brand {
   padding-top: 1.125rem;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (width > 1023px) {
   .rea-header .cmp-brand {
     padding-top: 2rem;
   }
@@ -6754,7 +6754,7 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 [aria-selected=true]) {
   top: 20.25rem;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (width > 1023px) {
   .rea-header .cmp-language-switcher li {
     top: 3.5rem;
   }
