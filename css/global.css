@@ -4281,7 +4281,9 @@ details > *, details > ::before, details > ::after {
 .elm-button:disabled {
   color: #ffffff80;
 }
-
+.elm-button[data-width=full] {
+  inline-size: 100%;
+}
 /* headline */
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
@@ -4660,7 +4662,19 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   padding: 0.375rem 0.625rem;
 }
 
+.elm-radio:has(+ label)::after, .elm-checkbox:has(+ label)::after {
+  content: "";
+  width: calc(var(--db-form-element-dimensions) + 0.25rem);
+  height: var(--db-form-element-dimensions);
+  transform: translateX(0.25rem);
+  position: absolute;
+}
+
 .elm-checkbox {
+  --db-form-element-dimensions: var(
+  	--db-checkbox-dimensions,
+  	1.5rem
+  );
   --icon-glyph-before: " ";
   align-content: center;
   appearance: none;
@@ -4669,9 +4683,9 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   border-radius: 4px;
   color: #282d37;
   display: inline-flex;
-  height: 1.5rem;
+  height: var(--db-form-element-dimensions);
   justify-content: center;
-  width: 1.5rem;
+  width: var(--db-form-element-dimensions);
 }
 .elm-checkbox::before {
   --icon-font-family: "icons-24-outline",
@@ -4715,7 +4729,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   opacity: 0.5;
 }
 .elm-checkbox + label {
-  margin-left: 0.25rem;
+  padding-inline-start: 0.25rem;
 }
 
 /* input */
@@ -4844,6 +4858,14 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   color: #646973;
   font-size: 0.875rem;
   padding: 0.375rem 0.625rem;
+}
+
+.elm-radio:has(+ label)::after, .elm-checkbox:has(+ label)::after {
+  content: "";
+  width: calc(var(--db-form-element-dimensions) + 0.25rem);
+  height: var(--db-form-element-dimensions);
+  transform: translateX(0.25rem);
+  position: absolute;
 }
 
 .elm-input {
@@ -5217,16 +5239,28 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   padding: 0.375rem 0.625rem;
 }
 
+.elm-radio:has(+ label)::after, .elm-checkbox:has(+ label)::after {
+  content: "";
+  width: calc(var(--db-form-element-dimensions) + 0.25rem);
+  height: var(--db-form-element-dimensions);
+  transform: translateX(0.25rem);
+  position: absolute;
+}
+
 .elm-radio {
+  --db-form-element-dimensions: var(
+  	--db-radio-dimensions,
+  	1.25em
+  );
   appearance: none;
   background-color: rgba(255, 255, 255, 0.1);
   border: 0.0625rem solid #282d37;
   border-radius: 1em;
   display: inline-block;
   font-size: 1rem;
-  height: 1.25em;
+  height: var(--db-form-element-dimensions);
   transition: border-width 0.5s ease;
-  width: 1.25em;
+  width: var(--db-form-element-dimensions);
 }
 .elm-radio[type=radio] {
   vertical-align: sub;
@@ -5244,7 +5278,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   border-color: #c13e34;
 }
 .elm-radio + label {
-  margin-left: 0.25rem;
+  padding-inline-start: 0.25rem;
 }
 .elm-radio:disabled, .elm-radio:disabled + label {
   opacity: 0.5;
@@ -5378,6 +5412,14 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   color: #646973;
   font-size: 0.875rem;
   padding: 0.375rem 0.625rem;
+}
+
+.elm-checkbox:has(+ label)::after, .elm-radio:has(+ label)::after {
+  content: "";
+  width: calc(var(--db-form-element-dimensions) + 0.25rem);
+  height: var(--db-form-element-dimensions);
+  transform: translateX(0.25rem);
+  position: absolute;
 }
 
 .elm-textarea {
@@ -5528,6 +5570,14 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   color: #646973;
   font-size: 0.875rem;
   padding: 0.375rem 0.625rem;
+}
+
+.elm-checkbox:has(+ label)::after, .elm-radio:has(+ label)::after {
+  content: "";
+  width: calc(var(--db-form-element-dimensions) + 0.25rem);
+  height: var(--db-form-element-dimensions);
+  transform: translateX(0.25rem);
+  position: absolute;
 }
 
 /* *****
