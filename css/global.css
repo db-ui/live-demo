@@ -388,7 +388,7 @@ details > *, details > ::before, details > ::after {
   box-sizing: var(--db-box-sizing, border-box);
 }
 
-.cmp-tab-bar > input[type=radio], .cmp-tab-bar > * > input[type=radio], .cmp-pagination .elm-headline, .cmp-notification > em, .cmp-mainnavigation > input[type=checkbox][id], .elm-select + [data-label-hidden=true].elm-label, [data-label-hidden=true].elm-label:has(+ .elm-textarea), .elm-radio + label[data-label-hidden=true], .elm-input[type=color] + [data-label-hidden=true].elm-label, .elm-input[type=date] + [data-label-hidden=true].elm-label, .elm-input[type=datetime-local] + [data-label-hidden=true].elm-label, .elm-input[type=email] + [data-label-hidden=true].elm-label, .elm-input[type=month] + [data-label-hidden=true].elm-label, .elm-input[type=number] + [data-label-hidden=true].elm-label, .elm-input[type=password] + [data-label-hidden=true].elm-label, :where(:not(.cmp-sitesearch)) > .elm-input[type=search] + [data-label-hidden=true].elm-label, .elm-input[type=tel] + [data-label-hidden=true].elm-label, .elm-input[type=text] + [data-label-hidden=true].elm-label, .elm-input[type=time] + [data-label-hidden=true].elm-label, .elm-input[type=url] + [data-label-hidden=true].elm-label, .elm-input[type=week] + [data-label-hidden=true].elm-label, .elm-checkbox + label[data-label-hidden=true] {
+.cmp-tab-bar > input[type=radio], .cmp-tab-bar > * > input[type=radio], .cmp-pagination .elm-headline, .cmp-notification > em, .elm-chip[type=checkbox], .elm-chip[type=radio], .elm-select + [data-label-hidden=true].elm-label, [data-label-hidden=true].elm-label:has(+ .elm-textarea), .elm-radio + label[data-label-hidden=true], .elm-input[type=color] + [data-label-hidden=true].elm-label, .elm-input[type=date] + [data-label-hidden=true].elm-label, .elm-input[type=datetime-local] + [data-label-hidden=true].elm-label, .elm-input[type=email] + [data-label-hidden=true].elm-label, .elm-input[type=month] + [data-label-hidden=true].elm-label, .elm-input[type=number] + [data-label-hidden=true].elm-label, .elm-input[type=password] + [data-label-hidden=true].elm-label, :where(:not(.cmp-sitesearch)) > .elm-input[type=search] + [data-label-hidden=true].elm-label, .elm-input[type=tel] + [data-label-hidden=true].elm-label, .elm-input[type=text] + [data-label-hidden=true].elm-label, .elm-input[type=time] + [data-label-hidden=true].elm-label, .elm-input[type=url] + [data-label-hidden=true].elm-label, .elm-input[type=week] + [data-label-hidden=true].elm-label, .elm-checkbox + label[data-label-hidden=true] {
   clip: rect(0, 0, 0, 0);
   height: 1px;
   overflow: hidden;
@@ -4456,15 +4456,6 @@ h4.elm-headline {
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
-.elm-image.is-logo {
-  height: auto;
-  margin: 0.2rem 1rem 0.2rem 0;
-  max-width: 200px;
-}
-.cmp-brand .elm-image.is-logo {
-  width: 39px;
-}
-
 /* logo */
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
@@ -4595,7 +4586,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   border-top-color: transparent;
 }
 
-.elm-select[data-variant=solid], .elm-textarea[data-variant=solid], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid] {
+.cmp-sitesearch .elm-input[type=search], .elm-select[data-variant=solid], .elm-textarea[data-variant=solid], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid] {
   --formElement---borderColor: rgba(40, 45, 55, 0.5);
   background-color: #f0f3f5;
   border-bottom: 1px solid var(--formElement---borderBottomColor);
@@ -4675,7 +4666,6 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   	--db-checkbox-dimensions,
   	1.5rem
   );
-  --icon-glyph-before: " ";
   align-content: center;
   appearance: none;
   background-color: rgba(255, 255, 255, 0.1);
@@ -4686,6 +4676,9 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   height: var(--db-form-element-dimensions);
   justify-content: center;
   width: var(--db-form-element-dimensions);
+}
+.elm-checkbox {
+  --icon-glyph-before: " ";
 }
 .elm-checkbox::before {
   --icon-font-family: "icons-24-outline",
@@ -4793,7 +4786,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   border-top-color: transparent;
 }
 
-.elm-select[data-variant=solid], .elm-textarea[data-variant=solid], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid] {
+.cmp-sitesearch .elm-input[type=search], .elm-select[data-variant=solid], .elm-textarea[data-variant=solid], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid] {
   --formElement---borderColor: rgba(40, 45, 55, 0.5);
   background-color: #f0f3f5;
   border-bottom: 1px solid var(--formElement---borderBottomColor);
@@ -5172,7 +5165,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   border-top-color: transparent;
 }
 
-.elm-select[data-variant=solid], .elm-textarea[data-variant=solid], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid] {
+.cmp-sitesearch .elm-input[type=search], .elm-select[data-variant=solid], .elm-textarea[data-variant=solid], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid] {
   --formElement---borderColor: rgba(40, 45, 55, 0.5);
   background-color: #f0f3f5;
   border-bottom: 1px solid var(--formElement---borderBottomColor);
@@ -5347,7 +5340,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   border-top-color: transparent;
 }
 
-.elm-select[data-variant=solid], .elm-textarea[data-variant=solid], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid] {
+.cmp-sitesearch .elm-input[type=search], .elm-select[data-variant=solid], .elm-textarea[data-variant=solid], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid] {
   --formElement---borderColor: rgba(40, 45, 55, 0.5);
   background-color: #f0f3f5;
   border-bottom: 1px solid var(--formElement---borderBottomColor);
@@ -5505,7 +5498,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   border-top-color: transparent;
 }
 
-.elm-select[data-variant=solid], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid], .elm-textarea[data-variant=solid] {
+.cmp-sitesearch .elm-input[type=search], .elm-select[data-variant=solid], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid], .elm-textarea[data-variant=solid] {
   --formElement---borderColor: rgba(40, 45, 55, 0.5);
   background-color: #f0f3f5;
   border-bottom: 1px solid var(--formElement---borderBottomColor);
@@ -5666,6 +5659,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
 .elm-chip + label {
+  --db-focus-outline-size: max(2px, 0.08em);
   align-items: center;
   border: solid 1px #878c96;
   border-radius: 0.25rem;
@@ -5750,10 +5744,10 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 .elm-chip:disabled + label {
   opacity: 0.5;
 }
-.elm-chip[type=checkbox], .elm-chip[type=radio] {
-  display: none;
+.elm-chip:focus-visible + label {
+  outline: var(--db-focus-outline-size) var(--db-focus-outline-style, solid) var(--db-focus-outline-color, currentColor);
+  outline-offset: var(--db-focus-outline-offset, var(--db-focus-outline-size));
 }
-
 /* tag */
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
@@ -6098,13 +6092,15 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   padding-right: 1rem;
 }
 .cmp-accordion summary {
-  --icon-glyph-after: "⌄";
   align-items: center;
   display: flex;
   justify-content: space-between;
   padding-block: 0.75rem;
   transform: translateX(calc(var(--db-accordion---paddingLeft) * -1));
   width: calc(100% + var(--db-accordion---paddingLeft) + 1rem);
+}
+.cmp-accordion summary {
+  --icon-glyph-after: "⌄";
 }
 .cmp-accordion summary::after {
   --icon-font-family: "icons-24-outline",
@@ -6184,9 +6180,23 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
+.rea-header:has(.cmp-sitesearch):has(.cmp-metanavigation) .cmp-sitesearch::before, .cmp-mainnavigation::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 1.5rem;
+  background-color: rgba(40, 45, 55, 0.2);
+  inset-block-start: 50%;
+  transform: translateY(-50%);
+}
+
 .cmp-mainnavigation {
-  position: relative;
   top: 0;
+  padding-inline-start: 1.5rem;
+  position: relative;
+}
+.cmp-mainnavigation::before {
+  inset-inline-start: 0;
 }
 .rea-header .cmp-mainnavigation {
   order: 1;
@@ -6202,18 +6212,25 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   display: inline-block;
   text-decoration: none;
 }
+.cmp-mainnavigation > input[type=checkbox][id] {
+  appearance: none;
+  position: absolute;
+  block-size: 1.5rem;
+  aspect-ratio: 1/1;
+}
 @media screen and (width > 1023px) {
   .cmp-mainnavigation > input[type=checkbox][id], .cmp-mainnavigation > input[type=checkbox][id] + label[for] {
     display: none;
   }
 }
 .cmp-mainnavigation > label[for] {
-  --icon-glyph-before: "󡄢";
-  --icon-glyph-after: "⨯";
   background-color: #fdfdfd;
   border-bottom: 1px solid #f5f4f1;
   display: block;
   padding: 0.5rem 1.375rem 0.625rem;
+}
+.cmp-mainnavigation > label[for] {
+  --icon-glyph-before: "󡄢";
 }
 .cmp-mainnavigation > label[for]::before {
   --icon-font-family: "icons-24-outline",
@@ -6226,6 +6243,9 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   .cmp-mainnavigation > label[for]::before {
     content: var(--icon-glyph-before)/"";
   }
+}
+.cmp-mainnavigation > label[for] {
+  --icon-glyph-after: "⨯";
 }
 .cmp-mainnavigation > label[for]::after {
   --icon-font-family: "icons-24-outline",
@@ -6243,24 +6263,78 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   margin-right: 1rem;
 }
 .cmp-mainnavigation > label[for]::after {
-  position: absolute;
-  right: 1rem;
-  transform: translateY(0.125rem);
+  margin-right: 1rem;
 }
 @media screen and (max-width: 1023px) {
   .cmp-mainnavigation {
-    background-color: #3c414b;
-    left: 0;
-    position: absolute;
-    top: 4rem;
-    width: 100vw;
     z-index: 30;
+  }
+  .cmp-mainnavigation > input[type=checkbox][id] + label[for] {
+    padding: 0;
+  }
+  .cmp-mainnavigation > input[type=checkbox][id] + label[for] {
+    font-size: 0;
+  }
+  .cmp-mainnavigation > input[type=checkbox][id] + label[for]::before {
+    --icon-margin-after: 0;
+  }
+  .cmp-mainnavigation > input[type=checkbox][id] + label[for]::before, .cmp-mainnavigation > input[type=checkbox][id] + label[for]::after {
+    margin: 0;
   }
   .cmp-mainnavigation > input[type=checkbox][id]:not(:checked) + label[for]::after {
     content: none;
   }
   .cmp-mainnavigation > input[type=checkbox][id]:not(:checked) ~ ul {
     display: none;
+  }
+  .cmp-mainnavigation > input[type=checkbox][id]:checked {
+    inset-inline-end: 1.5rem;
+    inset-block-start: 1rem;
+    position: absolute;
+    z-index: 50;
+  }
+  .cmp-mainnavigation > input[type=checkbox][id]:checked + label[for] {
+    background-color: #fff;
+    block-size: 3.5rem;
+  }
+  .cmp-mainnavigation > input[type=checkbox][id]:checked + label[for]::after {
+    padding: 0.5rem;
+    inset-inline-end: 1rem;
+    inset-block-start: 0.5rem;
+    position: absolute;
+    z-index: 50;
+  }
+  .cmp-mainnavigation > input[type=checkbox][id]:checked + label[for]::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 30;
+    background-color: #282d37;
+    opacity: 0.8;
+  }
+  .cmp-mainnavigation:has(> input[type=checkbox][id]:not(:checked)) {
+    position: absolute;
+    inset-inline-end: 1.5rem;
+    inset-block-start: 50%;
+    transform: translateY(-50%);
+    padding-inline-start: 1rem;
+  }
+  .cmp-mainnavigation:has(> input[type=checkbox][id]:checked) {
+    position: fixed;
+    inset: 0;
+    padding: 0;
+    margin-inline-start: 1.5rem;
+  }
+  .cmp-mainnavigation:has(> input[type=checkbox][id]:checked)::after {
+    content: "";
+    width: 100%;
+    block-size: 3.5rem;
+    background-color: #fff;
+    inset: 0;
+    position: absolute;
+    z-index: 30;
+    border-bottom: 1px solid rgba(40, 45, 55, 0.2);
+    border-top-left-radius: 4px;
   }
 }
 .cmp-mainnavigation ul {
@@ -6279,33 +6353,62 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
     display: none;
   }
 }
+@media screen and (max-width: 1023px) {
+  .cmp-mainnavigation > ul {
+    background-color: #fff;
+    position: absolute;
+    inset-inline: 0;
+    inset-block-end: 0;
+    inset-block-start: 3.5rem;
+    z-index: 50;
+    padding: 0.75rem;
+    margin-block-end: 3.5rem;
+    overflow: auto;
+  }
+}
 @media screen and (width > 1023px) {
   .cmp-mainnavigation > ul {
     display: flex;
+    gap: 0.75rem;
   }
 }
 @media screen and (width > 1023px) {
   .cmp-mainnavigation > ul > li > .elm-link, .cmp-mainnavigation > ul > li > * > .elm-link, .cmp-mainnavigation > ul > * > li > .elm-link, .cmp-mainnavigation > ul > * > li > * > .elm-link {
-    padding: 2rem 1.625rem 1.1875rem;
-    border-bottom: 4px solid transparent;
+    height: 2.5rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
   }
   .cmp-mainnavigation > ul > li > .elm-link:hover, .cmp-mainnavigation > ul > li > .elm-link:focus, .cmp-mainnavigation > ul > li > * > .elm-link:hover, .cmp-mainnavigation > ul > li > * > .elm-link:focus, .cmp-mainnavigation > ul > * > li > .elm-link:hover, .cmp-mainnavigation > ul > * > li > .elm-link:focus, .cmp-mainnavigation > ul > * > li > * > .elm-link:hover, .cmp-mainnavigation > ul > * > li > * > .elm-link:focus {
     border-bottom-color: #d7dce1;
   }
-  .cmp-mainnavigation > ul > li > .elm-link[aria-current=page], .cmp-mainnavigation > ul > li > * > .elm-link[aria-current=page], .cmp-mainnavigation > ul > * > li > .elm-link[aria-current=page], .cmp-mainnavigation > ul > * > li > * > .elm-link[aria-current=page] {
-    border-bottom-color: #ec0016;
+  .cmp-mainnavigation > ul > li > .elm-link[aria-current=page]::after, .cmp-mainnavigation > ul > li > * > .elm-link[aria-current=page]::after, .cmp-mainnavigation > ul > * > li > .elm-link[aria-current=page]::after, .cmp-mainnavigation > ul > * > li > * > .elm-link[aria-current=page]::after {
+    height: 4px;
+    width: 100%;
+    content: "";
+    background-color: #ec0016;
+    border-radius: 2px;
+    position: absolute;
+    inset-block-start: calc(100% + 0.25rem);
+    inset-inline: 0;
   }
 }
 @media screen and (width > 1023px) {
   .cmp-mainnavigation > ul > li ul, .cmp-mainnavigation > ul > * > li ul {
-    left: 0;
+    inset-inline-start: 0;
     min-width: 100%;
-    top: 4.9375rem;
+    inset-block-start: calc(100% + 0.5rem);
+  }
+  .cmp-mainnavigation > ul > li ul::before, .cmp-mainnavigation > ul > * > li ul::before {
+    content: "";
+    height: 0.5rem;
+    width: 100%;
+    position: absolute;
+    inset-block-end: 100%;
   }
   .cmp-mainnavigation > ul > li ul ul, .cmp-mainnavigation > ul > * > li ul ul {
-    left: 100%;
+    inset-inline-start: 100%;
     top: auto;
-    transform: translateY(-3.3125rem);
+    inset-block-start: 0.25rem;
   }
   .cmp-mainnavigation > ul > li ul .elm-link, .cmp-mainnavigation > ul > * > li ul .elm-link {
     align-items: center;
@@ -6349,31 +6452,26 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   right: 1rem;
   top: 0.5625rem;
 }
-.cmp-mainnavigation li:hover > ul, .cmp-mainnavigation li:hover > * > ul {
+.cmp-mainnavigation li:is(:hover, :focus-within) > ul, .cmp-mainnavigation li:is(:hover, :focus-within) > * > ul {
   visibility: visible;
 }
 @media screen and (max-width: 1023px) {
-  .cmp-mainnavigation li:hover > ul, .cmp-mainnavigation li:hover > * > ul {
+  .cmp-mainnavigation li:is(:hover, :focus-within) > ul, .cmp-mainnavigation li:is(:hover, :focus-within) > * > ul {
     display: initial;
   }
 }
 @media screen and (max-width: 1023px) {
-  .cmp-mainnavigation li {
-    background-color: #3c414b;
-    color: #fdfdfd;
-  }
-  .cmp-mainnavigation li:hover {
-    background-color: #afb4bb;
-    color: #131821;
-  }
   .cmp-mainnavigation li:hover > a {
     font-weight: 700;
   }
+  .cmp-mainnavigation li:hover[aria-haspopup=true] {
+    --icon-glyph-after: "⌄";
+  }
   .cmp-mainnavigation li .elm-link {
     color: inherit;
-    padding-bottom: 0.5rem;
-    padding-left: 1.375rem;
-    padding-top: 0.5rem;
+    padding-block: 0.5rem;
+    padding-inline-start: 0.75rem;
+    width: calc(100% - 4rem);
   }
   .cmp-mainnavigation li[aria-haspopup=true] {
     position: relative;
@@ -6383,9 +6481,15 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   .cmp-mainnavigation li[aria-haspopup=true]::after {
     content: none;
   }
-  .cmp-mainnavigation li .elm-link:hover, .cmp-mainnavigation li .elm-link:focus {
-    background-color: #d7dce1;
+  .cmp-mainnavigation li .elm-link {
+    background-color: rgba(40, 45, 55, 0);
+  }
+  .cmp-mainnavigation li .elm-link:hover {
+    background-color: rgba(40, 45, 55, 0.08);
     color: initial;
+  }
+  .cmp-mainnavigation li .elm-link:active {
+    background-color: rgba(40, 45, 55, 0.16);
   }
   .cmp-mainnavigation li .elm-link[aria-current=page] {
     font-weight: 700;
@@ -6414,6 +6518,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 0;
+  gap: 0.5rem;
 }
 .cmp-metanavigation li {
   padding-left: 0.5rem;
@@ -6426,19 +6531,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 .cmp-metanavigation li .elm-link {
   text-decoration: none;
 }
-.cmp-sitesearch:focus-within ~ .cmp-metanavigation li .elm-link {
+.cmp-metanavigation li .elm-link {
   font-size: 0;
 }
-.cmp-sitesearch:focus-within ~ .cmp-metanavigation li .elm-link::before {
+.cmp-metanavigation li .elm-link::before {
   --icon-margin-after: 0;
-}
-@media screen and (max-width: 41rem) {
-  .rea-header .cmp-metanavigation li .elm-link {
-    font-size: 0;
-  }
-  .rea-header .cmp-metanavigation li .elm-link::before {
-    --icon-margin-after: 0;
-  }
 }
 .rea-footer .cmp-metanavigation {
   flex-wrap: wrap;
@@ -6460,29 +6557,22 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
-.cmp-brand .elm-image.is-logo {
-  float: left;
-  margin-top: -0.125rem;
+.cmp-brand {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.cmp-brand a,
+.cmp-brand img {
+  height: 1.5rem;
+}
+.cmp-brand img {
+  width: auto;
 }
 .cmp-brand a {
   color: inherit;
   text-decoration: none;
-}
-.rea-header .cmp-brand {
-  padding-top: 1.125rem;
-}
-@media screen and (width > 1023px) {
-  .rea-header .cmp-brand {
-    padding-top: 2rem;
-  }
-  .rea-header .cmp-brand .is-site-name::before {
-    content: none !important;
-  }
-}
-@media screen and (max-width: 1023px) {
-  .rea-header .cmp-mainnavigation ~ .cmp-brand .is-site-name {
-    display: none;
-  }
 }
 
 /* sitesearch */
@@ -6501,29 +6591,177 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
+/* *****
+	This file summarizes the general variables relevant for using DB UI Core with SCSS.
+***** */
+.elm-input, .elm-textarea, .elm-select {
+  --formElement---borderTopColor: var(
+  	--formElement---borderColor,
+  	transparent
+  );
+  --formElement---borderRightColor: var(
+  	--formElement---borderColor,
+  	transparent
+  );
+  --formElement---borderBottomColor: var(
+  	--formElement---borderColor,
+  	rgba(40, 45, 55, 0.5)
+  );
+  --formElement---borderLeftColor: var(
+  	--formElement---borderColor,
+  	transparent
+  );
+  border-radius: 4px;
+  caret-color: #ec0016;
+  color: #282d37;
+}
+.elm-input ~ .description, .elm-textarea ~ .description, .elm-select ~ .description {
+  color: #646973;
+  font-size: 0.875rem;
+  padding: 0.375rem 0.625rem;
+}
+
+:where(.elm-input[type=color], .elm-input[type=date], .elm-input[type=datetime-local], .elm-input[type=email], .elm-input[type=month], .elm-input[type=number], .elm-input[type=password], :where(:not(.cmp-sitesearch)) > .elm-input[type=search], .elm-input[type=tel], .elm-input[type=text], .elm-input[type=time], .elm-input[type=url], .elm-input[type=week]), .elm-input[type=color][data-variant=semitransparent], .elm-input[type=date][data-variant=semitransparent], .elm-input[type=datetime-local][data-variant=semitransparent], .elm-input[type=email][data-variant=semitransparent], .elm-input[type=month][data-variant=semitransparent], .elm-input[type=number][data-variant=semitransparent], .elm-input[type=password][data-variant=semitransparent], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=semitransparent], .elm-input[type=tel][data-variant=semitransparent], .elm-input[type=text][data-variant=semitransparent], .elm-input[type=time][data-variant=semitransparent], .elm-input[type=url][data-variant=semitransparent], .elm-input[type=week][data-variant=semitransparent], :not(.cmp-sitesearch) > .elm-input[type=search], :where(.elm-textarea), .elm-textarea[data-variant=semitransparent], :where(.elm-select:not([multiple])), .elm-select[data-variant=semitransparent] {
+  --formElement---borderColor: rgba(40, 45, 55, 0.5);
+  background-color: rgba(40, 45, 55, 0.05);
+  border-bottom: 1px solid var(--formElement---borderBottomColor);
+  border-left: 1px solid var(--formElement---borderLeftColor);
+  border-left-color: transparent;
+  border-right: 1px solid var(--formElement---borderRightColor);
+  border-right-color: transparent;
+  border-top: 1px solid var(--formElement---borderTopColor);
+  border-top-color: transparent;
+}
+
+.elm-input[type=color][data-variant=white], .elm-input[type=date][data-variant=white], .elm-input[type=datetime-local][data-variant=white], .elm-input[type=email][data-variant=white], .elm-input[type=month][data-variant=white], .elm-input[type=number][data-variant=white], .elm-input[type=password][data-variant=white], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=white], .elm-input[type=tel][data-variant=white], .elm-input[type=text][data-variant=white], .elm-input[type=time][data-variant=white], .elm-input[type=url][data-variant=white], .elm-input[type=week][data-variant=white], .elm-textarea[data-variant=white], .elm-select[data-variant=white] {
+  --formElement---borderColor: rgba(40, 45, 55, 0.5);
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--formElement---borderBottomColor);
+  border-left: 1px solid var(--formElement---borderLeftColor);
+  border-left-color: transparent;
+  border-right: 1px solid var(--formElement---borderRightColor);
+  border-right-color: transparent;
+  border-top: 1px solid var(--formElement---borderTopColor);
+  border-top-color: transparent;
+}
+
+.cmp-sitesearch .elm-input[type=search], .elm-input[type=color][data-variant=solid], .elm-input[type=date][data-variant=solid], .elm-input[type=datetime-local][data-variant=solid], .elm-input[type=email][data-variant=solid], .elm-input[type=month][data-variant=solid], .elm-input[type=number][data-variant=solid], .elm-input[type=password][data-variant=solid], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=solid], .elm-input[type=tel][data-variant=solid], .elm-input[type=text][data-variant=solid], .elm-input[type=time][data-variant=solid], .elm-input[type=url][data-variant=solid], .elm-input[type=week][data-variant=solid], .elm-textarea[data-variant=solid], .elm-select[data-variant=solid] {
+  --formElement---borderColor: rgba(40, 45, 55, 0.5);
+  background-color: #f0f3f5;
+  border-bottom: 1px solid var(--formElement---borderBottomColor);
+  border-left: 1px solid var(--formElement---borderLeftColor);
+  border-left-color: transparent;
+  border-right: 1px solid var(--formElement---borderRightColor);
+  border-right-color: transparent;
+  border-top: 1px solid var(--formElement---borderTopColor);
+  border-top-color: transparent;
+}
+
+.elm-input[type=color][data-variant=outline], .elm-input[type=date][data-variant=outline], .elm-input[type=datetime-local][data-variant=outline], .elm-input[type=email][data-variant=outline], .elm-input[type=month][data-variant=outline], .elm-input[type=number][data-variant=outline], .elm-input[type=password][data-variant=outline], :where(:not(.cmp-sitesearch)) > .elm-input[type=search][data-variant=outline], .elm-input[type=tel][data-variant=outline], .elm-input[type=text][data-variant=outline], .elm-input[type=time][data-variant=outline], .elm-input[type=url][data-variant=outline], .elm-input[type=week][data-variant=outline], .elm-textarea[data-variant=outline], .elm-select[data-variant=outline] {
+  --formElement---borderColor: rgba(40, 45, 55, 0.25);
+  background-color: transparent;
+  border-bottom: 1px solid var(--formElement---borderBottomColor);
+  border-left: 1px solid var(--formElement---borderLeftColor);
+  border-right: 1px solid var(--formElement---borderRightColor);
+  border-top: 1px solid var(--formElement---borderTopColor);
+}
+
+.elm-input[type=color]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=date]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=datetime-local]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=email]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=month]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=number]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=password]:not([aria-invalid]):not(:placeholder-shown):valid, :where(:not(.cmp-sitesearch)) > .elm-input[type=search]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=tel]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=text]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=time]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=url]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-input[type=week]:not([aria-invalid]):not(:placeholder-shown):valid, .elm-textarea:not([aria-invalid]):not(:placeholder-shown):valid {
+  --formElement---borderColor: #2a7230;
+}
+.elm-input[type=color]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=date]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=datetime-local]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=email]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=month]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=number]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=password]:not([aria-invalid]):not(:placeholder-shown):invalid, :where(:not(.cmp-sitesearch)) > .elm-input[type=search]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=tel]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=text]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=time]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=url]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-input[type=week]:not([aria-invalid]):not(:placeholder-shown):invalid, .elm-textarea:not([aria-invalid]):not(:placeholder-shown):invalid {
+  --formElement---borderColor: #ec0016;
+}
+
+[aria-invalid=true].elm-input[type=color], [aria-invalid=true].elm-input[type=date], [aria-invalid=true].elm-input[type=datetime-local], [aria-invalid=true].elm-input[type=email], [aria-invalid=true].elm-input[type=month], [aria-invalid=true].elm-input[type=number], [aria-invalid=true].elm-input[type=password], :where(:not(.cmp-sitesearch)) > [aria-invalid=true].elm-input[type=search], [aria-invalid=true].elm-input[type=tel], [aria-invalid=true].elm-input[type=text], [aria-invalid=true].elm-input[type=time], [aria-invalid=true].elm-input[type=url], [aria-invalid=true].elm-input[type=week], [aria-invalid=true].elm-textarea, [aria-invalid=true].elm-select:not([multiple]) {
+  --formElement---borderColor: #ec0016;
+}
+
+.elm-input:is([type=email],
+[type=password],
+[type=search],
+[type=tel],
+[type=text],
+[type=url]) + label + output:has(+ .description), .elm-textarea + output:has(+ .description) {
+  float: right;
+}
+@supports (inset-area: block-end span-inline-start) {
+  .elm-input:is([type=email],
+  [type=password],
+  [type=search],
+  [type=tel],
+  [type=text],
+  [type=url]) + label + output:not(:has(+ .description)), .elm-textarea + output:not(:has(+ .description)) {
+    position: absolute;
+    inset-area: block-end span-inline-start;
+  }
+}
+.elm-input:is([type=email],
+[type=password],
+[type=search],
+[type=tel],
+[type=text],
+[type=url]) + label + output, .elm-textarea + output, .elm-input:is([type=email],
+[type=password],
+[type=search],
+[type=tel],
+[type=text],
+[type=url]) + label + output + .description, .elm-textarea + output + .description {
+  color: #646973;
+  font-size: 0.875rem;
+  padding: 0.375rem 0.625rem;
+}
+
+.elm-checkbox:has(+ label)::after, .elm-radio:has(+ label)::after {
+  content: "";
+  width: calc(var(--db-form-element-dimensions) + 0.25rem);
+  height: var(--db-form-element-dimensions);
+  transform: translateX(0.25rem);
+  position: absolute;
+}
+
 .cmp-sitesearch {
   position: relative;
+  display: flex;
+  align-items: center;
+  padding-inline-end: 0.75rem;
+}
+@media screen and (max-width: 1023px) {
+  .cmp-sitesearch {
+    margin-inline-start: auto;
+    margin-inline-end: 2.25rem;
+    padding-inline-end: 2rem;
+  }
+  .cmp-sitesearch::before {
+    display: none;
+  }
 }
 .cmp-sitesearch .elm-input[type=search] {
-  background-color: #fdfdfd;
   background-image: none;
   opacity: 0;
-  padding-left: 2.25em;
   width: 0;
+  padding: 0;
 }
 .cmp-sitesearch .elm-input[type=search]:focus, .cmp-sitesearch .elm-input[type=search]:not(:placeholder-shown) {
   opacity: 1;
-  width: 15rem;
+  width: calc(15rem + 1rem);
+  padding-inline-start: 1rem;
+  padding-inline-end: 3rem;
+  padding-top: 0;
 }
 .cmp-sitesearch .elm-input[type=search]:focus + .elm-label, .cmp-sitesearch .elm-input[type=search]:not(:placeholder-shown) + .elm-label {
   display: none;
 }
 .cmp-sitesearch .elm-input[type=search]:focus ~ .elm-button, .cmp-sitesearch .elm-input[type=search]:not(:placeholder-shown) ~ .elm-button {
-  display: initial;
+  display: flex;
+}
+.cmp-sitesearch .elm-label {
+  padding: 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
 }
 .cmp-sitesearch .elm-label {
   --icon-glyph-before: "󡉔";
-  display: inline-block;
 }
 .cmp-sitesearch .elm-label::before {
   --icon-font-family: "icons-24-outline",
@@ -6538,27 +6776,29 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   }
 }
 .cmp-sitesearch .elm-label::before {
-  font-size: 1.375rem;
   vertical-align: top;
 }
-.rea-header .cmp-sitesearch .elm-label {
-  padding-top: 0.625rem;
+.rea-meta .cmp-sitesearch .elm-label {
+  font-size: 0;
 }
-@media screen and (max-width: 41rem) {
-  .rea-meta .cmp-sitesearch .elm-label {
-    font-size: 0;
-  }
-  .rea-meta .cmp-sitesearch .elm-label::before {
-    --icon-margin-after: 0;
-  }
+.rea-meta .cmp-sitesearch .elm-label::before {
+  --icon-margin-after: 0;
+}
+.cmp-sitesearch .elm-button {
+  display: none;
+  position: absolute;
+  padding: 0.5rem;
+  inset-inline-end: 0.75rem;
+  border: 0;
+}
+.cmp-sitesearch .elm-button {
+  font-size: 0;
+}
+.cmp-sitesearch .elm-button::before {
+  --icon-margin-after: 0;
 }
 .cmp-sitesearch .elm-button {
   --icon-glyph-before: "󡉔";
-  display: none;
-  left: 0;
-  position: absolute;
-  top: 0.5em;
-  visibility: hidden;
 }
 .cmp-sitesearch .elm-button::before {
   --icon-font-family: "icons-24-outline",
@@ -6572,25 +6812,29 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
     content: var(--icon-glyph-before)/"";
   }
 }
-.cmp-sitesearch .elm-button::before {
-  left: 0.25rem;
-  margin: -9px;
-  padding: 9px;
-  position: absolute;
-  top: -0.125rem;
-  visibility: visible;
+.cmp-sitesearch .elm-label,
+.cmp-sitesearch .elm-button {
+  background-color: rgba(40, 45, 55, 0);
 }
-.rea-meta .cmp-sitesearch {
-  margin-right: 0.5rem;
+.cmp-sitesearch .elm-label:hover,
+.cmp-sitesearch .elm-button:hover {
+  background-color: rgba(40, 45, 55, 0.08);
+}
+.cmp-sitesearch .elm-label:active,
+.cmp-sitesearch .elm-button:active {
+  background-color: rgba(40, 45, 55, 0.16);
 }
 @media screen and (max-width: 31.25rem) {
-  .rea-meta .cmp-sitesearch:focus-within {
+  .cmp-sitesearch:focus-within, .cmp-sitesearch:has(.elm-input[type=search]:not(:placeholder-shown)) {
     left: 1rem;
     position: absolute;
     z-index: 10;
   }
-  .rea-meta .cmp-sitesearch:focus-within .elm-input[type=search] {
-    width: calc(100vw - 2rem);
+  .cmp-sitesearch:focus-within .elm-input[type=search], .cmp-sitesearch:has(.elm-input[type=search]:not(:placeholder-shown)) .elm-input[type=search] {
+    width: calc(100vw - 5.5rem);
+  }
+  .cmp-sitesearch .elm-button {
+    inset-inline-end: 2rem;
   }
 }
 
@@ -6712,11 +6956,12 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   }
 }
 .cmp-dialog header .elm-link.is-close {
-  --icon-glyph-before: "⨯";
-  font-size: 0;
   position: absolute;
   right: 0;
   top: 0;
+}
+.cmp-dialog header .elm-link.is-close {
+  --icon-glyph-before: "⨯";
 }
 .cmp-dialog header .elm-link.is-close::before {
   --icon-font-family: "icons-24-outline",
@@ -6729,6 +6974,9 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   .cmp-dialog header .elm-link.is-close::before {
     content: var(--icon-glyph-before)/"";
   }
+}
+.cmp-dialog header .elm-link.is-close {
+  font-size: 0;
 }
 .cmp-dialog header .elm-link.is-close::before {
   --icon-margin-after: 0;
@@ -6783,30 +7031,30 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   top: 1.625rem;
 }
 .rea-header .cmp-language-switcher li {
-  top: 3.4375rem;
+  top: calc(var(--db-language-switcher---direction, 1) * (100% * 1 + 1rem - 2px));
   z-index: 40;
 }
 .rea-header .cmp-language-switcher li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) {
-  top: 6.75rem;
+  top: calc(var(--db-language-switcher---direction, 1) * (100% * 2 + 1rem - 2px));
 }
 .rea-header .cmp-language-switcher li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) {
-  top: 10.125rem;
+  top: calc(var(--db-language-switcher---direction, 1) * (100% * 3 + 1rem - 2px));
 }
 .rea-header .cmp-language-switcher li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) {
-  top: 13.5rem;
+  top: calc(var(--db-language-switcher---direction, 1) * (100% * 4 + 1rem - 2px));
 }
 .rea-header .cmp-language-switcher li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page],
 [aria-selected=true]) {
-  top: 16.875rem;
+  top: calc(var(--db-language-switcher---direction, 1) * (100% * 5 + 1rem - 2px));
 }
 .rea-header .cmp-language-switcher li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page],
 [aria-selected=true]) ~ li:not([aria-current=page],
 [aria-selected=true]) {
-  top: 20.25rem;
+  top: calc(var(--db-language-switcher---direction, 1) * (100% * 6 + 1rem - 2px));
 }
 @media screen and (width > 1023px) {
   .rea-header .cmp-language-switcher li {
-    top: 3.5rem;
+    top: 100%;
   }
 }
 .cmp-language-switcher li .elm-link,
@@ -6819,9 +7067,8 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 }
 .cmp-language-switcher li:not([aria-current], [aria-selected]) .elm-link,
 .cmp-language-switcher li:not([aria-current], [aria-selected]) .elm-button {
-  padding-bottom: 0.9375rem;
+  padding-block: 1rem;
   padding-right: 2.125rem;
-  padding-top: 0.9375rem;
 }
 .cmp-language-switcher li:not([aria-current], [aria-selected]) .elm-link:hover, .cmp-language-switcher li:not([aria-current], [aria-selected]) .elm-link:focus,
 .cmp-language-switcher li:not([aria-current], [aria-selected]) .elm-button:hover,
@@ -6835,7 +7082,6 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 .cmp-language-switcher li[aria-current] .elm-button, .cmp-language-switcher li[aria-selected] .elm-link,
 .cmp-language-switcher li[aria-selected] .elm-button {
   --icon-glyph-after: "⌄";
-  padding-bottom: 1.375rem;
 }
 .cmp-language-switcher li[aria-current] .elm-link::after,
 .cmp-language-switcher li[aria-current] .elm-button::after, .cmp-language-switcher li[aria-selected] .elm-link::after,
@@ -6930,7 +7176,6 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 }
 .cmp-pagination .elm-link[rel=prev] {
   --icon-glyph-before: "<";
-  font-size: 0;
 }
 .cmp-pagination .elm-link[rel=prev]::before {
   --icon-font-family: "icons-24-outline",
@@ -6944,12 +7189,14 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
     content: var(--icon-glyph-before)/"";
   }
 }
+.cmp-pagination .elm-link[rel=prev] {
+  font-size: 0;
+}
 .cmp-pagination .elm-link[rel=prev]::before {
   --icon-margin-after: 0;
 }
 .cmp-pagination .elm-link[rel=next] {
   --icon-glyph-before: ">";
-  font-size: 0;
 }
 .cmp-pagination .elm-link[rel=next]::before {
   --icon-font-family: "icons-24-outline",
@@ -6962,6 +7209,9 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   .cmp-pagination .elm-link[rel=next]::before {
     content: var(--icon-glyph-before)/"";
   }
+}
+.cmp-pagination .elm-link[rel=next] {
+  font-size: 0;
 }
 .cmp-pagination .elm-link[rel=next]::before {
   --icon-margin-after: 0;
@@ -7115,29 +7365,28 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 .cmp-tab-bar {
   display: flex;
   flex-wrap: wrap;
-}
-.cmp-tab-bar label[role=tab],
-.cmp-tab-bar section[role=tabpanel] {
-  background-color: #fdfdfd;
+  gap: 0.25rem;
 }
 .cmp-tab-bar > input[type=radio] + label[role=tab], .cmp-tab-bar > * > input[type=radio] + label[role=tab] {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
   cursor: pointer;
-  display: inline-block;
-  margin-left: 0.5rem;
-  padding: 0.3125rem 2rem;
+  display: flex;
+  padding: 0.875rem 1rem;
   position: relative;
   z-index: 1;
+  border-radius: 4px;
+  align-items: center;
 }
-.cmp-tab-bar > input[type=radio] + label[role=tab]:first-of-type, .cmp-tab-bar > * > input[type=radio] + label[role=tab]:first-of-type {
-  margin-left: 1rem;
+.cmp-tab-bar > input[type=radio] + label[role=tab]::before, .cmp-tab-bar > * > input[type=radio] + label[role=tab]::before {
+  margin-inline-start: -0.125rem;
 }
 .cmp-tab-bar > input[type=radio]:focus + label, .cmp-tab-bar > * > input[type=radio]:focus + label {
   outline: 1px dotted #878c96;
 }
 .cmp-tab-bar > input[type=radio]:not(:checked) + label[role=tab]:hover, .cmp-tab-bar > input[type=radio]:not(:checked) + label[role=tab]:focus, .cmp-tab-bar > * > input[type=radio]:not(:checked) + label[role=tab]:hover, .cmp-tab-bar > * > input[type=radio]:not(:checked) + label[role=tab]:focus {
-  background-color: #f0f3f5;
+  background-color: #282d371F;
+}
+.cmp-tab-bar > input[type=radio]:not(:checked) + label[role=tab]:active, .cmp-tab-bar > * > input[type=radio]:not(:checked) + label[role=tab]:active {
+  background-color: #282d373D;
 }
 .cmp-tab-bar > input[type=radio]:disabled + label[role=tab], .cmp-tab-bar > * > input[type=radio]:disabled + label[role=tab] {
   color: #878c96;
@@ -7146,22 +7395,33 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   background-color: unset;
 }
 .cmp-tab-bar > input[type=radio]:checked + label[role=tab], .cmp-tab-bar > * > input[type=radio]:checked + label[role=tab] {
-  border: 0.0625rem solid #646973;
-  border-bottom: none;
   font-weight: 700;
-  padding-top: 0.1875rem;
-  transform: translateY(0.0625rem);
 }
 .cmp-tab-bar > input[type=radio]:checked + label[role=tab] + section[role=tabpanel], .cmp-tab-bar > * > input[type=radio]:checked + label[role=tab] + section[role=tabpanel] {
   display: initial;
 }
+.cmp-tab-bar > input[type=radio]:checked + label[role=tab]::after, .cmp-tab-bar > * > input[type=radio]:checked + label[role=tab]::after {
+  background-color: #ec0016;
+  border-radius: 5px;
+  content: "";
+  display: block;
+  height: 0.25rem;
+  inset-block-end: 0;
+  inset-inline: 0;
+  position: absolute;
+}
+.cmp-tab-bar label[role=tab],
 .cmp-tab-bar section[role=tabpanel] {
-  border-top: 0.0625rem solid #646973;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08), 0 15px 30px rgba(0, 0, 0, 0.05);
+  background-color: #fdfdfd;
+}
+.cmp-tab-bar section[role=tabpanel] {
   display: none;
   flex-basis: 100%;
   order: 1;
-  padding: 2.875rem 3.125rem;
+  margin-block-start: 0.125rem;
+}
+.cmp-tab-bar[data-size=small] > input[type=radio] + label[role=tab], .cmp-tab-bar[data-size=small] > * > input[type=radio] + label[role=tab] {
+  padding-block: 0.625rem;
 }
 
 /* table */
@@ -7305,9 +7565,11 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   padding-left: 0;
 }
 .cmp-link-list li .elm-link {
-  --icon-glyph-before: ">";
   font-weight: 700;
   text-decoration: none;
+}
+.cmp-link-list li .elm-link {
+  --icon-glyph-before: ">";
 }
 .cmp-link-list li .elm-link::before {
   --icon-font-family: "icons-24-outline",
@@ -7361,8 +7623,15 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   --icon-margin-after: 0;
 }
 .cmp-overflow-menu summary, .cmp-dropdown summary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  cursor: default;
+  background-color: rgba(40, 45, 55, 0);
+}
+.cmp-overflow-menu summary, .cmp-dropdown summary {
   --icon-glyph-before: "⋮";
-  display: inline-block;
 }
 .cmp-overflow-menu summary::before, .cmp-dropdown summary::before {
   --icon-font-family: "icons-20-outline",
@@ -7377,12 +7646,13 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   }
 }
 .cmp-overflow-menu summary::before, .cmp-dropdown summary::before {
-  display: inline-block;
-  padding: 0.5625rem 0.75rem;
   transform: translateX(-0.125rem);
 }
-.cmp-overflow-menu summary:hover::before, .cmp-dropdown summary:hover::before, .cmp-overflow-menu summary:focus::before, .cmp-dropdown summary:focus::before {
-  background-color: #d7dce1;
+.cmp-overflow-menu summary:hover, .cmp-dropdown summary:hover {
+  background-color: rgba(40, 45, 55, 0.08);
+}
+.cmp-overflow-menu summary:active, .cmp-dropdown summary:active {
+  background-color: rgba(40, 45, 55, 0.16);
 }
 .cmp-overflow-menu summary::-webkit-details-marker, .cmp-dropdown summary::-webkit-details-marker {
   display: none;
@@ -7518,9 +7788,6 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
     content: var(--icon-glyph-before)/"";
   }
 }
-.cmp-dropdown.is-account summary:hover::before {
-  color: #ec0016;
-}
 @media screen and (max-width: 41rem) {
   .cmp-dropdown.is-account summary {
     font-size: 0;
@@ -7588,28 +7855,66 @@ body.has-fixed-footer .rea-footer {
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
+.rea-header:has(.cmp-sitesearch):has(.cmp-metanavigation) .cmp-sitesearch::before, .cmp-mainnavigation::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 1.5rem;
+  background-color: rgba(40, 45, 55, 0.2);
+  inset-block-start: 50%;
+  transform: translateY(-50%);
+}
+
 .rea-header {
   background-color: #fdfdfd;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 1px rgba(0, 0, 0, 0.05);
-  display: flex;
-  justify-content: space-between;
+  align-items: center;
   margin-bottom: 1rem;
-  min-height: 4.9375rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  min-block-size: 3.5rem;
+  padding-inline: 1.5rem;
+  padding-block: 0.875rem;
 }
-.rea-header:not(:has(.rea-meta))::after {
-  content: "";
-  display: inline-block;
-  order: 3;
-}
-.rea-header .elm-link {
-  display: inline-block;
+.rea-header:has(.cmp-sitesearch):has(.cmp-metanavigation) .cmp-sitesearch::before {
+  inset-inline-end: 0;
 }
 @media screen and (max-width: 1023px) {
   .rea-header {
     border-bottom: 0.0625rem solid #9c9a8e;
-    min-height: 4rem;
+    position: relative;
+  }
+  .rea-header:has(.cmp-mainnavigation > input[type=checkbox][id]:not(:checked)) .rea-meta {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+  }
+  .rea-header:has(.cmp-mainnavigation > input[type=checkbox][id]:not(:checked)) .rea-meta > .elm-link,
+  .rea-header:has(.cmp-mainnavigation > input[type=checkbox][id]:not(:checked)) .rea-meta .cmp-metanavigation,
+  .rea-header:has(.cmp-mainnavigation > input[type=checkbox][id]:not(:checked)) .rea-meta .cmp-language-switcher,
+  .rea-header:has(.cmp-mainnavigation > input[type=checkbox][id]:not(:checked)) .rea-meta .cmp-dropdown {
+    display: none;
+  }
+  .rea-header:has(.cmp-mainnavigation > input[type=checkbox][id]:checked) .rea-meta {
+    --db-language-switcher---direction: -1;
+    background-color: #fff;
+    position: fixed;
+    inset-inline-end: 0;
+    inset-inline-start: 1.5rem;
+    inset-block-start: unset;
+    inset-block-end: 0;
+    block-size: 3.5rem;
+    z-index: 50;
+    border-top: 1px solid rgba(40, 45, 55, 0.2);
+    border-bottom-left-radius: 4px;
+    padding-inline: 1rem;
+  }
+  .rea-header:has(.cmp-mainnavigation > input[type=checkbox][id]:checked) .rea-meta .cmp-sitesearch {
+    display: none;
+  }
+  .rea-header:has(.cmp-mainnavigation > input[type=checkbox][id]:checked) .rea-meta .cmp-dropdown > menu {
+    bottom: 100%;
+    transform: translateY(-0.875rem);
   }
 }
 
@@ -7622,6 +7927,9 @@ body.has-fixed-footer .rea-footer {
 ***** */
 .rea-meta {
   display: flex;
+  align-items: center;
+  margin-inline-start: auto;
+  gap: 0.5rem;
 }
 .rea-meta ul,
 .rea-meta ol {
@@ -7632,21 +7940,17 @@ body.has-fixed-footer .rea-footer {
   list-style: none;
 }
 .rea-header .rea-meta {
-  margin-top: 1.4375rem;
   order: 2;
 }
 .rea-header .rea-meta .elm-link {
   padding-bottom: 0.5625rem;
   padding-top: 0.5625rem;
 }
-@media screen and (max-width: 1023px) {
-  .rea-header .rea-meta {
-    margin-top: 0.5rem;
-  }
+.rea-meta > .elm-link[rel=account] {
+  margin-left: 0.25rem;
 }
 .rea-meta > .elm-link[rel=account] {
   font-size: 0;
-  margin-left: 0.25rem;
 }
 .rea-meta > .elm-link[rel=account]::before {
   --icon-margin-after: 0;
@@ -7654,14 +7958,6 @@ body.has-fixed-footer .rea-footer {
 @media screen and (min-width: 27.25rem) {
   .rea-meta > .elm-link[rel=account] {
     margin-left: 0.5rem;
-  }
-}
-@media screen and (max-width: 26.25rem) {
-  .rea-meta > .elm-link[rel=account] {
-    font-size: 0;
-  }
-  .rea-meta > .elm-link[rel=account]::before {
-    --icon-margin-after: 0;
   }
 }
 .rea-meta .cmp-sitesearch:focus-within ~ .elm-link[rel=account] {
