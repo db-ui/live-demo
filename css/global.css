@@ -4292,6 +4292,7 @@ details > *, details > ::before, details > ::after {
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
 .elm-headline {
+  text-wrap: balance;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
 }
@@ -6086,7 +6087,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
 .cmp-accordion {
-  --db-accordion---paddingLeft: 0.0625remrem;
+  --db-accordion---paddingLeft: 1rem;
   border-bottom: 1px solid #d7dce1;
   padding-left: var(--db-accordion---paddingLeft);
   padding-right: 1rem;
@@ -6131,7 +6132,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   content: "⌃";
 }
 .cmp-accordion[data-emphasis=high] {
-  --db-accordion---paddingLeft: 0.5625remrem;
+  --db-accordion---paddingLeft: 1.5rem;
 }
 .cmp-accordion[data-emphasis=high] summary {
   font-weight: 700;
@@ -6141,7 +6142,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   --icon-font-size: 2rem;
 }
 .cmp-accordion[data-size=small] {
-  --db-accordion---paddingLeft: -0.6875remrem;
+  --db-accordion---paddingLeft: 0.25rem;
 }
 .cmp-accordion[data-size=small] summary {
   font-size: 0.875rem;
@@ -6153,7 +6154,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   margin-left: 0.375rem;
 }
 .cmp-accordion[data-size=large] {
-  --db-accordion---paddingLeft: 0.5625remrem;
+  --db-accordion---paddingLeft: 1.5rem;
 }
 .cmp-accordion[data-size=large] summary {
   font-size: 1.25rem;
