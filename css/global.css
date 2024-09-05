@@ -6531,10 +6531,10 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 .cmp-metanavigation li .elm-link {
   text-decoration: none;
 }
-.cmp-metanavigation li .elm-link {
+.rea-header .cmp-metanavigation li .elm-link {
   font-size: 0;
 }
-.cmp-metanavigation li .elm-link::before {
+.rea-header .cmp-metanavigation li .elm-link::before {
   --icon-margin-after: 0;
 }
 .rea-footer .cmp-metanavigation {
