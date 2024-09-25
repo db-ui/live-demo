@@ -6730,7 +6730,6 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   .cmp-sitesearch {
     margin-inline-start: auto;
     margin-inline-end: 2.25rem;
-    padding-inline-end: 2rem;
   }
   .cmp-sitesearch::before {
     display: none;
@@ -6832,9 +6831,6 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   }
   .cmp-sitesearch:focus-within .elm-input[type=search], .cmp-sitesearch:has(.elm-input[type=search]:not(:placeholder-shown)) .elm-input[type=search] {
     width: calc(100vw - 5.5rem);
-  }
-  .cmp-sitesearch .elm-button {
-    inset-inline-end: 2rem;
   }
 }
 
@@ -7874,7 +7870,11 @@ body.has-fixed-footer .rea-footer {
   gap: 1.5rem;
   min-block-size: 3.5rem;
   padding-inline: 1.5rem;
-  padding-block: 0.875rem;
+}
+@media screen and (width > 1023px) {
+  .rea-header {
+    padding-block: 0.875rem;
+  }
 }
 .rea-header:has(.cmp-sitesearch):has(.cmp-metanavigation) .cmp-sitesearch::before {
   inset-inline-end: 0;
@@ -7883,11 +7883,6 @@ body.has-fixed-footer .rea-footer {
   .rea-header {
     border-bottom: 0.0625rem solid #9c9a8e;
     position: relative;
-  }
-  .rea-header:has(.cmp-mainnavigation > input[type=checkbox][id]:not(:checked)) .rea-meta {
-    position: absolute;
-    inset: 0;
-    margin: 0;
   }
   .rea-header:has(.cmp-mainnavigation > input[type=checkbox][id]:not(:checked)) .rea-meta > .elm-link,
   .rea-header:has(.cmp-mainnavigation > input[type=checkbox][id]:not(:checked)) .rea-meta .cmp-metanavigation,
