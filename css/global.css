@@ -4627,7 +4627,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 [type=url]) + label + output:has(+ .description) {
   float: right;
 }
-@supports (inset-area: block-end span-inline-start) {
+@supports (position-area: block-end span-inline-start) {
   .elm-textarea + output:not(:has(+ .description)), .elm-input:is([type=email],
   [type=password],
   [type=search],
@@ -4635,7 +4635,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   [type=text],
   [type=url]) + label + output:not(:has(+ .description)) {
     position: absolute;
-    inset-area: block-end span-inline-start;
+    position-area: block-end span-inline-start;
   }
 }
 .elm-textarea + output, .elm-input:is([type=email],
@@ -4827,7 +4827,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 [type=url]) + label + output:has(+ .description) {
   float: right;
 }
-@supports (inset-area: block-end span-inline-start) {
+@supports (position-area: block-end span-inline-start) {
   .elm-textarea + output:not(:has(+ .description)), .elm-input:is([type=email],
   [type=password],
   [type=search],
@@ -4835,7 +4835,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   [type=text],
   [type=url]) + label + output:not(:has(+ .description)) {
     position: absolute;
-    inset-area: block-end span-inline-start;
+    position-area: block-end span-inline-start;
   }
 }
 .elm-textarea + output, .elm-input:is([type=email],
@@ -5206,7 +5206,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 [type=url]) + label + output:has(+ .description) {
   float: right;
 }
-@supports (inset-area: block-end span-inline-start) {
+@supports (position-area: block-end span-inline-start) {
   .elm-textarea + output:not(:has(+ .description)), .elm-input:is([type=email],
   [type=password],
   [type=search],
@@ -5214,7 +5214,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   [type=text],
   [type=url]) + label + output:not(:has(+ .description)) {
     position: absolute;
-    inset-area: block-end span-inline-start;
+    position-area: block-end span-inline-start;
   }
 }
 .elm-textarea + output, .elm-input:is([type=email],
@@ -5381,7 +5381,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 [type=url]) + label + output:has(+ .description) {
   float: right;
 }
-@supports (inset-area: block-end span-inline-start) {
+@supports (position-area: block-end span-inline-start) {
   .elm-textarea + output:not(:has(+ .description)), .elm-input:is([type=email],
   [type=password],
   [type=search],
@@ -5389,7 +5389,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   [type=text],
   [type=url]) + label + output:not(:has(+ .description)) {
     position: absolute;
-    inset-area: block-end span-inline-start;
+    position-area: block-end span-inline-start;
   }
 }
 .elm-textarea + output, .elm-input:is([type=email],
@@ -5539,7 +5539,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 [type=url]) + label + output:has(+ .description), .elm-textarea + output:has(+ .description) {
   float: right;
 }
-@supports (inset-area: block-end span-inline-start) {
+@supports (position-area: block-end span-inline-start) {
   .elm-input:is([type=email],
   [type=password],
   [type=search],
@@ -5547,7 +5547,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   [type=text],
   [type=url]) + label + output:not(:has(+ .description)), .elm-textarea + output:not(:has(+ .description)) {
     position: absolute;
-    inset-area: block-end span-inline-start;
+    position-area: block-end span-inline-start;
   }
 }
 .elm-input:is([type=email],
@@ -6685,7 +6685,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 [type=url]) + label + output:has(+ .description), .elm-textarea + output:has(+ .description) {
   float: right;
 }
-@supports (inset-area: block-end span-inline-start) {
+@supports (position-area: block-end span-inline-start) {
   .elm-input:is([type=email],
   [type=password],
   [type=search],
@@ -6693,7 +6693,7 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   [type=text],
   [type=url]) + label + output:not(:has(+ .description)), .elm-textarea + output:not(:has(+ .description)) {
     position: absolute;
-    inset-area: block-end span-inline-start;
+    position-area: block-end span-inline-start;
   }
 }
 .elm-input:is([type=email],
