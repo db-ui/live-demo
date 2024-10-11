@@ -16,7 +16,7 @@
   "author": "Kai Zwier",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@db-ui/core": "^3.2.5",
+    "@db-ui/core": "^3.2.6",
     "cpr": "^3.0.1",
     "http-server": "^14.1.1",
     "husky": "^9.1.6",
