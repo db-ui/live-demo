@@ -4076,7 +4076,7 @@ details > *, details > ::before, details > ::after {
 }
 .cmp-dropdown.is-account summary::before, .cmp-overflow-menu summary::before, .cmp-dropdown summary::before, .cmp-link-list li .elm-link::before, .cmp-sidenavi .elm-link[rel=help]::before, .cmp-sidenavi .elm-link[rel=calendar]::before, .cmp-sidenavi .elm-link[rel=cloud]::before, .cmp-sidenavi .elm-link[rel=dashboard]::before, .cmp-sidenavi .elm-link[rel=documents]::before, .cmp-sidenavi .elm-link[rel=index]::before, .cmp-pagination .elm-link[rel=next]::before, .cmp-pagination .elm-link[rel=prev]::before, .cmp-language-switcher li[aria-current] .elm-link::after,
 .cmp-language-switcher li[aria-current] .elm-button::after, .cmp-language-switcher li[aria-selected] .elm-link::after,
-.cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::after, .cmp-breadcrumb ol > li:not(:first-child)::before, .cmp-breadcrumb ol > li:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
+.cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header :is(.elm-link, button).is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::after, .cmp-breadcrumb ol > li:not(:first-child)::before, .cmp-breadcrumb ol > li:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
 [data-icon-before]::before {
   -webkit-alt: "";
   alt: "";
@@ -4098,7 +4098,7 @@ details > *, details > ::before, details > ::after {
 @media aural {
   .cmp-dropdown.is-account summary::before, .cmp-overflow-menu summary::before, .cmp-dropdown summary::before, .cmp-link-list li .elm-link::before, .cmp-sidenavi .elm-link[rel=help]::before, .cmp-sidenavi .elm-link[rel=calendar]::before, .cmp-sidenavi .elm-link[rel=cloud]::before, .cmp-sidenavi .elm-link[rel=dashboard]::before, .cmp-sidenavi .elm-link[rel=documents]::before, .cmp-sidenavi .elm-link[rel=index]::before, .cmp-pagination .elm-link[rel=next]::before, .cmp-pagination .elm-link[rel=prev]::before, .cmp-language-switcher li[aria-current] .elm-link::after,
   .cmp-language-switcher li[aria-current] .elm-button::after, .cmp-language-switcher li[aria-selected] .elm-link::after,
-  .cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::after, .cmp-breadcrumb ol > li:not(:first-child)::before, .cmp-breadcrumb ol > li:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
+  .cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header :is(.elm-link, button).is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::after, .cmp-breadcrumb ol > li:not(:first-child)::before, .cmp-breadcrumb ol > li:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
   [data-icon-before]::before {
     content: none;
   }
@@ -4106,7 +4106,7 @@ details > *, details > ::before, details > ::after {
 @media speech {
   .cmp-dropdown.is-account summary::before, .cmp-overflow-menu summary::before, .cmp-dropdown summary::before, .cmp-link-list li .elm-link::before, .cmp-sidenavi .elm-link[rel=help]::before, .cmp-sidenavi .elm-link[rel=calendar]::before, .cmp-sidenavi .elm-link[rel=cloud]::before, .cmp-sidenavi .elm-link[rel=dashboard]::before, .cmp-sidenavi .elm-link[rel=documents]::before, .cmp-sidenavi .elm-link[rel=index]::before, .cmp-pagination .elm-link[rel=next]::before, .cmp-pagination .elm-link[rel=prev]::before, .cmp-language-switcher li[aria-current] .elm-link::after,
   .cmp-language-switcher li[aria-current] .elm-button::after, .cmp-language-switcher li[aria-selected] .elm-link::after,
-  .cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header .elm-link.is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::after, .cmp-breadcrumb ol > li:not(:first-child)::before, .cmp-breadcrumb ol > li:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
+  .cmp-language-switcher li[aria-selected] .elm-button::after, .cmp-dialog header :is(.elm-link, button).is-close::before, .cmp-sitesearch .elm-button::before, .cmp-sitesearch .elm-label::before, .cmp-mainnavigation li[aria-haspopup=true]::after, .cmp-mainnavigation > label[for]::after, .cmp-mainnavigation > label[for]::before, .cmp-accordion summary::after, .cmp-breadcrumb ol > li:not(:first-child)::before, .cmp-breadcrumb ol > li:first-child::before, .elm-checkbox::before, .elm-link[rel=account]::before, .elm-link[rel=messages]::before, .elm-link[rel=configuration]::before, [data-icon-after]::after, [data-icon]::before,
   [data-icon-before]::before {
     content: none;
   }
@@ -6951,15 +6951,17 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
     line-height: 1.75rem;
   }
 }
-.cmp-dialog header .elm-link.is-close {
+.cmp-dialog header :is(.elm-link, button).is-close {
   position: absolute;
   right: 0;
   top: 0;
+  background-color: transparent;
+  border-color: transparent;
 }
-.cmp-dialog header .elm-link.is-close {
+.cmp-dialog header :is(.elm-link, button).is-close {
   --icon-glyph-before: "⨯";
 }
-.cmp-dialog header .elm-link.is-close::before {
+.cmp-dialog header :is(.elm-link, button).is-close::before {
   --icon-font-family: "icons-24-outline",
   	"missing-icons" !important;
   font-size: var(--icon-font-size-before, var(--icon-font-size, 1.5rem));
@@ -6967,14 +6969,14 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
   content: var(--icon-glyph-before);
 }
 @supports (content: ""/"") {
-  .cmp-dialog header .elm-link.is-close::before {
+  .cmp-dialog header :is(.elm-link, button).is-close::before {
     content: var(--icon-glyph-before)/"";
   }
 }
-.cmp-dialog header .elm-link.is-close {
+.cmp-dialog header :is(.elm-link, button).is-close {
   font-size: 0;
 }
-.cmp-dialog header .elm-link.is-close::before {
+.cmp-dialog header :is(.elm-link, button).is-close::before {
   --icon-margin-after: 0;
 }
 .cmp-dialog main p:first-child {
