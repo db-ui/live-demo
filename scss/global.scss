@@ -1,25 +1,27 @@
-$icons-path: "../icons/";
-$images-path: "../images/";
-$fonts-path: "../fonts/";
+@use "@db-ui/core/sources/css/enterprise/db-ui-core" with (
+	$icons-path: "../icons/",
+	$images-path: "../images/",
+	$fonts-path: "../fonts/"
+);
 
-@import "@db-ui/core/sources/css/enterprise/db-ui-core";
-
-@import "@db-ui/core/sources/_patterns/00-base/colors/enterprise/colors.variables";
+@use "@db-ui/core/sources/_patterns/00-base/colors/enterprise/colors.variables";
 
 $ora-100: #fff4d8;
 $blu-100: #e0effb;
 
-@import "./helpers/helperclasses";
-@import "./modules/navigation";
+@use "helpers/helperclasses";
+@use "modules/navigation";
 
-@import "./elements/buttons";
-@import "./elements/icons";
+@use "elements/buttons";
+@use "elements/icons";
 
 html {
 	background: #fff;
 	//background: var(--db-03-01);
 	font-family: "DB Sans", "Helvetica", "Arial", sans-serif;
-	transition: color 250ms, background-color 250ms;
+	transition:
+		color 250ms,
+		background-color 250ms;
 	font-size: 16px;
 }
 body {
