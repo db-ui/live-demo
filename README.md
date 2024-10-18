@@ -1,6 +1,6 @@
 # DB UI Standards - playground
 
-We're mainly using this repository and the included application for demo purposes, especially to include playgrounds within the [Deutsche Bahn Marketingportal](https://marketingportal.extranet.deutschebahn.com/marketingportal/Design-Anwendungen/DB-UX-Design-System/Design-fuer-Apps-Web/UI-Komponenten).
+We're mainly using this repository and the included application for demo purposes, especially to include playgrounds within the [Deutsche Bahn Marketingportal](https://marketingportal.extranet.deutschebahn.com/marketingportal/Design-Anwendungen/db-ux-design-system/version-2/Components).
 
 The related DB UI Base, DB UI Core and DB UI Elements libraries are stored in their related [repositories](https://github.com/db-ui/).
 
