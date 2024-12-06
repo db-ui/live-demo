@@ -27,5 +27,8 @@
     "sass": "^1.82.0",
     "vue": "^3.2.31"
   },
-  "private": true
+  "private": true,
+  "overrides": {
+    "cross-spawn": "~7.0.5"
+  }
 }
