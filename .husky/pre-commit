@@ -1,2 +1,2 @@
-lint-staged --config .config/.lintstagedrc-prettier.js
+lint-staged --config .config/.lintstagedrc-prettier.mjs
 git update-index --again
