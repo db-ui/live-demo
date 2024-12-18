@@ -2988,11 +2988,11 @@ details > *, details > ::before, details > ::after {
 
 [data-icon=priority],
 [data-icon-before=priority] {
-  --icon-glyph-before: "󡅢";
+  --icon-glyph-before: "󡌒";
 }
 
 [data-icon-after=priority] {
-  --icon-glyph-after: "󡅢";
+  --icon-glyph-after: "󡌒";
 }
 
 [data-icon=traveler-with-reduced-mobility],
@@ -3220,6 +3220,78 @@ details > *, details > ::before, details > ::after {
   --icon-glyph-after: "";
 }
 
+[data-icon=artificial-intelligence],
+[data-icon-before=artificial-intelligence] {
+  --icon-glyph-before: "󡌄";
+}
+
+[data-icon-after=artificial-intelligence] {
+  --icon-glyph-after: "󡌄";
+}
+
+[data-icon=document-cross],
+[data-icon-before=document-cross] {
+  --icon-glyph-before: "󡌅";
+}
+
+[data-icon-after=document-cross] {
+  --icon-glyph-after: "󡌅";
+}
+
+[data-icon=euro-sign],
+[data-icon-before=euro-sign] {
+  --icon-glyph-before: "󡌆";
+}
+
+[data-icon-after=euro-sign] {
+  --icon-glyph-after: "󡌆";
+}
+
+[data-icon=id-card],
+[data-icon-before=id-card] {
+  --icon-glyph-before: "󡌇";
+}
+
+[data-icon-after=id-card] {
+  --icon-glyph-after: "󡌇";
+}
+
+[data-icon=pulse-wave],
+[data-icon-before=pulse-wave] {
+  --icon-glyph-before: "󡌈";
+}
+
+[data-icon-after=pulse-wave] {
+  --icon-glyph-after: "󡌈";
+}
+
+[data-icon=clapperboard],
+[data-icon-before=clapperboard] {
+  --icon-glyph-before: "󡌉";
+}
+
+[data-icon-after=clapperboard] {
+  --icon-glyph-after: "󡌉";
+}
+
+[data-icon=iceportal],
+[data-icon-before=iceportal] {
+  --icon-glyph-before: "󡌐";
+}
+
+[data-icon-after=iceportal] {
+  --icon-glyph-after: "󡌐";
+}
+
+[data-icon=regioguide],
+[data-icon-before=regioguide] {
+  --icon-glyph-before: "󡌑";
+}
+
+[data-icon-after=regioguide] {
+  --icon-glyph-after: "󡌑";
+}
+
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
 ***** */
@@ -3400,14 +3472,14 @@ details > *, details > ::before, details > ::after {
 @font-face {
   font-display: block;
   font-family: "missing-icons";
-  src: url("../icons/functional/fonts/icons-empty.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-empty.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-empty.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-empty.woff?4r2100") format("woff");
 }
 @font-face {
   font-display: block;
   font-family: "icons-16-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-16-outline-action.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-16-outline-action.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-16-outline-action.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-16-outline-action.woff?4r2100") format("woff");
   unicode-range: U+002B,U+2212,U+2713;
 }
 @font-face {
@@ -3415,7 +3487,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-16-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-16-outline-navigation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-16-outline-navigation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-16-outline-navigation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-16-outline-navigation.woff?4r2100") format("woff");
   unicode-range: U+003C,U+003E,U+2190-2193,U+2303-2304,U+2A2F;
 }
 @font-face {
@@ -3423,23 +3495,23 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-action.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-action.woff?4r2098") format("woff");
-  unicode-range: U+002B,U+003F,U+00A7,U+1F441,U+1F5A8,U+1F5B9,U+1F5BC,U+1F5D1,U+1F6C8,U+1F6CD,U+1F6E0,U+219F,U+21A1,U+21A6,U+21C6,U+21E7,U+21E9,U+21F5,U+2212,U+2295,U+229D,U+238C,U+25F9,U+2601,U+2606,U+2661,U+2699,U+270F,U+2713,U+2B73,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+e1154-e1156,U+e1164-e1171,U+e1187,U+e1211-e1214,U+e1220-e1258,U+e1290-e1295;
+  src: url("../icons/functional/fonts/icons-20-outline-action.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-action.woff?4r2100") format("woff");
+  unicode-range: U+002B,U+003F,U+00A7,U+1F441,U+1F5A8,U+1F5B9,U+1F5BC,U+1F5D1,U+1F6C8,U+1F6CD,U+1F6E0,U+219F,U+21A1,U+21A6,U+21C6,U+21E7,U+21E9,U+21F5,U+2212,U+2295,U+229D,U+238C,U+25F9,U+2601,U+2606,U+2661,U+2699,U+270F,U+2713,U+2B73,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+e1154-e1156,U+e1164-e1171,U+e1187,U+e1211-e1214,U+e1220-e1258,U+e1290-e1295,U+e1304-e1308;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-av.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-av.woff?4r2098") format("woff");
-  unicode-range: U+23ED-23EE,U+23F8,U+25A1,U+25B7,U+293A-293B,U+e1085-e1088,U+e1091,U+e1234,U+e1261-e1259,U+e1262,U+e1296-e1297;
+  src: url("../icons/functional/fonts/icons-20-outline-av.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-av.woff?4r2100") format("woff");
+  unicode-range: U+23ED-23EE,U+23F8,U+25A1,U+25B7,U+293A-293B,U+e1085-e1088,U+e1091,U+e1234,U+e1261-e1259,U+e1262,U+e1296-e1297,U+e1309;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-brand.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-brand.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-brand.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-brand.woff?4r2100") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -3447,7 +3519,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-communication.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-communication.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-communication.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-communication.woff?4r2100") format("woff");
   unicode-range: U+1F5B7,U+2370,U+2709,U+e1095,U+e1098,U+e1149,U+e1172-e1174,U+e1235-e1236,U+e1263-e1264;
 }
 @font-face {
@@ -3455,7 +3527,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-covid-19.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-covid-19.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-covid-19.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-covid-19.woff?4r2100") format("woff");
   unicode-range: U+e1265;
 }
 @font-face {
@@ -3463,7 +3535,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-facilities.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-facilities.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-facilities.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-facilities.woff?4r2100") format("woff");
   unicode-range: U+e1163,U+e1175-e1176,U+e1266-e1272;
 }
 @font-face {
@@ -3471,15 +3543,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-feature.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-feature.woff?4r2098") format("woff");
-  unicode-range: U+1F6E4,U+2600,U+271A,U+2744,U+e1150,U+e1153,U+e1160,U+e1177-e1180,U+e1188,U+e1215,U+e1217,U+e1273-e1278,U+e1289,U+e1299;
+  src: url("../icons/functional/fonts/icons-20-outline-feature.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-feature.woff?4r2100") format("woff");
+  unicode-range: U+1F6E4,U+2600,U+271A,U+2744,U+e1150,U+e1153,U+e1160,U+e1177-e1180,U+e1188,U+e1215,U+e1217,U+e1273-e1278,U+e1289,U+e1299,U+e1310,U+e1311;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-food.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-food.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-food.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-food.woff?4r2100") format("woff");
   unicode-range: U+1F37D,U+e1101,U+e1237,U+e1279;
 }
 @font-face {
@@ -3487,7 +3559,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-it.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-it.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-it.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-it.woff?4r2100") format("woff");
   unicode-range: U+e1181;
 }
 @font-face {
@@ -3495,7 +3567,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-journey.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-journey.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-journey.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-journey.woff?4r2100") format("woff");
   unicode-range: U+2488-2489,U+291E,U+29BF,U+2B94,U+e1102-e1104,U+e1106,U+e1108,U+e1110,U+e1113,U+e1161,U+e1238;
 }
 @font-face {
@@ -3503,7 +3575,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-maps.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-maps.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-maps.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-maps.woff?4r2100") format("woff");
   unicode-range: U+1F17F,U+1F5FA,U+1F78B,U+2302,U+e1115-e1116,U+e1157-e1158,U+e1182,U+e1280,U+e1300-e1303;
 }
 @font-face {
@@ -3511,7 +3583,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-navigation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-navigation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-navigation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-navigation.woff?4r2100") format("woff");
   unicode-range: U+003C,U+003E,U+1030E,U+1F5D8,U+1F862,U+1F865,U+2190-2193,U+22EE-22EF,U+2303-2304,U+2A2F,U+2BBE,U+e1119-e1122;
 }
 @font-face {
@@ -3519,7 +3591,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-notification.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-notification.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-notification.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-notification.woff?4r2100") format("woff");
   unicode-range: U+26A0,U+e1123,U+e1126-e1127;
 }
 @font-face {
@@ -3527,15 +3599,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-seat.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-seat.woff?4r2098") format("woff");
-  unicode-range: U+1F6CF,U+e1128-e1130,U+e1162,U+e1183,U+e1189,U+e1281-e1285;
+  src: url("../icons/functional/fonts/icons-20-outline-seat.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-seat.woff?4r2100") format("woff");
+  unicode-range: U+1F6CF,U+e1128-e1130,U+e1162,U+e1183,U+e1189,U+e1281-e1285,U+e1312;
 }
 @font-face {
   font-display: block;
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-ticket.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-ticket.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-ticket.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-ticket.woff?4r2100") format("woff");
   unicode-range: U+1F907,U+2714,U+e1131-e1132,U+e1134,U+e1136-e1146,U+e1184-e1186,U+e1218,U+e1286-e1287,U+e1298;
 }
 @font-face {
@@ -3543,7 +3615,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-outline-transportation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-outline-transportation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-outline-transportation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-outline-transportation.woff?4r2100") format("woff");
   unicode-range: U+e1147-e1148,U+e1151,U+e1159,U+e1190-e1210,U+e1216,U+e1219,U+e1239-e1241,U+e1288,U+e928-e929;
 }
 @font-face {
@@ -3551,23 +3623,23 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-action.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-action.woff?4r2098") format("woff");
-  unicode-range: U+002B,U+003F,U+00A7,U+1F441,U+1F5A8,U+1F5B9,U+1F5BC,U+1F5D1,U+1F6C8,U+1F6CD,U+1F6E0,U+219F,U+21A1,U+21A6,U+21C6,U+21E7,U+21E9,U+21F5,U+2212,U+2295,U+229D,U+238C,U+25F9,U+2601,U+2606,U+2661,U+2699,U+270F,U+2713,U+2B73,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+e1154-e1156,U+e1164-e1171,U+e1187,U+e1211-e1214,U+e1220-e1258,U+e1290-e1295;
+  src: url("../icons/functional/fonts/icons-24-outline-action.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-action.woff?4r2100") format("woff");
+  unicode-range: U+002B,U+003F,U+00A7,U+1F441,U+1F5A8,U+1F5B9,U+1F5BC,U+1F5D1,U+1F6C8,U+1F6CD,U+1F6E0,U+219F,U+21A1,U+21A6,U+21C6,U+21E7,U+21E9,U+21F5,U+2212,U+2295,U+229D,U+238C,U+25F9,U+2601,U+2606,U+2661,U+2699,U+270F,U+2713,U+2B73,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+e1154-e1156,U+e1164-e1171,U+e1187,U+e1211-e1214,U+e1220-e1258,U+e1290-e1295,U+e1304-e1308;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-av.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-av.woff?4r2098") format("woff");
-  unicode-range: U+23ED-23EE,U+23F8,U+25A1,U+25B7,U+293A-293B,U+e1085-e1088,U+e1091,U+e1234,U+e1259-e1262,U+e1296-e1297;
+  src: url("../icons/functional/fonts/icons-24-outline-av.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-av.woff?4r2100") format("woff");
+  unicode-range: U+23ED-23EE,U+23F8,U+25A1,U+25B7,U+293A-293B,U+e1085-e1088,U+e1091,U+e1234,U+e1259-e1262,U+e1296-e1297,U+e1309;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-brand.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-brand.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-brand.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-brand.woff?4r2100") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -3575,7 +3647,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-communication.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-communication.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-communication.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-communication.woff?4r2100") format("woff");
   unicode-range: U+1F5B7,U+2370,U+2709,U+e1095,U+e1098,U+e1149,U+e1172-e1174,U+e1235-e1236,U+e1263-e1264;
 }
 @font-face {
@@ -3583,7 +3655,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-covid-19.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-covid-19.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-covid-19.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-covid-19.woff?4r2100") format("woff");
   unicode-range: U+e1265;
 }
 @font-face {
@@ -3591,7 +3663,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-facilities.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-facilities.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-facilities.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-facilities.woff?4r2100") format("woff");
   unicode-range: U+e1163,U+e1175-e1176,U+e1266-e1272;
 }
 @font-face {
@@ -3599,15 +3671,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-feature.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-feature.woff?4r2098") format("woff");
-  unicode-range: U+1F6E4,U+2600,U+271A,U+2744,U+e1150,U+e1153,U+e1160,U+e1177-e1180,U+e1188,U+e1215,U+e1217,U+e1273-e1278,U+e1289,U+e1299;
+  src: url("../icons/functional/fonts/icons-24-outline-feature.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-feature.woff?4r2100") format("woff");
+  unicode-range: U+1F6E4,U+2600,U+271A,U+2744,U+e1150,U+e1153,U+e1160,U+e1177-e1180,U+e1188,U+e1215,U+e1217,U+e1273-e1278,U+e1289,U+e1299,U+e1310,U+e1311;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-food.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-food.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-food.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-food.woff?4r2100") format("woff");
   unicode-range: U+1F37D,U+e1101,U+e1237,U+e1279;
 }
 @font-face {
@@ -3615,7 +3687,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-it.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-it.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-it.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-it.woff?4r2100") format("woff");
   unicode-range: U+e1181;
 }
 @font-face {
@@ -3623,7 +3695,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-journey.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-journey.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-journey.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-journey.woff?4r2100") format("woff");
   unicode-range: U+2488-2489,U+291E,U+29BF,U+2B94,U+e1102-e1104,U+e1106,U+e1108,U+e1110,U+e1113,U+e1161,U+e1238;
 }
 @font-face {
@@ -3631,7 +3703,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-maps.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-maps.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-maps.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-maps.woff?4r2100") format("woff");
   unicode-range: U+1F17F,U+1F5FA,U+1F78B,U+2302,U+e1115-e1116,U+e1157-e1158,U+e1182,U+e1280,U+e1300-e1303;
 }
 @font-face {
@@ -3639,7 +3711,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-navigation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-navigation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-navigation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-navigation.woff?4r2100") format("woff");
   unicode-range: U+003C,U+003E,U+1030E,U+1F5D8,U+1F862,U+1F865,U+2190-2193,U+22EE-22EF,U+2303-2304,U+2A2F,U+2BBE,U+e1119-e1122;
 }
 @font-face {
@@ -3647,7 +3719,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-notification.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-notification.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-notification.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-notification.woff?4r2100") format("woff");
   unicode-range: U+26A0,U+e1123-e1127;
 }
 @font-face {
@@ -3655,15 +3727,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-seat.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-seat.woff?4r2098") format("woff");
-  unicode-range: U+1F6CF,U+e1128-e1130,U+e1162,U+e1183,U+e1189,U+e1281-e1285;
+  src: url("../icons/functional/fonts/icons-24-outline-seat.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-seat.woff?4r2100") format("woff");
+  unicode-range: U+1F6CF,U+e1128-e1130,U+e1162,U+e1183,U+e1189,U+e1281-e1285,U+e1312;
 }
 @font-face {
   font-display: block;
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-ticket.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-ticket.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-ticket.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-ticket.woff?4r2100") format("woff");
   unicode-range: U+1F907,U+2714,U+e1131-e1146,U+e1184-e1186,U+e1218,U+e1286-e1287,U+e1298;
 }
 @font-face {
@@ -3671,7 +3743,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-outline-transportation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-outline-transportation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-outline-transportation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-outline-transportation.woff?4r2100") format("woff");
   unicode-range: U+e1147-e1148,U+e1151,U+e1159,U+e1190-e1210,U+e1216,U+e1219,U+e1239-e1241,U+e1288;
 }
 @font-face {
@@ -3679,23 +3751,23 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-action.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-action.woff?4r2098") format("woff");
-  unicode-range: U+002B,U+003F,U+00A7,U+1F441,U+1F5A8,U+1F5B9,U+1F5BC,U+1F5D1,U+1F6C8,U+1F6CD,U+1F6E0,U+219F,U+21A1,U+21A6,U+21C6,U+21E7,U+21E9,U+21F5,U+2212,U+2295,U+229D,U+238C,U+25F9,U+2601,U+2606,U+2661,U+2699,U+270F,U+2713,U+2B73,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+e1154-e1156,U+e1164-e1171,U+e1187,U+e1211-e1214,U+e1220-e1258,U+e1290-e1295;
+  src: url("../icons/functional/fonts/icons-32-outline-action.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-action.woff?4r2100") format("woff");
+  unicode-range: U+002B,U+003F,U+00A7,U+1F441,U+1F5A8,U+1F5B9,U+1F5BC,U+1F5D1,U+1F6C8,U+1F6CD,U+1F6E0,U+219F,U+21A1,U+21A6,U+21C6,U+21E7,U+21E9,U+21F5,U+2212,U+2295,U+229D,U+238C,U+25F9,U+2601,U+2606,U+2661,U+2699,U+270F,U+2713,U+2B73,U+e1062,U+e1066,U+e1069-e1070,U+e1077,U+e1079,U+e1081-e1084,U+e1154-e1156,U+e1164-e1171,U+e1187,U+e1211-e1214,U+e1220-e1258,U+e1290-e1295,U+e1304-e1308;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-av.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-av.woff?4r2098") format("woff");
-  unicode-range: U+23ED-23EE,U+23F8,U+25A1,U+25B7,U+293A-293B,U+e1085-e1088,U+e1091,U+e1234,U+e1259-e1262,U+e1296-e1297;
+  src: url("../icons/functional/fonts/icons-32-outline-av.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-av.woff?4r2100") format("woff");
+  unicode-range: U+23ED-23EE,U+23F8,U+25A1,U+25B7,U+293A-293B,U+e1085-e1088,U+e1091,U+e1234,U+e1259-e1262,U+e1296-e1297,U+e1309;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-brand.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-brand.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-brand.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-brand.woff?4r2100") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -3703,7 +3775,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-communication.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-communication.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-communication.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-communication.woff?4r2100") format("woff");
   unicode-range: U+1F5B7,U+2370,U+2709,U+e1095,U+e1098,U+e1149,U+e1172-e1174,U+e1235-e1236,U+e1263-e1264;
 }
 @font-face {
@@ -3711,7 +3783,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-covid-19.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-covid-19.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-covid-19.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-covid-19.woff?4r2100") format("woff");
   unicode-range: U+e1265;
 }
 @font-face {
@@ -3719,7 +3791,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-facilities.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-facilities.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-facilities.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-facilities.woff?4r2100") format("woff");
   unicode-range: U+e1163,U+e1175-e1176,U+e1266-e1272;
 }
 @font-face {
@@ -3727,15 +3799,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-feature.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-feature.woff?4r2098") format("woff");
-  unicode-range: U+1F6E4,U+2600,U+271A,U+2744,U+e1150,U+e1153,U+e1160,U+e1177-e1180,U+e1188,U+e1215,U+e1217,U+e1273-e1278,U+e1289,U+e1299;
+  src: url("../icons/functional/fonts/icons-32-outline-feature.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-feature.woff?4r2100") format("woff");
+  unicode-range: U+1F6E4,U+2600,U+271A,U+2744,U+e1150,U+e1153,U+e1160,U+e1177-e1180,U+e1188,U+e1215,U+e1217,U+e1273-e1278,U+e1289,U+e1299,U+e1310,U+e1311;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-food.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-food.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-food.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-food.woff?4r2100") format("woff");
   unicode-range: U+1F37D,U+e1101,U+e1237,U+e1279;
 }
 @font-face {
@@ -3743,7 +3815,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-it.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-it.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-it.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-it.woff?4r2100") format("woff");
   unicode-range: U+e1181;
 }
 @font-face {
@@ -3751,7 +3823,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-journey.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-journey.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-journey.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-journey.woff?4r2100") format("woff");
   unicode-range: U+2488-2489,U+291E,U+29BF,U+2B94,U+e1102-e1110,U+e1113,U+e1161,U+e1238;
 }
 @font-face {
@@ -3759,7 +3831,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-maps.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-maps.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-maps.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-maps.woff?4r2100") format("woff");
   unicode-range: U+1F17F,U+1F5FA,U+1F78B,U+2302,U+e1115-e1116,U+e1157-e1158,U+e1182,U+e1280,U+e1300-e1303;
 }
 @font-face {
@@ -3767,7 +3839,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-navigation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-navigation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-navigation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-navigation.woff?4r2100") format("woff");
   unicode-range: U+003C,U+003E,U+1030E,U+1F5D8,U+1F862,U+1F865,U+2190-2193,U+22EE-22EF,U+2303-2304,U+2A2F,U+2BBE,U+e1119-e1122;
 }
 @font-face {
@@ -3775,7 +3847,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-notification.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-notification.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-notification.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-notification.woff?4r2100") format("woff");
   unicode-range: U+26A0,U+e1123-e1127;
 }
 @font-face {
@@ -3783,15 +3855,15 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-seat.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-seat.woff?4r2098") format("woff");
-  unicode-range: U+1F6CF,U+e1128-e1130,U+e1162,U+e1183,U+e1189,U+e1281-e1285;
+  src: url("../icons/functional/fonts/icons-32-outline-seat.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-seat.woff?4r2100") format("woff");
+  unicode-range: U+1F6CF,U+e1128-e1130,U+e1162,U+e1183,U+e1189,U+e1281-e1285,U+e1312;
 }
 @font-face {
   font-display: block;
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-ticket.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-ticket.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-ticket.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-ticket.woff?4r2100") format("woff");
   unicode-range: U+1F907,U+2714,U+e1131-e1146,U+e1184-e1186,U+e1218,U+e1286-e1287,U+e1298;
 }
 @font-face {
@@ -3799,7 +3871,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-outline-transportation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-outline-transportation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-outline-transportation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-outline-transportation.woff?4r2100") format("woff");
   unicode-range: U+e1147-e1148,U+e1151,U+e1159,U+e1190-e1210,U+e1216,U+e1219,U+e1239-e1241,U+e1288;
 }
 @font-face {
@@ -3807,7 +3879,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-48-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-48-outline-av.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-48-outline-av.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-48-outline-av.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-48-outline-av.woff?4r2100") format("woff");
   unicode-range: U+23F8,U+25B7,U+e1296-e1297,U+25A1,U+23EE,U+23ED;
 }
 @font-face {
@@ -3815,7 +3887,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-48-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-48-outline-brand.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-48-outline-brand.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-48-outline-brand.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-48-outline-brand.woff?4r2100") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -3823,7 +3895,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-64-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-64-outline-av.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-64-outline-av.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-64-outline-av.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-64-outline-av.woff?4r2100") format("woff");
   unicode-range: U+23F8,U+25B7,U+e1296-e1297,U+25A1,U+23EE,U+23ED;
 }
 @font-face {
@@ -3831,7 +3903,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-64-outline";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-64-outline-brand.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-64-outline-brand.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-64-outline-brand.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-64-outline-brand.woff?4r2100") format("woff");
   unicode-range: U+e1152;
 }
 @font-face {
@@ -3839,7 +3911,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-16-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-16-filled-action.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-16-filled-action.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-16-filled-action.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-16-filled-action.woff?4r2100") format("woff");
   unicode-range: U+003F,U+1F6C8,U+e1220;
 }
 @font-face {
@@ -3847,7 +3919,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-16-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-16-filled-navigation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-16-filled-navigation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-16-filled-navigation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-16-filled-navigation.woff?4r2100") format("woff");
   unicode-range: U+2BBE;
 }
 @font-face {
@@ -3855,7 +3927,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-16-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-16-filled-notification.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-16-filled-notification.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-16-filled-notification.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-16-filled-notification.woff?4r2100") format("woff");
   unicode-range: U+26A0,U+e1123;
 }
 @font-face {
@@ -3863,7 +3935,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-action.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-filled-action.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-action.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-filled-action.woff?4r2100") format("woff");
   unicode-range: U+003F,U+1F5A8,U+1F5BC,U+1F6C8,U+1F6CD,U+1F6E0,U+2295,U+229D,U+2601,U+2606,U+2661,U+270F,U+e1066,U+e1070,U+e1079,U+e1154-e1155,U+e1164-e1166,U+e1214,U+e1220-e1233;
 }
 @font-face {
@@ -3871,7 +3943,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-av.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-filled-av.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-av.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-filled-av.woff?4r2100") format("woff");
   unicode-range: U+23ED,U+23EE,U+25A1,U+25B7,U+e1091,U+e1234,U+e1296-e1297;
 }
 @font-face {
@@ -3879,7 +3951,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-communication.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-filled-communication.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-communication.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-filled-communication.woff?4r2100") format("woff");
   unicode-range: U+2370,U+e1095,U+e1172-e1174,U+e1235-e1236;
 }
 @font-face {
@@ -3887,7 +3959,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-feature.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-filled-feature.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-feature.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-filled-feature.woff?4r2100") format("woff");
   unicode-range: U+1F6E4,U+2600,U+271A,U+e1177-e1179,U+e1289;
 }
 @font-face {
@@ -3895,7 +3967,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-food.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-filled-food.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-food.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-filled-food.woff?4r2100") format("woff");
   unicode-range: U+e1237;
 }
 @font-face {
@@ -3903,7 +3975,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-it.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-filled-it.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-it.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-filled-it.woff?4r2100") format("woff");
   unicode-range: U+e1181;
 }
 @font-face {
@@ -3911,7 +3983,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-journey.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-filled-journey.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-journey.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-filled-journey.woff?4r2100") format("woff");
   unicode-range: U+e1104,U+e1106,U+e1108,U+e1110,U+e1238;
 }
 @font-face {
@@ -3919,7 +3991,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-maps.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-filled-maps.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-maps.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-filled-maps.woff?4r2100") format("woff");
   unicode-range: U+1F17F,U+2302,U+e1115-e1116,U+e1157-e1158;
 }
 @font-face {
@@ -3927,7 +3999,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-navigation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-filled-navigation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-navigation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-filled-navigation.woff?4r2100") format("woff");
   unicode-range: U+1030E,U+2BBE;
 }
 @font-face {
@@ -3935,7 +4007,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-notification.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-filled-notification.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-notification.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-filled-notification.woff?4r2100") format("woff");
   unicode-range: U+26A0,U+e1123;
 }
 @font-face {
@@ -3943,7 +4015,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-ticket.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-filled-ticket.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-ticket.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-filled-ticket.woff?4r2100") format("woff");
   unicode-range: U+e1132,U+e1134,U+e1184;
 }
 @font-face {
@@ -3951,7 +4023,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-20-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-20-filled-transportation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-20-filled-transportation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-20-filled-transportation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-20-filled-transportation.woff?4r2100") format("woff");
   unicode-range: U+e1147,U+e1151,U+e1190-e1192,U+e1194-e1204,U+e1206-e1210,U+e1216,U+e1219,U+e1239-e1241,U+e1288;
 }
 @font-face {
@@ -3959,7 +4031,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-action.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-filled-action.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-action.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-filled-action.woff?4r2100") format("woff");
   unicode-range: U+003F,U+1F6C8,U+2295,U+229D,U+2601,U+2606,U+2661,U+e1220,U+e1222,U+e1224-e1225,U+e1231;
 }
 @font-face {
@@ -3967,7 +4039,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-av.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-filled-av.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-av.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-filled-av.woff?4r2100") format("woff");
   unicode-range: U+23ED-23EE,U+25A1,U+25B7,U+e1234,U+e1296-e1297;
 }
 @font-face {
@@ -3975,7 +4047,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-journey.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-filled-journey.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-journey.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-filled-journey.woff?4r2100") format("woff");
   unicode-range: U+e1104,U+e1106,U+e1108,U+e1110,U+e1238;
 }
 @font-face {
@@ -3983,7 +4055,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-maps.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-filled-maps.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-maps.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-filled-maps.woff?4r2100") format("woff");
   unicode-range: U+e1157-e1158;
 }
 @font-face {
@@ -3991,7 +4063,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-navigation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-filled-navigation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-navigation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-filled-navigation.woff?4r2100") format("woff");
   unicode-range: U+2BBE;
 }
 @font-face {
@@ -3999,7 +4071,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-notification.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-filled-notification.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-notification.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-filled-notification.woff?4r2100") format("woff");
   unicode-range: U+26A0,U+e1123;
 }
 @font-face {
@@ -4007,7 +4079,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-24-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-24-filled-transportation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-24-filled-transportation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-24-filled-transportation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-24-filled-transportation.woff?4r2100") format("woff");
   unicode-range: U+e1147,U+e1151,U+e1190-e1192,U+e1194-e1204,U+e1206-e1210,U+e1216,U+e1219,U+e1239-e1241,U+e1288;
 }
 @font-face {
@@ -4015,7 +4087,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-action.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-filled-action.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-action.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-filled-action.woff?4r2100") format("woff");
   unicode-range: U+003F,U+1F6C8,U+2295,U+229D,U+2601,U+2606,U+2661,U+e1220,U+e1222,U+e1224-e1225,U+e1231,U+e904;
 }
 @font-face {
@@ -4023,7 +4095,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-av.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-filled-av.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-av.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-filled-av.woff?4r2100") format("woff");
   unicode-range: U+23ED-23EE,U+25A1,U+25B7,U+e1234,U+e1296-e1297;
 }
 @font-face {
@@ -4031,7 +4103,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-maps.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-filled-maps.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-maps.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-filled-maps.woff?4r2100") format("woff");
   unicode-range: U+e1157-e1158;
 }
 @font-face {
@@ -4039,7 +4111,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-navigation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-filled-navigation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-navigation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-filled-navigation.woff?4r2100") format("woff");
   unicode-range: U+2BBE;
 }
 @font-face {
@@ -4047,7 +4119,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-notification.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-filled-notification.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-notification.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-filled-notification.woff?4r2100") format("woff");
   unicode-range: U+26A0,U+e1123;
 }
 @font-face {
@@ -4055,7 +4127,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-32-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-32-filled-transportation.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-32-filled-transportation.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-32-filled-transportation.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-32-filled-transportation.woff?4r2100") format("woff");
   unicode-range: U+e1147,U+e1151,U+e1190-e1192,U+e1194-e1204,U+e1206-e1210,U+e1216,U+e1219,U+e1239-e1241,U+e1288;
 }
 @font-face {
@@ -4063,7 +4135,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-48-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-48-filled-av.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-48-filled-av.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-48-filled-av.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-48-filled-av.woff?4r2100") format("woff");
   unicode-range: U+25B7,U+e1296-e1297,U+25A1,U+23EE,U+23ED;
 }
 @font-face {
@@ -4071,7 +4143,7 @@ details > *, details > ::before, details > ::after {
   font-family: "icons-64-filled";
   font-style: normal;
   font-weight: normal;
-  src: url("../icons/functional/fonts/icons-64-filled-av.woff2?4r2098") format("woff2"), url("../icons/functional/fonts/icons-64-filled-av.woff?4r2098") format("woff");
+  src: url("../icons/functional/fonts/icons-64-filled-av.woff2?4r2100") format("woff2"), url("../icons/functional/fonts/icons-64-filled-av.woff?4r2100") format("woff");
   unicode-range: U+25B7,U+e1296-e1297,U+25A1,U+23EE,U+23ED;
 }
 .cmp-dropdown.is-account summary::before, .cmp-overflow-menu summary::before, .cmp-dropdown summary::before, .cmp-link-list li .elm-link::before, .cmp-sidenavi .elm-link[rel=help]::before, .cmp-sidenavi .elm-link[rel=calendar]::before, .cmp-sidenavi .elm-link[rel=cloud]::before, .cmp-sidenavi .elm-link[rel=dashboard]::before, .cmp-sidenavi .elm-link[rel=documents]::before, .cmp-sidenavi .elm-link[rel=index]::before, .cmp-pagination .elm-link[rel=next]::before, .cmp-pagination .elm-link[rel=prev]::before, .cmp-language-switcher li[aria-current] .elm-link::after,
