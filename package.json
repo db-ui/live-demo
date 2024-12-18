@@ -23,13 +23,10 @@
     "iframe-resizer": "^4.4.5",
     "lint-staged": "^15.2.11",
     "nodemon": "^3.1.9",
-    "npm-run-all": "^4.1.5",
+    "npm-run-all2": "7.0.2",
     "prettier": "^3.4.2",
     "sass": "^1.83.0",
     "vue": "^3.2.31"
   },
-  "private": true,
-  "overrides": {
-    "cross-spawn": "~7.0.5"
-  }
+  "private": true
 }
