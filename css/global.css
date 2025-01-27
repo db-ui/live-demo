@@ -7122,6 +7122,36 @@ section[data-variant=hovering] .cmp-notification[data-type=informative] {
 [aria-selected=true]) {
   top: calc(var(--db-language-switcher---direction, 1) * (100% * 6 + 1rem - 2px));
 }
+.rea-header .cmp-language-switcher li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) {
+  top: calc(var(--db-language-switcher---direction, 1) * (100% * 7 + 1rem - 2px));
+}
+.rea-header .cmp-language-switcher li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) {
+  top: calc(var(--db-language-switcher---direction, 1) * (100% * 8 + 1rem - 2px));
+}
+.rea-header .cmp-language-switcher li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) {
+  top: calc(var(--db-language-switcher---direction, 1) * (100% * 9 + 1rem - 2px));
+}
+.rea-header .cmp-language-switcher li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page], [aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) ~ li:not([aria-current=page],
+[aria-selected=true]) {
+  top: calc(var(--db-language-switcher---direction, 1) * (100% * 10 + 1rem - 2px));
+}
 @media screen and (width > 1023px) {
   .rea-header .cmp-language-switcher li {
     top: 100%;
