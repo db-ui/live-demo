@@ -5,7 +5,8 @@ on:
     branches: ["main"]
 
 permissions:
-  actions: read
+  pull-requests: write
+  issues: write
 
 jobs:
   dependabot:
