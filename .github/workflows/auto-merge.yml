@@ -4,6 +4,9 @@ on:
   pull_request:
     branches: ["main"]
 
+permissions:
+  actions: read
+
 jobs:
   dependabot:
     runs-on: ubuntu-24.04 # Use Ubuntu 24.04 explicitly
