@@ -6,8 +6,8 @@ on:
 
 permissions:
   pull-requests: write
-  contents: write
   issues: write
+  contents: write
   actions: read
 
 jobs:
