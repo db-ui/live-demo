@@ -4,6 +4,7 @@
 		"henrynguyen5-vsc.vsc-nvm",
 		"streetsidesoftware.code-spell-checker",
 		"esbenp.prettier-vscode",
-		"stylelint.vscode-stylelint"
+		"stylelint.vscode-stylelint",
+		"kravets.vscode-publint"
 	]
 }
