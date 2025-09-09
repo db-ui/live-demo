@@ -4232,12 +4232,6 @@ details > *, details > ::before, details > ::after {
   justify-content: center;
   min-height: 2.75rem;
   padding: 0.5rem 1rem;
-  /*&:focus {
-  	border-color: #fff;
-  }*/
-  /*	&:active {
-  	filter: brightness(75%);
-  }*/
 }
 .elm-button[data-icon], .elm-button[data-icon-before] {
   padding-left: 0.875rem;
@@ -4247,6 +4241,14 @@ details > *, details > ::before, details > ::after {
 }
 .elm-button.is-icon-text-replace {
   width: 2.75rem;
+}
+.elm-button {
+  /*&:focus {
+  	border-color: #fff;
+  }*/
+  /*	&:active {
+  	filter: brightness(75%);
+  }*/
 }
 .elm-button[data-variant=brand-primary], .elm-button[data-variant=primary] {
   color: #ffffff;
@@ -4961,10 +4963,6 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 .elm-input:disabled, .elm-input:disabled + .elm-label, fieldset:disabled .elm-input, fieldset:disabled .elm-input + .elm-label {
   opacity: 0.4;
 }
-.elm-input[type=color], .elm-input[type=date], .elm-input[type=datetime-local], .elm-input[type=email], .elm-input[type=month], .elm-input[type=number], .elm-input[type=password], :where(:not(.cmp-sitesearch)) > .elm-input[type=search], .elm-input[type=tel], .elm-input[type=text], .elm-input[type=time], .elm-input[type=url], .elm-input[type=week] {
-  /* stylelint-disable order/order */
-  /* stylelint-enable order/order */
-}
 .elm-input[type=color]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label, .elm-input[type=date]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label, .elm-input[type=datetime-local]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label, .elm-input[type=email]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label, .elm-input[type=month]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label, .elm-input[type=number]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label, .elm-input[type=password]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label, :where(:not(.cmp-sitesearch)) > .elm-input[type=search]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label, .elm-input[type=tel]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label, .elm-input[type=text]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label, .elm-input[type=time]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label, .elm-input[type=url]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label, .elm-input[type=week]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=time]):not([type=week]) + .elm-label {
   transition: opacity, transform 250ms;
 }
@@ -4989,6 +4987,10 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 .elm-input[type=color]::placeholder, .elm-input[type=date]::placeholder, .elm-input[type=datetime-local]::placeholder, .elm-input[type=email]::placeholder, .elm-input[type=month]::placeholder, .elm-input[type=number]::placeholder, .elm-input[type=password]::placeholder, :where(:not(.cmp-sitesearch)) > .elm-input[type=search]::placeholder, .elm-input[type=tel]::placeholder, .elm-input[type=text]::placeholder, .elm-input[type=time]::placeholder, .elm-input[type=url]::placeholder, .elm-input[type=week]::placeholder {
   color: #646973;
 }
+.elm-input[type=color], .elm-input[type=date], .elm-input[type=datetime-local], .elm-input[type=email], .elm-input[type=month], .elm-input[type=number], .elm-input[type=password], :where(:not(.cmp-sitesearch)) > .elm-input[type=search], .elm-input[type=tel], .elm-input[type=text], .elm-input[type=time], .elm-input[type=url], .elm-input[type=week] {
+  /* stylelint-disable order/order */
+  /* stylelint-enable order/order */
+}
 .elm-input[type=search] {
   background: var(--db-ic-search-24, url(../icons/functional/images/action/db_ic_search_24.svg)) no-repeat 0.375rem 0.75rem;
   background-size: 1.1875rem;
@@ -5010,7 +5012,6 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   animation: loadingindicator-rotate 3s linear infinite;
   color: #ec0016;
   /* stylelint-disable */
-  /* stylelint-enable */
 }
 .elm-loadingindicator[data-size=xl] {
   --loadingindicator--stroke-width: 2.5384615385px;
@@ -5041,6 +5042,9 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   --loadingindicator--r: 19px;
   height: 20px;
   width: 20px;
+}
+.elm-loadingindicator {
+  /* stylelint-enable */
 }
 .elm-loadingindicator__circle {
   animation: loadingindicator-stroke 1.5s ease-in-out infinite;
@@ -5497,8 +5501,6 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   padding: 0.375rem 0.625rem;
   resize: vertical;
   width: 100%;
-  /* stylelint-disable order/order */
-  /* stylelint-enable order/order */
 }
 .elm-textarea:not([rows]) {
   max-height: 37.5rem;
@@ -5513,6 +5515,11 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
 .elm-textarea:disabled, .elm-textarea:disabled + .elm-label, fieldset:disabled .elm-textarea, fieldset:disabled .elm-textarea + .elm-label {
   opacity: 0.4;
 }
+.elm-textarea {
+  /* stylelint-disable order/order */
+  /* stylelint-enable order/order */
+}
+
 /* select */
 /* *****
 	This file summarizes the general variables relevant for using DB UI Core with SCSS.
@@ -5662,8 +5669,6 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   background-repeat: no-repeat;
   height: 2.75rem;
   padding: 1.25rem 2.625rem 0 1rem;
-  /* stylelint-disable order/order */
-  /* stylelint-enable order/order */
 }
 .elm-select:not([multiple]):has(+ label[data-label-hidden=true]) {
   padding-top: 0;
@@ -5682,6 +5687,10 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   color: #646973;
   font-size: 1rem;
   transform: translate(1rem, -2.1875rem);
+}
+.elm-select:not([multiple]) {
+  /* stylelint-disable order/order */
+  /* stylelint-enable order/order */
 }
 .elm-select:not([multiple]):not([aria-invalid]):is(:user-valid), .elm-select:not([multiple])[data-variant]  :not([aria-invalid]):is(:user-valid) {
   --formElement---borderColor: #2a7230;
@@ -6342,13 +6351,13 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
     z-index: 30;
   }
   .cmp-mainnavigation > input[type=checkbox][id] + label[for] {
-    padding: 0;
-  }
-  .cmp-mainnavigation > input[type=checkbox][id] + label[for] {
     font-size: 0;
   }
   .cmp-mainnavigation > input[type=checkbox][id] + label[for]::before {
     --icon-margin-after: 0;
+  }
+  .cmp-mainnavigation > input[type=checkbox][id] + label[for] {
+    padding: 0;
   }
   .cmp-mainnavigation > input[type=checkbox][id] + label[for]::before, .cmp-mainnavigation > input[type=checkbox][id] + label[for]::after {
     margin: 0;
@@ -6856,17 +6865,17 @@ body:has(.elm-logo[data-size=xlarge]) .elm-headline[data-pulse] {
   --icon-margin-after: 0;
 }
 .cmp-sitesearch .elm-button {
+  font-size: 0;
+}
+.cmp-sitesearch .elm-button::before {
+  --icon-margin-after: 0;
+}
+.cmp-sitesearch .elm-button {
   display: none;
   position: absolute;
   padding: 0.5rem;
   inset-inline-end: 0.75rem;
   border: 0;
-}
-.cmp-sitesearch .elm-button {
-  font-size: 0;
-}
-.cmp-sitesearch .elm-button::before {
-  --icon-margin-after: 0;
 }
 .cmp-sitesearch .elm-button {
   --icon-glyph-before: "󡉔";
