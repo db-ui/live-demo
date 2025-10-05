@@ -28,5 +28,8 @@
     "sass": "^1.93.2",
     "vue": "^3.2.31"
   },
-  "private": true
+  "private": true,
+  "engines": {
+    "node": ">= 22"
+  }
 }
